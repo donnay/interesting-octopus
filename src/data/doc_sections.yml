@@ -1,7 +1,7 @@
 root_docs_path: /docs
 sections:
   - about
-  - getting-started
+  - caudex-regulum
   - ui-components
   - manage-content
   - tools

@@ -25,8 +25,18 @@ seo:
 template: docs
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
+## Production:
+Inkeptum Ultra Visio
+
+## Distribution:
+Winlok Enterprises Ltd.
+
+We wish to give special thanks to Winston and Lorraine for their patience, understanding, and for giving us the support we needed, without which this project would never have been completed.
+
+## Acknowledgements:
+Robert De Pietro - Micro Imaging Systems
+Terry Fogleman - EBCO Looseleaf Systems
+Don Marchand - GTO printing
+Federal Business Development Bank of Canada
 
 ***
-
-Here are the articles in this section:
