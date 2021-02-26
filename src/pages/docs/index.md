@@ -1,7 +1,7 @@
 ---
 title: Introduction
 seo:
-  title: Welcome to Libris
+  title: Introduction
   description: This is the documentation page
   extra:
     - name: 'og:type'

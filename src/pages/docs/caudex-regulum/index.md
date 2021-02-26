@@ -1,6 +1,6 @@
 ---
 title: Caudex Regulum
-excerpt: In this section you'll find basic information about Libris and how to use it.
+excerpt: In this book you'll find all of the rules of Genesis game play and examples of how to use them.
 seo:
   title: Caudex Regulum
   description: This is the getting started page
@@ -24,7 +24,7 @@ template: docs
 ---
 
 ### The Book of Rules</p>
-
+In this book you'll find all of the rules of Genesis game play and examples of how to use them.
 ***
 
-Here are the articles in this section:
+Here are the sections of this book:
