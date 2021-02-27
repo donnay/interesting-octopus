@@ -160,3 +160,5 @@ This is the number of points of damage that was done to the body part, in this c
 ### Organ system
 
 The damage done to the various system depends on the tissue damage done. Simply multiply the tissue damage by the values listed next to the appropriate body part on the Organ System Table #3-3.1. This give the results of 308% damage to the circulatory system, 246% damage on the respiratory system, 185% nervous / endocrine, and 123 percent to the digestive excretory system. All this damage means that all of Nixoles' organ systems have lost all functionality. Which means she is clinically dead. All of her systems have lost functionality and so her death will occur in four hours. Fortunately Nixole is a Low Kaa and there is a compatible grim reaper back at the ship. The reaper was attached and assumed all body functions preserving the neural networks of the brain and stabilizing her until complete genetic surgery could be obtained. After which she was sitting up in bed within a day and on her feet in two, with no signs of the injuries or there effects in a week.
+
+![Combat System Testing In Progress](/images/Noel.jpg)</p>
