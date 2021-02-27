@@ -1,6 +1,6 @@
 ---
 title: Character Example
-weight: 3
+weight: 25
 seo:
   title: Character Example
   description: This is the quick start page
