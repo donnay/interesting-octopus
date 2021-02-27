@@ -1,8 +1,8 @@
 ---
-title: Characters
-weight: 1
+title: Character Rules
+weight: 10
 seo:
-  title: Characters
+  title: Character Rules
   description: This is the installation page
   extra:
     - name: 'og:type'
@@ -22,8 +22,6 @@ seo:
       value: This is the installation page
 template: docs
 ---
-
-In this chapter we will discuss the most essential part of any role playing game, the character. Characters have an essential role in role-playing games, no pun intended. Whether they are portrayed by the players or by the Game Master, they give life to the game. Like the characters in a play or a movie, they work, live, and die in front of the setting. These characters are brought to life by the actors, and like actors you must also play the role of your character. Many times an actor is given a role to play that is very difficult for varied reasons, and the actor is judged by how convincing, believable, and realistic the performance was. In Genesis you are asked to portray either a human or one of many alien races. At first the human may seem to be the easiest but, if you consider that this human has grown up 250 years in the future the task of portraying him realistically becomes more difficult. In fact, it may be even more difficult than portraying an alien. This chapter will allow you to become familiar with the characters of Genesis and the kinds of information that is needed to describe characters. Further, it will give you a good idea of characters do in Genesis and, it will lead you through the steps of creating your own character. Finally, this chapter will give you the information and background necessary to portray your character realistically. You won't win any Oscars but if you truly play the role of your character you will experience a world 250 years in the future.</p>
 
 ## Character Description
 Characters in a book are described by the author. These descriptions usually include the character's physical appearance, the way he or she thinks and their motivations. In Genesis you must also describe your character. Although the kinds of description listed above are essential to your character in a role playing game there are also other kinds of description which make each character unique. The other descriptions are in the form of numbers. In Genesis there are four main types of numbers that are used to describe a character. These numbers tell you, the player, about your character and can be broken down into a few main types - attributes, damage points, skills, and other personal information. Each of the different races have different attributes, so it is important that you choose your character's race wisely (See Races). In this section we will describe each of the different types of character information and tell you what exactly each tells you about your character.</p>

@@ -1,7 +1,9 @@
 root_docs_path: /docs
 sections:
   - about
-  - caudex-regulum
+  - characters
+  - character-life
+  - combat
   - ui-components
   - manage-content
   - tools

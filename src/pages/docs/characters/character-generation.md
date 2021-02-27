@@ -1,6 +1,6 @@
 ---
 title: Character Generation
-weight: 2
+weight: 15
 seo:
   title: Character Generation
   description: This is the installation page
