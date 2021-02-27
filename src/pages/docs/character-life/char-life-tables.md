@@ -373,7 +373,7 @@ Time Divisor Table
 
 
 
-## CC-4     Gravitational Modifiers -- Long Term Exposure --
+## Gravitational Modifiers -- Long Term Exposure --
 
          Gravity Difference         Strength   Constitution   Agility
               - 3.0                 + 12          - 6         + 18
@@ -394,7 +394,7 @@ Time Divisor Table
                    the Planetary Data Files beginning on page [ ? ].
 
 ---
-## Cc-6                     Racial Age Variance Table * M A B E Y  *
+## Racial Age Variance Table * M A B E Y  *
 
                      child   youth   adult   middle  old     vener
        Aracnians     5       mollt   14      35      65      90      140     
