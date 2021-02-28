@@ -7,41 +7,37 @@ sections:
     image: images/5.jpg
     content: |
       ###### Role-Playing Game
+      &mdash; v3 Remastered &mdash;
 
-      V3 Remastered
+      The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge.
     actions:
       - label: Get Started
-        url: /docs
+        url: /overview
         style: primary
   - section_id: features
     type: section_grid
     col_number: three
     grid_items:
-      - title: Documentation
+      - title: Rules
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          The Caudex Regulum, the book of Rules. Who should read ...
         actions:
-          - label: Get Started
+          - label: See how to play the game
+            url: /docs/characters/
+            style: link
+      - title: Knowledge
+        content: >-
+          The Caudex Centia, the book of knowledge. Who should read ...
+        actions:
+          - label: Learn about the universe
             url: /docs
             style: link
-      - title: Blog
+      - title: Character Races
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          There are several Character Playable Races from different and unusual worlds. Read them all and choose you favourite.
         actions:
-          - label: View Posts
-            url: /blog
-            style: link
-      - title: Style Guide
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        actions:
-          - label: Learn More
-            url: /style-guide
+          - label: See the aliens
+            url: /showcase
             style: link
   - section_id: text-img
     type: section_content
