@@ -10,21 +10,29 @@ sections:
     type: section_grid
     col_number: three
     grid_items:
-      - title: Exto
-        title_url: 'https://themes.stackbit.com/demos/exto/'
-        image: images/6.jpg
+      - title: Eebek
+        title_url: '/docs/Eebek/'
+        image: images/Eebek_grey.jpg
         content: A portfolio theme for Unibit
-      - title: Fresh
-        title_url: 'https://themes.stackbit.com/demos/fresh/'
-        image: images/7.jpg
+      - title: Fenbin
+        title_url: '/docs/Fenbin/'
+        image: images/Fenbin_grey.jpg
         content: A personal theme for Unibit
-      - title: Fjord
-        title_url: 'https://themes.stackbit.com/demos/fjord/'
-        image: images/8.jpg
+      - title: Human
+        title_url: '/docs/Human/'
+        image: images/Human_grey.jpg
         content: A minimal blogging theme for Unibit
-      - title: Ampersand
-        title_url: 'https://themes.stackbit.com/demos/ampersandexto/'
-        image: images/9.jpg
+      - title: Low Kaa
+        title_url: '/docs/LowKaa/'
+        image: images/LowKaa_grey.jpg
+        content: Medium inspired blogging theme for Unibit
+      - title: Krane
+        title_url: '/demos/Krane/'
+        image: images/Krane_grey.jpg
+        content: Medium inspired blogging theme for Unibit
+      - title: Tanaian
+        title_url: '/docs/Tanaian/'
+        image: images/Tanaian_bw.jpg
         content: Medium inspired blogging theme for Unibit
 seo:
   title: Showcase
