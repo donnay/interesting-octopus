@@ -1,8 +1,8 @@
 ---
-title: Combat Example
+title: Example
 weight: 130
 seo:
-  title: Combat Example
+  title: Example
   description: This is the quick start page
   extra:
     - name: 'og:type'

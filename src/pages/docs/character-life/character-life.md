@@ -1,8 +1,8 @@
 ---
-title: Character Life Rules
+title: Rules
 weight: 50
 seo:
-  title: Character Life Rules
+  title: Rules
   description: This is the installation page
   extra:
     - name: 'og:type'

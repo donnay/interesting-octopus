@@ -1,8 +1,8 @@
 ---
-title: Character Life Tables
+title: Tables
 weight: 75
 seo:
-  title: Character Life Tables
+  title: Tables
   description: This is the quick start page
   extra:
     - name: 'og:type'

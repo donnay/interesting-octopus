@@ -1,8 +1,8 @@
 ---
-title: Combat Tables - May
-weight: 120
+title: Tables - May
+weight: 125
 seo:
-  title: Combat Tables - May
+  title: Tables - May
   description: This is the quick start page
   extra:
     - name: 'og:type'

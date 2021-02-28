@@ -1,5 +1,5 @@
 ---
-title: Character Gen. Tables
+title: Tables
 weight: 20
 seo:
   title: Character Generation Tables

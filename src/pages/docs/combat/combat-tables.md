@@ -1,8 +1,8 @@
 ---
-title: Combat Tables - July
+title: Tables - July
 weight: 120
 seo:
-  title: Combat Tables - July
+  title: Tables - July
   description: This is the quick start page
   extra:
     - name: 'og:type'

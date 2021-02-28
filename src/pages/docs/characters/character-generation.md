@@ -1,8 +1,8 @@
 ---
-title: Character Generation
+title: Generation
 weight: 15
 seo:
-  title: Character Generation
+  title: Generation
   description: This is the installation page
   extra:
     - name: 'og:type'
