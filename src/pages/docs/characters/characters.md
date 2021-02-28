@@ -1,5 +1,5 @@
 ---
-title: Rules
+title: Description
 weight: 10
 seo:
   title: Rules
@@ -23,7 +23,6 @@ seo:
 template: docs
 ---
 
-## Character Description
 Characters in a book are described by the author. These descriptions usually include the character's physical appearance, the way he or she thinks and their motivations. In Genesis you must also describe your character. Although the kinds of description listed above are essential to your character in a role playing game there are also other kinds of description which make each character unique. The other descriptions are in the form of numbers. In Genesis there are four main types of numbers that are used to describe a character. These numbers tell you, the player, about your character and can be broken down into a few main types - attributes, damage points, skills, and other personal information. Each of the different races have different attributes, so it is important that you choose your character's race wisely (See Races). In this section we will describe each of the different types of character information and tell you what exactly each tells you about your character.</p>
 
 ## Attributes

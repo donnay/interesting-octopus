@@ -30,14 +30,14 @@ sections:
           The Caudex Centia, the book of knowledge. Who should read ...
         actions:
           - label: Learn about the universe
-            url: /docs
+            url: /docs/history/
             style: link
       - title: Character Races
         content: >-
           There are several Character Playable Races from different and unusual worlds. Read them all and choose you favourite.
         actions:
           - label: See the aliens
-            url: /showcase
+            url: /races
             style: link
   - section_id: text-img
     type: section_content

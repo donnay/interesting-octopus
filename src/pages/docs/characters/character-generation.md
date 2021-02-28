@@ -1,8 +1,8 @@
 ---
-title: Generation
+title: Rules
 weight: 15
 seo:
-  title: Generation
+  title: Rules
   description: This is the installation page
   extra:
     - name: 'og:type'
