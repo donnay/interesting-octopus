@@ -1,9 +1,9 @@
 ---
-title: Overview
+title: Sections
 sections:
   - section_id: hero
     type: section_hero
-    title: Overview
+    title: Sections
     image: images/5.jpg
     content: An optional subtitle
   - section_id: docs-overview

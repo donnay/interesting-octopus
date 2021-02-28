@@ -1,6 +1,6 @@
 ---
 title: Tables - July
-weight: 120
+weight: 128
 seo:
   title: Tables - July
   description: This is the quick start page

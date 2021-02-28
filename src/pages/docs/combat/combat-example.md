@@ -1,6 +1,6 @@
 ---
 title: Example
-weight: 130
+weight: 199
 seo:
   title: Example
   description: This is the quick start page

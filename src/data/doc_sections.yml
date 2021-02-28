@@ -4,8 +4,11 @@ sections:
   - characters
   - character-life
   - combat
-  - ui-components
-  - manage-content
+  - adventures
+  - history
+  - races
+  - politics
+  - economics
+  - star-systems
+  - technology
   - tools
-  - faq
-  - community
