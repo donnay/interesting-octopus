@@ -1,6 +1,6 @@
 # ✨ Genesis.TheEngine.com ✨
 
-<img src="https://themes.stackbit.com/images/libris-demo-1024x768.png" width="600">
+<img src="https://interesting-octopus-71e33.netlify.app/static/images/GenesisScreenShot.png" width="600">
 
 
 <details>
