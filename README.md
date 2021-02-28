@@ -1,8 +1,5 @@
 # ✨ Genesis.TheEngine.com ✨
 
-<img src="https://interesting-octopus-71e33.netlify.app/static/images/GenesisScreenShot.png" width="600">
-
-
 <details>
 <summary>⚙️ &nbsp;<strong>Technical Detials</strong></summary>
 This is a [Gatsby](https://gatsbyjs.com) site using Git as a [CMS](https://en.wikipedia.org/wiki/Content_management_system). It was created with [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) in under a minute.
