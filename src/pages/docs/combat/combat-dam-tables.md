@@ -1,8 +1,8 @@
 ---
-title: Combat Damage Tables
+title: Damage Tables
 weight: 150
 seo:
- title: Combat Damage Tables
+ title: Damage Tables
  description: This is the quick start page
  extra:
    - name: 'og:type'

@@ -1,8 +1,8 @@
 ---
-title: Character Example
+title: Example
 weight: 25
 seo:
-  title: Character Example
+  title: Example
   description: This is the quick start page
   extra:
     - name: 'og:type'

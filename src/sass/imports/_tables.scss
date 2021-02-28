@@ -29,7 +29,7 @@ th {
 
 :not(.responsive-table) > table {
   display: block;
-  margin: 1.875em 0;
+  margin: 1.0em 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
@@ -47,7 +47,7 @@ th {
   }
 
   td {
-    min-width: 10em;
+    min-width: 7em;
   }
 }
 

@@ -1,8 +1,8 @@
 ---
-title: Characters
+title: Character
 excerpt: In this book you'll find all of the rules of Genesis game play and examples of how to use them.
 seo:
-  title: Characters
+  title: Character
   description: This is the getting started page
   extra:
     - name: 'og:type'
