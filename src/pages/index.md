@@ -116,7 +116,11 @@ seo:
       value: Genesis - The Role Playing Game
       keyName: property
     - name: 'og:description'
-      value: The preview of the Libris theme
+      value: >-
+        A retro-paper based Role-Playing Game written in the hey days of RPGs. A
+        game set hundreds of years in earth's future, where humans have been
+        contacted by Alien Races. The exploration has just begun! Join the
+        adventure!
       keyName: property
     - name: 'og:image'
       value: images/Genesislogo1.jpeg
