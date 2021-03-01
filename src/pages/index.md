@@ -12,7 +12,7 @@ sections:
       The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge.
     actions:
       - label: Get Started
-        url: /overview
+        url: /docs
         style: primary
   - section_id: features
     type: section_grid
@@ -50,10 +50,10 @@ sections:
       consectetur lobortis.
     actions:
       - label: View Demo
-        url: /docs/getting-started
+        url: /docs/economics/
         style: primary
       - label: Get Started
-        url: /docs/getting-started
+        url: /docs/economics/
         style: secondary
   - section_id: text-no-img
     type: section_content
@@ -64,7 +64,7 @@ sections:
       consectetur lobortis.
     actions:
       - label: Get Started
-        url: /docs/getting-started/installation
+        url: /docs/economics/
         style: primary
   - section_id: features-two-col
     type: section_grid

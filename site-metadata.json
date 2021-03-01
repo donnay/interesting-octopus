@@ -19,8 +19,13 @@
                 "has_subnav": true,
                 "subnav_links": [
                     {
-                        "label": "Sections",
-                        "url": "/sections",
+                        "label": "Caudex Regulum",
+                        "url": "/docs/characters/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Caudex Centia",
+                        "url": "/docs/history/",
                         "style": "link"
                     }
                   ]
