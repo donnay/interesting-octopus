@@ -27,6 +27,11 @@
                         "label": "Caudex Centia",
                         "url": "/docs/history/",
                         "style": "link"
+                    },
+                    {
+                        "label": "Caudex Universium",
+                        "url": "/blog/",
+                        "style": "link"
                     }
                   ]
             },
@@ -42,12 +47,6 @@
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
-                    {
-                        "label": "Blog",
-                        "url": "/blog",
-                        "style": "link",
-                        "has_subnav": false
-                    },
                     {
                         "label": "Style Guide",
                         "url": "/style-guide",

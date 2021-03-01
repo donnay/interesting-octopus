@@ -1,11 +1,11 @@
 ---
-title: Blog
+title: Caudex Universum
 subtitle: This is an optional subtitle for the blog page
-image: images/5.jpg
+image: images/cyber-punk.jpg
 has_more_link: true
 more_link_text: Read more
 seo:
-  title: Blog
+  title: Caudex Universum
   description: This is the blog page
   extra:
     - name: 'og:type'
