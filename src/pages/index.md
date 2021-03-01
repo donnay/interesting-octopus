@@ -113,7 +113,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Libris Theme
+      value: Genesis - The Role Playing Game
       keyName: property
     - name: 'og:description'
       value: The preview of the Libris theme
