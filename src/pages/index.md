@@ -16,7 +16,7 @@ sections:
       knowledge.
     actions:
       - label: Get Started
-        url: /overview
+        url: /docs
         style: primary
   - section_id: features
     type: section_grid
@@ -53,10 +53,10 @@ sections:
       consectetur lobortis.
     actions:
       - label: View Demo
-        url: /docs/getting-started
+        url: /docs/economics/
         style: primary
       - label: Get Started
-        url: /docs/getting-started
+        url: /docs/economics/
         style: secondary
   - section_id: text-no-img
     type: section_content
@@ -67,7 +67,7 @@ sections:
       consectetur lobortis.
     actions:
       - label: Get Started
-        url: /docs/getting-started/installation
+        url: /docs/economics/
         style: primary
   - section_id: features-two-col
     type: section_grid
@@ -129,11 +129,15 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Libris Theme
+      value: Genesis - The Role Playing Game
     - name: 'twitter:description'
-      value: The preview of the Libris theme
+      value: >-
+        A retro-paper based Role-Playing Game written in the hey days of RPGs. A
+        game set hundreds of years in earth's future, where humans have been
+        contacted by Alien Races. The exploration has just begun! Join the
+        adventure!
     - name: 'twitter:image'
-      value: images/4.jpg
+      value: images/Genesislogo1.jpeg
       relativeUrl: true
 template: advanced
 ---
