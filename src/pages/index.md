@@ -133,7 +133,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Libris theme
     - name: 'twitter:image'
-      value: images/4.jpg
+      value: images/Genesislogo1.jpeg
       relativeUrl: true
 template: advanced
 ---
