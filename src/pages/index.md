@@ -36,12 +36,12 @@ sections:
         content: >-
           There are several Character Playable Races from different and unusual worlds. Read them all and choose you favourite.
         actions:
-          - label: See the aliens
+          - label: See Player Races
             url: /races
             style: link
   - section_id: text-img
     type: section_content
-    image: images/jamstack.svg
+    image: images/EebekTrade.jpg
     image_position: left
     title: A Section With An Image
     content: >-
