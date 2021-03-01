@@ -119,7 +119,7 @@ seo:
       value: The preview of the Libris theme
       keyName: property
     - name: 'og:image'
-      value: images/Artboard-4ldpi.png
+      value: images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
