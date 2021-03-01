@@ -102,7 +102,7 @@ sections:
         url: /docs/getting-started/installation
         style: primary
 seo:
-  title: Genesis Role Playing Game
+  title: Genesis Role Playing Game - version 3 remastered
   description: The preview of the Libris theme
   extra:
     - name: 'og:type'
