@@ -5,11 +5,15 @@ sections:
     type: section_hero
     title: Genesis
     image: images/JungleCampCropped.jpg
-    content: |
+    content: >
       ###### Role-Playing Game
+
       &mdash; v3 Remastered &mdash;
 
-      The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge.
+
+      The rules of Genesis are divided into books or 'caudex'. There is the
+      Caudex Regulum, the book of Rules. The Caudex Centia, the book of
+      knowledge.
     actions:
       - label: Get Started
         url: /overview
@@ -19,22 +23,21 @@ sections:
     col_number: three
     grid_items:
       - title: Rules
-        content: >-
-          The Caudex Regulum, the book of Rules. Who should read ...
+        content: 'The Caudex Regulum, the book of Rules. Who should read ...'
         actions:
           - label: See how to play the game
             url: /docs/characters/
             style: link
       - title: Knowledge
-        content: >-
-          The Caudex Centia, the book of knowledge. Who should read ...
+        content: 'The Caudex Centia, the book of knowledge. Who should read ...'
         actions:
           - label: Learn about the universe
             url: /docs/history/
             style: link
       - title: Character Races
         content: >-
-          There are several Character Playable Races from different and unusual worlds. Read them all and choose you favourite.
+          There are several Character Playable Races from different and unusual
+          worlds. Read them all and choose you favourite.
         actions:
           - label: See Player Races
             url: /races
@@ -99,7 +102,7 @@ sections:
         url: /docs/getting-started/installation
         style: primary
 seo:
-  title: Stackbit Libris Theme
+  title: Genesis Role Playing Game
   description: The preview of the Libris theme
   extra:
     - name: 'og:type'
