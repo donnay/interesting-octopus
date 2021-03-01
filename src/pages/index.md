@@ -103,7 +103,11 @@ sections:
         style: primary
 seo:
   title: Genesis Role Playing Game - version 3 remastered
-  description: The preview of the Libris theme
+  description: >-
+    View a retro-paper based Role-Playing Game written in the hey days of RPGs.
+    A game set hundreds of years in earth's future, where humans have been
+    contacted by Alien Races. The exploration has just begun! Join the
+    adventure!
   extra:
     - name: 'og:type'
       value: website
