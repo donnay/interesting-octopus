@@ -3,8 +3,8 @@ $font-primary:   "Lato", Helvetica, Arial, sans-serif !default;
 $font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;
 
 // Colors
-$color-primary:   #00c6ff !default;
-$color-secondary: #0072ff !default;
+$color-primary:   #ffffff !default;
+$color-secondary: #000000 !default;
 
 $gray-100:        #f8f8fa !default;
 $gray-200:        #ecedf2 !default;
@@ -46,6 +46,14 @@ $theme-palettes: (
   navy: (
     primary:   #004e92,
     secondary: #000428
+  ),
+  gold: (
+    primary:   #fdc71c,
+    secondary: #f9db7e
+  ),
+  black: (
+    primary:   #ffffff,
+    secondary: #000000
   ),
   violet: (
     primary:   #8e2de2,

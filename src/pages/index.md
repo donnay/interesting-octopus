@@ -4,7 +4,7 @@ sections:
   - section_id: hero
     type: section_hero
     title: Genesis
-    image: images/5.jpg
+    image: images/JungleCampCropped.jpg
     content: |
       ###### Role-Playing Game
       &mdash; v3 Remastered &mdash;
