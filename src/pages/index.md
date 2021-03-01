@@ -129,7 +129,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Libris Theme
+      value: Genesis - The Role Playing Game
     - name: 'twitter:description'
       value: The preview of the Libris theme
     - name: 'twitter:image'
