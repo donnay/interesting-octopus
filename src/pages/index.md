@@ -4,12 +4,16 @@ sections:
   - section_id: hero
     type: section_hero
     title: Genesis
-    image: images/5.jpg
-    content: |
+    image: images/JungleCampCropped.jpg
+    content: >
       ###### Role-Playing Game
+
       &mdash; v3 Remastered &mdash;
 
-      The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge.
+
+      The rules of Genesis are divided into books or 'caudex'. There is the
+      Caudex Regulum, the book of Rules. The Caudex Centia, the book of
+      knowledge.
     actions:
       - label: Get Started
         url: /overview
@@ -19,29 +23,28 @@ sections:
     col_number: three
     grid_items:
       - title: Rules
-        content: >-
-          The Caudex Regulum, the book of Rules. Who should read ...
+        content: 'The Caudex Regulum, the book of Rules. Who should read ...'
         actions:
           - label: See how to play the game
             url: /docs/characters/
             style: link
       - title: Knowledge
-        content: >-
-          The Caudex Centia, the book of knowledge. Who should read ...
+        content: 'The Caudex Centia, the book of knowledge. Who should read ...'
         actions:
           - label: Learn about the universe
             url: /docs/history/
             style: link
       - title: Character Races
         content: >-
-          There are several Character Playable Races from different and unusual worlds. Read them all and choose you favourite.
+          There are several Character Playable Races from different and unusual
+          worlds. Read them all and choose you favourite.
         actions:
-          - label: See the aliens
+          - label: See Player Races
             url: /races
             style: link
   - section_id: text-img
     type: section_content
-    image: images/jamstack.svg
+    image: images/EebekTrade.jpg
     image_position: left
     title: A Section With An Image
     content: >-
@@ -99,20 +102,28 @@ sections:
         url: /docs/getting-started/installation
         style: primary
 seo:
-  title: Stackbit Libris Theme
-  description: The preview of the Libris theme
+  title: Genesis Role Playing Game - version 3 remastered
+  description: >-
+    A retro-paper based Role-Playing Game written in the hey days of RPGs. A
+    game set hundreds of years in earth's future, where humans have been
+    contacted by Alien Races. The exploration has just begun! Join the
+    adventure!
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Libris Theme
+      value: Genesis - The Role Playing Game
       keyName: property
     - name: 'og:description'
-      value: The preview of the Libris theme
+      value: >-
+        A retro-paper based Role-Playing Game written in the hey days of RPGs. A
+        game set hundreds of years in earth's future, where humans have been
+        contacted by Alien Races. The exploration has just begun! Join the
+        adventure!
       keyName: property
     - name: 'og:image'
-      value: images/4.jpg
+      value: images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'

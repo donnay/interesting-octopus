@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: #fff;
+  background-color: #000000;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
 }
@@ -10,13 +10,14 @@
 
     &:hover,
     &:focus {
-      color: $color-primary;
+      color: $gray-100;
     }
   }
 }
 
 .site-info,
 .social-links {
+  color: $gray-100;
   -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
@@ -27,6 +28,7 @@
   justify-content: center;
   font-size: 0.875em;
   line-height: 1.2;
+
 
   .button:not(.button-icon) {
     font-size: inherit;
