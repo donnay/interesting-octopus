@@ -11,27 +11,27 @@ sections:
     col_number: three
     grid_items:
       - title: Eebek
-        title_url: '/docs/Eebek/'
+        title_url: '/docs/races/eebek/'
         image: images/Eebek_grey.jpg
         content: A portfolio theme for Unibit
       - title: Fenbin
-        title_url: '/docs/Fenbin/'
+        title_url: '/docs/races/fenbin/'
         image: images/Fenbin_grey.jpg
         content: A personal theme for Unibit
       - title: Human
-        title_url: '/docs/Human/'
+        title_url: '/docs/races/human/'
         image: images/Human_grey.jpg
         content: A minimal blogging theme for Unibit
       - title: Low Kaa
-        title_url: '/docs/LowKaa/'
+        title_url: '/docs/races/lowkaa/'
         image: images/LowKaa_grey.jpg
         content: Medium inspired blogging theme for Unibit
       - title: Krane
-        title_url: '/demos/Krane/'
+        title_url: '/docs/races/krane/'
         image: images/Krane_grey.jpg
         content: Medium inspired blogging theme for Unibit
       - title: Tanaian
-        title_url: '/docs/Tanaian/'
+        title_url: '/docs/races/tanaian/'
         image: images/Tanaian_bw.jpg
         content: Medium inspired blogging theme for Unibit
 seo:

@@ -13,47 +13,76 @@
                 "has_subnav": false
             },
             {
-                "label": "Books",
+                "label": "Caudex Regulum",
                 "url": "/docs",
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
                     {
-                        "label": "Caudex Regulum",
+                        "label": "Charactes",
                         "url": "/docs/characters/",
                         "style": "link"
                     },
                     {
-                        "label": "Caudex Centia",
-                        "url": "/docs/history/",
+                        "label": "Combat",
+                        "url": "/docs/combat/",
                         "style": "link"
                     },
                     {
-                        "label": "Caudex Universium",
-                        "url": "/blog/",
+                        "label": "Character Life",
+                        "url": "/docs/character-life/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Adventures",
+                        "url": "/docs/adventures/",
                         "style": "link"
                     }
                   ]
             },
             {
-                "label": "Player Races",
-                "url": "/races",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "label": "Sample Pages",
-                "url": "#",
+                "label": "Caudex Centia",
+                "url": "/docs",
                 "style": "link",
                 "has_subnav": true,
                 "subnav_links": [
                     {
-                        "label": "Style Guide",
-                        "url": "/style-guide",
-                        "style": "link",
-                        "has_subnav": false
+                        "label": "Player Races",
+                        "url": "/races/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "All Races",
+                        "url": "/docs/races/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "History",
+                        "url": "/docs/history/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Politics",
+                        "url": "/docs/politics/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Econimics",
+                        "url": "/docs/economics/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Technology",
+                        "url": "/docs/technology/",
+                        "style": "link"
                     }
-                ]
+                  ]
+            },
+            {
+                "label": "Caudex Universium",
+                "url": "/blog",
+                "style": "link",
+                "has_subnav": false
             }
         ]
     },

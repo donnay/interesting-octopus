@@ -25,13 +25,13 @@ template: docs
 
 This game was produced entirely through a digital process.
 
-### The Computer:
+### The Computer
 * AST Research 268 premium 2M of Ram<br>
 * 40M Hard Drive<br>
 * Cannon IX-12 Image Scanner<br>
 * HP Laserjet III<br>
 
-### The Software:
+### The Software
 | Application      | Purpose                            |
 |------------------|------------------------------------|
 | PC-Write 3.0     | Word processing                    |

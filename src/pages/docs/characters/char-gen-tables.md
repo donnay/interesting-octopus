@@ -22,56 +22,66 @@ seo:
       value: This is the quick start page
 template: docs
 ---
-## Racial Random Roll - Table 1-1
-        Roll           Race
-        01-02          Tanaian             * Aracnian sub-roll
-        03-07          Fenbin         
-        08-15          Krane                 01-50       Blue
-        16-24          Vjespere              51-85       Green
-        25-36          Aracnian *            86-00       Brown  
-        37-50          Eebek          
-        51-64          Human             
-        65-76          Mahendoshi     
-        77-85          Low Kaa        
-        86-93          Gliff          
-        94-97          Faborian
-        98-99          Sooaacoli      
-        00             Tsoegorthin    
+##1 - Random Race
+          Roll           Race
+          ______________________
+          01-02          Tanaian             
+          03-07          Fenbin         
+          08-15          Krane                 
+          16-24          Vjespere              
+          25-36          Aracnian *
+          37-50          Eebek          
+          51-64          Human             
+          65-76          Mahendoshi     
+          77-85          Low Kaa        
+          86-93          Gliff          
+          94-97          Faborian
+          98-99          Sooaacoli      
+          00             Tsoegorthin    
 
-## Racial Attribute Bases & Variance - Table 1-2
-                           PS    AG    CO    PR    Variance                                                                                                   
-          Aracnians        50   330   130   155     3:10sd                                                    
-          Eebek            50    15   255     0     4:10sd                                                    
-          Faborians       120   145    95   110     6:10sd                                                    
-          Fenbin           15   190   125    70     2:10sd                                                    
-          Gliff            65    10    50    20     4:10sd                                                    
-          Humans           25    25    25    25     5:10sd                                                    
-          Krane           215     5    85    15     4:10sd                                                    
-          Low Kaa          40    50    20    30     3:10sd                                                    
-          Mahendoshi       20    45   170    80     4:10sd                                                    
-          Sooaacoli        10    35     5    30     5:10sd                                                    
-          Tanaians        165   550  1175  1850       NA                                                    
-          Tsoegorthin     930     5   575    15     2:10sd                                                    
-          Vjespere         57    72    77    64     5:10sd
+        * Aracnian sub-roll
+          01-50          Blue
+          51-85          Green
+          86-00          Brown  
 
-## Racial Attribute Average Table - Table 1-3                                                                                 
-                           Ps    Ag    Co    Pr   Aim  Brawl  Move                                   
-          Aracnians        65   345   145   170   148   182   185                                    
-          Eebek            70    35   275    20    45   100   127                                    
-          Faborians       150    75   125   140    58   123   117                                    
-          Fenbin           25   200   135    80   100    85   120                                    
-          Gliff            85    30    70    40    43    56    62                                    
-          Humans           50    50    50    50    50    50    50                                    
-          Krane           235    25   105    35    42   100   122                                    
-          Low Kaa          55    70    40    45    57    53    55                                    
-          Mahendoshi       40    65   190    80    55    94    98                                    
-          Sooaacoli        35    60    30    55    53    45    42                                    
-          Tanaians        165   550  1175  1850   217   935   630                                    
-          Tsoegorthin     940    15   585    25    38   391   513                                    
-          Vjespere         95   105   130    60    68    98   110                                    
 
-## Influence Adjustment - Table 1-4
+##2 - Attributes
+                           PS    AG    CO    PR   Variance
+                          ________________________________
+          Aracnians        50   330   130   155    3:10sd
+          Eebek            50    15   255     0    4:10sd
+          Faborians       120   145    95   110    6:10sd
+          Fenbin           15   190   125    70    2:10sd
+          Gliff            65    10    50    20    4:10sd
+          Humans           25    25    25    25    5:10sd
+          Krane           215     5    85    15    4:10sd
+          Low Kaa          40    50    20    30    3:10sd
+          Mahendoshi       20    45   170    80    4:10sd
+          Sooaacoli        10    35     5    30    5:10sd
+          Tanaians        165   550  1175  1850      N/A
+          Tsoegorthin     930     5   575    15    2:10sd
+          Vjespere         57    72    77    64    5:10sd
+
+##3 - Attribute Average                                             
+                           Ps    Ag    Co    Pr   Aim  Brawl  Move
+                           _______________________________________
+          Aracnians        65   345   145   170   148   182   185
+          Eebek            70    35   275    20    45   100   127
+          Faborians       150    75   125   140    58   123   117
+          Fenbin           25   200   135    80   100    85   120
+          Gliff            85    30    70    40    43    56    62
+          Humans           50    50    50    50    50    50    50
+          Krane           235    25   105    35    42   100   122
+          Low Kaa          55    70    40    45    57    53    55
+          Mahendoshi       40    65   190    80    55    94    98
+          Sooaacoli        35    60    30    55    53    45    42
+          Tanaians        165   550  1175  1850   217   935   630
+          Tsoegorthin     940    15   585    25    38   391   513
+          Vjespere         95   105   130    60    68    98   110
+
+##4 - Influence Adjustment
          Appearance   Description   IF Adjustment
+         ________________________________________
                1       Hideous           -25
               2-4      Grotesque         -20
               5-9      Repulsive         -15
@@ -84,8 +94,9 @@ template: docs
              97-99     Beautiful         +20
               100      Stunning          +25
 
-##Average Damage Points Per Body Segment - Table 1-5
-                           AR  EE  FA  FE  GL  HU  KR  LO  MA  SO  TA  TS  VJ  
+##5 - Damage Points
+                           AR  EE  FA  FE  GL  HU  KR  LO  MA  SO  TA  TS  VJ
+                           __________________________________________________  
           Upper Head       24   6  16  13  13  14  21  11  10   8  33  70  15  
           Lower Head       27   7  18  14  14  16  24  13  11  12  39  83  18  
           Upper Neck        6   8   6   4  10   4   0   3   3   0   9  61   5  
@@ -104,29 +115,32 @@ template: docs
              Lower Leg     22  14  18  14  16  16  32  13  18  12  39  48   0
              Foot           5   6   7   5  10   6  14   7   4  10  21  22   0
 
-## Background Skill Experience - Table 1-6
-                             COM      LANG   NON-TECH   SCI    SOCIO-SCI   TECH                      
-          Aracnians, blue     10       15       10       18        5        12                      
-            , green           12       10       23       12        8         5                      
-            , brown           21       12       25        4        4         4                      
-          Eebek                8        5        7       16       25         9                      
-          Faborians           22       15       20        3        5         5                      
-          Fenbin               4        9       25       11       16         5                      
-          Gliff               14        8       12        7        4        25                      
-          Humans              10       14        6       15       10        15                      
-          Krane, male         25        3        5       10        5        17                      
-             , female         15        4        4       16       15        16                      
-          Low Kaa             10       25        8        5       15         7                      
-          Mahendoshi          12       20        4       10        6        18                      
-          Sooaacoli           13       12       15        9       10        11                      
-          Tanaians            12        1        3       25        5        24                      
-          Tsoegorthin         25        5       22        5        3        10                      
-          Vjespere             5       10       25        9       15         6                      
+##6 - Background Skills
 
-## Time Per IGAL Course Table - Table 1-8
+                             COM      LANG   NON-TECH   SCI    SOCIO-SCI   TECH
+                             __________________________________________________
+          Aracnians, blue     10       15       10       18        5        12
+            , green           12       10       23       12        8         5
+            , brown           21       12       25        4        4         4
+          Eebek                8        5        7       16       25         9
+          Faborians           22       15       20        3        5         5
+          Fenbin               4        9       25       11       16         5
+          Gliff               14        8       12        7        4        25
+          Humans              10       14        6       15       10        15
+          Krane, male         25        3        5       10        5        17
+             , female         15        4        4       16       15        16
+          Low Kaa             10       25        8        5       15         7
+          Mahendoshi          12       20        4       10        6        18
+          Sooaacoli           13       12       15        9       10        11
+          Tanaians            12        1        3       25        5        24
+          Tsoegorthin         25        5       22        5        3        10
+          Vjespere             5       10       25        9       15         6
+
+##8 - IGAL Courses
 
            Intellect                    Skill Area
                        Com    Lang  Non-Tech  Socio    Sci   Tech
+                       __________________________________________
               1        .60    1.4     1.25     1.45    1.3   .65
              2-9       .55    1.3     1.15     1.35    1.2   .60
             10-19      .50    1.2     1.05     1.25    1.1   .55
@@ -139,37 +153,42 @@ template: docs
             80-89      .15    .5      .35      .55     .4    .20
             90-99      .10    .4      .25      .45     .3    .15
              100       .05    .3      .15      .35     .2    .10
-             101+      .01    .2      .05      .25     .1    .05           
+             101+      .01    .2      .05      .25     .1    .05
+
+                                    Time (Years)
 
 ## Languages Table - Table 1-9
-     Language Form                                    Simplicity    Mother Race
-     Universal Sign, Galactic                           100       None
-     Mandarin Chinese, Chinese                           40       Human
-     Oxford English, English                             50       Human
-     Terran Creole, Lunarite, Spacer                     60       Human
-     Argentinian Spanish, Spanish                        55       Human
-     Egyptian Arabic, Arabic                             45       Human
-     Sebutuik, Cityspeak, Algorian                       65       Low Kaa-Human-Eebek
-     Wa Wien Leng, Mahendoshi                            30       Mahendoshi
-     Draelsik, Smuggler's Tounge, Gutteral               70       Low Kaa
-     Ebb Shuud Leng, Old Mahendoshi                      25       Mahendoshi
-     Chk'Chieb, Blue Aracnian                             0       Aracnian
-     Vjesperan Pidgen Brazilian Portuguese, Vjespanic    35       Human-Vjespere
-     Inter-Aracnian                                       5       Aracnian
-     Bekian Script                                       10       Eebek
-     Tronmoan, Northern Krane                            85       Krane
-     Monduan, Southern Krane                             85       Krane
-     Tesalnne, Vjesperan                                 20       Vjespere
-     Hrenarr, Faborian, Warrior's Tounge                 90       Faborian
-     Gliff                                               80       Gliff
-     Fenbic                                              75       Fenbin
-     Basic Sooaacolian, Dander                           15       Sooaacoli
-     Basic Tsoegorthin, Gorthi                           95       Tsoegorthin
+     Language Form                            Simplicity    Mother Race
+     __________________________________________________________________
+     Universal Sign, Galactic                     100       None
+     Mandarin Chinese, Chinese                     40       Human
+     Oxford English, English                       50       Human
+     Terran Creole, Lunarite, Spacer               60       Human
+     Argentinian Spanish, Spanish                  55       Human
+     Egyptian Arabic, Arabic                       45       Human
+     Sebutuik, Cityspeak, Algorian                 65       Low Kaa-Human-Eebek
+     Wa Wien Leng, Mahendoshi                      30       Mahendoshi
+     Draelsik, Smuggler's Tounge, Gutteral         70       Low Kaa
+     Ebb Shuud Leng, Old Mahendoshi                25       Mahendoshi
+     Chk'Chieb, Blue Aracnian                       0       Aracnian
+     Vjesperan,
+        Pidgen Brazilian Portuguese
+        Vjespanic                                  35       Human-Vjespere
+     Inter-Aracnian                                 5       Aracnian
+     Bekian Script                                 10       Eebek
+     Tronmoan, Northern Krane                      85       Krane
+     Monduan, Southern Krane                       85       Krane
+     Tesalnne, Vjesperan                           20       Vjespere
+     Hrenarr, Faborian, Warrior's Tounge           90       Faborian
+     Gliff                                         80       Gliff
+     Fenbic                                        75       Fenbin
+     Basic Sooaacolian, Dander                     15       Sooaacoli
+     Basic Tsoegorthin, Gorthi                     95       Tsoegorthin
 
      +10 to Simplicity when language is native tounge
      +20 to Simplicity when language has been developed by own race
 
-## Xeno-Discipline Focus - Table 1-10
+##10 - Xeno-Discipline
                      EXPERIENCE POINTS   
                          (100's)         
                      0 100 200 300 400 500
@@ -202,45 +221,48 @@ template: docs
               90    72  84  91  96 100
               95    73  85  91  96 100
               99    74  85  92  96 100
+                       Focus %
 
 
-## Average Racial Masses - Table 1-11
-                             Male  Female                                                   
-                             Mass in kg                                                          
-        Aracnians, blue      71      76                                                     
-                 , green     85      91                                                     
-                 , brown     93     100                                                     
-        Eebek                78      72                                                     
-        Faborians           117      86                                                     
-        Fenbin               36      34                                                     
-        Gliff                86      77                                                     
-        Humans               82      69                                                     
-        Krane               421     373                                                     
-        Low Kaa              73      58                                                     
-        Mahendoshi           48      45                                                     
-        Sooaacoli            55      53                                                     
-        Tanaians                194                                                            
-        Tsoegorthin             930                                                         
-        Vjespere            137     125                                                     
+##11 - Mass
+                             Male  Female
+                             ____________
+        Aracnians, blue      71      76  
+                 , green     85      91  
+                 , brown     93     100  
+        Eebek                78      72  
+        Faborians           117      86  
+        Fenbin               36      34  
+        Gliff                86      77  
+        Humans               82      69  
+        Krane               421     373  
+        Low Kaa              73      58  
+        Mahendoshi           48      45  
+        Sooaacoli            55      53  
+        Tanaians                194    
+        Tsoegorthin             930    
+        Vjespere            137     125
+                             kilograms
 
-## Average Racial Heights - Table 1-12
-                              Male  Female    
-                              Heights in m            
-        Aracnians, blue      1.96    2.10     
-                 , green     2.08    2.23     
-                 , brown     2.27    2.48     
-        Eebek                1.53    1.53     
-        Faborians            2.02    1.77     
-        Fenbin                .94     .91     
-        Gliff                1.42    1.30     
-        Humans               1.84    1.71     
-        Krane                3.05    2.89     
-        Low Kaa              1.74    1.63     
-        Mahendoshi            .60    .53      
-        Sooaacoli            1.12    1.01     
-        Tanaians                 2.40         
-        Tsoegorthin              4.18         
-        Vjespere             2.73    2.55     
+##12 - Height
+                              Male  Female
+                            _____________
+        Aracnians, blue      1.96    2.10
+                 , green     2.08    2.23
+                 , brown     2.27    2.48
+        Eebek                1.53    1.53
+        Faborians            2.02    1.77
+        Fenbin                .94     .91
+        Gliff                1.42    1.30
+        Humans               1.84    1.71
+        Krane                3.05    2.89
+        Low Kaa              1.74    1.63
+        Mahendoshi            .60     .53
+        Sooaacoli            1.12    1.01
+        Tanaians                 2.40    
+        Tsoegorthin              4.18    
+        Vjespere             2.73    2.55
+                               meters
 
 ## Mass Adjustment Table - Table 1-13  
                                   Tall      Average      Short
