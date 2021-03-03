@@ -52,7 +52,7 @@
       display: inline-block;
       font-size: 0.9375em;
       line-height: 1.5;
-      color: $gray-700;
+      color: $gray-100;
     }
   }
 }
@@ -218,7 +218,7 @@
   }
 
   .site-navigation {
-    background: #fff;
+    background: #31394e;
     box-sizing: border-box;
     height: 100vh;
     margin: 0;
@@ -276,7 +276,7 @@
   }
 
   .submenu {
-    border-top: 1px solid $gray-300;
+    border-top: 1px solid $gray-100;
     display: none;
     padding-left: 1em;
   }
@@ -325,7 +325,7 @@
     }
 
     .submenu-toggle {
-      color: $gray-500;
+      color: #ffffff;
       height: 2.8125em;
       position: absolute;
       right: 0;
@@ -337,6 +337,7 @@
         .icon-angle-right {
           -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
+          color: #ffffff;
         }
       }
 
@@ -361,9 +362,11 @@
 
   #menu-open {
     margin-left: auto;
+    color: #ffffff;
   }
 
   #menu-close {
+    color: #ffffff;
     display: block;
     position: absolute;
     right: $container-padding;
