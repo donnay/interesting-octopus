@@ -3,9 +3,12 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    title: Genesis
+    title: Welcome!
     image: images/JungleCampCropped.jpg
     content: >
+      This site is devoted to a retro-paper based Role Playing Game. Where the adventures are only limited by your imagination! The games was developed by high school kids in Calgary, Alberta, Canada. It has been remastered and posted as Open-Source content.
+
+
       The rules of Genesis are divided into books or 'caudex'. There is the
       Caudex Regulum, the book of Rules. The Caudex Centia, the book of
       knowledge. Caudex Universum the book of stories.
