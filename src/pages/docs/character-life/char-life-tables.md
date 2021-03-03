@@ -22,9 +22,10 @@ seo:
       value: This is the quick start page
 template: docs
 ---
-## Skill Resolution - Table #1
+##1 - Skill Resolution
                                                               Adversity Modifier
                           1    2    3    4    5    6    7    8    9   10   20   30   40   50   60   70   80   90  100
+                          _____________________________________________________________________________________________
 
                    5      3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
                   10      6    0   .9   .5   .3   .2   .2   .1   .1   .1   .1   .1    0    0    0    0    0    0    0
@@ -74,88 +75,13 @@ template: docs
 4. For XENO to determine how well the skill is performed<br>
 </div>
 
-## Skill Resolution                
-                                                            difficulty factor
 
-                    ´    1   1´    2   2´    3   3´    4   4´    5   5´    6   6´    7   7´    8   8´    9   9´    10         
-
-               2     3   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1          
-               5     6   .1   .9   .5   .3   .2   .2   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1   .1          
-              10    13    5    2    1   .8   .6   .4   .3   .2   .2   .2   .1   .1   .1   .1   .1   .1   .1   .1   .1          
-              15    19   10    3    3    2    1   .8   .6   .5   .4   .3   .3   .2   .2   .2   .2   .1   .1   .1   .1          
-              20    25   15    7    1    2    2    1   .9   .7   .6   .5   .4   .4   .3   .3   .2   .2   .2   .2   .2          
-              25    31   20   12    5    3    2    2    1    1   .8   .7   .6   .5   .4   .4   .3   .3   .2   .2   .2          
-              30    38   25   16    9    2    3    2    2    1    1   .8   .7   .6   .5   .4   .4   .3   .3   .3   .3          
-              35    44   30   21   13    6    3    2    2    1    1    1   .8   .7   .6   .5   .5   .4   .4   .3   .3          
-              40    50   35   25   17    9    3    3    2    2    1    1    1   .8   .7   .6   .5   .5   .4   .4   .4          
-              45    57   40   29   21   13    6    3    3    2    2    1    1   .9   .8   .7   .6   .6   .5   .4   .4          
-              50    63   45   34   25   17   10    3    3    2    2    1    1    1   .9   .8   .7   .6   .6   .5   .5          
-              55    69   50   38   29   21   13    6    3    2    2    2    1    1    1   .9   .8   .7   .6   .6   .5          
-              60    76   55   42   33   24   17   10    3    3    2    2    2    1    1    1   .9   .8   .7   .6   .6          
-              65    82   60   47   37   28   20   13    6    3    2    2    2    1    1    1   .9   .8   .7   .7   .6          
-              70    88   65   51   41   32   24   16    9    2    3    2    2    2    1    1    1   .9   .8   .7   .7          
-              75    94   70   56   45   35   27   19   12    5    3    2    2    2    1    1    1    1   .9   .8   .7          
-              80   101   75   60   48   39   30   23   15    8    2    2    2    2    2    1    1    1   .9   .8   .8          
-              85   107   80   64   52   43   34   26   19   11    5    3    2    2    2    1    1    1    1   .9   .8          
-              90   113   85   69   56   46   37   29   22   15    8    1    2    2    2    2    1    1    1   .9   .9          
-              95   120   90   73   60   50   41   33   25   18   11    4    3    2    2    2    1    1    1    1   .9          
-        S    100   126   95   77   64   54   44   36   28   21   13    7    3    2    2    2    1    1    1    1    1          
-        K    105   132  100   82   68   57   48   39   31   24   16    9    3    2    2    2    2    1    1    1    1          
-        I    110   139  105   86   72   61   51   42   34   27   19   12    6    2    2    2    2    1    1    1    1          
-        L    115   145  110   90   76   65   55   46   37   30   22   15    8    2    2    2    2    2    1    1    1          
-        L    120   151  115   95   80   68   58   49   41   33   25   18   11    4    2    2    2    2    1    1    1          
-             125   157  120   99   84   72   62   52   44   36   28   21   14    7    2    2    2    2    1    1    1          
-        E    130   164  125  104   88   76   65   56   47   39   31   24   17   10    3    2    2    2    2    1    1          
-        X    135   170  130  108   92   79   69   59   50   42   34   26   19   12    6    2    2    2    2    1    1          
-        P    140   176  135  112   96   83   72   62   53   45   37   29   22   15    8    2    2    2    2    1    1          
-        E    145   183  140  117  100   87   76   66   56   48   40   32   25   18   11    4    2    2    2    2    1          
-        R    150   189  145  121  104   91   79   69   59   51   43   35   28   20   13    7    2    2    2    2    1          
-        I    155   195  150  125  108   94   82   72   63   54   46   38   30   23   16    9    2    2    2    2    2          
-        E    160   202  155  130  112   98   86   75   66   57   49   41   33   26   19   12    5    2    2    2    2          
-        N    165   208  160  134  116  102   89   79   69   60   51   43   36   28   21   14    7    1    2    2    2          
-        C    170   214  165  139  120  105   93   82   72   63   54   46   39   31   24   17   10    3    2    2    2          
-        E    175   220  170  143  124  109   96   85   75   66   57   49   41   34   26   19   13    6    2    2    2          
-             180   227  175  147  128  113  100   89   78   69   60   52   44   36   29   22   15    8    2    2    2          
-        +    185   233  180  152  132  116  103   92   82   72   63   55   47   39   32   25   18   11    4    2    2          
-             190   239  185  156  136  120  107   95   85   75   66   58   50   42   34   27   20   13    6    2    2          
-        A    195   246  190  160  140  124  110   98   88   78   69   60   52   44   37   30   23   16    9    2    2          
-        P    200   252  195  165  144  127  114  102   91   81   72   63   55   47   40   32   25   18   11    4    2          
-        T    205   258  200  169  148  131  117  105   94   84   75   66   58   50   42   35   28   20   14    7    2          
-        I    210   265  205  173  152  135  121  108   97   87   78   69   61   53   45   37   30   23   16    9    2          
-        T    215   271  210  178  156  138  124  112  100   90   81   72   63   55   47   40   33   25   18   12    5          
-        U    220   277  215  182  160  142  128  115  104   93   84   75   66   58   50   42   35   28   21   14    7          
-        D    225   283  220  187  164  146  131  118  107   96   87   77   69   61   53   45   38   30   23   16    9          
-        E    230   290  225  191  168  149  134  121  110   99   90   80   72   63   55   48   40   33   26   19   12          
-             235   296  230  195  172  153  138  125  113  102   92   83   74   66   58   50   43   35   28   21   14          
-             240   302  235  200  175  157  141  128  116  105   95   86   77   69   60   53   45   38   30   23   16          
-             245   309  240  204  179  161  145  131  119  108   98   89   80   71   63   55   48   40   33   26   19          
-             250   315  245  208  183  164  148  135  122  111  101   92   83   74   66   58   50   42   35   28   21          
-             260   328  255  217  191  172  155  141  129  117  107   97   88   79   71   63   55   47   40   33   26          
-             270   340  265  226  199  179  162  148  135  124  113  103   94   85   76   68   60   52   45   37   30          
-             280   353  275  235  207  186  169  154  141  130  119  109   99   90   81   73   65   57   50   42   35          
-             290   365  285  243  215  194  176  161  148  136  125  114  105   95   87   78   70   62   54   47   40          
-             300   378  295  252  223  201  183  168  154  142  130  120  110  101   92   83   75   67   59   52   44          
-             310   391  305  261  231  208  190  174  160  148  136  126  116  106   97   88   80   72   64   56   49          
-             320   403  315  270  239  216  197  181  167  154  142  131  121  111  102   93   85   77   69   61   54          
-             330   416  325  278  247  223  204  187  173  160  148  137  127  117  108   99   90   82   74   66   58          
-             340   428  335  287  255  231  211  194  179  166  154  143  132  122  113  104   95   87   78   71   63          
-             350   441  345  296  263  238  218  201  185  172  160  148  138  128  118  109  100   91   83   75   67          
-             360   454  355  304  271  245  225  207  192  178  166  154  143  133  123  114  105   96   88   80   72          
-             370   466  365  313  279  253  232  214  198  184  171  160  149  138  128  119  110  101   93   85   77          
-             380   479  375  322  287  260  238  220  204  190  177  165  154  144  134  124  115  106   98   89   81          
-             390   491  385  331  295  267  245  227  211  196  183  171  160  149  139  129  120  111  102   94   86          
-             400   504  395  339  302  275  252  233  217  202  189  177  165  154  144  134  125  116  107   99   91          
-             450   567  445  383  342  312  287  266  248  233  218  205  193  181  170  160  150  140  131  122  114          
-             500   630  495  427  382  348  322  299  280  263  247  233  220  208  196  185  175  165  155  146  137          
-
-
-
-
-## Xeno-discipline Focus
+##2 - Xeno-discipline Focus
                      EXPERIENCE POINTS   
                          (100's)         
 
                      0 100 200 300 400 500
+                     _____________________
                0        74  85  92  96 100
                1    11  74  85  92  96
                2    18  74  85  92  96
@@ -186,10 +112,11 @@ template: docs
               95    73  85  91  96 100
               99    74  85  92  96 100
 
-## Casting Time
+##3 - Casting Time
                                              Mental Control
 
                    5  10  15  20  25  30  35  40  45  50  55  60  65  70  75  80  85  90  95 100
+                   _____________________________________________________________________________
 
             1   1.58 .79 .53 .39 .32 .26 .23 .20 .18 .16 .14 .13 .12 .11 .11 .10 .09 .09 .08 .08
             5    .61 .31 .20 .15 .12 .10 .09 .08 .07 .06 .06 .05 .05 .04 .04 .04 .04 .03 .03 .03
@@ -213,8 +140,9 @@ template: docs
        370-500   .18 .09 .06 .05 .04 .03 .03 .02 .02 .02 .02 .02 .01 .01 .01 .01 .01 .01 .01 .01
 
 
-##Spells
-      SPELL      BASE          LEVEL        ALTERATION    MULTIPLICATIVE  
+##4 - Spells
+      Spell      Base          Level        Alteration    Multiplier
+      ___________________________________________________________________
       kino         5           1 - cha      activation       2.5
       labre        5           2 - ur       duration         6.0
       jeral        5           3 - par      deactivation     1.5
@@ -260,7 +188,7 @@ template: docs
       P = perment
       I = Instantenous
 
-# Life Generation System Tables
+#5 - Life Generation System
 
         1. WHAT DOES IT EAT ?
            organic matter    > 4
@@ -296,11 +224,11 @@ template: docs
            roots
            berries
 
-## Time Divisor Table
-Time Divisor Table
+##6 - Time Divisor Table
                                                       DIFFICULTY FACTOR
 
                     ´    1    1´   2    2´   3    3´   4    4´   5    5´   6    6´   7    7´   8    8´   9    9´   10
+                    ___________________________________________________________________________________________________
 
                2     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1            
                5     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1            
@@ -371,11 +299,10 @@ Time Divisor Table
              450   5.6  4.5  3.8  3.4  3.1  2.9  2.7  2.5  2.3  2.2  2.1  1.9  1.8  1.7  1.6  1.5  1.4  1.3  1.2  1.1         
              500   6.3  5.0  4.3  3.8  3.5  3.2  3.0  2.8  2.6  2.5  2.3  2.2  2.1  2.0  1.9  1.8  1.7  1.6  1.5  1.4         
 
-
-
-## Gravitational Modifiers -- Long Term Exposure --
+##7 - Gravity Modifiers
 
          Gravity Difference         Strength   Constitution   Agility
+         ____________________________________________________________
               - 3.0                 + 12          - 6         + 18
               - 2.5                 + 10          - 5         + 15
               - 2.0                 +  8          - 4         + 12
@@ -394,9 +321,10 @@ Time Divisor Table
                    the Planetary Data Files beginning on page [ ? ].
 
 ---
-## Racial Age Variance Table * M A B E Y  *
+##8 - Racial Age Variance
 
-                     child   youth   adult   middle  old     vener
+                     child   youth   adult   middle  old     venerable
+                    _____________________________________________________
        Aracnians     5       mollt   14      35      65      90      140     
        Faborians     2       5       12      21      30      40      40
        Fenbinm       5       30      70      110     200             230
@@ -413,10 +341,11 @@ Time Divisor Table
 
  ---
 
-## Encumberance Level
+##9 - Encumberance Level
 
         Hh,mm,ss
                    1         2         3         4         5         10        20        30        40        50        100       200       300       400       500       1000      2000  
+                   ______________________________________________________________________________________________________________________________________________________________________
              1  02,24,00  01,12,00  01,48,00  01,36,00  00,29,48  00,14,24  00,07,12  00,05,48  00,04,36  00,03,53  00,01,26  00,01,43  00,00,29  00,00,22  00,00,17  00,00,09  00,00,04
              2  04,48,00  02,24,00  02,36,00  01,12,00  01,58,36  00,29,48  00,14,24  00,10,36  00,07,12  00,06,46  00,03,53  00,01,26  00,01,58  00,01,43  00,01,35  00,00,17  00,00,09
         M    3  07,12,00  04,36,00  02,24,00  02,48,00  01,26,24  01,43,12  00,22,36  00,14,24  00,11,48  00,09,38  00,04,19  00,02,10  00,01,26  00,01,05  00,01,52  00,00,26  00,00,13
@@ -437,10 +366,11 @@ Time Divisor Table
             90 216,00,00 108,00,00  72,00,00  54,00,00  43,12,60  22,36,60  11,48,60  07,12,00  05,24,60  04,19,12  02,10,36  01,05,48  01,43,12  01,32,24  00,26,55  00,13,58  00,06,29
            100 240,00,00 120,00,00  80,00,00  60,00,00  48,00,00  24,00,00  12,00,00  08,00,00  06,00,00  05,48,00  02,24,00  01,12,00  01,48,00  01,36,00  00,29,48  00,14,24  00,07,12
 
-## Heat  
+##10 - Heat  
 
-        Perceived Temperature Chart
-                DEGREES    MOVE     PER      AIM     BRAWL     H2O
+                           Perceived Temperature
+                DEGREES    MOVE     PER      AIM     BRAWL     H₂O
+                __________________________________________________
                    0℃      -        -        -        -        -
                    5       -5%       -        -        -        -
                   10      -10       -5%       -        -        -
@@ -473,13 +403,13 @@ Time Divisor Table
 | H2O | The factor by which the consumption of water is multiplied. The normal consumption of water is racially specific and listed in the race descriptions. |
 
 
-## Daily Perceived Base Calculation
+##11 - Daily Heat Exposure
 
-TEMP = Die Roll &deg;C + 1/2% - x&deg;C
+TEMP = Die Roll &deg;C + 1/2% - x&deg;C<br>
 (depends on planet humidity racial temperature see planet files)     
 
-        Modifiers  to Perceived Temperature
-
+                  Modifiers to Perceived Temperature
+                  _________________________________________________________
                  +15     when wearing armour
                  +10       "     "    heavy clothing
                  + 2.5     "     "    morerate clothing   
@@ -487,26 +417,31 @@ TEMP = Die Roll &deg;C + 1/2% - x&deg;C
                  -25       "     "    a CHIL suit      
                  -50       "     "    a VAC-suit   
                  +10     when combat or under stress
-                 + 5     for every PS/5 kg of mass carried(not including clothing)                         
+                 + 5     for every PS/5 kg of mass carried
+                         (not including clothing)                         
                  - 2.5   when coated with .5 l of water
                  - 5                      .5 l of alcohol
                  - 5     for every 10 km/h of wind
                  - 5     when under light shade (up to 10 m 2 )
                  -10                deep shade (up to 100 m 2 )
 
-## Continued Heat
+### Continued Heat
 Any character perceiving a heat of 40&deg;C  or higher for 30 min. or longer must save against Constitution (CO), every fifteen minutes, until the condition dissipates.
 Failure means that the (CO) gains a -15 cumulative modifier, if the roll succeeds only a -5 modifier is taken.</p>
-<strong>NOTE:</strong> If any of the characters is anything but an Aracnian, Mahendoshi, or a Tanaian, salt intake can lower the effects of heat. 1 standard salt tablet per hour (2 for Krane) will add + 15 back onto the save.  If reduced, effectively, below a 15 constitution the character will become disoriented and confused. At 0 (CO) the being falls unconscious and if not cooled below 25&deg;C  perceived temperature the character will die in 10:sd10 minutes.
 
-## Effects
+<div class="note">
+NOTE:</strong> If any of the characters is anything but an Aracnian, Mahendoshi, or a Tanaian, salt intake can lower the effects of heat. 1 standard salt tablet per hour (2 for Krane) will add + 15 back onto the save.  
+If reduced, effectively, below a 15 constitution the character will become disoriented and confused. At 0 (CO) the being falls unconscious and if not cooled below 25&deg;C  perceived temperature the character will die in 10:sd10 minutes.
+</div>
+
+### Effects
 -10% to hit with projectiles at targets over 100m away
 30&deg;C +  check against Wisdom for any hallucinations for each character in party per hour.
 Light coloured surfaces looked at for over 15 minutes have a 10% chance of causing blindness. It can be prevented with polarizing eye wear or special goggles or light ampu-factors.
 perishable food spoils with 30% chance (cumulative / day) at 20&deg;C.
 +10% chance for every 10&deg;C over that.
 
-## BURNS
+### Burns
 In areas of intense radiation there is a base 10% chance of contracting
 a burn for every hour flesh is exposed (5% IF FLESH IS EXSO-SKELETON).
 
@@ -518,17 +453,18 @@ a burn for every hour flesh is exposed (5% IF FLESH IS EXSO-SKELETON).
 Burns are cumulative: 1 * 10% for 1 intensity. Intensity 2.3 would be 23% , etc.
 Burns take an average of 5 days ES to heal (per severity)
 
-### EXAMPLE
-Out character, Bixx ,is crossing a hinded plain on Tahri. The actual air temperature that day is 43℃  and the humidity is 71%. Bixx's perceived temperature base is 43 + «(71) and -20, Because Bixx is human.
-The result is 58.5 &deg;C. Fortunately Bixx is wearing light clothing (-5) and there is a 30 Km/hr wind (-15), Also he is covered with some small shade and is rubbing on alcohol for maxium effect ( -5 and -5 ), These modifiers bring his total down to 28.5&deg;C. Equally as fortunate he is only carrying 10kg of equipment (+5) and is walking (0).<br>
-Bixx's final perceived total is 33.5&deg;C , The effects of which are:
-Movement  -35%
-Reaction and perception  -30
-AIM  -25
-BRAWL  -20
-H2O   x1.5 = 1.5 litres/hr  
+#### Example:
+Out character, Bixx ,is crossing a hinded plain on Tahri. The actual air temperature that day is 43℃  and the humidity is 71%. Bixx's perceived temperature base is 43 + «(71) and -20, Because Bixx is human.<br>
+The result is 58.5 &deg;C. Fortunately Bixx is wearing light clothing (-5) and there is a 30 Km/hr wind (-15), Also he is covered with some small shade and is rubbing on alcohol for maxium effect ( -5 and -5 ), These modifiers bring his total down to 28.5&deg;C. Equally as fortunate he is only carrying 10kg of equipment (+5) and is walking (0).</p>
+Bixx's final perceived total is 33.5&deg;C,
+<br>The effects of which are:
+* Movement  -35%
+* Reaction and perception  -30
+* AIM  -25
+* BRAWL  -20
+* H₂O   x1.5 = 1.5 litres/hr  
 
-## Equipment
+## Equipment << MoveMe!!
 #### CHIL suit (Cooled Habitat Insulation Liner)
 A tight fitting body glove of predominantly black or white colouring, depending on the model and its heat exchange methods. the black version uses heat absorbed to react endo-thermochemically with a viscous green fluid under the upper layers, which is combined with perspiration salts to absorb heat and dissipate it through many ridges over the suits surface. Salts are collected in small bead-like pockets along the belt. There are edible (6 std. doses ) perspiration liquids simply evaporate. The white version is very bright in colour and reflects much of the IR spectrum. Heat are lost by pumping, mechanically, refrigerants through the suit and dispelling them through the many ridges on the surface. The pump has a 250 hr. BATT . Perspiration is purified and kept in small leg pockets. When full there are 2 l, but it takes (1/10℃  perc. ) x 100 hrs. These suits are fitted for sweaty beings, especially the black, and are worn by Humans, Low Kaa, Faborians, Eebek, Vjesperé, and (10%) sometimes Gliff and Sooaacoil (special order).
 

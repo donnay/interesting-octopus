@@ -23,4 +23,4 @@ seo:
 template: docs
 ---
 
-# Stuff Here
+Link to App
