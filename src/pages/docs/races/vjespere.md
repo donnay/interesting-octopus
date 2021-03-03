@@ -59,7 +59,7 @@ Colouration                      topaz, golden, and chestnut browns
 
 Vesperé  - singular and plural
 Vesperéran - possessive
-Vjespere is pronounced Vjess-pair-eh
+Vjesperé is pronounced Vjess-pair-eh
 Homeworld ...
 
 ![Vjesperé](/images/VjespereUpright.jpg)</p>

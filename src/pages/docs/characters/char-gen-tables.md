@@ -28,7 +28,7 @@ template: docs
           01-02          Tanaian             
           03-07          Fenbin         
           08-15          Krane                 
-          16-24          Vjespere              
+          16-24          Vjesperé              
           25-36          Aracnian *
           37-50          Eebek          
           51-64          Human             
@@ -60,7 +60,7 @@ template: docs
           Sooaacoli        10    35     5    30    5:10sd
           Tanaians        165   550  1175  1850      N/A
           Tsoegorthin     930     5   575    15    2:10sd
-          Vjespere         57    72    77    64    5:10sd
+          Vjesperé         57    72    77    64    5:10sd
 
 ##3 - Attribute Average                                             
                            Ps    Ag    Co    Pr   Aim  Brawl  Move
@@ -77,7 +77,7 @@ template: docs
           Sooaacoli        35    60    30    55    53    45    42
           Tanaians        165   550  1175  1850   217   935   630
           Tsoegorthin     940    15   585    25    38   391   513
-          Vjespere         95   105   130    60    68    98   110
+          Vjesperé         95   105   130    60    68    98   110
 
 ##4 - Influence Adjustment
          Appearance   Description   IF Adjustment
@@ -134,7 +134,7 @@ template: docs
           Sooaacoli           13       12       15        9       10        11
           Tanaians            12        1        3       25        5        24
           Tsoegorthin         25        5       22        5        3        10
-          Vjespere             5       10       25        9       15         6
+          Vjesperé             5       10       25        9       15         6
 
 ##8 - IGAL Courses
 
@@ -157,7 +157,7 @@ template: docs
 
                                     Time (Years)
 
-## Languages Table - Table 1-9
+##9 - Languages
      Language Form                            Simplicity    Mother Race
      __________________________________________________________________
      Universal Sign, Galactic                     100       None
@@ -173,12 +173,12 @@ template: docs
      Chk'Chieb, Blue Aracnian                       0       Aracnian
      Vjesperan,
         Pidgen Brazilian Portuguese
-        Vjespanic                                  35       Human-Vjespere
+        Vjespanic                                  35       Human-Vjesperé
      Inter-Aracnian                                 5       Aracnian
      Bekian Script                                 10       Eebek
      Tronmoan, Northern Krane                      85       Krane
      Monduan, Southern Krane                       85       Krane
-     Tesalnne, Vjesperan                           20       Vjespere
+     Tesalnne, Vjesperan                           20       Vjesperé
      Hrenarr, Faborian, Warrior's Tounge           90       Faborian
      Gliff                                         80       Gliff
      Fenbic                                        75       Fenbin
@@ -241,7 +241,7 @@ template: docs
         Sooaacoli            55      53  
         Tanaians                194    
         Tsoegorthin             930    
-        Vjespere            137     125
+        Vjesperé           137     125
                              kilograms
 
 ##12 - Height
@@ -261,24 +261,27 @@ template: docs
         Sooaacoli            1.12    1.01
         Tanaians                 2.40    
         Tsoegorthin              4.18    
-        Vjespere             2.73    2.55
-                               meters
+        Vjesperé             2.73    2.55
+                                meters
 
-## Mass Adjustment Table - Table 1-13  
+##13 - Mass Adjustment
                                   Tall      Average      Short
-        Strength Above average    +30%       +20%        +10%
-                 Average          +10%         0         -10%
-                 Below average    -10%       -20%        -30%
-        Physique      Skinny      -40%       Plump       +20%
-                      Lean        -20%       Fat         +40%
+                                  ____________________________
+        Strength  Above average   +30%       +20%        +10%
+                  Average         +10%         0         -10%
+                  Below average   -10%       -20%        -30%
 
-   These values are very liberal, however, and you should use your best judgement when considering them.
+        Physique  Skinny          -40%       Plump       +20%
+                  Lean            -20%       Fat         +40%
 
-## Starting Age Table - Table #14
-        Race               Roll         Typical PC
+   These values are very liberal, use your best judgement when considering them.
+
+##14 - Starting Age
+        Race               Roll            Typical
+        __________________________________________
         Aracnians        20+1:10sd           25
         Eebek            22+2:10sd           35
-        Faborians         7+´:10sd           13
+        Faborians         7+½:10sd           13
         Fenbin           31+2:10sd           42
         Gliff               1:10sd            8
         Humans           11+1:10sd           19
@@ -286,12 +289,13 @@ template: docs
         Low Kaa           8+1:10sd           16  
         Mahendoshi       18+1:10sd           26
         Sooaacoli        14+1:10sd           22
-        Tanaians            ´:10sd            6
-        Tsoegorthin       3+´:10sd            9
-        Vjespere          9+1:10sd           17
+        Tanaians            ½:10sd            6
+        Tsoegorthin       3+½:10sd            9
+        Vjesperé          9+1:10sd           17
 
-## Starting Wealth Table - Table 1-14  
-        Occupation                                   Dit Roll                                                        
+##14 - Starting Wealth
+        Occupation                                   Dit Roll
+        _______________________________________________________
         Bounty Hunter / Assassin                   225+1:1000sd
         Chaendler                      
            Ch'chien Wa Bow Guildsman               600+1:1000sd
@@ -308,12 +312,12 @@ template: docs
            Journalist                              500+1:1000sd
         Mercanary                                  325+1:1000sd
         Militiamen                                 575+1:1000sd
-        Pirate / Smuggler                                          
+        Pirate / Smuggler
            Chock                                   400+1:1000sd
-           Gannal                                  325+1:1000sd    
+           Gannal                                  325+1:1000sd
            Marikann                                250+1:1000sd
            Rouge                                   150+1:1000sd
         Spacer                                     450+1:1000sd
-        Specialist                                          
+        Specialist
            Medic                                   750+1:1000sd
            Tech                                    700+1:1000sd
