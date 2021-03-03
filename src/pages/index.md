@@ -6,16 +6,11 @@ sections:
     title: Genesis
     image: images/JungleCampCropped.jpg
     content: >
-      ###### Role-Playing Game
-
-      &mdash; v3 Remastered &mdash;
-
-
       The rules of Genesis are divided into books or 'caudex'. There is the
       Caudex Regulum, the book of Rules. The Caudex Centia, the book of
-      knowledge.
+      knowledge. Caudex Universum the book of stories.
     actions:
-      - label: Get Started
+      - label: Dive into the Universe!
         url: /docs
         style: primary
   - section_id: features

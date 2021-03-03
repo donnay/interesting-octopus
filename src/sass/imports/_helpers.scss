@@ -62,7 +62,7 @@
   background: $color-primary;
   background: -webkit-gradient(linear, left top, right top, from($color-secondary), to($color-primary));
   background: linear-gradient(to right,$color-secondary, $color-primary);
-  color: #fff;
+  color: #000;
   position: relative;
 
   h1,
@@ -86,7 +86,7 @@
 
   .button {
     &:not(.button-secondary) {
-      background-color: #fff;
+      background-color: #000;
       color: $color-primary;
 
       &:hover,
