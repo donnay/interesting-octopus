@@ -808,7 +808,8 @@ NOTE : Rental fees are per 10 hour period.
                              , IV                 Per size class, per 10 hr period.  100                                                     
                              , V                  Per size class, per 10 hr period.  250                                                     
 
-<strong>Availability Codes</strong>``
+<strong>Availability Codes</strong>
+
 | Code | Description |
 | --- | --- |
 | A | This item can be found virtually everywhere in the Foundation,including agricultural worlds and far-flung colonies. Populations will generally be of a few thousand members. Eg; Hamiota, Wu's World, Ferrara, Colony DM +66 1281, etc. |
@@ -816,7 +817,9 @@ NOTE : Rental fees are per 10 hour period.
 |  C | This item can be found in "regional" centres with a few tens of millions of members, and may be educational or cultural in nature. Most starports and large cities fall here. Eg. Mars, New Perth, New York City on Earth, Thoth, Cordoba, etc. |
 |  D | The item will be found in "national" centres, such as huge eco-political complexes, cities, or worlds, with hundreds of millions of members. Eg. Luna, Algor, Oberhausen, Commons, etc.  |
 |  E | The item can only be normally found on a massive founding Homeworld. Eg. Awmonee, Earth, Mardashuru, Tabell.  |
-|  R | This item is exceptionally rare and will only be found at a few sources -- a certain world, people, organization, -- whatever. Only available through special order to the producers. |
+|  R | This item is exceptionally rare and will only be found at a few sources. Certain world, people, organization, whatever. Only available through special order to the producers. |
 |  X | This item is normally illegal by galactic law and may only be available through the Black Market. Possibly reserved for the military. Star Ports will usually have items one class rarer than the surrounding area. |
+
+
 
 ---
