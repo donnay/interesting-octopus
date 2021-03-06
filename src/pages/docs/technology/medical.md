@@ -34,6 +34,8 @@ NOTE: using an inappropriate model would inflict more damage then it heals.
 ##### Medical pouch
 A basic medical kit for the purposes of stabilizing the vital signs or wounded persons. The kit contains 10 injections of each of the following chemicals - Bioxin, D-zine, E-dorphs, Endbleed, HHB, Hypermetabolin, Instacast, Thenelin RGF. A tube of Promethel gel good for 15 large doses. Also included is spray pump of Sprayskin, a Splitter, a hand medical sensor, and various forceps and probes. These items are contained within a hard water and air tight case made of reinforced organo-polymer.
 
+![Grenade](/images/PocketSurgeon.jpg)</p>
+
 ##### Portable Auto-doc
 Able to perform basic medical tasks, cleaning wounds, bandaging, and administration of drugs  this little robot hovers above the ground. Its two arms are specialized to various functions and it is programmed to function in conjunction with a doctor (or medical robot).
 
@@ -62,5 +64,7 @@ Sprayskin - Effective for covering wounds that have been sterilized with a prote
 Sunoil - Protects the skin against harmful UV light.
 Thenelin RGF - Regeneration and Growth Factor.
 Truth Serum - As the name states it stimulates the telling of the truth.
+
+![Grenade](/images/Wehavethebiotechnology.jpg)</p>
 
 ***

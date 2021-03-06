@@ -23,20 +23,19 @@ sseo:
 template: docs
 ---
 
-
-##9 -  Bladed Weapons
+##8 -  Bladed Weapons
 
 | % Damage | Severity Roll | Damage Description |
 |-----|-----|-----|
 | 01-05 | (.2,0) | A minor bruise 4 cm. long is the result. The affected area will be discoloured for 2:10sd days then clear- up. No lasting effects or marks. |
 | 06-10 | (.5,0) | An intermediate bruise is done to the area. Minor pain will last for 1:10sd hours and then ease. Discoloured and stiff for 2:10sd days the area will  heal with no permanent damage. |
-| 11-15 | (.7,0) | A major bruise with minor blood pooling will be present right under the impact area. A minor bruise will spread out around the wound. The minor bruise will clear-up in 2:10sd days without any permanent effects. The major bruise will only ease after 1:10sd weeks and leave a small discolouration. Through this period the area will be stiff. |
+| ➕11-15➕ | (.7,0) | A major bruise with minor blood pooling will be present right under the impact area. A minor bruise will spread out around the wound. The minor bruise will clear-up in 2:10sd days without any permanent effects. The major bruise will only ease after 1:10sd weeks and leave a small discolouration. Through this period the area will be stiff. |
 | 16-20 | (.9,1.1) | There is a small cut about 1 cm. long that will exhibit minor bleeding. A clot will form in about 2:10sd minutes and the wound will heal with little or no scaring even without stitches or special first-aid techniques. |
 | 21-25 | (1.5,2.5) | A cut 4 cm. long is the damage done. The laceration doesn't penetrate all the layers of skin, and therefore bleeds very little. Special skin fixing techniques will be necessary to re-align skin edges. |
 | 26-30 | (2.0,3.7) | The resulting cut penetrates into the flesh. Several blood vessels have been cut and will bleed moderately until an clot forms in 4:10sd minutes. The cut is 6 cm. long and will ache if the area in used or stressed in an abrupt fashion. |
 | 31-35 | (2.7,4.7) | A moderate cut is the result of the attack. 8 cm. long and 2 cm. deep it will bleed severely for 3:10sd minutes and require first-aid A.S.A.P. The body part will hurt severely for 1:10sd days. |
 | 36-40 | (3.1,5.5) | A severe cut is made in this body part disrupting major veins and arteries. Over 8 cm. long and 3 cm. deep it will bleed extremely for 2:10sd rounds then continue severely for another 6:10sd minutes. |
-| 41-45 | (3.4,6.1) | An extreme cut that penetrates right to the bone. Major veins and arteries are severed. Bleeding and pain will be extreme and lasting for 7:10sd minutes. |
+| ➕41-45➕ | (3.4,6.1) | An extreme cut that penetrates right to the bone. Major veins and arteries are severed. Bleeding and pain will be extreme and lasting for 7:10sd minutes. |
 | 46-50 | (3.7,6.7) | A puncture wound 4 cm. deep is made with minor bleeding for 1:10sd minutes. Pain will be minor if the object is left in the wound, if it is pulled out major bleeding and severe pain, both lasting for 2:10sd minutes, will result. |
 | 51-55 | (4.1,7.0) | The intermediate puncture wound that is made bleeds intermediately and hurts majorly, with bleeding for 2:10sd minutes, if the object is left in. Severe pain and extreme bleeding lasting for 3:10sd minutes will result if the object is removed. |
 | 56-60 | (4.5,7.3) | A severe puncture is the result to this body part. There will be severe pain and bleeding if the object is left in. These will both increase to extreme if the object is removed. The wound will bleed for 3:10sd minutes if undisturbed and 4:10sd minutes if the object is removed. |
@@ -44,7 +43,7 @@ template: docs
 | 66-70 | (5.2,7.6) | A small piece of skin and flesh is separated form the body. About 2 cm. wide and 5 cm. long it is a major bleeder and hurts intermediately. See(FIRST-AID) | for proper treatment procedure. The wound will bleed for 5:10sd minutes if treated properly. |
 | 71-75 | (5.7,8.1) | A major gouge separates a chuck of tissues 4 cm. wide and almost 10 long. The gouge is a severe bleeder and causes extreme pain. The wound will bleed uncontrolled for 2:10sd minutes. Then bleed slowly for 4:10sd minutes until it stops completely. |
 | 76-80 | (6.2,8.4) | A severe gouge has taken out a chunk of flesh about 5 cm wide, 8 cm long and 6 cm deep. The implications are severe and medical attention must be sought to ensure survival. The depth will effect internal organs. Bleeding will continue unabated for 2:10sd days. |
-| 81-85 | (6.5,8.6) | The extreme gouge done is life-threatening due to the large amount of tissues disrupted. About 8 cm wide, 10 cm long and 8 cm deep it will probably hit bones or internal organs. Bleeding will continue until death if treatment is not obtained. |
+| ➕ 81-85 ➕| (6.5,8.6) | The extreme gouge done is life-threatening due to the large amount of tissues disrupted. About 8 cm wide, 10 cm long and 8 cm deep it will probably hit bones or internal organs. Bleeding will continue until death if treatment is not obtained. |
 | 86-90 | (6.9,8.8) | A simple oblique fracture to the bone in this body part is the damage done by the attack. Some internal bleeding will occur and swelling result but the effects of the cut will far outweigh those of the break. The pain will be moderate for 3:10sd hours then taper to minor for the duration of the healing process. If no bones: read the AD description(s) | omitting the bone references. |
 | 91-95 | (7.6,9.2) | A compound shatter fracture is the result to the bone in this area. Now the bone has also broken the skin and will be adding to the blood loss from the initial laceration. If no bones: read the AD description(s) | omitting the bone references. |
 | 96-00 | (8.2,9.6) | If two bones: they have both been broken in one place and fracture is a simple one. The pain will be severe for 3:10sd hours then taper off to moderate for the duration of the healing process. If one bone: it is totally shattered and will not knit properly unless medical treatment is sought. The pain will be extreme due to the total ripping apart of the bone. 4:10sd hours of extreme and 2:10sd days of severe pain. If no bones: read the AD description(s) | omitting the bone references. |
@@ -256,4 +255,5 @@ template: docs
 ##10 - Damage Procedure
 
 
+![Alertness Low](/images/AQuietMoment.jpg)</p>
 ---

@@ -24,44 +24,39 @@ template: docs
 ---
 
 ### Physiology
-Humans are mammals
-- humans are fairly vulnerable to their environment but are surprisingly adaptable because of their technology
-- they have two arms two legs and opposable thumbs
-- come in a wide range of colors and textures
-- they have hair in selected areas of their body
-- different bodily distribution between sexes
-- omnivorous
-- the enzyme
-- alcohol kills tissues and humans are the only race which can pass alcohol without side effects.
-- their lips are fairly flexible
-- walk upright
-- four chambered heart
-- appendix vestigial from grazing
-- externalized organs
-9 month gestation no mating season 1 child per birth
-- we need oxygen at a certain pressure </p>
+Humans (Homo sapiens) are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae (the great apes, or hominids). A terrestrial animal, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies.
+Most aspects of human physiology are closely homologous to corresponding aspects of animal physiology. The human body consists of the legs, the torso, the arms, the neck, and the head. An adult human body consists of about 100 trillion (1014) cells. The most commonly defined body systems in humans are the nervous, the cardiovascular, the circulatory, the digestive, the endocrine, the immune, the integumentary, the lymphatic, the musculoskeletal, the reproductive, the respiratory, and the urinary system.
 
-![Fenbin](/images/Human_grey.jpg)</p>
+Humans, like most of the other apes, lack external tails, have several blood type systems, have opposable thumbs, and are sexually dimorphic. The comparatively minor anatomical differences between humans and chimpanzees are a result of human bipedalism. One difference is that humans have a far faster and more accurate throw than other animals. Humans are also among the best long-distance runners in the animal kingdom, but slower over short distances. Humans' thinner body hair and more productive sweat glands help avoid heat exhaustion while running for long distances.
 
-The process of heat conduction and absorption is still a valuable source of energy to the Fenbin, especially during the summer. The opposing colours cause heat currents in fluid channels within the thorax and abdomen, and this action drives molecule sized thermal-pumps that make high energy molecules that can be stored or used as needed. 
-The organs of their respiratory system are mainly located in the abdomen and open to the atmosphere through the first groove in
-the exoskeleton where the legs originate. This slit is surrounded by stiff hairs that are kept moist to clean the inhaled air of fine particles and dust. A long windpipe joins the central sack, in the abdomen, with the horn structure atop the head. This connection was used to provide air to the individual when hunting (they buried themselves and would pounce upon unsuspecting prey) but now it is used for purely ceremonial uses. Their small and delicately structured heart is placed low in the thorax, and indicative of the light gravity of Tabell. Their weak heart, by our standards, still manages efficient oxygenation of their iron based blood. Their digestive system is strictly that of a carnivore specially equipped for an insect diet. 
-Females Fenbin are larger than males, and they choose their mates at the beginning of the great celebration. The sexual organs share a duct with the spinneret, and copulation results in the male passing of a package of sperm wrapped in spun fibres to the female. She can then store the sperm or use it to fertilize her eggs. Fertilization will yield 2-3 dozen eggs all wrapped in cocoon. After three months the young will emerge for the cocoon and begin a process of growth that will last for the first 11 years of life. During this time they remain in the city as they would not survive in the extreme environment away from the city.
+Although humans appear hairless compared to other primates, with notable hair growth occurring chiefly on the top of the head, underarms and pubic area, the average human has more hair follicles on his or her body than the average chimpanzee. The main distinction is that human hairs are shorter, finer, and less heavily pigmented than the average chimpanzee's, thus making them harder to see. Humans have about 2 million sweat glands spread over their entire bodies, many more than chimpanzees, whose sweat glands are scarce and are mainly located on the palm of the hand and on the soles of the feet.Humans have the largest number of eccrine sweat glands among species.
+
+![Human Female Explorer](/images/Human_grey.jpg)</p>
 
 ### Senses
-eyesight, binocular vision - good depth , colour vision is good; hear from 50 to 18000 cps,directional; good smell and taste which are complementary, touch is selective,
+Apart from bipedalism, humans differ from chimpanzees mostly in smelling, hearing, digesting proteins, brain size, and the ability of language. People with blindsight are usually not aware that they are reacting to visual sources, and instead just unconsciously adapt their behavior to the stimulus.
+Hearing or audition (adjectival form: auditory) is the sense of sound perception. Paresthesia is a sensation of tingling, pricking, or numbness of the skin that may result from nerve damage and may be permanent or temporary.
 
 ![Human](/images/HumanAnatomical.png)</p>
 
 ### Speech
-Verbally, air across the vocal cords, mouth and tongue; written speech; wide diversity of different languages;
+Speech is human vocal communication using language. In their speech speakers also unintentionally communicate many aspects of their social position such as sex, age, place of origin (through accent), physical states (alertness and sleepiness, vigor or weakness, health or illness), psychic states (emotions or moods), physico-psychic states (sobriety or drunkenness, normal consciousness and trance states), education or experience, and the like.
 
 ### Social / Culture
-Stuff
+Culture is the social behavior and norms found in human societies. Culture is considered a central concept in anthropology, encompassing the range of phenomena that are transmitted through social learning in human societies. The concept of material culture covers the physical expressions of culture, such as technology, architecture and art, whereas the immaterial aspects of culture such as principles of social organization (including practices of political organization and social institutions), mythology, philosophy, literature (both written and oral), and science comprise the intangible cultural heritage of a society.
 
-### Special Abilities
+In the humanities, one sense of culture as an attribute of the individual has been the degree to which they have cultivated a particular level of sophistication in the arts, sciences, education, or manners. Such hierarchical perspectives on culture are also found in class-based distinctions between a high culture of the social elite and a low culture, popular culture, or folk culture of the lower classes, distinguished by the stratified access to cultural capital. In the wider social sciences, the theoretical perspective of cultural materialism holds that human symbolic culture arises from the material conditions of human life, as humans create the conditions for physical survival, and that the basis of culture is found in evolved biological dispositions.
 
 ### Sex
+Humans are start a female embryos (the default genetic state). Some individuals inherent a 'Y' chromosome from their male progenitor, which produces the male of the species. Nascent secondary sex characteristics begin to be expressed around 13 years of age, know in the human dialect of english as puberty. Humans reproduce sexually via an egg and sperm. Females produce the eggs after puberty and carry them internally. If the female engages in sexual intercourse with a male who provided the sperm the egg may be fertilized. Once fertilized the embryo implants in the uterus and is nurtured inside the mother until term, about 9 months.
 
-### Life Span
+### Attributes
+
+| Average | Female | Male |
+| --------- | ------ | ---- |
+| Life span | 119 years | 101 years |
+| Height | 158 cm | 172 cm |
+| Mass | varies widely | varies widely |
+
+
 ---

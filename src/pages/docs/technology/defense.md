@@ -36,6 +36,8 @@ Constructed of hard armour these plates are held off the wearer by stiff straps.
 #### Combat Suit
 Hard armour, like armoured vest, these suits came in two weights and cover the entire body. Similar to the suit of  armour worn by Knights these suits weigh much less and are infinitely more flexible. The armour plates are suspended off  the wearer by straps, to help cushion impact damage.
 
+![Krane Battle Armour](/images/KraneBattleArmour.jpg)</p>
+
 ##### Hush Screen
 Protects the user from sonic weapons for a effective range of 3 m around the unit.
 

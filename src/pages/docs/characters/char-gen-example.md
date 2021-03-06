@@ -99,7 +99,7 @@ Reese now picks more skills for Nixole to learn. While he is doing this he makes
 ##### Skill Aptitudes
 First Reese calculates the Attribute Average for Nixole by adding all of the Primary Attributes and dividing by eight.
 
-Attribute Average = Average(PS,AG,CO,PR,WS,IT,MC,IN)
+Attribute Average = Average(PS,AG,CO,PR,WS,IT,MC,IN)<br>
 Attribute Average = Average(55, 63, 43, 49, 55, 56, 53, 50) = 53
 
 Then he adds the attribute average to the result of a 1:100sd roll and divides by three. This final figure is the aptitude for one of the skills and should be repeated for each skill learned.
@@ -121,7 +121,10 @@ Her power points are 40. He consults Table #1-10 to find the Focus Reese looks d
 
 #### Rounding your Character
 ##### Dits and Out-fitting
-Reese consults Table #1-15 and finds that beginning Freelance Investigators receive 1:10sd x 400 + 12,000 dits. Reese rolls an 8, multiplies by 400 and adds 12,000 =15,200.</p>
+Reese consults Table #1-15 and finds that beginning Freelance Investigators receive 1:10sd x 400 + 12,000 &Dstrok;. Reese rolls an 8, multiplies by 400 and adds 12,000 =15,200.</p>
 Reese then goes through the rest of character generation to round out Nixole.
 At the end of this chapter is a copy of Nixole's character sheet and two blank ones for you to use while generating your characters. <div class="important">
 NOTE: Please make copies of the character sheets provided at the end of this chapter, rather than marking the blank provide.</div>
+
+![A futuristic weapon next to a cigarette burning in an ashtray](/images/CharacterExample1.jpeg)</p>
+![A futuristic weapon next to a cigarette burning in an ashtray](/images/CharacterExample2.jpeg)</p>

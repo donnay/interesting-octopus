@@ -6,16 +6,13 @@ sections:
     title: Welcome!
     image: images/JungleCampCropped.jpg
     content: >
-      This site is devoted to a retro-paper based Role Playing Game. Where the adventures are only limited by your imagination! The games was developed by high school kids in Calgary, Alberta, Canada. It has been remastered and posted as Open-Source content.
-
-
-      The rules of Genesis are divided into books or 'caudex'. There is the
-      Caudex Regulum, the book of Rules. The Caudex Centia, the book of
-      knowledge. Caudex Universum the book of stories.
+      This site is devoted to a retro-paper based Role Playing Game. Where the adventures are only limited by your imagination! The games was developed by high school kids in Calgary, Alberta, Canada. It has been remastered and posted publicly for all to enjoy.<br>
+      The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge. Caudex Universum the book of stories.
     actions:
       - label: Dive into the Universe!
         url: /docs
         style: primary
+
   - section_id: features
     type: section_grid
     col_number: three
@@ -40,65 +37,73 @@ sections:
           - label: See Player Races
             url: /races
             style: link
+
   - section_id: text-img
     type: section_content
     image: images/EebekTrade.jpg
     image_position: left
-    title: A Section With An Image
+    title: Trading - A respectful Occupation
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Literally hundreds of societies live under the Foundation, and each has its own distinct sense of value and worth,  thus making it extremely difficult to reach even a general consensus on a standard system of monetary exchange. The  traditions and customs that have arisen within one people may hold totally different or even opposite meanings for their  neighbours, whether they be a few kilometres or a few parsecs distant.
     actions:
-      - label: View Demo
+      - label: Read More ...
         url: /docs/economics/
         style: primary
-      - label: Get Started
-        url: /docs/economics/
-        style: secondary
-  - section_id: text-no-img
-    type: section_content
-    title: A Section Without Image
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    actions:
-      - label: Get Started
-        url: /docs/economics/
-        style: primary
-  - section_id: features-two-col
-    type: section_grid
-    title: Sample Layouts
-    subtitle: An optional subtitle of the section
-    col_number: two
-    grid_items:
-      - title: Overview
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
-        actions:
-          - label: Learn More
-            url: /overview
-            style: link
-      - title: Showcase
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        actions:
-          - label: Learn More
-            url: /showcase
-            style: link
+
   - section_id: cta
     type: section_cta
-    title: The Title of The Call to Action Block
-    subtitle: This is an optional description for the call to action block.
+    title: Ready for your next adventure?
+    subtitle: Check out Character Generation rules, about Dits and Outfitting  
     actions:
-      - label: Get Started
-        url: /docs/getting-started/installation
+      - label: Outfit your character now!
+        url: /docs/characters/character-generation/#dits_and_out_fitting
         style: primary
+
+  - section_id: text-img
+    type: section_content
+    image: images/BigGun1.jpg
+    image_position: right
+    title: Technology
+    content: >-
+      Review our catalog of technology, equipment, and vehicles.
+    actions:
+      - label: Read More ...
+        url: /docs/technology/
+        style: primary
+
+  - section_id: features-two-col
+    type: section_grid
+    title: Learn about the background of the Universe
+    subtitle: There's a wide & diverse history of people and events that shaped the Genesis Universe. Check out these sections to find out more.
+    col_number: two
+    grid_items:
+      - title: Politics
+        content: >-
+          Lean about some of the famous people who helped share the Poly Solar Foundation.
+        actions:
+          - label: Get Political
+            url: /docs/politics
+            style: link
+      - title: History
+        content: >-
+          If you fail to learn from history, you are bound to make the same mistakes.
+        actions:
+          - label: History rocks
+            url: /docs/history
+            style: link
+
+#  - section_id: text-no-img
+#    type: section_content
+# title: A Section Without Image
+#    content: >-
+#      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
+#      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
+#      consectetur lobortis.
+#    actions:
+#      - label: Get Started
+#        url: /docs/history/
+#        style: primary -->
+
 seo:
   title: Genesis Role Playing Game - version 3 remastered
   description: >-
