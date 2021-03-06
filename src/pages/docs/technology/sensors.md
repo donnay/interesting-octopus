@@ -35,6 +35,8 @@ This device is used to scan living tissues. It is able to indicate numerous bene
 ###MATTER
 This device is used to scan the chemical, magnetic, thermal, electric, and stress properties of a substance  or mechanism. It can predict the possible function and performance of equipment and will suggest upkeep guidelines.  These units can be useful to technicians investigating Chemistry, Geology, Physics, and most Sci-Technica fields by  adding -20 to their SKILL DIFF.
 
+![Sensor](/images/Sensor.jpg)</p>
+
 ###Audio Ampufactors
 Designed and moulded to fit completely within the ear canal, a set of audio ampufactors can perform overall  amplification and basic filtering of sound waves. An optional interface unit can be attached to allow a computer to aid  the set in processing and filtering of specific signals or frequencies. So with the help of the computer the set can pick  out a person's speech across a noisy room and other similar tasks. The upper limit the set can detect is 85 Khz, however  racial hearing maximus are a factor.
 

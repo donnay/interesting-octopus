@@ -92,10 +92,10 @@ At this stage the type of combat, either Hand To Hand or Weaponry, comes into pl
     <li style="margin-left:2em; padding-bottom: 0;">the ADVERSITY MODIFIERS from TABLE 7.0 - 7.4, of any environmental and movement conditions that may exist. Then find the Percent Against from Table #3-2.</li>
     <li style="margin-left:2em; padding-bottom: 0;">Now subtract the value of the Percent Against from the Percent to Hit.</li>
       <ol style="list-style-type: lower-roman; padding-bottom: 0; list-style-position: outside; ">
-      <li style="margin-left:2em">if the result is positive the player has hit!! Have the player roll a 1:100sd</li>
-      <li style="margin-left:2em">If the roll is more than 20 under, the result it is a direct hit. The player hits exactly where he or she wants. Now go to the next step DAMAGE</li>
-      <li style="margin-left:2em">If the roll is less than 20 under, the result is a random hit. The exact body part that is hit is determined on the RANDOM HIT Table #3-3.4.</li>
-      <li style="margin-left:2em">if the result is negative the player has missed. the range and or the adversity modifiers were to much for the player's skill to overcome.</li>
+          <li style="margin-left:2em">if the result is positive the player has hit!! Have the player roll a 1:100sd</li>
+          <li style="margin-left:2em">If the roll is more than 20 under, the result it is a direct hit. The player hits exactly where he or she wants. Now go to the next step DAMAGE</li>
+          <li style="margin-left:2em">If the roll is less than 20 under, the result is a random hit. The exact body part that is hit is determined on the RANDOM HIT Table #3-3.4.</li>
+          <li style="margin-left:2em">if the result is negative the player has missed. the range and or the adversity modifiers were to much for the player's skill to overcome.</li>
       </ol>
   </ol>
  </li>

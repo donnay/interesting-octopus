@@ -40,6 +40,8 @@ The EE-99 is your basic flame-thrower except that this one is re-fillable by att
 ### Napalm pack
 When the pack detonates it sprays a sticky liquid onto anything within a 5m of the pack. The liquid, when shot out of  the pack, is on fire so anything covered by the liquid will suffer burns.       
 
+![Mazer Rifle](/images/ARACBLAD.jpg)</p>
+
 ## Explosives  
 
 ### Packs and Sharges (shape charges)
@@ -69,7 +71,11 @@ This grenade operates exactly as the napalm pack except that the napalm pack cov
 
 #### Sleep
 This grenade effective range is 6 m and less if there is a stiff wind, since the sleep inducing gas will disperse more  rapidly. The grenade has a countdown timer to detonation, adjustable from 3 seconds to 10 seconds. The dimensions  (Dia.*H) and mass are 5*13cm and 60g respectively.
-Smoke
+
+![Grenade](/images/STK_INC_.jpg)</p>
+
+
+####Smoke
 The grenade, filled with combustible material, burns when detonated giving off smoke. The are numerous colors  available. There is a five second detonation delay timer. The (Dia.*H) and mass are 6*8cm and 65g respectively.  11
 
 #### Stick
@@ -89,14 +95,23 @@ The latest in technology, this disposable weapon combines the strongest and ligh
 #### Auto
 An Auto pistol can shoot up to 5 shots per second. It is similar to the Gatling pistol but is a tenth of the mass and a  fifth of length. The auto pistol has 40 shots per batt; 8 seconds of continuous firing. The Auto pistol is the standard  sidearm of MASS The pistol is very thin, just 3 cm, so it is very easy to conceal. This gun is made of a hard material  so it can be used as a hand held bludgeon. The dimensions (L*H*W) and mass are 30*12*3cm and 205g respectively.
 
+![Big Gun](/images/BigGun2.jpg)</p>
+
 #### Gatling
 The gatling pistol is constructed from TSteel. This, and the fact that it is large and bulky makes it the heaviest  pistol ever made. This mass is a great disadvantage in hand to hand combat, however, this weapon can fire 10 shots per  second, even though there is only one "lasing chamber". This puts it on an equal footing with weapons that shoot only  one beam. The gatling pistol has five barrels that revolve into position for the lasing chamber to fire. If the barrels  get out-of-sync. the lasing chamber will fire, hitting the body of the gun. This can be done by unscrewing the  synchronous pin and moving the barrel and carriage a small distance to the left or the right, and screwing the pin back  in. The gun will be destroyed if it is fired when the barrels are out of synchronization. This pistol has 100 shots per  batt which allows 10 seconds of continuous firing. The dimensions (L*H*W) and mass are 40*25*14cm and 530g respectively.
+
+![Mazer Rifle](/images/Gatling.jpg)</p>
+
 
 #### Laser
 The laser pistol comes complete with a universal mount that will accept any one of the scopes that are in common use.  This weapon like most pistols must be cocked by pulling the pin at the back of the gun back, but this motion is a  symbolic one. The batt is inserted from the side of the gun and provides 30 shots. It, like the rifle, is totally sealed  and waterproof to 4 atmospheres. This guns high power, great number of shots per batt, and lightness, are reasons why it  is so very popular in the galaxy. The dimensions (L*W*H) and mass are 25*7*15cm and 340g respectively.
 
+![Laser Pistol](/images/LASPIS.jpg)</p>
+
 #### Maser
 The mazer pistol is constructed from the metal aluma-tung with a choice of materials for the hand grip. The clip in the  mazer pistol fits in just under the barrel and just in front of the trigger. A mazer pistol is easily concealed and  powerful so it often the choice of the average man who wants to defend himself. The pistol does the same kind of damage  as the rifle but only half the area is affected. The dimensions (L*H*W) and mass are 20*17*5cm and 390g respectively
+
+![Laser Pistol](/images/MAZPIS.jpg)</p>
 
 ### Rifles
 
@@ -105,6 +120,8 @@ The MAZER can shoot ten shots at full power, and three shots that just serve to 
 
 #### Nex
 This weapon totally convertible to a pistol! The small lever, towards the front of the gun, just in front of the  trigger will unlock the barrel converting the gun into a long handled pistol. Then there is the small backward facing  clip on the top of the gun, just above the grip. When this is lifted the stock detaches and the conversion is complete.  The power pack of this weapon is not a batt but a simple nickel-cadmium battery, thus the power yield of the pack was  low, only providing enough power for four shots. The dimensions (as a rifle) (L*H*W) and mass are 68*17*6cm and 289  grams respectively.
+
+![Mazer Rifle](/images/MAZER.jpg)</p>
 
 #### Plasma
 This rifle shots a ball of plasma 8cm in diameter that adds enough energy to the chemical bonds in the target causing  them to break, leaving base elements in a pile on the floor. This is a powerful weapon, but it only has five shots per  canister and it takes five seconds for the barrel to cool enough for another shot to be fired. The gun is shown without  the fuel canister. The dimensions (L*H*W) and mass are 95*23*30cm and 5200g respectively.
@@ -117,11 +134,18 @@ The hip mazer is one of the larger weapons but the amount of the damage it does 
 #### Fusion Rifle
 Included in the design are the slits that cool the barrel and keep your hands from being burned. The small cone at the  front of the gun is a flash suppressor that cuts the light emitted by the beam in half. The fusion rifle shoots a beam  of high intensity matter in the plasma state. Unlike the plasma rifle, the fusion rifle does not have a kick, it shoots  a beam 5cm in diameter. The fusion rifle's barrel does not get hot like the plasma Rifle . When the stock is not in use  it slips up into the gun, making the rifle into a pistol. The dimensions (L*H*W) and mass are 95*35*20cm and 5200g  respectively.
 
+![Mazer Rifle](/images/PLAZMA.jpg)</p>
+
 #### Gid Rifle
 The stock, made out of a thin bar, absorbs most of the force produced by the gun is one of the many standard features.  The unique feature to a gid rifle is that it has double barrels which cuts the efficiency in half but, while doubling  the power. The GID can fire two shots per second and is the standard weapon issued by MASS. This gun is shock-proof,  waterproof and completely sealed to the 5 atmospheres. The beams are 10cm in diameter and do ten less damage points per  100 m over the maximum range of 600 m. The dimensions (L*H*W) and mass are 120cm and 6900g respectively.
 
+![Mazer Rifle](/images/HAMMER.jpg)</p>
+
 #### Laser Rifle
 L.A.S.E.R.( Light Amplification through Stimulated Emissions of Radiation) shoots a beam of light that is 1cm in  diameter. This weapon has an extra large stock, because it can contain an assortment of small items. The laser rifle  comes complete with a detachable bayonet that contains all the supplies included in a survival knife. The batt will  deliver 20 shots before it will require a charge. The laser rifle is light, sealed from liquids up to a depth of 6  atmospheres, and is completely resistant from the elements. This weapon is made of hard organo-polymer and will not  break under normal battle conditions which are decided by the G.M.The dimensions (L*H*W) and weight are 75*35*7cm and  4200g respectively.
+
+![Grenade](/images/LASER.jpg)</p>
+
 
 ### Auto-cannons
 
@@ -135,19 +159,26 @@ Producing a beam of straight particles, the particle beam, is equally effective 
 
 #### Sphere Gun
 A sentry weapon that monitors a hall or room, a sphere gun will shoot at anything that moves or up to 10 pre-programmed  targets. This gun can be customized to your own specific needs, the options follow. You can choose any one out of each  category to customize your sphere gun.   
-SENSORS SETTINGS  
-1) wall mounted 	A) movement 	I) warning
-2) floating 		B) heat 		II) stun
-3) induct pods 	C) bio 		III) damage  
-MOVEMENT  
+
+#####SENSORS SETTINGS  
+        1) wall mounted 	A) movement    I) warning
+        2) floating 	  	B) heat       II) stun
+        3) induct pods   	C) bio       III) damage  
+
+#####MOVEMENT  
 A WALL MOUNTED SPHERE cannot move so it is usually used to guard a hallway or a single room. A FLOATING SPHERE can turn on the spot and guard four times the area as a stationary SPHERE. INDUCT PODS allow a SPHERE to move freely through rooms  or halls in a building.  
-Sensors
+
+######Sensors
 MOVEMENT sensors lock onto anything that moves and fires at it. HEAT sensors detect the infrared radiation emitted by  something hot, and fire upon it. BIO sensors use the aura around a living thing to aim and fire.   
-SETTINGS:
-WARNING shots do only ten points of damage and are more of a joke than a threat.
+
+<dev class="important">
+SETTINGS: WARNING shots do only ten points of damage and are more of a joke than a threat.
 STUN shots have a stunning effect on  any living thing; while non-living objects become heated. The last setting,
 DAMAGE, is the most powerful and therefore  does full damage to a body.
 The sphere gun is deactivated by its own encoded remote control. The remote works by sending a signal to the SPHERE  which, when recognized, stops all offensive action. Any remote can be programmed to send a signal but to find the  correct 9 digit sequence to deactivate the sphere gun will take time and skill. The sphere gun, is powered by a batt  that will deliver 120 shots before it must be recharged. Diameter and mass: 12cm and 315g respectively.
+</dev>
+
+![Grenade](/images/WomanAndSphereGun.jpg)</p>
 
 ### Projectiles
 
@@ -156,25 +187,40 @@ The sphere gun is deactivated by its own encoded remote control. The remote work
 ##### L-15
 This gun has its clip in the grip of the gun and was the standard pistol used in the late 21th century. The standard  clip can hold 8 shells, and can fire then as fast as you pull the trigger. The dimensions (L*H*W) and mass are  20*12*3.5cm and 172 grams respectively.
 
+![Grenade](/images/L-15.jpg)</p>
+
 ##### Mark V
 The hand grip can be made out of a choice of materials that the buyer must specify or organo-polymer will be  substituted. In the Mark V the rounds are fed backwards into the firing chamber, this is the secret to it's non jamming  action. This pistols' standard clip will hold 20 bullets. A bigger clip holding 40 rounds is optional and banana or drum  clips can be used in place of the usual clip, giving the Mark V a capacity of 80 rounds. The effective range is 250 m.  This is the only pistol that a scope cannot be mounted on. The length and mass are 15 cm and 25 grams respectively.
 
+![Mazer Rifle](/images/MARKV.jpg)</p>
+
 ##### Micro-missile Gun
 This is one of the few weapons that is almost completely organo-polymer. These pistols can be stripped down to be  hidden in different places, yet assembled very quickly when needed. This gun fires small missiles that are highly  explosive. The missiles come in two varieties normal and guided. The normal missiles go straight at the target and if  the target moves, after the missiles has been fired, the missile will miss. This type of missile does not take any time  to lock on target but still does a lot of damage if it hits. The guided missile takes three seconds to lock on but after  that the missile will follow the life signs it has locked into until it either hits the target or runs out of fuel. The  latter occurs in about a half a hour. The micro-missile gun can shoot 5 rounds a minute as it is muzzle loader. The  estimated effective range is 100 km. The top speed of the missile is 90 km/h. The microprocessor is linked to the sights  of the gun so it can lock on to the right life-form. The sights are unique in that they can be adjusted to several  modes, Including infrared, starlight-starbright, and bio-scanners. The scope is not mentioned in the scope description  because it is only available for this weapon. The gun is liquid resistant to 4 atmospheres and shock-proof. The length  and mass are 25cm and 50g respectively.
+
+![Mazer Rifle](/images/MICRO.jpg)</p>
 
 ##### Mini Might
 The mini might is a rather odd looking gun that is actually a pistol with an extended grip and barrel. This gun was  designed to be used as a bludgeon as well as a functional pistol. Consequently this gun is extremely heavy for its' size. The whole gun is strengthened by small fibers that are introduced into the metal during smelting. This structural  support allows a person to use the gun as a club without fear of bending the barrel. Even the firing mechanism was  constructed to be more durable than the regular pistol.  The dimensions (L*H*W) and mass are 55*16*4.5cm and 172 grams  respectively.
 
 ##### Multi Shot
-This gun is like pistol sized shotgun gun. It has a selection of shell types bullet, ball, bead, and needle. All the  shells are contained in organo-polymer cartridges that are wasted when the load is used. The bullet is a large metal  slug that is made of lead, so it will expand and cause a good deal of damage when it enters the tissue, and upon its  exit. The bullet is exactly like the cartridges for the shotguns of today except, this slug appears like a regular  bullet for any other gun, except that the bullet has a much larger diameter. The ball comes in a variety of sizes which  are made by pouring hot metal into cold oil. The bead cartridges shoot tiny beads of silica, which split upon impact,  and introduce bio-toxins into the bloodstream. The needles can be laced with different types of neurotoxins that can  cause death or paralyzation. The length and mass 30 cm and 40 grams respectively.
+This gun is like pistol sized shotgun gu1n. It has a selection of shell types bullet, ball, bead, and needle. All the  shells are contained in organo-polymer cartridges that are wasted when the load is used. The bullet is a large metal  slug that is made of lead, so it will expand and cause a good deal of damage when it enters the tissue, and upon its  exit. The bullet is exactly like the cartridges for the shotguns of today except, this slug appears like a regular  bullet for any other gun, except that the bullet has a much larger diameter. The ball comes in a variety of sizes which  are made by pouring hot metal into cold oil. The bead cartridges shoot tiny beads of silica, which split upon impact,  and introduce bio-toxins into the bloodstream. The needles can be laced with different types of neurotoxins that can  cause death or paralyzation. The length and mass 30 cm and 40 grams respectively.
+
+![Mazer Rifle](/images/MULTI.jpg)</p>
+
 
 ##### Sting Ray
 This weapon is a completely silent and it is a semi-automatic pistol. The sting ray shoots bullets that dissolve when  immersed in water. The sting ray is perfect for silent, sudden, and secret assassination. These weapons are issued to  undercover officers of CCOP when they attempt to stop technological pollution. The sting ray comes with two clips, a 4  and 8 shot. The length and mass are 35cm and 55cm with arm rest and 140 grams respectively.
+
+![Mazer Rifle](/images/STING.jpg)</p>
+
 
 ### Rifles
 
 #### Mark VII
 The shoulder pad is very thick and soft because the gun has constant kick when it's firing in semi-auto mode. All you  need to do is aim and pull the trigger as fast as you want the bullets to fly. The bullets being rather large allow only  twenty to fit in a regular clip, however, there is the option of buying a banana clip that allows sixty bullets. A small  clip holding ten bullets is also available. The length and mass are 105cm and 350 grams respectively.
+
+![Mazer Rifle](/images/MARK7.jpg)</p>
+
 
 #### Assault Rifles
 
@@ -184,8 +230,15 @@ This weapon is your standard military assault rifle of the twentieth century, li
 ##### CX-J1
 This rifle is a two handed weapon that is designed to be used at arms length. The position of both hand grips can  change making this one of the most comfortable guns to shoot. While the standard clip holds 30 shells and the optional  banana clip can contain up to 80, shells this weapon can spend these clips almost as quickly as the storm. With a firing  rate of thirty shells per second this is the third fastest firing gun in use today. The dimensions (L*H*W) and mass are  75*19*6cm and 315 grams respectively.
 
+![Grenade](/images/SOOAWEP1.jpg)</p>
+
+![Grenade](/images/KRNLASFU.jpg)</p>
+
+
 ##### Nam
 Like many other rifles it can be converted into a pistol When using this gun as a pistol in the full-auto mode you need  to use the forward hand-grip, and the clip, to hold down the barrel. The shoulder pad is thick and the stock is spring  loaded so almost no kick is felt by the marksman. The nam can only fire semi-auto or full-auto, set by a lever just  above the clip. The regular clip holds 60s rounds and A banana clip can be bought that will hold 80 shells. In the full- auto mode the gun will fire twenty bullets a second, emptying the standard clip in three seconds. The length (as a  rifle) and mass are 80cm and 400 grams respectively. The length (as a pistol) and mass are only 50 cm and 350 grams  respectively.
+
+![Grenade](/images/SEASACH.jpg)</p>
 
 ##### Tri-X
 Like the nexe and nam rifles this to can be converted to a pistol. This gun fires special bullets that expand just  after they are shot and then when they impact the target they expand again causing the same damage as ballistic rounds.  The regular clip holds 15 of these bullets, a 25 bullet banana clip is available. The length and mass are 60cm and 220  grams respectively.
@@ -263,5 +316,7 @@ Each scope, of this type, has a sound emitter that reflects off, and returns the
 ##### Microprocessor Controlled Scopes
 These have a microprocessor that analyzes the image in the scope and calculate its distance and speed. Then the sights  are set, but unlike the final adjustments of the ultrasonic range finding scopes these sights are continually re-set  about one-hundred times a second. This scope also compensates for how the marksman miss-aims or improperly fires the  gun. The ultimate in scopes, it can never miss unless the gun is jolted or the target stops suddenly. This type of scope  is very sensitive to bumps and jolts that will throw out it's calibration. To determine whether a scope is calibrated or  not just use your common sense. Keep in mind that dropping a weapon, with one of these scopes attached, would throw out  its calibration. If an un-calibrated scope is used, then the GM must roll on a Random Hit Table to determine where the  shot hits.
 
+
+![Grenade](/images/WomanAndSphereGun.jpg)</p>
 
 ***

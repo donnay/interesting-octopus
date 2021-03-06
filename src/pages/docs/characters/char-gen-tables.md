@@ -115,8 +115,10 @@ template: docs
              Lower Leg     22  14  18  14  16  16  32  13  18  12  39  48   0
              Foot           5   6   7   5  10   6  14   7   4  10  21  22   0
 
-##6 - Background Skills
+    AR = Aracnian, EE = Eebek, FE = Fenbin, HU = Human, KR = Krane,
+    LO = LowKaa, MA = Mahendoshi, SO = Sooaacoli, TA = Tanaian, VJ = Vesperé
 
+##6 - Background Skills
                              COM      LANG   NON-TECH   SCI    SOCIO-SCI   TECH
                              __________________________________________________
           Aracnians, blue     10       15       10       18        5        12
@@ -135,6 +137,332 @@ template: docs
           Tanaians            12        1        3       25        5        24
           Tsoegorthin         25        5       22        5        3        10
           Vjesperé             5       10       25        9       15         6
+
+##7 - Encultured Skills
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nls0{background-color:#c0c0c0;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-btxf{background-color:#f9f9f9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-6e8n{background-color:#c0c0c0;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fymr">Race</th>
+    <th class="tg-fymr">Skill Area</th>
+    <th class="tg-fymr">Skills Base Ability</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nls0">Aracnian, blue:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">COM</td>
+    <td class="tg-0pky">Archaic Weapons 50, Special HtH Combat Training 70</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Acrobatics 70</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SCI</td>
+    <td class="tg-0pky">Aracnian Anatomy 60, Astronomy 40, Biology 40, Chemistry 40, Ecology 40, Mathematics 40</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Aracnian, green:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">COM</td>
+    <td class="tg-0pky">Archaic Weapons 60, Special HtH Combat Training 80</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Climbing 70, Stealth 90, Survival Science 80, Tracking 75</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Aracnian, brown:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Archaic Weapons 70, Special HtH Combat Training 90</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Stealth 60, Survival Science 85, Tracking 80</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Eebek:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Divining 80</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">SCI</td>
+    <td class="tg-btxf">Eebek Anatomy 70, Biology 55, Chemistry 55, Geology 55, Mathematics 60, Physics 60</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SOCIO-SCI</td>
+    <td class="tg-0pky">Communications 70, Crimonology 60, Etiquette 45, History 50,  Teaching 45, Negotiation 65, PES Science 50, Psychology 55</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">TECH</td>
+    <td class="tg-btxf">Data Handling 65, Programming 45, Thermal Energy 40, Navigation 65, Small Technologies 75</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Faborian:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Archaic Weapons 85, Special HtH Combat Training 90, Jungle Theater Combat Tactics Strategies 80</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Climbing 70, Stealth 80, Surveillance 65, Orientation 75, Fabrication 50, Foraging 70, Hunting 90, Sheltering 60, Tracking 85</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Fenbin:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Concealment 70, Orientation 85, Divining 85, Foraging 85,	Hunting 45, Sheltering 90</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">SOCIO-SCI</td>
+    <td class="tg-btxf">Folklore 70, History 60</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">TECH</td>
+    <td class="tg-0pky">Thermal Energy 60</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Human:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SCI</td>
+    <td class="tg-0pky">Human/Eebek Anatomy 60/50, Biology 55, Chemistry 55, Mathematics 60, Physics 55</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Data Handling 75, Graphics 45, Programming 40</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">TECH</td>
+    <td class="tg-0pky">Small Technologies 80</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Krane male:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">COM</td>
+    <td class="tg-0pky">Personal Weaponry 80, All Theater Combat Tactics/Strategies 70, All Vehicle Combat Tactics/Strategies 60, Explosives 60/40, Flaming Weapons 50/30, Grenades 70/55, Projectile Weapons 75/50</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Concealment 40, Surveillance 55</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SCI</td>
+    <td class="tg-0pky">Logistics 60, Mathematics 40, Physics 40</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">TECH</td>
+    <td class="tg-btxf">Civil Engineering 60, Demolitions 55, Mechanics 65, Land Transport 75</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Krane female:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Personal Weaponry 60, All Theater Combat Tactics/Strategies 50, All Vehicle Combat Tactics/Strategies 40, Explosives /40, Grenades /50, Projectile Weapons /55</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Concealment 40 SCI Chemistry 45, Logistics 70, Mathematics 60, Physics 75</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">SOCIO-SCI</td>
+    <td class="tg-btxf">Negotiation 70, Law 50, PES Science 70</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">TECH</td>
+    <td class="tg-0pky">Land Transport 75</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Low Kaa:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">COM</td>
+    <td class="tg-0pky">Archaic Weapons 40</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Animal Riding 75, Swimming 65</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SOCIO-SCI</td>
+    <td class="tg-0pky">Communications 70, Folklore 70, Negotiation 80, Streetwise 85, Theology 80</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">TECH</td>
+    <td class="tg-btxf">Mining 55, Small Technologies 65, Land Transport 65</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Mahendoshi:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Personal Weaponry 55, Urban Theater Combat Tactics/Strategies 50, Land Vehicle Combat Tactics/Strategies 50</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Appraisal 85, Climbing 75</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">SCI</td>
+    <td class="tg-btxf">Mahendoshi Anatomy 45, All True Sciences (SCI) 40</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SOCIO-SCI</td>
+    <td class="tg-0pky">Architecture 65, Civil Engineering 60</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">TECH</td>
+    <td class="tg-btxf">Demolitions 65, Thermal Energy 55, Mechanics 70, Mining 85</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Sooaacoli:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Archaic Weapons 50</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Climbing 55, Concealment 75, Stealth 70, Surveillance 55, Survival Sciences 70, Swimming 75, Tracking 60</td>
+  </tr>
+  <tr>
+    <td class="tg-nls0">Tanaian:</td>
+    <td class="tg-nls0"></td>
+    <td class="tg-nls0"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">COM</td>
+    <td class="tg-0pky">Plasma Weapons 75</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">NON-TECH</td>
+    <td class="tg-btxf">Surveillance 90</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SCI</td>
+    <td class="tg-0pky">Tanaian Anatomy 90, Astronomy 90, Chemistry 90, Cryptography 85, Geology 90, Geophysics 90, Logistics 90, Mathematics 90, Physics 90</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">TECH</td>
+    <td class="tg-btxf">Astronautics 90, All Computer/Robotics Sciences 90, Electronics 85, All Energy Sciences 80, Geography 90, Mechanics 85, Modify 70, Navigation 90, Repair 85</td>
+  </tr>
+  <tr>
+    <td class="tg-6e8n">Vjesperé:</td>
+    <td class="tg-6e8n"></td>
+    <td class="tg-6e8n"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">COM</td>
+    <td class="tg-btxf">Marine Theater Combat Tactics/Strategies 40</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">NON-TECH</td>
+    <td class="tg-0pky">Stealth 50, Surviellance 70, Orientation 85, Foraging 70, Swimming 90, Tracking 60</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf"></td>
+    <td class="tg-btxf">SCI</td>
+    <td class="tg-btxf">Botany 60, Ecology 65, Zoology 60, Folklore 50, Sociology 45</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">TECH</td>
+    <td class="tg-0pky">First Aid 70, Pharmaceuticals 55</td>
+  </tr>
+</tbody>
+</table>
 
 ##8 - IGAL Courses
 
@@ -244,7 +572,21 @@ template: docs
         Vjesperé           137     125
                              kilograms
 
-##12 - Height
+##12 - Mass Adjustment
+                                   Tall      Average      Short
+                                   ____________________________
+         Strength  Above average   +30%       +20%        +10%
+                   Average         +10%         0         -10%
+                   Below average   -10%       -20%        -30%
+
+         Physique  Skinny          -40%       Plump       +20%
+                   Lean            -20%       Fat         +40%
+
+      These values are very liberal,
+      use your best judgement when considering them.
+
+
+##13 - Height
                               Male  Female
                             _____________
         Aracnians, blue      1.96    2.10
@@ -263,18 +605,6 @@ template: docs
         Tsoegorthin              4.18    
         Vjesperé             2.73    2.55
                                 meters
-
-##13 - Mass Adjustment
-                                  Tall      Average      Short
-                                  ____________________________
-        Strength  Above average   +30%       +20%        +10%
-                  Average         +10%         0         -10%
-                  Below average   -10%       -20%        -30%
-
-        Physique  Skinny          -40%       Plump       +20%
-                  Lean            -20%       Fat         +40%
-
-   These values are very liberal, use your best judgement when considering them.
 
 ##14 - Starting Age
         Race               Roll            Typical

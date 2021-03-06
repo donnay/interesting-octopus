@@ -52,8 +52,18 @@ Assorted picks, shovels, and buckets useful in the digging and hauling of dirt o
 ### Fire Extinguisher
 Containing a balance of mixed gases and solids an extinguisher can put-out any type of fire - electrical, grease, or  chemical. The extinguisher is 30 cm in length and 10 cm in diameter, and when used properly it can extinguish and area  approximately 5m square. The contents are harmless unless taken in huge doses and can be cleaned from any surface with  mild soap and water.
 
+![Grenade](/images/KRN-Tank-2.jpg)</p>
+
 ### Floater Pack
 The pack, containing anti-gravity generators, can the hold wearer  over a particular spot, using small maneuvering  jets, in winds less than 10 Km/h. A maneuver pack is needed for winds of higher speeds.
+
+![Grenade](/images/Genesis-v2-Scan-272.jpg)</p>
+
+![Grenade](/images/Genesis-v2-Scan-272a.jpg)</p>
+
+![Grenade](/images/Genesis-v2-Scan-300b.jpg)</p>
+
+
 
 ### Food Processor
 Turns organic matter into edible wafers (race specific), and with vitamin supplements can provide complete, yet bland  nutrition.
