@@ -28,6 +28,8 @@ template: docs
 ### Altitude Rocket
 An altitude rocket is a simpler, smaller, and more portable version of larger kindred used to catapult heavy payloads  offworld. At maximum capacity, it can shuttle about 250kg or 3.0 cubic meters of cargo to any desired inclination of low planetary orbit (LoPO). It's proper setup and launch must be handled by someone with a knowledge of astronautics (SKILL  DIFF 30), and takes approximately 120 - SKILL APT minutes. A small locator is included to allow the user to retrieve the  reuseable engine section, which parachutes to earth 15 minutes after launch about 1:100sd km downrange (non atmospheric  flights can apply retro thrusters, and land 1:10sd km downrange). A rocket is fueled by a cylindrical, 110 kg hydrogen  cell and can be refilled at any standard fuel station or by a hydrocracker. The guidance electronics are powered by a  batt A, which must be replaced every 23 flights. Living things cannot usually be placed in an altitude rocket, as the  high takeoff velocity will ultimately crush the occupant. Notable exceptions are Mahendoshi and Tanaian individuals who,  when cushioned, can survive with only mild discomfort.
 
+![Grenade](/images/Genesis-v2-Scan-296.jpg)</p>
+
 ### Air Tank
 Standard air tanks use a oxygen-helium breathing mix which at one atmosphere will last approximately six hours. Empty  tanks weight 4 Kg including the detachable face mask and every hour of pressurized mix weighs .7 kg (these weights and  times remain the same for Eebekian Nitro helium versions). Somewhat larger 12 and 24 hour tanks can be obtained at twice  the empty mass and cost. Refills cost 32 dits per tank hour and are usually available wherever air tanks themselves are  found. Refilling with regular Oxy-nitrogen costs one fifth as much but weighs 1.9 kilograms per tank hour (using  standard air is sometimes necessary when expensive helium is unavailable). Note: some races voices become harmlessly  squeak when breathing the Helium mix.
 
@@ -56,14 +58,6 @@ Containing a balance of mixed gases and solids an extinguisher can put-out any t
 
 ### Floater Pack
 The pack, containing anti-gravity generators, can the hold wearer  over a particular spot, using small maneuvering  jets, in winds less than 10 Km/h. A maneuver pack is needed for winds of higher speeds.
-
-![Grenade](/images/Genesis-v2-Scan-272.jpg)</p>
-
-![Grenade](/images/Genesis-v2-Scan-272a.jpg)</p>
-
-![Grenade](/images/Genesis-v2-Scan-300b.jpg)</p>
-
-
 
 ### Food Processor
 Turns organic matter into edible wafers (race specific), and with vitamin supplements can provide complete, yet bland  nutrition.

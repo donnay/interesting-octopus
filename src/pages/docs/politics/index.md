@@ -55,7 +55,7 @@ The year 2197 found the PSF newly hatched from the minds of her creators and lea
 
 By PSF rules, each petitioning member had to have the support of over half of their existing population. So long as this support was not forced, membership would be considered. The trial period for observing members is five years, the course of which they are allowed to speak at the PSF meetings, but not allowed to vote. During this trial period they must allow full access to their populace by (CCOP or MASS) investigators. Membership is them gained through a vote by the existing PSF members, with a seventy percent majority required for the success of the petitioner. The granted member must then agree to uphold all present PSF Statutes and Regulations, guaranteeing both the integrity of individual members' spheres of influence and the body of space represented by the PSF itself.
 
-![Portrait - Kao Pueblo](/images/KaoPueblo.jpg)</p>
+![Portrait - Kao Pueblo](/images/Portrait-KaoPueblo.jpg)</p>
 
 The First Sphere cam into focus as an alliance of planetalites centered around a single hub of diplomatic rule, the PSF; a single body of space ruled by its individual population bodies through a representative house of diplomacy. Each race or population center was now fully represented within a house designed to address the individual and group concerns on the population of the First Sphere. No longer could any race or government rule the whole of the know space to the exclusion or detriment of any other race or government. Along with diplomatic and enforcement offices upon several other daughter worlds, colonies, stations and outposts, the two PSF great houses spent most of the years between 2189 and 2197 establishing its sphere of influence. Pueblo left office with several wings of the PSF firmly established. This included the Judicial circuit houses, the visible and invisible police forces, the system of shipping, transportation, and trade, the universal school of education, and the society for the discovery, research, and preservation of scientific phenomenon.
 
@@ -102,6 +102,7 @@ The Inter-Galactic Expeditionary Force has control over the exploratory work whi
 ##Politics and Militaries
 By far the most outstanding feature of the current political establishment is its youth, growth, and flexibility. These features, not usual characteristics of stable governmental systems, pervade the current political scene. All of which can be attributed to the inclusion of Humans in the Poly Solar Foundation in 2186.
 
+![Military](/images/Full_MilitaryAeroSpaceSecurity.jpg)</p>
 
 ### Other Non-Governmental Organizations (NGOs)
 | Acronym |  Name                                               |     Founded |
@@ -151,5 +152,4 @@ By far the most outstanding feature of the current political establishment is it
 |      |    Marikann Pirate Faction                               |  21--   |   
 
 
-![Business Woman](/images/BusinessWoman.jpg)</p>
 ***

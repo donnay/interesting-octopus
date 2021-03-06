@@ -169,14 +169,16 @@ A sentry weapon that monitors a hall or room, a sphere gun will shoot at anythin
 A WALL MOUNTED SPHERE cannot move so it is usually used to guard a hallway or a single room. A FLOATING SPHERE can turn on the spot and guard four times the area as a stationary SPHERE. INDUCT PODS allow a SPHERE to move freely through rooms  or halls in a building.  
 
 ######Sensors
-MOVEMENT sensors lock onto anything that moves and fires at it. HEAT sensors detect the infrared radiation emitted by  something hot, and fire upon it. BIO sensors use the aura around a living thing to aim and fire.   
+MOVEMENT sensors lock onto anything that moves and fires at it. <br>
+HEAT sensors detect the infrared radiation emitted by something hot, and fire upon it. <br>
+BIO sensors use the aura around a living thing to aim and fire.   
 
-<dev class="important">
-SETTINGS: WARNING shots do only ten points of damage and are more of a joke than a threat.
-STUN shots have a stunning effect on  any living thing; while non-living objects become heated. The last setting,
-DAMAGE, is the most powerful and therefore  does full damage to a body.
-The sphere gun is deactivated by its own encoded remote control. The remote works by sending a signal to the SPHERE  which, when recognized, stops all offensive action. Any remote can be programmed to send a signal but to find the  correct 9 digit sequence to deactivate the sphere gun will take time and skill. The sphere gun, is powered by a batt  that will deliver 120 shots before it must be recharged. Diameter and mass: 12cm and 315g respectively.
-</dev>
+<div class="important">
+SETTINGS: <br>
+WARNING shots do only ten points of damage and are more of a joke than a threat. <br>
+STUN shots have a stunning effect on any living thing; while non-living objects become heated. <br>
+DAMAGE, is the most powerful and therefore does full damage to a body. The sphere gun is deactivated by its own encoded remote control. The remote works by sending a signal to the SPHERE  which, when recognized, stops all offensive action. Any remote can be programmed to send a signal but to find the  correct 9 digit sequence to deactivate the sphere gun will take time and skill. The sphere gun, is powered by a batt that will deliver 120 shots before it must be recharged. <br>Diameter and mass: 12cm and 315g respectively.
+</div>
 
 ![Grenade](/images/WomanAndSphereGun.jpg)</p>
 
@@ -315,8 +317,5 @@ Each scope, of this type, has a sound emitter that reflects off, and returns the
 
 ##### Microprocessor Controlled Scopes
 These have a microprocessor that analyzes the image in the scope and calculate its distance and speed. Then the sights  are set, but unlike the final adjustments of the ultrasonic range finding scopes these sights are continually re-set  about one-hundred times a second. This scope also compensates for how the marksman miss-aims or improperly fires the  gun. The ultimate in scopes, it can never miss unless the gun is jolted or the target stops suddenly. This type of scope  is very sensitive to bumps and jolts that will throw out it's calibration. To determine whether a scope is calibrated or  not just use your common sense. Keep in mind that dropping a weapon, with one of these scopes attached, would throw out  its calibration. If an un-calibrated scope is used, then the GM must roll on a Random Hit Table to determine where the  shot hits.
-
-
-![Grenade](/images/WomanAndSphereGun.jpg)</p>
 
 ***

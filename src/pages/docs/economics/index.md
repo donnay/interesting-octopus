@@ -88,6 +88,8 @@ Traders that wish to deal with a home-worlds must submit their proposal to the t
 
 When a trader gains permission to trade to a particular planet he must then look at the pricing of his product. When he sells the product there must be agreement between him and the buyer as to the value of that product. The agreed upon value is called its PRICE. There are two values of price for a particular price the Equilibrium price and Actual price. The equilibrium price is determined buy the simple principle of supply and demand and is a theoretical value. While the Actual price is dependent on a multitude of political social and economic factors.
 
+![Business Woman](/images/BusinessWoman.jpg)</p>
+
 |  SUPPLY          |  DEMAND                      |  PRICE    |
 | ---------------- | ---------------------------- | --------- |
 |  HIGH            |  LOW        ------->         |  LOW      |
@@ -129,6 +131,7 @@ The complex social, political and economical factors are disregarded and a rando
         i) BUILDINGS      
        ii) FIXED EQUIPMENT                           
       iii) ACCESSORY EQUIPMENT & SUPPLIES       
+
 
 ![small batt](/images/Genesis-Scan-164.jpg)</p>
 

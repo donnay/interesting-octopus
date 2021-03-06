@@ -60,6 +60,8 @@ Employing a laser to charge a normal sheet of paper the printer can render image
 ###Neural Headset (feed)
 Like a large hearing aid, neural fees are designed to hook over the ear. The body of the devices actually hangs below  the ear connected by an arm to wide and comfortable soft-polymer hook. In this position the neural feed will allow  complete 1-way data input to the wearer's brain. A PC or other similar devices can "feed" the wearers brain with images  of a screen and other data.  
 
+![Grenade](/images/Genesis-v2-Scan-272.jpg)</p>
+
 ###Personal Computer
 Essentially the size of a thick paperback book ( 4cm thick) this personal computer has many option when it comes to  input devices - 1 comes with the computer. The case has a few lights to indicate operation and power but otherwise the case is smooth. The slot the the batt goes in is the only other remaining protrusion or opening.
 
