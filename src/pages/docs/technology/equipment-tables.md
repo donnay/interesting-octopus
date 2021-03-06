@@ -821,5 +821,6 @@ NOTE : Rental fees are per 10 hour period.
 |  X | This item is normally illegal by galactic law and may only be available through the Black Market. Possibly reserved for the military. Star Ports will usually have items one class rarer than the surrounding area. |
 
 
+![Grenade](/images/RING.jpg)</p>
 
 ---

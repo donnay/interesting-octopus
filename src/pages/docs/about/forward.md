@@ -47,3 +47,4 @@ Adrian Kleinbergen<br>
 Mark Holmes<br>
 
 ![Game Creators](/images/FINGER.jpg "Game Creators")
+(L-R) Noel, Reese, Kevin, Chris, Mike
