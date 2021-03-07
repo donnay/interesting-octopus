@@ -3,23 +3,23 @@ title: Tables
 weight: 75
 seo:
   title: Tables
-  description: This is the quick start page
+  description: This section contains the tables to help the GM during game play describe how the characters use there unique attributes, skills to survive the world of Genesis.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Quick Start
+      value: Tables
       keyName: property
     - name: 'og:description'
-      value: This is the quick start page
+      value: This section contains the tables to help the GM during game play describe how the characters use there unique attributes, skills to survive the world of Genesis.
       keyName: property
     - name: 'twitter:card'
-      value: summary
+      value: Tables
     - name: 'twitter:title'
-      value: Quick Start
+      value: Tables
     - name: 'twitter:description'
-      value: This is the quick start page
+      value: This section contains the tables to help the GM during game play describe how the characters use there unique attributes, skills to survive the world of Genesis.
 template: docs
 ---
 ##1 - Skill Resolution
@@ -463,10 +463,3 @@ Bixx's final perceived total is 33.5&deg;C,
 * AIM  -25
 * BRAWL  -20
 * H₂O   x1.5 = 1.5 litres/hr  
-
-## Equipment << MoveMe!!
-#### CHIL suit (Cooled Habitat Insulation Liner)
-A tight fitting body glove of predominantly black or white colouring, depending on the model and its heat exchange methods. the black version uses heat absorbed to react endo-thermochemically with a viscous green fluid under the upper layers, which is combined with perspiration salts to absorb heat and dissipate it through many ridges over the suits surface. Salts are collected in small bead-like pockets along the belt. There are edible (6 std. doses ) perspiration liquids simply evaporate. The white version is very bright in colour and reflects much of the IR spectrum. Heat are lost by pumping, mechanically, refrigerants through the suit and dispelling them through the many ridges on the surface. The pump has a 250 hr. BATT . Perspiration is purified and kept in small leg pockets. When full there are 2 l, but it takes (1/10℃  perc. ) x 100 hrs. These suits are fitted for sweaty beings, especially the black, and are worn by Humans, Low Kaa, Faborians, Eebek, Vjesperé, and (10%) sometimes Gliff and Sooaacoil (special order).
-
-#### Thermozine (-)
-Thermozine is a drug which stimulates the touch center of the brain into thinking that the subject is cooler than would normally be. The effect lasts about 3 hours, between which must be a period of i hour. Thermozine increases the amount of blood to the skin and scalp and lungs. It also increases the amount of alcohol in the sweat or slave  (Fab) or whatever.

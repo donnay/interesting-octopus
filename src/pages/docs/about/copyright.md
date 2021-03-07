@@ -9,17 +9,17 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Overview
+      value: Copyright
       keyName: property
     - name: 'og:description'
-      value: This is the overview page
+      value: This is the Copyright page
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Overview
+      value: Copyright
     - name: 'twitter:description'
-      value: This is the overview page
+      value: This is the Copyright page
 template: docs
 ---
 

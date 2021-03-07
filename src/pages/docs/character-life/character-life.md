@@ -3,23 +3,23 @@ title: Rules
 weight: 50
 seo:
   title: Rules
-  description: This is the installation page
+  description:  This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Installation
+      value: Rules
       keyName: property
     - name: 'og:description'
-      value: This is the installation page
+      value: This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
       keyName: property
     - name: 'twitter:card'
-      value: summary
+      value: Rules
     - name: 'twitter:title'
-      value: Installation
+      value: Rules
     - name: 'twitter:description'
-      value: This is the installation page
+      value: This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
 template: docs
 ---
 

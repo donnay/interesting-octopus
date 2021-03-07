@@ -1,11 +1,10 @@
 ---
 title: About
 excerpt: >-
-  Libris is a Unibit theme created for project documentations. You can use it
-  for your project.
+  This is about the original v1 and v2 production of the game.
 seo:
   title: About
-  description: This is the about page
+  description: This is about the original v1 and v2 production of the game.
   extra:
     - name: 'og:type'
       value: website
@@ -14,14 +13,14 @@ seo:
       value: About
       keyName: property
     - name: 'og:description'
-      value: This is the about page
+      value: This is about the original v1 and v2 production of the game.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
       value: About
     - name: 'twitter:description'
-      value: This is the about page
+      value: This is about the original v1 and v2 production of the game.
 template: docs
 ---
 
