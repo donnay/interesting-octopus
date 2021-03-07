@@ -3,23 +3,23 @@ title: Methods
 weight: 2
 seo:
   title: Methods
-  description: This is the features page
+  description: This pages describes the methods used to create v1 and v2 of the game
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Features
+      value: Methods
       keyName: property
     - name: 'og:description'
-      value: This is the features page
+      value: This pages describes the methods used to create v1 and v2 of the game
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Features
+      value: Methods
     - name: 'twitter:description'
-      value: This is the features page
+      value: This pages describes the methods used to create v1 and v2 of the game
 template: docs
 ---
 

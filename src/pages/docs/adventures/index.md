@@ -1,25 +1,25 @@
 ---
 title: Adventures
-excerpt: In this book you'll find all of the rules of Genesis game play and examples of how to use them.
+excerpt: In this book you'll find the rules of Genesis game play and examples of how to use them.
 seo:
   title: Adventures
-  description: This is the getting started page
+  description: In this book you'll find the rules of Genesis game play and examples of how to use them.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Getting Started
+      value: Adventures
       keyName: property
     - name: 'og:description'
-      value: This is the getting started page
+      value: In this book you'll find the rules of Genesis game play and examples of how to use them.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Getting Started
+      value: Adventures
     - name: 'twitter:description'
-      value: This is the getting started page
+      value: In this book you'll find the rules of Genesis game play and examples of how to use them.
 template: docs
 ---
 
