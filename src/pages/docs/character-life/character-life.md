@@ -30,7 +30,7 @@ seo:
         to describe to the players describe how their characters use there
         unique attributes, skills to survive the world of Genesis.
     - name: 'og:image'
-      value: /images/royal-tulip.jpeg
+      value: /images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
     - name: 'twitter:image'
