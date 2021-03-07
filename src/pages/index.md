@@ -47,16 +47,16 @@ sections:
       Literally hundreds of societies live under the Foundation, and each has its own distinct sense of value and worth,  thus making it extremely difficult to reach even a general consensus on a standard system of monetary exchange. The  traditions and customs that have arisen within one people may hold totally different or even opposite meanings for their  neighbours, whether they be a few kilometres or a few parsecs distant.
     actions:
       - label: Read More ...
-        url: /docs/economics/
+        url: /docs/characters/occupations/#chaendlers
         style: primary
 
   - section_id: cta
     type: section_cta
     title: Ready for your next adventure?
-    subtitle: Check out Character Generation rules, about Dits and Outfitting  
+    subtitle: Check out Character Generation rules
     actions:
-      - label: Outfit your character now!
-        url: /docs/characters/character-generation/#dits_and_out_fitting
+      - label: Build your character now!
+        url: /docs/characters/character-generation/
         style: primary
 
   - section_id: text-img
@@ -67,7 +67,7 @@ sections:
     content: >-
       Review our catalog of technology, equipment, and vehicles.
     actions:
-      - label: Read More ...
+      - label: Do some retail therapy ...
         url: /docs/technology/
         style: primary
 
