@@ -31,7 +31,7 @@ seo:
 template: page
 ---
 
-<form name="contact" method="post" data-netlify="true"  action="/success">
+<form name="contact" method="post" data-netlify="true" action="/success" data-netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
 
   <p>
