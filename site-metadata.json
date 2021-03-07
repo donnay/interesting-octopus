@@ -83,6 +83,12 @@
                 "url": "/blog",
                 "style": "link",
                 "has_subnav": false
+            },
+            {
+                "label": "Contact Us",
+                "url": "/contact",
+                "style": "link",
+                "has_subnav": false
             }
         ]
     },
