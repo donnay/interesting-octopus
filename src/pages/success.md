@@ -1,10 +1,10 @@
 ---
-title: Contact Us
+title: Thank You
 subtitle: We are happy to hear what you think. Please let us know.
 image: images/5.jpg
 seo:
-  title: Contact Us
-  description: We are happy to hear what you think. Please let us know.
+  title: Thank You
+  description: Thank You
   extra:
     - name: 'og:type'
       value: website
@@ -14,7 +14,7 @@ seo:
       keyName: property
     - name: 'og:description'
       value: >-
-        We are happy to hear what you think. Please let us know.
+        Thank You
       keyName: property
     - name: 'og:image'
       value: images/5.jpg
@@ -26,24 +26,12 @@ seo:
       value: Theme Style Guide
     - name: 'twitter:description'
       value: >-
-        We are happy to hear what you think. Please let us know.
+        Thank You
     - name: 'twitter:image'
       value: images/5.jpg
       relativeUrl: true
 template: page
 ---
 
-<form name="contact" method="POST" data-netlify="true" action="/success">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+## Thank you!
+We have received your feedback.
