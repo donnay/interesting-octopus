@@ -22,10 +22,7 @@ seo:
       value: This is the getting started page
 template: docs
 ---
-
-![Grenade](/images/Genesis-v2-Scan-272a.jpg)</p>
-![Grenade](/images/Genesis-v2-Scan-300b.jpg)</p>
-
+#Work In Progress
 
 ## Andromedian Rose
 

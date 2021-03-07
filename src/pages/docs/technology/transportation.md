@@ -23,11 +23,6 @@ seo:
 template: docs
 ---
 
-![Grenade](/images/Genesis-v2-Scan-272a.jpg)</p>
-
-![Grenade](/images/Genesis-v2-Scan-300b.jpg)</p>
-
-
 ## Organic
 
 ### Dowser
