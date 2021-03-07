@@ -38,7 +38,7 @@
                         "url": "/docs/adventures/",
                         "style": "link"
                     }
-                  ]
+                ]
             },
             {
                 "label": "Caudex Centia",
@@ -76,7 +76,7 @@
                         "url": "/docs/technology/",
                         "style": "link"
                     }
-                  ]
+                ]
             },
             {
                 "label": "Caudex Universium",
@@ -120,5 +120,5 @@
         ]
     },
     "title": "Stackbit Libris Theme",
-    "domain": "https://interesting-octopus-71e33.netlify.app"
+    "domain": "https://genesis.theengine.com/"
 }
