@@ -1,12 +1,12 @@
 ---
 title: Caudex Universum
-subtitle: This is an optional subtitle for the blog page
+subtitle: This section contains stories from Genesis the Role-Laying Game.
 image: images/cyber-punk.jpg
 has_more_link: true
 more_link_text: Read more
 seo:
   title: Caudex Universum
-  description: This is the blog page
+  description: This section contains stories from the universe of Genesis the Role-Laying Game.
   extra:
     - name: 'og:type'
       value: website
@@ -15,7 +15,7 @@ seo:
       value: Blog
       keyName: property
     - name: 'og:description'
-      value: This is the blog page
+      value: This section contains stories from the universe of Genesis the Role-Laying Game.
       keyName: property
     - name: 'og:image'
       value: images/5.jpg
@@ -26,7 +26,7 @@ seo:
     - name: 'twitter:title'
       value: Blog
     - name: 'twitter:description'
-      value: This is the blog page
+      value: This section contains stories from the universe of Genesis the Role-Laying Game.
     - name: 'twitter:image'
       value: images/5.jpg
       relativeUrl: true

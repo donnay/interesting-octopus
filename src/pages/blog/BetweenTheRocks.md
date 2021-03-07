@@ -3,8 +3,8 @@ title: Between the Rocks!
 excerpt: >-
   The mining of the Milmoth (a.k.a.) Vega solar system, has created a conflict due to the constant claim-jumping of the various entities of miners currently in that system. The local government is trying to keep law-and-order with the assistance of Military Aero Space Security (M.A.S.S.)
 date: '2019-05-18'
-thumb_image: images/Between_the_Rocks.jpeg
-image: images/Between_the_Rocks.jpeg
+thumb_image: images/Uni-BetweentheRocks-small.jpg
+image: images/Uni-BetweentheRocks.jpg
 seo:
   title: Between the Rocks!
   description: >-
@@ -21,7 +21,7 @@ seo:
         The mining of the Milmoth (a.k.a.) Vega solar system, has created a conflict due to the constant claim-jumping of the various entities of miners currently in that system. The local government is trying to keep law-and-order with the assistance of Military Aero Space Security (M.A.S.S.)
       keyName: property
     - name: 'og:image'
-      value: images/Between_the_Rocks.jpeg
+      value: images/Uni-BetweentheRocks.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -32,7 +32,7 @@ seo:
       value: >-
         The mining of the Milmoth (a.k.a.) Vega solar system, has created a conflict due to the constant claim-jumping of the various entities of miners currently in that system. The local government is trying to keep law-and-order with the assistance of Military Aero Space Security (M.A.S.S.)
     - name: 'twitter:image'
-      value: images/Between_the_Rocks.jpeg
+      value: images/Uni-BetweentheRocks.jpg
       relativeUrl: true
 template: post
 ---
