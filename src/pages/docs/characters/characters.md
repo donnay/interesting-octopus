@@ -2,7 +2,7 @@
 title: Description
 weight: 10
 seo:
-  title: Rules
+  title: Description
   description: This is the installation page
   extra:
     - name: 'og:type'
