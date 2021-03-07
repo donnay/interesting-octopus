@@ -3,7 +3,10 @@ title: Rules
 weight: 50
 seo:
   title: Rules
-  description:  This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
+  description: >-
+    This section contains the rules that describe game play, and help the GM to
+    describe to the players describe how their characters use there unique
+    attributes, skills to survive the world of Genesis.
   extra:
     - name: 'og:type'
       value: website
@@ -12,14 +15,24 @@ seo:
       value: Rules
       keyName: property
     - name: 'og:description'
-      value: This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
+      value: >-
+        This section contains the rules that describe game play, and help the GM
+        to describe to the players describe how their characters use there
+        unique attributes, skills to survive the world of Genesis.
       keyName: property
     - name: 'twitter:card'
       value: Rules
     - name: 'twitter:title'
       value: Rules
     - name: 'twitter:description'
-      value: This section contains the rules that describe game play, and help the GM to describe to the players describe how their characters use there unique attributes, skills to survive the world of Genesis.
+      value: >-
+        This section contains the rules that describe game play, and help the GM
+        to describe to the players describe how their characters use there
+        unique attributes, skills to survive the world of Genesis.
+    - name: 'og:image'
+      value: /images/royal-tulip.jpeg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 
