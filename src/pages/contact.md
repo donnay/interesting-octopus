@@ -33,7 +33,9 @@ seo:
 template: page
 ---
 
-<form name="contact" method="POST" data-netlify="true" action="/success">
+<form name="contact" method="post" data-netlify="true"  action="/success">
+  {/* You still need to add the hidden input with the form name to your JSX form */}
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
