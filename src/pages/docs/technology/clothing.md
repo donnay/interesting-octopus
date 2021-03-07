@@ -51,5 +51,8 @@ hrs.
 ###VAC Suit
 Essentially a tougher version of the space suit this one is constructed for rugged environments and heavy duty users. The outer layers provide a tough skin that will resist tears and protect the occupant. Additional armour can be added to further increase its durability to weapon damage.
 
+#### CHIL suit (Cooled Habitat Insulation Liner)
+A tight fitting body glove of predominantly black or white colouring, depending on the model and its heat exchange methods. the black version uses heat absorbed to react endo-thermochemically with a viscous green fluid under the upper layers, which is combined with perspiration salts to absorb heat and dissipate it through many ridges over the suits surface. Salts are collected in small bead-like pockets along the belt. There are edible (6 std. doses ) perspiration liquids simply evaporate. The white version is very bright in colour and reflects much of the IR spectrum. Heat are lost by pumping, mechanically, refrigerants through the suit and dispelling them through the many ridges on the surface. The pump has a 250 hr. BATT . Perspiration is purified and kept in small leg pockets. When full there are 2 l, but it takes (1/10℃  perc. ) x 100 hrs. These suits are fitted for sweaty beings, especially the black, and are worn by Humans, Low Kaa, Faborians, Eebek, Vjesperé, and (10%) sometimes Gliff and Sooaacoil (special order).
+
 
 ***
