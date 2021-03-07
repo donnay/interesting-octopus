@@ -130,8 +130,7 @@ normal cost, and fenbin versions are 3 times normal cost.
                , large              material goods           20  l /  30 kg          1.5 kg      A      5  
         Bandolier                   grenades, clips           10 grenades             .1 kg      A      1  
         Case, attache               material goods            7  l /  10 kg          2.5 kg      A      7  
-            , clothes               clothing                 15  l /  25 kg            2 kg      A      5  
-         2
+            , clothes               clothing                 15  l /  25 kg            2 kg      A      5
             , electronics           electronic goods         10  l /  10 kg          2.5 kg      A      6  
         Coolers                     temp. sensitive goods    10  l /  15 kg            3 kg      A      7  
         Duffle Bag                   material goods          20  l /  45 kg           .5 kg      A      2  
@@ -174,7 +173,7 @@ normal cost, and fenbin versions are 3 times normal cost.
             , size D                     ...for use in aircraft and grav vehicles.          75 kg       C      160   
             , macro                      ...for use in starships.                          500 kg       D      780   
         Batt Charger                  Will restore life to dead batts when connected        .1 kg       A       34   
-     to a power source.
+                                        to a power source.
         Bedroll                         A thermally insulated ground blanket.                2 kg       A        9   
         Brace / Jack                    A 2 m hydraulic or pneumatic strut. Holds 5 T.      10 kg       B       21   
         Bug / Micro Listener             Tiny listening device often disguised as an insect.  NA        C       63   
@@ -295,7 +294,7 @@ normal cost, and fenbin versions are 3 times normal cost.
            Cerebral Implant               A small microprocessor wedded to the brain               8 Gb       8         NA    D     11,615     
                                           so as to expand memory and thought.                       
             The Meter                     An armband display with various monitors,               .9 Gb       3      .1 kg    B        149     
- a personal teletranciever.      
+                                          a personal teletranciever.      
         Portable Computer                 Lightweight, totable computers.                         16 Gb       4       4 kg    B        556     
            Analyser                       Provides analytical data. Biomed or Material.           32 Gb       6       2 kg    C      3,240     
            Electronic Lockpick            An cryptographic device for decoding                     4Gb        2       1 kg    X         44     
@@ -360,7 +359,7 @@ normal cost, and fenbin versions are 3 times normal cost.
                , sensory organ
                , vital organ   
                , whole body, brainless                     
- , brained                       
+               , brained                       
         Deathbed                         A protective body glove used for treatment of              10 kg       C       80   
                                          shock and infection.              
         Diagnostic Table         
