@@ -13,8 +13,7 @@ seo:
       value: Theme Style Guide
       keyName: property
     - name: 'og:description'
-      value: >-
-        We are happy to hear what you think. Please let us know.
+      value: We are happy to hear what you think. Please let us know.
       keyName: property
     - name: 'og:image'
       value: images/5.jpg
@@ -25,15 +24,17 @@ seo:
     - name: 'twitter:title'
       value: Theme Style Guide
     - name: 'twitter:description'
-      value: >-
-        We are happy to hear what you think. Please let us know.
+      value: We are happy to hear what you think. Please let us know.
     - name: 'twitter:image'
       value: images/5.jpg
       relativeUrl: true
 template: page
 ---
 
-<form name="contact" method="POST" data-netlify="true" action="/success">
+<form name="contact" method="post" data-netlify="true"  action="/success">
+  {/* You still need to add the hidden input with the form name to your JSX form */}
+  <input type="hidden" name="form-name" value="contact" />
+  
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
