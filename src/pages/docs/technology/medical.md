@@ -66,6 +66,9 @@ Sunoil - Protects the skin against harmful UV light.
 Thenelin RGF - Regeneration and Growth Factor.
 Truth Serum - As the name states it stimulates the telling of the truth.
 
+#### Thermozine (-)
+Thermozine is a drug which stimulates the touch center of the brain into thinking that the subject is cooler than would normally be. The effect lasts about 3 hours, between which must be a period of i hour. Thermozine increases the amount of blood to the skin and scalp and lungs. It also increases the amount of alcohol in the sweat or slave  (Fab) or whatever.
+
 ![Grenade](/images/Wehavethebiotechnology.jpg)</p>
 
 ***
