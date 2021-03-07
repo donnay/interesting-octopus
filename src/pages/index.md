@@ -53,10 +53,10 @@ sections:
   - section_id: cta
     type: section_cta
     title: Ready for your next adventure?
-    subtitle: Check out Character Generation rules, about Dits and Outfitting  
+    subtitle: Check out Character Generation rules
     actions:
-      - label: Outfit your character now!
-        url: /docs/characters/character-generation/#dits_and_out_fitting
+      - label: Build your character now!
+        url: /docs/characters/character-generation/
         style: primary
 
   - section_id: text-img
@@ -67,7 +67,7 @@ sections:
     content: >-
       Review our catalog of technology, equipment, and vehicles.
     actions:
-      - label: Read More ...
+      - label: Do some retail therapy ...
         url: /docs/technology/
         style: primary
 
