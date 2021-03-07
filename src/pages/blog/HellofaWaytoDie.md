@@ -3,8 +3,8 @@ title: Hell of a way to die
 excerpt: >-
   Being a specialist in the Genesis RPG universe takes a unique individual. Someone who can function at peak efficiency under extreme pressure and still keep cool and get the job done. In either of the fields, technical or medical , this occupation demands the most of a person.
 date: '2019-05-19'
-thumb_image: images/WayToDie.jpeg
-image: images/WayToDie.jpeg
+thumb_image: images/Uni-WayToDie-small.jpg
+image: images/Uni-WayToDie.jpg
 seo:
   title: Hell of a way to die
   description: >-
@@ -14,25 +14,25 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Introducing The Libris Theme
+      value: Hell of a way to die
       keyName: property
     - name: 'og:description'
       value: >-
         Being a specialist in the Genesis RPG universe takes a unique individual. Someone who can function at peak efficiency under extreme pressure and still keep cool and get the job done.
       keyName: property
     - name: 'og:image'
-      value: images/WayToDie.jpeg
+      value: /images/Uni-WayToDie.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Introducing The Libris Theme
+      value: Hell of a way to die
     - name: 'twitter:description'
       value: >-
         Being a specialist in the Genesis RPG universe takes a unique individual. Someone who can function at peak efficiency under extreme pressure and still keep cool and get the job done.
     - name: 'twitter:image'
-      value: images/WayToDie.jpeg
+      value: images/Uni-WayToDie.jpg
       relativeUrl: true
 template: post
 ---

@@ -76,7 +76,8 @@ template: docs
 | 91-95 | (9.6,8.5) | If two bones in area: Both bones are broken roll on table to see what kind of fracture and tissue damage has resulted. If one bone: The bone is shattered completely along it's length. It cannot be used for movement at all, because no weight can place on the bone. If no bones: read the AD description(s) | as normal but exclude any bone references.|
 | 96-00 | (9.9,8.9) | If three bones: All three have been broken roll on the bone damage table to determine what kinds of fractures and read description above. If two bones: One is shattered the other has a fracture roll on bone damage table. If one bone: The bone is totally shattered even up to the joints. No way to salvage the bone. If no bones: read the AD description(s) | omitting the bone references. |
 
-##10 -  Photon and Particle Accelerators + Burning Weapons
+##10 -  P.P.A.
+#####Photon and Particle Accelerators + Burning Weapons
 | % Damage | Severity Roll | Damage Description |
 |----:|----:|-----|
 | 01-05 | (.6,0) | Redness to skin but no penetration at all into skin. The area will feel warn to the touch and be sensitive to pressure for &half;:10sd hours. These will be the only effects and they are only temporary. |
@@ -99,7 +100,7 @@ template: docs
 | 91-95 | (8.7,7.6) |  If two bones in area: Both bones are broken roll on table to see what kind of fracture and tissue damage has resulted. If one bone: The bone is shattered completely along it's length. It cannot be used for movement at all, because no weight can place on the bone. If no bones: read the AD description(s) | as normal but exclude any bone references. |
 | 96-00 | (9.2,8.2) |  If three bones: All three have been broken roll on the bone damage table to determine what kinds of fractures and read description above. If two bones: One is shattered the other has a fracture roll on bone damage table. If one bone: The bone is totally shattered even up to the joints. No way to salvage the bone. If no bones: read the AD description(s) | omitting the bone references. |
 
-##11 -  Bludgeoning Weapons
+##11 - Bludgeoning 
 | % Damage | Severity Roll | Damage Description |
 |----:|----:|-----|
 | 01-05 | (0,0) | A minor bruise 4 cm. long is the result. The affected area will be discoloured for &half;:10sd days then clear- up. No lasting effects or marks. |
@@ -227,9 +228,9 @@ template: docs
 | 51-75 | (6.8,5.9) | Toxicity will cause major bloating and a dis- colouration of the skin. The illness will pass in 1:10sd days if proper medical attention is recieved.   Unconsciousness will result if character cannot check  against their Constitution with a -50% modifier. The   chance of death is 20% per day without medical care.  |
 | 76-00 | (8.9,7.4) | Extreme nausea and major vomiting with high fever for all characters who cannot check Constitution with a - 70% modifier.  Unconsciousness that will last for &half;:10sd days will result if the player cannot check with a -50% to Constitution. The feeling of illness will pass in 1&half;:10sd days if medical care is recieved.  For every day left untreated the percentage chance of   death is 30%. |
 
-##10 - Damage Procedure #1
+##10 - Damage Procedure
 
-### First Roll Charts
+### First Roll
 
 ####16 - Bludgenoning
 
@@ -249,7 +250,8 @@ template: docs
 | 3 or 8 |DEEP INTERNAL DAMAGE: A D.I.D. injury crushes all the tissues around the point of impact for 5 cm and to a depth  of 7 cm. A D.I.D. to the head will end in unconscious to anyone with a CON less than 85. Taken to any other vital body  part this injury will cause internal bleeding and requires immediate medical attention. CON -5 for every half hour the  character is not treated for the injury. If the character has an exoskeleton or is lightly armoured the damage will be  reduced to a DEEP SPLIT BRUISE.  |   
 | 4 or 9 |BONE DAMAGE: This injury has caused damage to under lying bone. Roll on BONE DAMAGE CHART. This injury extends to  7 cm around the point of impact and is 10 cm deep. All tissues 3 cm around the edges affected area are crushed. This  injury to the head will result in death for anyone with a CON less than 65 and unconsciousness for those over 65. In  both cases there is major internal bleeding and pain. Medical attention should be sought immediately -14 to CON for  every hour the character doesn't receive it. To a character with light armor or an exoskeleton this injury causes DEEP  INTERNAL DAMAGE and shattered citian or dented armour.  |
 
-####17 - Photon and particle accelerators (p.p.a.)
+####17 - P.P.A.
+Photon and particle accelerators
 
   | die roll | descriptions | severity roll | damage percent |
   | --- | --- | --- | --- |
@@ -361,7 +363,7 @@ roll for each round that hits should be done.</div>
  will bounce off and cause sparks. Sonics, sound waves, will cause the tissue to heat up or the tissue to fall off in
  small chunks. </div>
 
-###Second roll tables
+###Second Roll
 
 <div class="note">Some of the first damage rolls require further damage rolls because if you receive a burn the severity must be determined. if a bone is broken the type of break must be determined.</div>
 
@@ -395,7 +397,7 @@ roll for each round that hits should be done.</div>
  | 3 or 8 | 2organ system effected  |
  | 4 or 9 | 2organ system failures  |
 
-### Third roll
+### Third Roll
 <div class="note">If a wound is left untreated in due time the wound will become infected the type of this infection is determined with the 3 rd  or result roll.</div>
 
 ####23 - Infection roll
