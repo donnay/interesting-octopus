@@ -33,7 +33,7 @@ sections:
       - title: Tanaian
         title_url: '/docs/races/tanaian/'
         image: images/Tanaian_bw.jpg
-        content: A mystery even to this day, they exist and protect the Low Kaa who occupy the system plant in their solar system.
+        content: A mystery even to this day, they exist and protect the Low Kaa who occupy the sister planet in their solar system.
 seo:
   title: Player Races
   description: This page showcases all of the Player races in the game. Please review each of them and decide which you will portray in you next adventure.
