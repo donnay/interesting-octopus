@@ -20,6 +20,7 @@ seo:
     - name: 'twitter:description'
       value: This is the documentation page
 template: docs
+weight: 1
 ---
 ## What is a Role-Playing Game?
 
