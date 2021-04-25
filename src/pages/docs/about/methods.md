@@ -12,7 +12,9 @@ seo:
       value: Methods
       keyName: property
     - name: 'og:description'
-      value: This pages describes the methods used to create v1 and v2 of the game
+      value: |-
+        Version was produced and distributed in a limited run.
+        , and was The 
       keyName: property
     - name: 'twitter:card'
       value: summary
