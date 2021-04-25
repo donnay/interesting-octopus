@@ -22,7 +22,9 @@ seo:
     - name: 'twitter:title'
       value: Welcome to Libris
     - name: 'twitter:description'
-      value: This is the documentation page
+      value: >-
+        A role-playing game is an interactive story like a novel or a - except
+        the actions of the players change the course of the adventure.
     - name: 'og:image'
       value: /images/Genesis-v2-Scan-163.jpg
       keyName: property
