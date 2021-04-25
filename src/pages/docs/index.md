@@ -2,7 +2,7 @@
 title: Introduction
 seo:
   title: Introduction
-  description: This is the documentation page
+  description: 'https://www.stackbit.com/blog/stackbit-gatsby-site-improvements/'
   extra:
     - name: 'og:type'
       value: website
