@@ -3,8 +3,7 @@ title: About
 excerpt: This is about the original v1 and v2 production of the game.
 seo:
   title: About
-  description: |+
-
+  description: This is about the production of the Genesis Role-Playing Game
   extra:
     - name: 'og:type'
       value: website
