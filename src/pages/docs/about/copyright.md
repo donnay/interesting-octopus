@@ -33,6 +33,10 @@ seo:
       value: /images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
+    - name: 'twitter:image'
+      value: /images/Genesislogo1.jpeg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 
