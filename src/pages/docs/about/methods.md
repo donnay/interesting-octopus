@@ -12,8 +12,12 @@ seo:
       value: Methods
       keyName: property
     - name: 'og:description'
-      value: |-
-        Version was produced and distributed in a limited run.
+      value: >-
+        Version 1 of Genesis was produced using both digital and analogue
+        techniques and distributed in a limited run. 
+
+        Version 2 was prepared entirely 
+
         , and was The 
       keyName: property
     - name: 'twitter:card'
