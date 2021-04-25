@@ -1,10 +1,10 @@
 ---
 title: About
-excerpt: >-
-  This is about the original v1 and v2 production of the game.
+excerpt: This is about the original v1 and v2 production of the game.
 seo:
   title: About
-  description: This is about the original v1 and v2 production of the game.
+  description: |+
+
   extra:
     - name: 'og:type'
       value: website
