@@ -14,7 +14,9 @@ seo:
       value: Forward
       keyName: property
     - name: 'og:description'
-      value: This is the Forward page
+      value: >-
+        The writers and artists who contributed to the various versions of this
+        game.
       keyName: property
     - name: 'twitter:card'
       value: summary
