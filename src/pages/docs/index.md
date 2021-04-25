@@ -13,7 +13,9 @@ seo:
       value: Introduction
       keyName: property
     - name: 'og:description'
-      value: This is the documentation page
+      value: >-
+        A role-playing game is an interactive story like a novel or a - except
+        the actions of the players change the course of the adventure.
       keyName: property
     - name: 'twitter:card'
       value: summary
