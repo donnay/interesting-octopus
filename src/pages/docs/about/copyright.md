@@ -29,6 +29,10 @@ seo:
         Fair use, Digital versions of this may be used for personal use. For
         print and or commercial licence to any of the content of this site,
         please contact us.
+    - name: 'og:image'
+      value: /images/Genesislogo1.jpeg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 
