@@ -22,6 +22,10 @@ seo:
       value: Forward
     - name: 'twitter:description'
       value: This is the Forward page
+    - name: 'og:image'
+      value: /images/FINGER.jpg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 
