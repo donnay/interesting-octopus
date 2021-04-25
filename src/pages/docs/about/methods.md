@@ -21,6 +21,12 @@ seo:
       value: /images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
+    - name: 'og:description'
+      value: >-
+        This page describes how the various version were prepared and the
+        details of the version production and distribution. 
+      keyName: property
+      relativeUrl: false
 template: docs
 ---
 ## Version History
