@@ -22,7 +22,7 @@ seo:
     - name: 'twitter:description'
       value: This is the documentation page
     - name: 'og:image'
-      value: /images/Adventures.jpg
+      value: /images/Genesis-v2-Scan-163.jpg
       keyName: property
       relativeUrl: true
 template: docs
