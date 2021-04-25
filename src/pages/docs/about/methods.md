@@ -20,6 +20,10 @@ seo:
       value: Methods
     - name: 'twitter:description'
       value: This pages describes the methods used to create v1 and v2 of the game
+    - name: 'og:image'
+      value: /images/Genesislogo1.jpeg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 
