@@ -16,7 +16,9 @@ seo:
     - name: 'twitter:title'
       value: Methods
     - name: 'twitter:description'
-      value: This pages describes the methods used to create v1 and v2 of the game
+      value: >-
+        This page describes how the various version were prepared and the
+        details of the version production and distribution. 
     - name: 'og:image'
       value: /images/Genesislogo1.jpeg
       keyName: property
