@@ -15,7 +15,10 @@ seo:
       value: Copyright
       keyName: property
     - name: 'og:description'
-      value: This is the Copyright page
+      value: >-
+        Fair use, Digital versions of this may be used for personal use. For
+        print and or commercial licence to any of the content of this site,
+        please contact us.
       keyName: property
     - name: 'twitter:card'
       value: summary
