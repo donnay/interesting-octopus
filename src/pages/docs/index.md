@@ -20,7 +20,7 @@ seo:
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Welcome to Libris
+      value: Introduction
     - name: 'twitter:description'
       value: >-
         A role-playing game is an interactive story like a novel or a - except
