@@ -2,7 +2,9 @@
 title: Introduction
 seo:
   title: Introduction
-  description: 'https://www.stackbit.com/blog/stackbit-gatsby-site-improvements/'
+  description: >-
+    A role-playing game is an interactive story like a novel or a - except the
+    actions of the players change the course of the adventure.
   extra:
     - name: 'og:type'
       value: website
