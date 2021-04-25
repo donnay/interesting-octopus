@@ -1,10 +1,9 @@
 ---
 title: About
-excerpt: >-
-  This is about the original v1 and v2 production of the game.
+excerpt: This is about the original v1 and v2 production of the game.
 seo:
   title: About
-  description: This is about the original v1 and v2 production of the game.
+  description: This is about the production of the Genesis Role-Playing Game
   extra:
     - name: 'og:type'
       value: website
@@ -13,14 +12,24 @@ seo:
       value: About
       keyName: property
     - name: 'og:description'
-      value: This is about the original v1 and v2 production of the game.
+      value: >-
+        Production details of versions 1, 2 & 3. The artists and writers who
+        contributed and production techniques, and equipment used. The copyright
+        is also given.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
       value: About
     - name: 'twitter:description'
-      value: This is about the original v1 and v2 production of the game.
+      value: >-
+        Production details of versions 1, 2 & 3. The artists and writers who
+        contributed and production techniques, and equipment used. The copyright
+        is also given.
+    - name: 'og:image'
+      value: /images/Genesislogo1.jpeg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 

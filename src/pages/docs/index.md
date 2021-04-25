@@ -2,23 +2,33 @@
 title: Introduction
 seo:
   title: Introduction
-  description: This is the documentation page
+  description: >-
+    A role-playing game is an interactive story like a novel or a - except the
+    actions of the players change the course of the adventure.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Welcome to Libris
+      value: Introduction
       keyName: property
     - name: 'og:description'
-      value: This is the documentation page
+      value: >-
+        A role-playing game is an interactive story like a novel or a - except
+        the actions of the players change the course of the adventure.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Welcome to Libris
+      value: Introduction
     - name: 'twitter:description'
-      value: This is the documentation page
+      value: >-
+        A role-playing game is an interactive story like a novel or a - except
+        the actions of the players change the course of the adventure.
+    - name: 'og:image'
+      value: /images/Genesis-v2-Scan-163.jpg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 ## What is a Role-Playing Game?
