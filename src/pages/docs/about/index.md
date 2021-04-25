@@ -13,8 +13,9 @@ seo:
       keyName: property
     - name: 'og:description'
       value: >-
-        This is about the production of the game. Version 1, 2 & 3. Find out
-        more about the artists, production techniques, and equipment used.
+        This is section is about the production of the game versions 1, 2 & 3.
+        The artists and writers who contributed to the game and production
+        techniques, and equipment used. The copyright is also given.
       keyName: property
     - name: 'twitter:card'
       value: summary
