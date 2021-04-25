@@ -25,7 +25,10 @@ seo:
     - name: 'twitter:title'
       value: Copyright
     - name: 'twitter:description'
-      value: This is the Copyright page
+      value: >-
+        Fair use, Digital versions of this may be used for personal use. For
+        print and or commercial licence to any of the content of this site,
+        please contact us.
 template: docs
 ---
 
