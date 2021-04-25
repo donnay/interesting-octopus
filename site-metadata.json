@@ -120,5 +120,6 @@
         ]
     },
     "title": "Stackbit Libris Theme",
-    "domain": "https://genesis.theengine.com/"
+    "domain": "https://genesis.theengine.com/",
+    "favicon": "images/Artboard-2hdpi.png"
 }
