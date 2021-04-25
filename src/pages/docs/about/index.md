@@ -12,7 +12,9 @@ seo:
       value: About
       keyName: property
     - name: 'og:description'
-      value: This is about the production of the Genesis Role-Playing Game
+      value: >-
+        This is about the production of the game. Version 1, 2 & 3. Find out
+        more about the artists, production techniques, and equipment used.
       keyName: property
     - name: 'twitter:card'
       value: summary
