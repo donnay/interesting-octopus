@@ -21,6 +21,10 @@ seo:
       value: Welcome to Libris
     - name: 'twitter:description'
       value: This is the documentation page
+    - name: 'og:image'
+      value: /images/Adventures.jpg
+      keyName: property
+      relativeUrl: true
 template: docs
 ---
 ## What is a Role-Playing Game?
