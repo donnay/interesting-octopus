@@ -23,16 +23,27 @@ seo:
       relativeUrl: true
 template: docs
 ---
+## Version History 
 
-This game was produced entirely through a digital process.
+### Version 1 
+
+The game was produced using both digital and analogue techniques and distributed in a limited run. It came in a three-ring binder, for expandability, and had a CMYK cover illustration which was printed in Dr. E.P. Scarlett ‘s Photo / Off-set Lithography shop. No dice were included with the game.
+
+
+### Version 2 
+
+In this version, 2,000 units of the game were produced and sold across North-America. Again it was shipped in a three-ring binder, which had a cardboard insert added to the narrow side & shrieked wrapped, to make it resemble a boxed game. The content was written, and edited and digital desktop published with the latest technology and tequniques at the time.
+
 
 ### The Computer
-* AST Research 268 premium 2M of Ram<br>
-* 40M Hard Drive<br>
-* Cannon IX-12 Image Scanner<br>
-* HP Laserjet III<br>
+
+*   AST Research 268 premium 2M of Ram<br>
+*   40M Hard Drive<br>
+*   Cannon IX-12 Image Scanner<br>
+*   HP Laserjet III<br>
 
 ### The Software
+
 | Application      | Purpose                            |
 |------------------|------------------------------------|
 | PC-Write 3.0     | Word processing                    |
@@ -42,4 +53,4 @@ This game was produced entirely through a digital process.
 | Arts & Letters   | Logo generation                    |
 | PageMaker 3.0    | Page Layout & Composition          |
 
-PC-Write© is a copyright of Quicksoft. Lotus 1-2-3	&#8482; is a registered trademark of Lotus Development Corp. dBase	&#8482; is a registered trademark of Ashton Tate. PC Paintbrush	&#8482; is a registered trademark of Zsoft Corporation. Arts & Letters	&#8482; is a registered trademark of Computer Support Corporation. PageMaker	&#8482; is a registered trademark of Aldus Corporation. LaserJet	&#8482; is a registered trademark of Hewlett-Packard Corporation.
+PC-Write© is a copyright of Quicksoft. Lotus 1-2-3	™ is a registered trademark of Lotus Development Corp. dBase	™ is a registered trademark of Ashton Tate. PC Paintbrush	™ is a registered trademark of Zsoft Corporation. Arts & Letters	™ is a registered trademark of Computer Support Corporation. PageMaker	™ is a registered trademark of Aldus Corporation. LaserJet	™ is a registered trademark of Hewlett-Packard Corporation.
