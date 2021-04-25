@@ -23,7 +23,9 @@ seo:
     - name: 'twitter:title'
       value: Forward
     - name: 'twitter:description'
-      value: This is the Forward page
+      value: >-
+        The writers and artists who contributed to the various versions of this
+        game.
     - name: 'og:image'
       value: /images/FINGER.jpg
       keyName: property
