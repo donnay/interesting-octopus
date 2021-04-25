@@ -21,7 +21,9 @@ seo:
     - name: 'twitter:title'
       value: About
     - name: 'twitter:description'
-      value: This is about the original v1 and v2 production of the game.
+      value: >-
+        This is about the production of the game. Version 1, 2 & 3. Find out
+        more about the artists, production techniques, and equipment used.
     - name: 'og:image'
       value: /images/Genesislogo1.jpeg
       keyName: property
