@@ -12,7 +12,7 @@ seo:
       value: About
       keyName: property
     - name: 'og:description'
-      value: This is about the original v1 and v2 production of the game.
+      value: This is about the production of the Genesis Role-Playing Game
       keyName: property
     - name: 'twitter:card'
       value: summary
