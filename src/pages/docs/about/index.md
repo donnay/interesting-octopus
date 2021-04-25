@@ -21,7 +21,7 @@ seo:
     - name: 'twitter:description'
       value: This is about the original v1 and v2 production of the game.
     - name: 'og:image'
-      value: /images/Artboard-4hdpi.png
+      value: /images/Genesislogo1.jpeg
       keyName: property
       relativeUrl: true
 template: docs
