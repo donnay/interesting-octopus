@@ -3,7 +3,9 @@ title: Forward
 weight: 1
 seo:
   title: Forward
-  description: This is the Forward page
+  description: >-
+    The writers and artists who contributed to the various versions of this
+    game.
   extra:
     - name: 'og:type'
       value: website
