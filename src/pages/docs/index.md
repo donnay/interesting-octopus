@@ -10,7 +10,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Welcome to Libris
+      value: Introduction
       keyName: property
     - name: 'og:description'
       value: This is the documentation page
