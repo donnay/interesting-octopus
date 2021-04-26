@@ -67,21 +67,19 @@ All of the original text and images from version 2 were added to by additional a
 In 2018 the content was dusted-off and the remastering of all the art and text began again.
 
 #### Compute Hardware
-
-* 2016 MacBook Pro
-* 2018 iPad Pro
+* [2016 MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US)
+* [2018 iPad Pro](https://support.apple.com/kb/SP785?locale=en_CA)
 
 #### Cloud Services
-* Stackbit, Static Site Creation 
-* Netlify, StaticSite Generator & CDN host
-* GitHub, content repository and version control
-* Google Cloud Shell, development environment
+* [Stackbit](https://www.stackbit.com/), Static Site Creation 
+* [Netlify](https://www.netlify.com/), StaticSite Generator & CDN host
+* [GitHub](https://github.com/), content repository and version control
+* [Google Cloud](https://cloud.google.com/), development environment
 
 #### Development packages used
-* Gatsby & Node.js & react as the framework
-* Libris Template built with the Unibit Template system
+* [Gatsby](https://www.gatsbyjs.com/) as the Static site framework
+* [Libris Template](https://jamstackthemes.dev/theme/stackbit-libris-unibit/) built with the [Unibit Template system](https://www.stackbit.com/docs/unibit/)
 
 #### Software & Apps
-* GitGub Desktop client
-* WorkingCopy
-* Google Cloud Console, development environment
+* [GitHub](https://github.com/) Desktop client
+* [WorkingCopy](https://apps.apple.com/ca/app/working-copy-git-client/id896694807)
