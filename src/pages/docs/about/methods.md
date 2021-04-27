@@ -67,8 +67,8 @@ All of the original text and images from version 2 were added to by additional a
 In 2018 the content was dusted-off and the remastering of all the art and text began again.
 
 #### Compute Hardware
-* [2016 MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US)
-* [2018 iPad Pro](https://support.apple.com/kb/SP785?locale=en_CA)
+* [2016 MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US){:target=“_blank”}
+* [2018 iPad Pro](https://support.apple.com/kb/SP785?locale=en_CA){:target=“_blank”}
 
 #### Cloud Services
 * [Stackbit](https://www.stackbit.com/), Static Site Creation 
