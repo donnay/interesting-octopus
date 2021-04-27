@@ -67,19 +67,19 @@ All of the original text and images from version 2 were added to by additional a
 In 2018 the content was dusted-off and the remastering of all the art and text began again.
 
 #### Compute Hardware
-* <a href=“https://support.apple.com/kb/SP719?locale=en_US” target=“_blank”>2016 MacBook Pro</a>
-* <a href=“https://support.apple.com/kb/SP785?locale=en_CA” target=“_blank”>2018 iPad Pro</a>
+<a href=“https://support.apple.com/kb/SP719?locale=en_US” target=“_blank”>2016 MacBook Pro</a>
+<a href=“https://support.apple.com/kb/SP785?locale=en_CA” target=“_blank”>2018 iPad Pro</a>
 
 #### Cloud Services
-* <a href=“https://www.stackbit.com” target=“_blank”>Stackbit</a>, Static Site Creation 
-* <a href=“https://www.netlify.com” target=“_blank”>Netlify</a>, Static Site Generator & CDN host
-* <a href=“https://github.com” target=“_blank”>GitHub</a>, content repository and version control
-* <a href=“https://cloud.google.com” target=“_blank”>Google Cloud</a>, development environment
+<a href=“https://www.stackbit.com” target=“_blank”>Stackbit</a>, Static Site Creation 
+<a href=“https://www.netlify.com” target=“_blank”>Netlify</a>, Static Site Generator & CDN host
+<a href=“https://github.com” target=“_blank”>GitHub</a>, content repository and version control
+<a href=“https://cloud.google.com” target=“_blank”>Google Cloud</a>, development environment
 
 #### Development packages used
-* <a href=“https://www.gatsbyjs.com” target=“_blank”>Gatsby</a> as the Static site framework
-* <a href=“https://jamstackthemes.dev/theme/stackbit-libris-unibit” target=“_blank”>Libris</a> built with the <a href=“https://www.stackbit.com/docs/unibit” target=“_blank”>Unibit Template System</a>
+<a href=“https://www.gatsbyjs.com” target=“_blank”>Gatsby</a> as the Static site framework
+<a href=“https://jamstackthemes.dev/theme/stackbit-libris-unibit” target=“_blank”>Libris</a> built with the <a href=“https://www.stackbit.com/docs/unibit” target=“_blank”>Unibit Template System</a>
 
 #### Software & Apps
-* <a href=“https://github.com” target=“_blank”>GitHub</a> Desktop client
-* <a href=“https://apps.apple.com/ca/app/working-copy-git-client/id896694807” target=“_blank”>Working Copy</a> 
+<a href=“https://github.com” target=“_blank”>GitHub</a> Desktop client
+<a href=“https://apps.apple.com/ca/app/working-copy-git-client/id896694807” target=“_blank”>Working Copy</a> 
