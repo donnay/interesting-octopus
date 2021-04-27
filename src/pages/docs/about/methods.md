@@ -67,19 +67,19 @@ All of the original text and images from version 2 were added to by additional a
 In 2018 the content was dusted-off and the remastering of all the art and text began again.
 
 #### Compute Hardware
-* [2016 MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US){:target=“_blank”}
-* [2018 iPad Pro](https://support.apple.com/kb/SP785?locale=en_CA){:target=“_blank”}
+* <a href=“https://support.apple.com/kb/SP719?locale=en_US” target=“_blank”>2016 MacBook Pro</a>
+* <a href=“https://support.apple.com/kb/SP785?locale=en_CA” target=“_blank”>2018 iPad Pro</a>
 
 #### Cloud Services
-* [Stackbit](https://www.stackbit.com/), Static Site Creation 
-* [Netlify](https://www.netlify.com/), StaticSite Generator & CDN host
-* [GitHub](https://github.com/), content repository and version control
-* [Google Cloud](https://cloud.google.com/), development environment
+* <a href=“https://www.stackbit.com” target=“_blank”>Stackbit</a>, Static Site Creation 
+* <a href=“https://www.netlify.com” target=“_blank”>Netlify</a>, Static Site Generator & CDN host
+* <a href=“https://github.com” target=“_blank”>GitHub</a>, content repository and version control
+* <a href=“https://cloud.google.com” target=“_blank”>Google Cloud</a>, development environment
 
 #### Development packages used
-* [Gatsby](https://www.gatsbyjs.com/) as the Static site framework
-* [Libris Template](https://jamstackthemes.dev/theme/stackbit-libris-unibit/) built with the [Unibit Template system](https://www.stackbit.com/docs/unibit/)
+* <a href=“https://www.gatsbyjs.com” target=“_blank”>Gatsby</a> as the Static site framework
+* <a href=“https://jamstackthemes.dev/theme/stackbit-libris-unibit” target=“_blank”>Libris</a> built with the <a href=“https://www.stackbit.com/docs/unibit” target=“_blank”>Unibit Template System</a>
 
 #### Software & Apps
-* [GitHub](https://github.com/) Desktop client
-* [WorkingCopy](https://apps.apple.com/ca/app/working-copy-git-client/id896694807)
+* <a href=“https://github.com” target=“_blank”>GitHub</a> Desktop client
+* <a href=“https://apps.apple.com/ca/app/working-copy-git-client/id896694807” target=“_blank”>Working Copy</a> 
