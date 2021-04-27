@@ -67,19 +67,19 @@ All of the original text and images from version 2 were added to by additional a
 In 2018 the content was dusted-off and the remastering of all the art and text began again.
 
 #### Compute Hardware
-<a href=“https://support.apple.com/kb/SP719/” target=“_blank”>2016 MacBook Pro</a><br>
-<a href=“https://support.apple.com/kb/SP785/” target=“_blank”>2018 iPad Pro</a><br>
+* [2016 MacBook Pro](https://support.apple.com/kb/SP719)
+* [2018 iPad Pro](https://support.apple.com/kb/SP785/)
 
 #### Cloud Services
-<a href=“https://www.stackbit.com” target=“_blank”>Stackbit</a>, Static Site Creation<br>
-<a href=“https://www.netlify.com” target=“_blank”>Netlify</a>, Static Site Generator & CDN host<br>
-<a href=“https://github.com” target=“_blank”>GitHub</a>, content repository and version control<br>
-<a href=“https://cloud.google.com” target=“_blank”>Google Cloud</a>, development environment<br>
+* [Stackbit](https://www.stackbit.com), Static Site Creation<br>
+* [Netlify](https://www.netlify.com), Static Site Generator & CDN host<br>
+* [GitHub](https://github.com), content repository and version control<br>
+* [Google Cloud](https://cloud.google.com), development environment<br>
 
 #### Development packages used
-<a href=“https://www.gatsbyjs.com” target=“_blank”>Gatsby</a> as the Static site framework<br>
-<a href=“https://jamstackthemes.dev/theme/stackbit-libris-unibit” target=“_blank”>Libris</a> built with the <a href=“https://www.stackbit.com/docs/unibit” target=“_blank”>Unibit Template System</a><br>
+* [Gatsby](https://www.gatsbyjs.com) as the Static site framework<br>
+* [Libris](https://jamstackthemes.dev/theme/stackbit-libris-unibit) built with the [Unibit](https://www.stackbit.com/docs/unibit) Template System</a><br>
 
 #### Software & Apps
-<a href=“https://github.com” target=“_blank”>GitHub</a> Desktop client<br>
-<a href=“https://apps.apple.com/ca/app/working-copy-git-client/id896694807” target=“_blank”>Working Copy</a><br>
+* [GitHub](https://github.com) Desktop client<br>
+* [Working Copy](https://apps.apple.com/ca/app/working-copy-git-client/id896694807)
