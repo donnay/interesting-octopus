@@ -1,6 +1,6 @@
 ---
 title: Caudex Universum
-subtitle: This section contains stories from Genesis the Role-Laying Game.
+subtitle: This section contains stories from Genesis the Role-Playing Game.
 image: images/cyber-punk.jpg
 has_more_link: true
 more_link_text: Read more
