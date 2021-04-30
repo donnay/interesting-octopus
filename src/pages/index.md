@@ -18,21 +18,20 @@ sections:
     col_number: three
     grid_items:
       - title: Rules
-        content: 'The Caudex Regulum, the book of Rules. Who should read ...'
+        content: 'The Caudex Regulum, the book of Rules. Game masters should read all of the rules so that they can be effective at leading teams of players on adventures.‘
         actions:
           - label: See how to play the game
             url: /docs/characters/
             style: link
       - title: Knowledge
-        content: 'The Caudex Centia, the book of knowledge. Who should read ...'
+        content: 'The Caudex Centia, the book of knowledge. Everyone who wants to learn about the Genesis universe should read this book. From equipment, to starships, history and economics awaits you!'
         actions:
           - label: Learn about the universe
             url: /docs/history/
             style: link
       - title: Character Races
         content: >-
-          There are several Character Playable Races from different and unusual
-          worlds. Read them all and choose you favourite.
+          There are several races in the known universe. Both playable character (PC) and non-player character (NPC) from different and unusual worlds. Read them all and choose you favourite.
         actions:
           - label: See Player Races
             url: /races
