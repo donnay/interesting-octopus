@@ -49,4 +49,7 @@ Aracnians can be separated into three populations, the Blue, the Brown, and the 
 
 ### Life Span
 
+## Second Sphere
+![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
+###### Racial Size Comparison Chart
 ---

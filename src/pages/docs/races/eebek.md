@@ -67,4 +67,7 @@ Heterosexual and asexual </p>
 ### Life Span
 The Eebek live in absolute peace and have done so for the last 250 years due to their social-democratic system of government. It was established after a bloody history, when savage groups roamed the planet brutally disrupting the disorganized farming communities. Broad shifts in political alignment lessened until finally, one empowered 'greater house' has lead the unified world government for over 175 years. Each of these greater houses consist of a number of family groups. The Bekian 'lesser house' is always composed of two parents and three children, a number which is defined by instinct and custom.Individuals, by gathering opinions from a wide variety of sources, can attempt to understand the collective bekian reality. In the past this lead to an overall homogenization of the racial perspective, which produced a era of social stagnation.
 
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 ---

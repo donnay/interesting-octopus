@@ -58,5 +58,8 @@ Humans are start a female embryos (the default genetic state). Some individuals 
 | Height | 158 cm | 172 cm |
 | Mass | varies widely | varies widely |
 
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 
 ---

@@ -64,4 +64,8 @@ Height: 1 - 1.7 m
 Weight: 60 - 80 Kg
 Sex: Heterosexual
 Life Span: 75 - 105 Years
+
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 ---

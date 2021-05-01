@@ -51,4 +51,7 @@ Note: Due to their relative newness this is the extent of the information releas
 
 ### Life Span
 
+## Second Sphere
+![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
+###### Racial Size Comparison Chart
 ---

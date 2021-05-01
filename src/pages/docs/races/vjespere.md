@@ -64,4 +64,7 @@ Homeworld ...
 
 ![Vjesperé](/images/VjespereUpright.jpg)</p>
 
+## Second Sphere
+![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
+###### Racial Size Comparison Chart
 ---
