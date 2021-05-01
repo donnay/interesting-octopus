@@ -30,7 +30,10 @@ sections:
             url: /docs/characters/
             style: link
       - title: Knowledge
-        content: 'The Caudex Centia, the book of knowledge. Who should read ...'
+        content: >
+          The Caudex Centia, the book of knowledge. All role playing gamers
+          should know the history, politics, economics - best of all we have
+          tones of equipment, clothes, vehicles and even star ships. 
         actions:
           - label: Learn about the universe
             url: /docs/history/
