@@ -51,4 +51,7 @@ Planet:
 Anacro Novello
 Gravity: .8
 
+## Second Sphere
+![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
+###### Racial Size Comparison Chart
 ---

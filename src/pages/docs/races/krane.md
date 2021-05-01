@@ -64,4 +64,8 @@ Gravity: 1.2
 Height: 3m to 4 M
 Weight 500 Kg to 900
 Lifespan 120 to 180 Years (s.e.y.)
+
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 ---

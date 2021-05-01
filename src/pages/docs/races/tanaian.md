@@ -46,4 +46,7 @@ No social culture is known about the Tanaians because one Tanaian is usually ver
 
 ### Life Span
 
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 ---

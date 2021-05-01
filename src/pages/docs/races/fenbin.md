@@ -52,4 +52,8 @@ Due to their long winter, 11 standard earth years, they have developed a rather 
 ### Sex
 
 ### Life Span
+
+## First Sphere
+![First Sphere Races](/images/RacesSizeChart-01small.png)</p>
+###### Racial Size Comparison Chart
 ---

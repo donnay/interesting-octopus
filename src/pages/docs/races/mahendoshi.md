@@ -54,4 +54,8 @@ A Mahendoshi family unit, or "KA SEKO", is composed of the mother, father, their
 ### Life Span
 
 ![Eebeck](/images/Mahendoshi_bw.jpg)</p>
+
+## Second Sphere
+![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
+###### Racial Size Comparison Chart
 ---
