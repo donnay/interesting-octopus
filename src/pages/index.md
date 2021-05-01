@@ -39,9 +39,10 @@ sections:
             url: /docs/history/
             style: link
       - title: Character Races
-        content: >-
-          There are several Character Playable Races from different and unusual
-          worlds. Read them all and choose you favourite.
+        content: >
+          There are several Player Character races from different and unusual
+          worlds. We also have several Non-Player Character races.  Read them
+          all and choose you favourite.
         actions:
           - label: See Player Races
             url: /races
