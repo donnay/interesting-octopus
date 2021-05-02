@@ -2,7 +2,7 @@
 title: The Andromedian Rose
 excerpt: >-
   The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
-date: ‘2021-05-15’
+date: '2019-05-18'
 thumb_image: /images/ARoseFlight.jpg
 image: /images/ARoseFlight.jpg
 seo:
@@ -27,7 +27,7 @@ seo:
     - name: ‘twitter:card’
       value: summary_large_image
     - name: ‘twitter:title’
-      value: Between the Rocks!
+      value: The Andromedian Rose
     - name: ‘twitter:description’
       value: >-
         The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
@@ -160,10 +160,10 @@ K: STORES. These two room are the ships’ stores.
 
 Both of them contain food, bed linens, medical stores, smaU equipment such as a communication packs. Also the ships weapons are kept here, they include. 
 
-9-Batts 
-3 - Laser pistols 
-2 - Mazer pistols 
-3 - Bio-sensing Sphere guns stationary 
+* 9 - Batts 
+* 3 - Laser pistols 
+* 2 - Mazer pistols 
+* 3 - Bio-sensing Sphere guns stationary 
 
 L: SICK BAY. In this room there is one examination bed and various closets, along with a hand basin. The closets contain medical supplies, first-aid treatments, and bandages. It is intended only for temporary use and would prove insufficient for longer stays. 
 
