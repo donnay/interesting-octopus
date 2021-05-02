@@ -1,12 +1,12 @@
 --- 
-title: The Andromedian Rose: Adventure
+title: The Andromedian Rose Adventure
 excerpt: >-
   In the Genesis RPG universe there are two kinds of investigators ; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
 date: ‘2019-05-15’
 thumb_image: images/Uni-RisingSun-small.jpg
 image: images/Uni-RisingSun.jpg
 seo:
-  title: The Rising Sun
+  title: The Andromedian Rose Adventure
   description: >-
     In the Genesis RPG universe there are two kinds of investigators; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
   extra:
