@@ -35,7 +35,8 @@ seo:
       value: images/Uni-RisingSun.jpg
       relativeUrl: true
 template: post
-—--
+---
+
 # The Andromedian Rose
 ## A Genesis Role Playing Game Adventure
 
