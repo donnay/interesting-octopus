@@ -1,12 +1,12 @@
 --- 
-title: The Andromedian Rose Adventure
+title: The Andromedian Rose
 excerpt: >-
   In the Genesis RPG universe there are two kinds of investigators ; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
 date: ‘2021-05-15’
-thumb_image: /images/ARose-floorplan-Small.JPEG
-image: /images/ARose-floorplan-Medium.JPEG
+thumb_image: /images/ARoseFlight.jpg
+image: /images/ARoseFlight.jpg
 seo:
-  title: The Andromedian Rose Adventure
+  title: The Andromedian Rose
   description: >-
     In the Genesis RPG universe there are two kinds of investigators; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
   extra:
@@ -14,7 +14,7 @@ seo:
       value: article
       keyName: property
     - name: ‘og:title’
-      value: The Rising Sun
+      value: The Andromedian Rose
       keyName: property
     - name: ‘og:description’
       value: >-
@@ -37,9 +37,9 @@ seo:
 template: post
 ---
 
-## A Genesis Role Playing Game Adventure
+### A Genesis Role Playing Game Adventure
 
-### Game Master Introduction 
+## Game Master Introduction 
 <strong> Note: This preface is for the Game Master’s Eye’s only </strong>
 
 #### Background
@@ -105,7 +105,7 @@ If the princess is captured there should be some indication, scrap of evidence, 
 Either way the players should be directed t where they will face their next challenge. 
 
 #### The Bar 
-![The Bar](/static/images/ARose-BarPlan-Medium.jpeg)
+![The Bar](/images/ARose-BarPlan-Medium.JPEG)
 
 The entrance of the bar, two large swinging doors surrounded by narrow glass windows, is set back off the street three meters. A large man stands in the large doorway, obviously the bouncer - and a very good one judging by his size, checks the patrons identification and m times of disagreements ‘escorts’ unruly guests off the premises. 
 
@@ -132,7 +132,7 @@ If they fail and the Princess will be captured and taken to the warehouse. The P
 If they succeed the princess will recommend that they go to the Andromedian Rose. When they analyze the tape (the companion droid was recording) the information regarding manipulation of the facts and events m the skyhook was the result of digital manipulation. Upon analysis of the video footage will yield the source of the tape as the warehouse. If the players don’t pursue This information will be should result m the players 
 
 #### The Andromedian Rose 
-![The Andromedian Rose](/static/images/ARose-floorplan-Medium.JPEG)
+![The Andromedian Rose](/images/ARose-floorplan-Medium.JPEG)
 
 A: MASTER BED. This room is much larger than the other cabins, located across from the door is a large sonic bed. On the wall to the left of the door there is a dressing table and a clothes closet. Across the room from the dressing table are two sonic chairs and a adjustable height table extending from the floor. The five large portals in the roof give an excellent view of the stars outside. On the wall closest to the door and just beside the chairs there is a door which leads in to the master bath. 
 
@@ -180,7 +180,7 @@ R: AIRLOCK. These two air locks seal off the ship from the entrances over the wi
 S: THE HALLWAY. The hallway has multiple doors leading from it and runs along both halves of the aft section of the ship. The hallways of the aft sections join midway along the ship into one central hallway, running from one side to the other. The hallway has a door at both of its ends which lead forward and give access to the cargo level. Also stairs leading up to a landing in the middle of the hall it allow access to the bridge. As you walk along this wide hallway you can see to the left of you that instead of walls the center half are windows looking down upon a garden to the left. 
 
 #### The Warehouse 
-![The Andromedian Rose](/static/images/ARose-Warehouse-plan-Medium.JPEG)
+![The Andromedian Rose](/images/ARose-Warehouse-plan-Medium.JPEG)
 
 It will be obvious to the players upon inspection of a few room that this is a converted vehicle and small ship repair shop. It is now being used as a storage location for weapons, by the boss. 
 
