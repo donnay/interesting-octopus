@@ -80,7 +80,8 @@ For example: The thugs use the same weapons as the her government. A match book 
 
 The events detailed above only the most logical order of the various event in the module. If the players deviate for these events you can re-route them. This can be done by having the princess’s droid offer any information the P.C.’s are missing to point them in the right direction.
 
-### The Module 
+### The Module
+
 
 This module starts with the P.C.’s on the lower level of the Quite sky-hook. Each is waiting for a tube car into town. In the same area a very beautiful lady m flowing golden gown accompanied by two very large and ornately dressed body guards. The tube car comes and the P.C.’i enter. Just at the last second the lady breaks away from her accompaniment and jumps into the tube-car. 
 
@@ -116,6 +117,7 @@ Either way the players should be directed t where they will face their next chal
 
 #### The Bar 
 
+[![The Bar](/static/images/ARose-BarPlan-Small.jpeg)](/static/images/ARose-BarPlan-Large.jpeg)
 The entrance of the bar, two large swinging doors surrounded by narrow glass windows, is set back off the street three meters. A large man stands in the large doorway, obviously the bouncer - and a very good one judging by his size, checks the patrons identification and m times of disagreements ‘escorts’ unruly guests off the premises. 
 
 The overhang provides shelter for the entrance and harbours security sensors that will detect and asses the risk of the patrons passing through. The sensor, able to detect a veritable library of information every time a patron walks through, can distinguish a fake bomb from a genuine explosive device. Its sensing ability also encompasses more discrete situations like a loaded from an unloaded gun and weapons of unknown design and function that exhibit only slight resemblances to known weapons. The response of the sensor to the various risks will vary with implied danger posed by the patron, which will range from an audible beep to sirens and alert lights. 
@@ -141,6 +143,8 @@ If they fail and the Princess will be captured and taken to the warehouse. The P
 If they succeed the princess will recommend that they go to the Andromedian Rose. When they analyze the tape (the companion droid was recording) the information regarding manipulation of the facts and events m the skyhook was the result of digital manipulation. Upon analysis of the video footage will yield the source of the tape as the warehouse. If the players don’t pursue This information will be should result m the players 
 
 #### The Andromedian Rose 
+
+[![The Andromedian Rose](/static/images/ARose-floorplan-Medium.JPEG)](/static/images/ARose-floorplan-Small.JPEG)
 
 A: MASTER BED. This room is much larger than the other cabins, located across from the door is a large sonic bed. On the wall to the left of the door there is a dressing table and a clothes closet. Across the room from the dressing table are two sonic chairs and a adjustable height table extending from the floor. The five large portals in the roof give an excellent view of the stars outside. On the wall closest to the door and just beside the chairs there is a door which leads in to the master bath. 
 
@@ -191,6 +195,8 @@ R: AIRLOCK. These two air locks seal off the ship from the entrances over the wi
 S: THE HALLWAY. The hallway has multiple doors leading from it and runs along both halves of the aft section of the ship. The hallways of the aft sections join midway along the ship into one central hallway, running from one side to the other. The hallway has a door at both of its ends which lead forward and give access to the cargo level. Also stairs leading up to a landing in the middle of the hall it allow access to the bridge. As you walk along this wide hallway you can see to the left of you that instead of walls the center half are windows looking down upon a garden to the left. 
 
 #### The Warehouse 
+
+[![The Andromedian Rose](/static/images/ARose-Warehouse-plan-Medium.JPEG)](/static/images/ARose-Warehouse-plan-Small.jpeg)
 
 It will be obvious to the players upon inspection of a few room that this is a converted vehicle and small ship repair shop. It is now being used as a storage location for weapons, by the boss. 
 
