@@ -1,14 +1,14 @@
 --- 
 title: The Andromedian Rose
 excerpt: >-
-  In the Genesis RPG universe there are two kinds of investigators ; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
+  The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
 date: ‘2021-05-15’
 thumb_image: /images/ARoseFlight.jpg
 image: /images/ARoseFlight.jpg
 seo:
   title: The Andromedian Rose
   description: >-
-    In the Genesis RPG universe there are two kinds of investigators; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
+    The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
   extra:
     - name: ‘og:type’
       value: article
@@ -18,10 +18,10 @@ seo:
       keyName: property
     - name: ‘og:description’
       value: >-
-        In the Genesis RPG universe there are two kinds of investigators; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
+        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
       keyName: property
     - name: ‘og:image’
-      value: images/ARose-floorplan-Medium.JPEG
+      value: /images/ARoseFlight.jpg
       keyName: property
       relativeUrl: true
     - name: ‘twitter:card’
@@ -30,9 +30,9 @@ seo:
       value: Between the Rocks!
     - name: ‘twitter:description’
       value: >-
-        In the Genesis RPG universe there are two kinds of investigators; the first, private or freelance, serve the public and the foundation, the second, are the CCOP investigators these people have been trained by CCOP as covert operatives.
+        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
     - name: ‘twitter:image’
-      value: /images/ARose-floorplan-Medium.JPEG
+      value: /images/ARoseFlight.jpg
       relativeUrl: true
 template: post
 ---
@@ -71,8 +71,10 @@ If at any time the module lags or is slow add ping her, it must be the arms deal
 
 For example: The thugs use the same weapons as the her government. A match book from the bar. 
 
-#### N.P.C. Statistics 
 The events detailed above only the most logical order of the various event in the module. If the players deviate for these events you can re-route them. This can be done by having the princess’s droid offer any information the P.C.’s are missing to point them in the right direction.
+
+#### N.P.C. Statistics 
+Use the Random NPC Generation rules.
 
 ## The Module 
 This module starts with the P.C.’s on the lower level of the Quite sky-hook. Each is waiting for a tube car into town. In the same area a very beautiful lady m flowing golden gown accompanied by two very large and ornately dressed body guards. The tube car comes and the P.C.’i enter. Just at the last second the lady breaks away from her accompaniment and jumps into the tube-car. 
@@ -180,7 +182,7 @@ R: AIRLOCK. These two air locks seal off the ship from the entrances over the wi
 S: THE HALLWAY. The hallway has multiple doors leading from it and runs along both halves of the aft section of the ship. The hallways of the aft sections join midway along the ship into one central hallway, running from one side to the other. The hallway has a door at both of its ends which lead forward and give access to the cargo level. Also stairs leading up to a landing in the middle of the hall it allow access to the bridge. As you walk along this wide hallway you can see to the left of you that instead of walls the center half are windows looking down upon a garden to the left. 
 
 #### The Warehouse 
-![The Andromedian Rose](/images/ARose-Warehouse-plan-Medium.JPEG)
+![The Andromedian Rose](/images/ARose-Warehouse-plan-Small.JPEG)
 
 It will be obvious to the players upon inspection of a few room that this is a converted vehicle and small ship repair shop. It is now being used as a storage location for weapons, by the boss. 
 
