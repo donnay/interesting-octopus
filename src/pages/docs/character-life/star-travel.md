@@ -39,7 +39,7 @@ Much has been said about Delta Warp and its ability to close the distance betwee
 
 Put simply Delta Warp is the colloquial name for a technology that can create Einstein-Rosen Bridges or “wormholes” between two points in space. These to points are effectively parallel planes — wherein there is effectively no intervening space. anything that enters into one side of the wormhole, immediately emerges on the other side of the wormhole. A Delta Warp drive can creates numerous sequential holes, along the flight path of an interstellar ship, thus dramatically reducing the amount of space that must be traversed — and making interstellar travel at non-relativistic speeds possible — almost enjoyable.
 
-![Einstein-Rosen Bridge by J.Gabás Esteban](/images/space-travel-Einstein-Rosen-Bridge-J.Gabas-Esteban.jpg)</p>
+![Einstein-Rosen Bridge by J.Gabás Esteban](/images/space-travel-Einstein-Rosen-Bridge-JGabas-Esteban.jpg)</p>
 
 In this section we will review the calculations you can make to determine the time Interstellar voyages will take. This will add realism to your game, and give your characters time to interact and get to know each other outside of the trials and tribulations of combat, encumbrance and adventures.
 
