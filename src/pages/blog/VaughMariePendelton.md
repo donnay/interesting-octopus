@@ -1,12 +1,12 @@
 --- 
-title: The Andromedian Rose
+title: Vaughn Marie Pendelton
 excerpt: >-
   The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
 date: '2021-05-02'
 thumb_image: /images/ARoseFlight.jpg
 image: /images/ARoseFlight.jpg
 seo:
-  title: The Andromedian Rose
+  title: Vaughn Marie Pendelton
   description: >-
     The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
   extra:
@@ -14,7 +14,7 @@ seo:
       value: article
       keyName: property
     - name: ‘og:title’
-      value: The Andromedian Rose
+      value: Vaughn Marie Pendelton
       keyName: property
     - name: ‘og:description’
       value: >-
@@ -27,7 +27,7 @@ seo:
     - name: ‘twitter:card’
       value: summary_large_image
     - name: ‘twitter:title’
-      value: The Andromedian Rose
+      value: Vaughn Marie Pendelton
     - name: ‘twitter:description’
       value: >-
         The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
@@ -37,12 +37,29 @@ seo:
 template: post
 ---
 
-### A Genesis Role Playing Game Adventure
+In the inky blackness of the fierce downpour a figure bundled up against the elements hurried along the stony path leading to the squat dwelling. The walls mostly glass and opaque, signalled the light and warmth inside. As he approached, the house detected the presence and a moment before he would have to slow his pace to avoid colliding with the front door, it's large wooden ornately carved mass swung open silently. 
 
-## Game Master Introduction 
-<strong> Note: This preface is for the Game Master’s Eye’s only </strong>
+The house guided him to the bedroom, steps away from the door to the master he head a woman cry out. 
 
-#### Background
+The doctor rounded the corner as said. "Another contraction? Good, they are getting more frequent" 
+
+"And more intense" Saraha replied.
+
+"Thank you for coming at such a late, er ...  I guess so early this morning" The tall, muscular man holding the woman's had said.
+
+The doctor nodded almost imperceptibly, "I am the village doctor ... house calls are part of the service". "Name's Dr. Jelan Proda, please call me Jelan."
+
+"And you are Peter Pendleton and this is of course your wife Saraha." He placed his bag on a side table, retrieved a device from it and approached her all-in-one quick fluid motion. He continued talking.
+"I was monitoring your wife's bio-stats since last week, after last week's tele-town-hall, when your arrival was announced. I see you've been settling in well."
+
+"Yes," said Peter. "The move to Earth wen't well and I;ve had lots of time to un-pack"
+
+Another contraction begins
+
+ 
+  
+
+
 The King of the largest kingdoms on the planet of Minarus, Ponteria, Lord P’han Jerado, and the Queen of Fomara, Lady D’prena Manlyne, The second most powerful queendom on the planet, want their children to marry. Princess Agina Jerado and prince Surqri Manlyne by joining would join the two kingdoms together. Both of the children are preparing for the day of the joining with equal anticipation as their parents. 
 
 The two kingdoms of the planet of Minarus are seeking the aid in military equipment and forces from the foundation to help them in their struggles against the Corporate Loyalists. They would also like to enter the foundation as a trading planet to gain better prices for the products they produce. Under foundation law any group on the planet may petition for acceptance into the foundation but it must represent the majority of the people on the planet. To achieve this Lord Jerado and Lady Manlyne must allow the rift between their two kingdoms to be bridged by the joining of their two children. 
@@ -134,11 +151,7 @@ If they fail and the Princess will be captured and taken to the warehouse. The P
 If they succeed the princess will recommend that they go to the Andromedian Rose. When they analyze the tape (the companion droid was recording) the information regarding manipulation of the facts and events m the skyhook was the result of digital manipulation. Upon analysis of the video footage will yield the source of the tape as the warehouse. If the players don’t pursue This information will be should result m the players 
 
 #### The Andromedian Rose 
-<<<<<<< HEAD:src/pages/blog/AndromedianRose.md
-![The Andromedian Rose](/images/ARose-floorplan-Small.JPEG)
-=======
 ![The Andromedian Rose](/images/ARose-floorplan-Medium.JPEG)
->>>>>>> c30a42a19f151faabf300ff349b95fbc7bafe5c8:src/pages/blog/AndromedianRose.md
 
 A: MASTER BED. This room is much larger than the other cabins, located across from the door is a large sonic bed. On the wall to the left of the door there is a dressing table and a clothes closet. Across the room from the dressing table are two sonic chairs and a adjustable height table extending from the floor. The five large portals in the roof give an excellent view of the stars outside. On the wall closest to the door and just beside the chairs there is a door which leads in to the master bath. 
 
@@ -164,24 +177,10 @@ K: STORES. These two room are the ships’ stores.
 
 Both of them contain food, bed linens, medical stores, smaU equipment such as a communication packs. Also the ships weapons are kept here, they include. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/pages/blog/AndromedianRose.md
-* 9-Batts 
-* 3 - Laser pistols 
-* 2 - Mazer pistols 
-* 3 - Bio-sensing Sphere guns stationary 
-=======
-9-Batts 
-3 - Laser pistols 
-2 - Mazer pistols 
-3 - Bio-sensing Sphere guns stationary 
->>>>>>> c30a42a19f151faabf300ff349b95fbc7bafe5c8:src/pages/blog/AndromedianRose.md
-=======
 * 9 - Batts 
 * 3 - Laser pistols 
 * 2 - Mazer pistols 
 * 3 - Bio-sensing Sphere guns stationary 
->>>>>>> cdc7f5a4531ba4262808d8f807a705cc56ed2029
 
 L: SICK BAY. In this room there is one examination bed and various closets, along with a hand basin. The closets contain medical supplies, first-aid treatments, and bandages. It is intended only for temporary use and would prove insufficient for longer stays. 
 
