@@ -1,14 +1,14 @@
 --- 
 title: Vaughn Marie Pendelton
 excerpt: >-
-  The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
+  Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
 date: '2021-05-03'
 thumb_image: /images/ARoseFlight.jpg
 image: /images/ARoseFlight.jpg
 seo:
   title: Vaughn Marie Pendelton
   description: >-
-    The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
+    Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
   extra:
     - name: ‘og:type’
       value: article
