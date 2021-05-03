@@ -32,7 +32,7 @@ Vjesperé are aquatic, hexapoid, bipeds of a close mammalian decent, their actua
 The most important of the mahendoshi senses is that of sight. Evolving originally from nocturnal scavengers, their eyes are large and sensitive to maximize the amount of light gathered. Although this does not make them vulnerable to flash blindness, they are able to see in extremely low light levels, and additionally can perceive the infrared. Mahendoshi eyes cannot interpret colours higher than yellow or green on the spectrum.
 Their range of hearing is generally about equal to a human's, though high sensitive in the low and sub frequency band (24-14000 Hz). Manhendoshi ears are small and cupped for listening to surface noises through rock.
 
-![Vjesperé](/images/Vjespere_bw.jpg)</p>
+![Vjesperé](https://twitter.com/saltybretzel/status/1373805127992217601?s=21)</p>
 
 ### Speech
 Sound is produced by expelling air over a dual set of thread-like 'vocal chords' in the trachea. Vesperé can speak most languages spoken by the humanoids of the Foundation. A Vesperé will 'bleet' when in distress, sounding much like a shrill bagpipe across Agaedine's salt seas.</p>
