@@ -37,47 +37,47 @@ seo:
 template: post
 ---
 
-In the inky blackness of the fierce downpour a figure bundled up against the elements hurried along the stony path leading to the squat dwelling. The walls mostly glass and opaque, signalled the light and warmth inside. As he approached, the house detected the presence and a moment before he would have to slow his pace to avoid colliding with the front door, it's large wooden ornately carved mass swung open silently. 
+In the inky blackness of the fierce downpour a figure bundled up against the elements hurried along the stony path leading to a squat dwelling. The walls of the house, were mostly glass at this hour translucent, signalled the light and warmth inside. As he approached the main door, large wooden and ornately carved, the house detected the presence. A moment before he would have had to slow his pace to avoid a collision with the front door, it's significant mass swung open silently. 
 
 The house guided him to the bedroom, steps away from the door to the master he head a woman cry out. 
 
 The doctor rounded the corner as said. "Another contraction? Good, they are getting more frequent" 
 
-"And more intense" Saraha replied.
+"And more intense" Saraha replied. Sweat was beaded along her brow, and her small warm but strained.
 
-"Thank you for coming at such a late, er ...  I guess so early this morning" The tall, muscular man holding the woman's had said.
+"Thank you for coming at such a late er ...  I mean, so early this morning" The tall, muscular man supporting the woman's while looking at his own watch.
 
-The doctor nodded almost imperceptibly, "I am the village doctor ... house calls are part of the service". "Name's Dr. Jelan Proda, please call me Jelan."
+The doctor nodded almost imperceptibly, "I am the village doctor ... house calls are part of the service. Name's Dr. Proda, please call me Jelan. And, you are Peter Pendleton and this is of course your wife Saraha." The doctor continued. 
 
-"And you are Peter Pendleton and this is of course your wife Saraha." He placed his bag on a side table, retrieved a device from it and approached her all-in-one quick fluid motion. He continued talking.
+He placed his bag on a side table, retrieved a device from it and approached her all-in-one quick fluid motion. He continued talking.
 
-"I was monitoring your wife's bio-stats since last week, after last week's tele-town-hall, when your arrival was announced. I see you've been settling in well."
+"I was monitoring your wife's bio-stats since last week, after last week's tele-town-hall when your arrival was announced. I see you've been settling in well."
 
-"Yes," said Peter. "The move to Earth wen't well and I;ve had lots of time to un-pack"
+"Yes," said Peter. "The move to Earth went well and I've had lots of time to un-pack"
 
-Another contraction begins
+Another contraction began ... a grimace crossed Saraha.
 
-Saraha's contractions have intessified and she has progressed into labour accouding to the disgnostic AI on the doctors tablet and the biomed algos in the house's core. The house is reccomending a mild tranquilizer to ease the pain of it's owner.
+The contractions have intessified and she has progressed into labour accouding to the consensus between the disgnostic AI on the doctors tablet and the biomed-algo in the house's core. The house recommended a mild tranquilizer to ease the pain of it's owner. I quick message flashed on Jelan's tablet.
 
-Jelan reviews the house's reccomendaiton on his tablet and agrees. He places a small circular adhesive patch, on Saraha's left wrist. The transderminals go to work immediatly and the pain is reduced.
+Jelan reviewed the house's recommendation, agreed, and flicked away the message in acknowledgement. He reached into his small bag and produced a small circular item. The backing is easily removed exposing an adhesive patch, he deftly applies it to Saraha's left wrist. The transderminals go to work immediatly and the pain is reduced, her breathing becomes more regular.
 
-After several hours, Vaughn Marie Pendelton was born. At 7:03 am UTC March 21, 2198 on Burrard Island, Canada.
+After several hours in labour, Vaughn Marie Pendelton was born. At 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
 
-"Thank you Jelan!" Peter said as he shook the doctor's three fingered hand.
+"Thank you Jelan!" Peter said as he shook the doctor's thick three, fingered hand.
 
-"Just part of the service", Jelan's single eye blinked once, then once again. Eebek's eye blinks are like shoulder shrugs of humans.
+"Just part of the service", Jelan's single eye blinked once, then once again. Eebek's eye blinks are like humans shoulder shrugs.
 
-"Human live birth is such an amazing process, I've been facinated with it since I learned about humans at the acedemy. So much more invasice than the eggs the Eebek's lay"
+"Human live birth is such an amazing process, I've been facinated with it since I learned about it at the acedemy. So much more invasive than the eggs the Eebek's lay, and protect."
 
-"Now, take it easy for the next couple days Saraha. I know you eager to return to work. But you must give your self time to recover."
+"Now, take it easy for the next couple days Saraha. I know you eager to return to work, but you must give yourself time to recover."
 
 Jelan swiveled his eye stalk between Peter and Saraha. "No more than 50% of your work load. 2 hours per day tops! Agreed?!", his eye binked repeatidly.
 
 Sarah started to protest "but they need ..."
 
-The large eye raised up on it stalk and moved toward Saraha.
+The large eye simultaneously raised up on it stalk and moved toward Saraha. Which had the effect of looking like a cobra ready to strike!
 
-".. all right, doctors' orders"
+".. all right, all right! Doctors' orders", she relented like and admonished child.
 
 ![VaughnMariePendelton](/images/Portrait-VaughnPendleton-Birth.jpg)
 Vaughn Marie Pendleton birthday
