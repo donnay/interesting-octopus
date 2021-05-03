@@ -182,7 +182,7 @@ R: AIRLOCK. These two air locks seal off the ship from the entrances over the wi
 S: THE HALLWAY. The hallway has multiple doors leading from it and runs along both halves of the aft section of the ship. The hallways of the aft sections join midway along the ship into one central hallway, running from one side to the other. The hallway has a door at both of its ends which lead forward and give access to the cargo level. Also stairs leading up to a landing in the middle of the hall it allow access to the bridge. As you walk along this wide hallway you can see to the left of you that instead of walls the center half are windows looking down upon a garden to the left. 
 
 #### The Warehouse 
-![The Andromedian Rose](/images/ARose-Warehouse-plan-Small.JPEG)
+![The Andromedian Rose](/images/ARose-Warehouse-plan-Medium.JPEG)
 
 It will be obvious to the players upon inspection of a few room that this is a converted vehicle and small ship repair shop. It is now being used as a storage location for weapons, by the boss. 
 
