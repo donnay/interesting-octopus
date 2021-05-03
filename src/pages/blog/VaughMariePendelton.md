@@ -56,6 +56,7 @@ The doctor nodded almost imperceptibly, "I am the village doctor ... house calls
 
 Another contraction begins
 
+<<<<<<< Updated upstream
  
   
 
@@ -231,3 +232,29 @@ Under each of the grated areas is a pit. The entrance to both pits is on the nor
 9: Shop floor. This large extends out in front you in all directions. The ceiling is three times as high as the rest of the rooms and near the roof line hydraulic rams. This room has several exits and a large set of stairs running up the second floor on the west wall. In the south-east comer of the room there is a forklift (inoperable). 
 
 10: Parts storage. This has no roof and is cluttered with shelves on which are stacked (thrown) parts of all sizes and description m various states of usefulness.
+=======
+Saraha's contractions have intessified and she has progressed into labour accouding the the disgnostic AI on the doctors tablet and the biomed algos in the house's core. The house is reccomending a mild tranquilizer to ease the pain of it's owner.
+
+Jelan reviews the house's reccomendaiton on his tablet and agrees. He places a small circular adhesive patch, on Saraha's left wrist. The transderminals go to work immediatly and the pain is reduced.
+
+After several hours, Vaughn Marie Pendelton was born. At 7:03 am UTC March 21, 2198 on Burrard Island, Canada.
+ 
+"Thank you Jelan!" Peter said as he shook the doctor's three fingered hand.
+
+"Just part of the service", Jelan's single eye blinked once, then once again. Eebek's eye blinks are like shoulder shrugs of humans. 
+
+"Human live birth is such an amazing process, I've been facinated with it since I learned about humans at the acedemy. So much more invasice than the eggs the Eebek's lay"
+
+"Now, take it easy for the next couple days Saraha. I know you eager to return to work. But you must give your self time to recover."
+
+Jelan swiveled his eye stalk between Peter and Saraha. "No more than 50% of your work load. 2 hours per day tops! Agreed?!", his eye binked repeatidly.   
+
+Sarah started to protest "but they need ..."
+
+The large eye raised up on it stalk and moved toward Saraha.
+
+".. all right, doctors' orders"
+
+![VaughnMariePendelton](/images/Portrait-VaughnPendleton-Birth.jpg)<br>
+<strong>Vaughn Marie Pendleton birthday</strong>
+>>>>>>> Stashed changes
