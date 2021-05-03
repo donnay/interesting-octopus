@@ -134,7 +134,11 @@ If they fail and the Princess will be captured and taken to the warehouse. The P
 If they succeed the princess will recommend that they go to the Andromedian Rose. When they analyze the tape (the companion droid was recording) the information regarding manipulation of the facts and events m the skyhook was the result of digital manipulation. Upon analysis of the video footage will yield the source of the tape as the warehouse. If the players don’t pursue This information will be should result m the players 
 
 #### The Andromedian Rose 
+<<<<<<< HEAD:src/pages/blog/AndromedianRose.md
 ![The Andromedian Rose](/images/ARose-floorplan-Small.JPEG)
+=======
+![The Andromedian Rose](/images/ARose-floorplan-Medium.JPEG)
+>>>>>>> c30a42a19f151faabf300ff349b95fbc7bafe5c8:src/pages/blog/AndromedianRose.md
 
 A: MASTER BED. This room is much larger than the other cabins, located across from the door is a large sonic bed. On the wall to the left of the door there is a dressing table and a clothes closet. Across the room from the dressing table are two sonic chairs and a adjustable height table extending from the floor. The five large portals in the roof give an excellent view of the stars outside. On the wall closest to the door and just beside the chairs there is a door which leads in to the master bath. 
 
@@ -160,10 +164,17 @@ K: STORES. These two room are the ships’ stores.
 
 Both of them contain food, bed linens, medical stores, smaU equipment such as a communication packs. Also the ships weapons are kept here, they include. 
 
+<<<<<<< HEAD:src/pages/blog/AndromedianRose.md
 * 9-Batts 
 * 3 - Laser pistols 
 * 2 - Mazer pistols 
 * 3 - Bio-sensing Sphere guns stationary 
+=======
+9-Batts 
+3 - Laser pistols 
+2 - Mazer pistols 
+3 - Bio-sensing Sphere guns stationary 
+>>>>>>> c30a42a19f151faabf300ff349b95fbc7bafe5c8:src/pages/blog/AndromedianRose.md
 
 L: SICK BAY. In this room there is one examination bed and various closets, along with a hand basin. The closets contain medical supplies, first-aid treatments, and bandages. It is intended only for temporary use and would prove insufficient for longer stays. 
 
