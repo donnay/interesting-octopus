@@ -3,8 +3,8 @@ title: Vaughn Marie Pendelton
 excerpt: >-
   Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
 date: '2021-05-03'
-thumb_image: /images/ARoseFlight.jpg
-image: /images/ARoseFlight.jpg
+thumb_image: /images/Portrait-VaughnPendleton-Birth.jpg
+image: /images/Portrait-VaughnPendleton-Birth.jpg
 seo:
   title: Vaughn Marie Pendelton
   description: >-
@@ -18,10 +18,10 @@ seo:
       keyName: property
     - name: ‘og:description’
       value: >-
-        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
+        Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada. 
       keyName: property
     - name: ‘og:image’
-      value: /images/ARoseFlight.jpg
+      value: /images/Portrait-VaughnPendleton-Birth.jpg
       keyName: property
       relativeUrl: true
     - name: ‘twitter:card’
@@ -30,9 +30,9 @@ seo:
       value: Vaughn Marie Pendelton
     - name: ‘twitter:description’
       value: >-
-        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
+        Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
     - name: ‘twitter:image’
-      value: /images/ARoseFlight.jpg
+      value: /images/Portrait-VaughnPendleton-Birth.jpg
       relativeUrl: true
 template: post
 ---
@@ -57,7 +57,7 @@ The doctor nodded almost imperceptibly, "I am the village doctor ... house calls
 
 Another contraction begins
 
-Saraha's contractions have intessified and she has progressed into labour accouding the the disgnostic AI on the doctors tablet and the biomed algos in the house's core. The house is reccomending a mild tranquilizer to ease the pain of it's owner.
+Saraha's contractions have intessified and she has progressed into labour accouding to the disgnostic AI on the doctors tablet and the biomed algos in the house's core. The house is reccomending a mild tranquilizer to ease the pain of it's owner.
 
 Jelan reviews the house's reccomendaiton on his tablet and agrees. He places a small circular adhesive patch, on Saraha's left wrist. The transderminals go to work immediatly and the pain is reduced.
 
