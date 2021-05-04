@@ -3,7 +3,7 @@ title: The Andromedian Rose
 excerpt: >-
   The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
 date: '2021-05-02'
-thumb_image: /images/ARoseFlight.jpg
+thumb_image: /images/Uni-ARoseFlight-thumb.jpg
 image: /images/ARoseFlight.jpg
 seo:
   title: The Andromedian Rose
@@ -21,7 +21,7 @@ seo:
         The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
       keyName: property
     - name: ‘og:image’
-      value: /images/ARoseFlight.jpg
+      value: /images/Uni-ARoseFlight-thumb.jpg
       keyName: property
       relativeUrl: true
     - name: ‘twitter:card’
@@ -32,7 +32,7 @@ seo:
       value: >-
         The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
     - name: ‘twitter:image’
-      value: /images/ARoseFlight.jpg
+      value: /images/Uni-ARoseFlight-thumb.jpg
       relativeUrl: true
 template: post
 ---
