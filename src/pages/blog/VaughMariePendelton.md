@@ -2,7 +2,7 @@
 title: Vaughn Marie Pendelton
 excerpt: >-
   Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
-date: '2021-05-03'
+date: '2021-05-04'
 thumb_image: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpeg
 image: /images/Portrait-VaughnPendleton-Birth.jpg
 seo:
