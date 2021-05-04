@@ -3,7 +3,7 @@ title: Vaughn Marie Pendelton
 excerpt: >-
   Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
 date: '2021-05-03'
-thumb_image: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpg
+thumb_image: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpeg
 image: /images/Portrait-VaughnPendleton-Birth.jpg
 seo:
   title: Vaughn Marie Pendelton
@@ -21,7 +21,7 @@ seo:
         Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada. 
       keyName: property
     - name: ‘og:image’
-      value: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpg
+      value: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpeg
       keyName: property
       relativeUrl: true
     - name: ‘twitter:card’
@@ -32,7 +32,7 @@ seo:
       value: >-
         Vaughn Marie Pendelton was born at 0703h UTC March 21, 2198 on Burrard Island, Coast Salish, Canada.
     - name: ‘twitter:image’
-      value: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpg
+      value: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpeg
       relativeUrl: true
 template: post
 ---
