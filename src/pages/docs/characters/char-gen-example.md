@@ -1,25 +1,25 @@
 ---
-title: Example
+title: Examples
 weight: 25
 seo:
-  title: Example
-  description: This is the quick start page
+  title: Character generation examples
+  description: This section provides examples of generating player characters. Use this section along side the rules to help you confirm your understanding
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Quick Start
+      value: character generation examples
       keyName: property
     - name: 'og:description'
-      value: This is the quick start page
+      value: This section provides examples of generating player characters. Use this section along side the rules to help you confirm your understanding
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
       value: Quick Start
     - name: 'twitter:description'
-      value: This is the quick start page
+      value: This section provides examples of generating player characters. Use this section along side the rules to help you confirm your understanding
 template: docs
 ---
 
