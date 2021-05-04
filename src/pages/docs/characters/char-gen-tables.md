@@ -3,23 +3,23 @@ title: Tables
 weight: 20
 seo:
   title: Character Generation Tables
-  description: This is the quick start page
+  description: This section contains the tables players and game masters us to generate both player and non-player characters.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Quick Start
+      value: Character Generation Tables
       keyName: property
     - name: 'og:description'
-      value: This is the quick start page
+      value: This section contains the tables players and game masters us to generate both player and non-player characters.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Quick Start
+      value: Character Generation Tables
     - name: 'twitter:description'
-      value: This is the quick start page
+      value: This section contains the tables players and game masters us to generate both player and non-player characters.
 template: docs
 ---
 ##1 - Random Race

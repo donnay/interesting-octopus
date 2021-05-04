@@ -2,24 +2,24 @@
 title: Description
 weight: 10
 seo:
-  title: Description
-  description: This is the installation page
+  title: Character Description
+  description: Characters in a book are described by the author. These descriptions usually include the character's physical appearance, the way he or she thinks and their motivations. In Genesis you must also describe your character. 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Installation
+      value: Character Description
       keyName: property
     - name: 'og:description'
-      value: This is the installation page
+      value: Characters in a book are described by the author. These descriptions usually include the character's physical appearance, the way he or she thinks and their motivations.
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Installation
+      value: Character Description
     - name: 'twitter:description'
-      value: This is the installation page
+      value: ThisCharacters in a book are described by the author. These descriptions usually include the character's physical appearance, the way he or she thinks and their motivations.
 template: docs
 ---
 

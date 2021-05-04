@@ -3,23 +3,23 @@ title: Character Sheet
 weight: 60
 seo:
   title: Character Sheet
-  description: This is the quick start page
+  description: Make copies of these pages, front and back so you can record the details of your Character as you create it. 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Quick Start
+      value: Character Sheet
       keyName: property
     - name: 'og:description'
-      value: This is the quick start page
+      value: Make copies of these pages, front and back so you can record the details of your Character as you create it. 
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Quick Start
+      value: Character Sheet
     - name: 'twitter:description'
-      value: This is the quick start page
+      value: Make copies of these pages, front and back so you can record the details of your Character as you create it. 
 template: docs
 ---
 
