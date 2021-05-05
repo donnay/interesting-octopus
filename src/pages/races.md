@@ -32,7 +32,7 @@ sections:
         content: The Krane are large individuals up to 4 meters in height and weighing 500 to 900 kilograms. The krane nervous system is quite different from most other races because in some respects it better than some system and worse than others.
       - title: Tanaian
         title_url: '/docs/races/tanaian/'
-        image: images/Tanaian_bw.jpg
+        image: images/Tanaian-grey.jpg
         content: A mystery even to this day, they exist and protect the Low Kaa who occupy the sister planet in their solar system.
 seo:
   title: Player Races
