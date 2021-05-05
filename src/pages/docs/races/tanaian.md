@@ -43,9 +43,6 @@ Tanaian speech is like senses, unlimited. What ever physical speech organ they c
 ### Social / Culture
 No social culture is known about the Tanaians because one Tanaian is usually very, and the probably of two even more so. Several members have be questioned about their culture, with little or no revelation beyond the history stated above. It is known, however, that their primary function is to gather information and observe other cultures. This usually puts them in distant, non-interactive role to allow true insight into the motivations of the races they encounter.</p>
 
-![Tanaian](/images/Tanaian_bw.jpg)</p>
-![Tanaian](/images/Tanaian-render.jpeg)</p>
-
 
 ### Special Abilities
 
