@@ -87,7 +87,8 @@ By 2233, the two spheres had established a calm state of interaction and tension
 Essentially established as a crutch for the human race after the  fall of the Corporate State ­ it performed its function excellently. Within five years the system of representational democracy was out  weighed by the powerful influences of many city representatives. These members  of the PSF, elected by direct democratic means, were proponents of the global  implementation of a direct system. Heavy opposition was encountered however,  primarily because it would make them meer figure heads of state but sheer  pressure won out and the existing direct democratic units were all linked to a  network of computers that tallied all the ballots and reported the results.  This allowed the average citizen to cast a vote on any issue. The  representatives still remained but were now appointed for no fixed term they  were simply called back if they weren't living up to standards. The resulting system grew and prospered on Earth but her colonies did not  share the same good fortune.
 
 ## PSF Departments:
-### ITAG - This organization can be equated to the judicial branch of government. It contains the police and military forces and runs the circuit courts. Two major sub-sections of ITAG are MASS, Military Aero-Space Security, and the MFC, the Marine Federation Corps. These two forces handle the enforcement of Federation rule in all of know space. MASS has control over space related duties, while the MFC handle operations on planets.
+### ITAG
+This organization can be equated to the judicial branch of government. It contains the police and military forces and runs the circuit courts. Two major sub-sections of ITAG are MASS, Military Aero-Space Security, and the MFC, the Marine Federation Corps. These two forces handle the enforcement of Federation rule in all of know space. MASS has control over space related duties, while the MFC handle operations on planets.
 
 ### IGAL
 This wing of the Foundation is responsible for the education and training of all people living within PSF jurisdiction. Each PSF member world has 'schools' regulated by IGAL standards. There are also two buildings, on Earth and Awmonee, for students who come from planets without schools. These also serve centers for some of the highest schooling available in the First Sphere. There are however, several local universities which are devoted to the study of one or two particular fields, and are the top educational schools for their disciplines. All schools are devoted to teaching all levels of knowledge, from pre-school to Doctoral studies. All First Sphere inhabitants receive schooling to their fourth year of university. IGAL stands firmly behind this standard.
@@ -109,7 +110,7 @@ By far the most outstanding feature of the current political establishment is it
 
 ![Military](/images/Full_MilitaryAeroSpaceSecurity.jpg)</p>
 
-### Other Non-Governmental Organizations (NGOs)
+## Other Non-Governmental Organizations (NGOs)
 | Acronym |  Name                                               |     Founded |
 | -----| -------------------------------------------------------| --------|
 |PSF   | PolySolar Foundation                                     |  2156 |   
