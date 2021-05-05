@@ -1,40 +1,37 @@
---- 
-title: The Andromedian Rose
-excerpt: >-
-  The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
-date: '2021-05-02'
-thumb_image: /images/Uni-ARoseFlight-thumb.jpeg
-image: /images/ARoseFlight.jpg
+---
+title: Andromedian Rose
+weight: 50
 seo:
-  title: The Andromedian Rose
+  title: Andromedian Rose
   description: >-
-    The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
+    The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
   extra:
-    - name: ‘og:type’
-      value: article
+    - name: 'og:type'
+      value: website
       keyName: property
-    - name: ‘og:title’
-      value: The Andromedian Rose
+    - name: 'og:title'
+      value: Rules
       keyName: property
-    - name: ‘og:description’
+    - name: 'og:description'
       value: >-
-        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
+        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
       keyName: property
-    - name: ‘og:image’
+    - name: 'twitter:card'
+      value: Rules
+    - name: 'twitter:title'
+      value: Rules
+    - name: 'twitter:description'
+      value: >-
+        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time?
+    - name: 'og:image'
       value: /images/Uni-ARoseFlight-thumb.jpeg
       keyName: property
       relativeUrl: true
-    - name: ‘twitter:card’
-      value: summary_large_image
-    - name: ‘twitter:title’
-      value: The Andromedian Rose
-    - name: ‘twitter:description’
-      value: >-
-        The Andromedian Rose is a High-DWarp capability starship intended as a wedding gift from the King to his daughter. The ship is docked in one at Quito skyhook. The princess has been kidnapped and the  King of Minarus offers 100,000 dits for her safe return of the princess before the wedding. Are you adventurous enough to get her back in time? 
-    - name: ‘twitter:image’
+    - name: 'twitter:image'
       value: /images/Uni-ARoseFlight-thumb.jpeg
+      keyName: property
       relativeUrl: true
-template: post
+template: docs
 ---
 
 ### A Genesis Role Playing Game Adventure
@@ -46,6 +43,8 @@ template: post
 The King of the largest kingdoms on the planet of Minarus, Ponteria, Lord P’han Jerado, and the Queen of Fomara, Lady D’prena Manlyne, The second most powerful queendom on the planet, want their children to marry. Princess Agina Jerado and prince Surqri Manlyne by joining would join the two kingdoms together. Both of the children are preparing for the day of the joining with equal anticipation as their parents. 
 
 The two kingdoms of the planet of Minarus are seeking the aid in military equipment and forces from the foundation to help them in their struggles against the Corporate Loyalists. They would also like to enter the foundation as a trading planet to gain better prices for the products they produce. Under foundation law any group on the planet may petition for acceptance into the foundation but it must represent the majority of the people on the planet. To achieve this Lord Jerado and Lady Manlyne must allow the rift between their two kingdoms to be bridged by the joining of their two children. 
+
+![The Andromedian Rose](/images/Uni-ARoseFlight-thumb.jpeg)
 
 #### History 
 Culture: The Minari have many traditions some of which are performed regularly and throughout daily life and others which are only performed a couple times a year and only on special occasions, one of these special traditions is that of the joining which is only performed five times a year and is the only time when two people may marry each other. This tradition began in ancient times and is based on the orbits on the two moons of the planet Minarus. The two moons move in orbits which align five times a year.  To observers these ancient lovers become visible as one, for five days and then separate and continue around the planet. During these five days the people of the planet begin a celebration which starts on the morning of the day of conjunction and continues until the morning after the two lovers separate. Two people are joined at the time of closest alignment of the two moons. 
