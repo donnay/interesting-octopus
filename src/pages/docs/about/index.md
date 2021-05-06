@@ -33,15 +33,15 @@ seo:
 template: docs
 ---
 
-## Production:
+### Production
 Inkeptum Ultra Visio
 
-## Distribution:
+### Distribution
 Winlok Enterprises Ltd.
 
 We wish to give special thanks to Winston and Lorraine for their patience, understanding, and for giving us the support we needed, without which this project would never have been completed.
 
-## Acknowledgements:
+### Acknowledgements
 Robert De Pietro - Micro Imaging Systems
 Terry Fogleman - EBCO Looseleaf Systems
 Don Marchand - GTO printing
