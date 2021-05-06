@@ -23,6 +23,8 @@ seo:
 template: docs
 ---
 
+### Please use the forms below, printed back-to-back, and make multiple copies to use as character sheets. To document the various attributes and details of your characters as they are created.
+<br> 
 ![Character Sheet Front](/images/CharacterSheetFront.jpg)
 
 ![Character Sheet Back](/images/CharacterSheetBack.jpg)

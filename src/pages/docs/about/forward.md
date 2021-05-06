@@ -33,21 +33,21 @@ seo:
 template: docs
 ---
 
-## Editors:
+### Editors
 Kevin D. Clarke<br>
 Noel W. Clarke<br>
 
-## Writers:
+### Writers
 Donnay Winterford<br>
 Drake Harrow<br>
 Chris Bretz<br>
 Pernal Lane<br>
 Mike Helms<br>
 
-## Proofreading:
+### Proofreading
 Tony (Anton) Ehrenreich-Hansen
 
-## Artists:
+### Artists
 -v2-<br>
 Reese Etheridge<br>
 Chris Bretz<br>
