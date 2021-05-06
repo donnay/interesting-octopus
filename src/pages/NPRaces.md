@@ -38,7 +38,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Showcase
+      value: Non-Player Races
       keyName: property
     - name: 'og:description'
       value: Non-Player Races
@@ -50,7 +50,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Showcase
+      value: Non-Player Races
     - name: 'twitter:description'
       value: Non-Player Races
     - name: 'twitter:image'
