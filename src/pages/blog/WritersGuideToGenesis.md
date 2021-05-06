@@ -3,8 +3,8 @@ title: Writers' Guide to Genesis
 excerpt: >-
   This is a simple list of the current events happening in the Genesis Universe 
 date: '2021-05-05'
-thumb_image: /images/Uni-Portrait-VaughnPendleton-Birth-thumb.jpeg
-image: /images/Portrait-VaughnPendleton-Birth.jpg
+thumb_image: images/cyber-punk.jpg
+image: /images/Robot.JPG
 seo:
   title: Writers' Guide to Genesis
   description: >-
@@ -53,3 +53,6 @@ template: post
 * There are pockets of corporate loyalists at most corporate colonies, they are either petitioning, or newly added to the Poly-Solar Foundation. 
 
 * These are just a few of the adventures that could be had in the Genesis Universe.
+
+![Robot](/images/Robot.JPG)
+***

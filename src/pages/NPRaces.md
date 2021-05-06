@@ -28,7 +28,7 @@ sections:
         content: Vjesperé are aquatic, hexapoid, bipeds of a close mammalian decent, their actual ancestry being intertwined to that of the amphibian and whose form can be most aptly described as, humanoid. 
       - title: Sooacoli
         title_url: '/docs/races/sooacoli/'
-        image: images/sooacoli_grey.jpg
+        image: images/Sooaacoli_grey.jpg
         content: The Sooaacoli structure seems never to follow any anatomic rules, Their curved bones and their dense muscle tissues make them the subject of study and unfortunate under estimation.
 seo:
   title: Non-Player Races

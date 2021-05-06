@@ -52,6 +52,11 @@
                         "style": "link"
                     },
                     {
+                        "label": "Non-Player Races",
+                        "url": "/NPRaces/",
+                        "style": "link"
+                    },
+                    {
                         "label": "All Races",
                         "url": "/docs/races/",
                         "style": "link"
