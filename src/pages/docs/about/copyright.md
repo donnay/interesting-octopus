@@ -43,10 +43,11 @@ template: docs
 Genesis is a Copyright© of <strong>Inkeptum Ultra Visio</strong>, 1985 (REG 346387).</p>
 All rights reserved. Reproduction of the material contained herein, in whole or in part without the express written permission from Inkeptum Ultra Visio is a violation of the Canadian Copyright Act.</p>
 
-Published:<br>
+### Published
 1st edition 1986<br>
 2nd edition 1990<br>
 3rd edition - unpublished<br>
+<br>
 v3 remastered - 2021
 
 
