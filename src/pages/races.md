@@ -5,7 +5,7 @@ sections:
     type: section_hero
     title: Races
     image: images/5.jpg
-    content: This page showcases all of the Player races in the game. Please review each of them and decide which you will portray in you next adventure.
+    content: This page showcases all of the Player races in the game. Please review each of them and decide which you will portray in your next adventure.
   - section_id: showcase
     type: section_grid
     col_number: three
@@ -36,7 +36,7 @@ sections:
         content: A mystery even to this day, they exist and protect the Low Kaa who occupy the sister planet in their solar system.
 seo:
   title: Player Races
-  description: This page showcases all of the Player races in the game. Please review each of them and decide which you will portray in you next adventure.
+  description: This page showcases all of the Player races in the game. Please review each of them and decide which you will portray in your next adventure.
   extra:
     - name: 'og:type'
       value: website
@@ -45,7 +45,7 @@ seo:
       value: Showcase
       keyName: property
     - name: 'og:description'
-      value: This is the showcase page
+      value: Player Races
       keyName: property
     - name: 'og:image'
       value: images/5.jpg
@@ -56,7 +56,7 @@ seo:
     - name: 'twitter:title'
       value: Showcase
     - name: 'twitter:description'
-      value: This is the showcase page
+      value: Player Races
     - name: 'twitter:image'
       value: images/5.jpg
       relativeUrl: true
