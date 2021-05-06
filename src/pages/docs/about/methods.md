@@ -83,3 +83,5 @@ In 2018 the content was dusted-off and the remastering of all the art and text b
 #### Software & Apps
 * [GitHub](https://github.com) Desktop client<br>
 * [Working Copy](https://apps.apple.com/ca/app/working-copy-git-client/id896694807)
+
+***
