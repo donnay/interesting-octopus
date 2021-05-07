@@ -2,32 +2,29 @@
 title: Mahendoshi
 weight: 140
 seo:
-  title: Eebeck
-  description: This is the installation page
+  title: Mahendoshi
+  description: Mahendoshi are short, stout subterranean creatures, similar to terrestrial moles. They average only 0.5 meters in height, yet typically mass over 35kg due to their increased cellular density. 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Installation
+      value: Mahendoshi
       keyName: property
     - name: 'og:description'
-      value: This is the installation page
+      value: Mahendoshi are short, stout subterranean creatures, similar to terrestrial moles. They average only 0.5 meters in height, yet typically mass over 35kg due to their increased cellular density. 
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Installation
+      value: Mahendoshi
     - name: 'twitter:description'
-      value: This is the installation page
+      value: Mahendoshi are short, stout subterranean creatures, similar to terrestrial moles. They average only 0.5 meters in height, yet typically mass over 35kg due to their increased cellular density. 
 template: docs
 ---
 
 ### Physiology
-Mahendoshi are short, stout subterranean creatures, similar to terrestrial moles. They average only 0.5 meters in height, yet typically mass over 35kg due to their increased cellular density. With four stubby limbs (two arms and two legs), a naturally occurring pot belly, and a large fuzzy head, Mahendoshi are often described as cute by humans. Appearances are deceiving, however
-Mahendoshi wear a coat of coarse dark fur that ranges from brown to red and even blue-black in colour. While providing warmth and dryness in their cave-like homes the fur is also a depository for all harmful and toxic chemicals removed from the bloodstream. This goes so far as to include any substance which can be absorbed into the body, but cannot be metabolized; truth serum, many natural poisons and venoms, industrial pollutants, etc. Of course, this ability can be overloaded, and also will not shield a Mahendoshi form direct effects, such as drinking battery acid.
-Mahendoshi hands and feet are naked revealing seven strong, slightly webbed digits per limb. The toes are studded around a broad, rounded foot, while sharp claws extend from the fingers of the large shovel-like hands. They have no thumbs but use their widely spaced fingers in functionally the same way. The skin is leathery and grey in colour.
-Mahendoshi are nocturnal omnivores with a distinct preference for meat. Their large mouth consists of triple rows or tiny, razor-like teeth which are used to tear and shred food, before sending it on to their high acid stomach. They additionally do not require food to be cooked and will eat old and slightly putrid food. In dealing with Mardashuru's high gravity, the Mahendoshi have evolved a powerful Five chambered heart, and a remarkable set of four, highly convoluted lungs. In conjunction they are incredibly efficient at exchanging oxygen and chlorine through the Mahendoshi blue green copper based blood. The normal mardashuru atmosphere is nearly 3 atmospheres in pressure and contains many natural (and some industrial) chemicals harmful to many other races. Overall the high gravity has also given the Mahendoshi a dense cellular structure, making they heavier, stronger and quicker than they would otherwise appear to be. Mahendoshi have a natural ability to master their autonomic nerve responses. Once in a light trance, they can alter their heart rate, metabolism, and body functions, and enter a state of hibernation and continue in it for a few months at a time. This ability was especially useful to a race with constant threat of a cave in. Mahendoshi are heterosexual, but only mate when the female is in estruses (about every 8 month). After a six month gestation period. The young are delivered live, with a 3 or 4 infant litter being typical. Newborns are nursed by the females four mammary glands.
+Mahendoshi are short, stout subterranean creatures, similar to terrestrial moles. They average only 0.5 meters in height, yet typically mass over 35kg due to their increased cellular density. With four stubby limbs (two arms and two legs), a naturally occurring pot belly, and a large fuzzy head, Mahendoshi are often described as cute by humans. Appearances are deceiving, however Mahendoshi wear a coat of coarse dark fur that ranges from brown to red and even blue-black in colour. While providing warmth and dryness in their cave-like homes the fur is also a depository for all harmful and toxic chemicals removed from the bloodstream. This goes so far as to include any substance which can be absorbed into the body, but cannot be metabolized; truth serum, many natural poisons and venoms, industrial pollutants, etc. Of course, this ability can be overloaded, and also will not shield a Mahendoshi form direct effects, such as drinking battery acid. Mahendoshi hands and feet are naked revealing seven strong, slightly webbed digits per limb. The toes are studded around a broad, rounded foot, while sharp claws extend from the fingers of the large shovel-like hands. They have no thumbs but use their widely spaced fingers in functionally the same way. The skin is leathery and grey in colour.Mahendoshi are nocturnal omnivores with a distinct preference for meat. Their large mouth consists of triple rows or tiny, razor-like teeth which are used to tear and shred food, before sending it on to their high acid stomach. They additionally do not require food to be cooked and will eat old and slightly putrid food. In dealing with Mardashuru's high gravity, the Mahendoshi have evolved a powerful Five chambered heart, and a remarkable set of four, highly convoluted lungs. In conjunction they are incredibly efficient at exchanging oxygen and chlorine through the Mahendoshi blue green copper based blood. The normal mardashuru atmosphere is nearly 3 atmospheres in pressure and contains many natural (and some industrial) chemicals harmful to many other races. Overall the high gravity has also given the Mahendoshi a dense cellular structure, making they heavier, stronger and quicker than they would otherwise appear to be. Mahendoshi have a natural ability to master their autonomic nerve responses. Once in a light trance, they can alter their heart rate, metabolism, and body functions, and enter a state of hibernation and continue in it for a few months at a time. This ability was especially useful to a race with constant threat of a cave in. Mahendoshi are heterosexual, but only mate when the female is in estruses (about every 8 month). After a six month gestation period. The young are delivered live, with a 3 or 4 infant litter being typical. Newborns are nursed by the females four mammary glands.
 
 ![Eebeck](/images/Mahendoshi_grey.jpg)</p>
 
@@ -56,6 +53,14 @@ A Mahendoshi family unit, or "KA SEKO", is composed of the mother, father, their
 ![Eebeck](/images/Mahendoshi_bw.jpg)</p>
 
 ## Second Sphere
-![Second Sphere Races](/images/RacesSizeChart-02small.png)</p>
-###### Racial Size Comparison Chart
----
+<!-- Image Map Generated by http://www.image-map.net/ -->
+<img src="/images/RacesSizeChart-02small.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_self" alt="Aracnian" title="Aracnian" href="https://genesis.theengine.com/docs/races/aracnian/" coords="3,299,130,0" shape="rect">
+    <area target="_self" alt="Faborian" title="Faborian" href="https://genesis.theengine.com/docs/races/faborian/" coords="130,299,251,0" shape="rect">
+    <area target="_self" alt="Mahendoshi" title="Mahendoshi" href="https://genesis.theengine.com/docs/races/mahendoshi/" coords="315,299,251,1" shape="rect">
+    <area target="_self" alt="Vjesperé" title="Vjesperé" href="https://genesis.theengine.com/docs/races/vjespere/" coords="449,0,316,299" shape="rect">
+    <area target="_self" alt="Sooaacoli" title="Sooaacoli" href="https://genesis.theengine.com/docs/races/sooacoli/" coords="607,0,451,298" shape="rect">
+</map>
+###### Racial Size Comparison Chart---
