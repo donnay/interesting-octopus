@@ -6,8 +6,8 @@ sections:
     title: Welcome!
     image: images/JungleCampCropped.jpg
     content: >
-      This site is devoted to a retro-paper based Role Playing Game. Where the
-      adventures are only limited by your imagination! The games was developed
+      This site is devoted to Genesis a retro-paper based Role Playing Game. Where 
+      the scale of adventures are only limited by your imagination! This game was developed
       by high school kids in Calgary, Alberta, Canada. It has been remastered
       and posted publicly for all to enjoy.<br> The rules of Genesis are divided
       into books or 'caudex'. There is the Caudex Regulum, the book of Rules.
