@@ -6,7 +6,7 @@ date: '2021-05-10'
 thumb_image: /images/Uni-interstellar-thumb.jpeg
 image: /images/Uni-interstellar.jpeg
 seo:
-     title: An Interstellar Christmas
+  title: An Interstellar Christmas
   description: >-
     A brief timeline of an interstellar voyage in the year 2139
   extra:
