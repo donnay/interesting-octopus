@@ -2,7 +2,7 @@
 title: An Interstellar Christmas
 excerpt: >-
   A brief timeline of an interstellar voyage in the year 2139
-date: '2021-05-09'
+date: '2021-05-10'
 thumb_image: /images/Uni-interstellar-thumb.jpeg
 image: /images/Uni-interstellar.jpeg
 seo:
@@ -11,29 +11,29 @@ seo:
       A brief timeline of an interstellar voyage in the year 2139
   extra:
    name: ‘og:type’
-      value: article
-      keyName: property
+   value: article
+   keyName: property
    name: ‘og:title’
-      value: An Interstellar Voyage circa 2139
-      keyName: property
+   value: An Interstellar Voyage circa 2139
+   keyName: property
    name: ‘og:description’
-      value: >-
-          A brief timeline of an interstellar voyage in the year 2139 
-      keyName: property
+   value: >-
+      A brief timeline of an interstellar voyage in the year 2139 
+   keyName: property
    name: ‘og:image’
-      value: /images/Uni-interstellar-thumb.jpeg
-      keyName: property
-      relativeUrl: true
+   value: /images/Uni-interstellar-thumb.jpeg
+   keyName: property
+   relativeUrl: true
    name: ‘twitter:card’
-      value: summary_large_image
+   value: summary_large_image
    name: ‘twitter:title’
-      value: An Interstellar Christmas
+   value: An Interstellar Christmas
    name: ‘twitter:description’
-      value: >-
-          A brief timeline of an interstellar voyage in the year 2139
+   value: >-
+      A brief timeline of an interstellar voyage in the year 2139
    name: ‘twitter:image’
-      value: /images/Uni-interstellar-thumb.jpeg
-      relativeUrl: true
+   value: /images/Uni-interstellar-thumb.jpeg
+   relativeUrl: true
 template: post
 ---
 
