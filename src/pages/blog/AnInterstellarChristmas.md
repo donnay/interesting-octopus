@@ -40,9 +40,9 @@ template: post
 
 <H3> December 7, 2139</h3></td>
 "House computer, we want to observe the Terran holiday called 'Christmas', book a cabin for two aboard the next high-liner to Earth"</p>
-House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomorrow at 9:30 AM. It is a first rate light passenger vessel. The high-liner Charlemagne, registered with Jjaro Colonial Tours, will make the jumps along the Centauran Circuit.</p></p>
+House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on December 23rd at 9:30 AM. It is a first rate light passenger vessel. The high-liner Charlemagne, registered with Jjaro Colonial Tours, will make the jumps along the Centauran Circuit.</p></p>
 
-<H4>Voyage Notes:</h4>
+<H4>Voyage Observatons:</h4>
 <table>
 	<thead>
 		<th align="left" width="15%">Date</th>
@@ -52,7 +52,7 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
 		<td valign="top"><strong>December 23rd</strong></td>
 		<td align="right" valign="top">9:43 AM&nbsp;&nbsp;</td>
-		<td valign="top">Arrive at the you Avalon starport. Check-in, pass customs and security, and do some last-minute New Year's shopping. Luggage is taken to loading by robot valets.</td>
+		<td valign="top">Arrive at the New Avalon starport. Check-in, pass customs and security, and do some last-minute New Year's shopping. Luggage is taken to loading by robot valets.</td>
 	</tr>
 	<tr>
 		<td valign="top"></td>
@@ -72,12 +72,12 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">11:03 AM&nbsp;&nbsp;</td>
- 		<td valign="top">Rendezvous and talking with the Ptolomy in a 1300 km polar orbit.</td>
+ 		<td valign="top">Rendezvous and talking with the Ptolomy in a 1,300 km polar orbit.</td>
  	</tr>
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">11:12 AM&nbsp;&nbsp;</td>
- 		<td valign="top">Rransferred to the Ptolomy. Welcome aboard by first officer and seen to a cabin by robot porter. Listen to fight instructions, get settled, etc. </td>
+ 		<td valign="top">Transferred to the Ptolomy. Welcome aboard by first officer and seen to a cabin by robot porter. Listen to fight instructions, get settled, etc. </td>
 	</tr>
 	<tr>
  		<td valign="top"></td>
@@ -87,7 +87,7 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">12:00 PM&nbsp;&nbsp;</td>
- 		<td valign="top"> Voiceover the PA announces the start of the main fusion burn (.35 Gs)</td>
+ 		<td valign="top"> Voiceover the P.A. announces the start of the main fusion burn (.35 Gs)</td>
  	</tr>
 	<tr>
  		<td valign="top"></td>
@@ -97,7 +97,7 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
  	<tr>
 		<td valign="top"></td>
  		<td align="right" valign="top">3:20 PM&nbsp;&nbsp;</td>
- 		<td valign="top"> main drive cut off occurs (200 km/s)</td>
+ 		<td valign="top">Main drive cut off occurs (200 km/s)</td>
  	</tr>
  	<tr>
 		<td valign="top"></td>
@@ -107,17 +107,17 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
 		<td valign="top"></td>
  		<td align="right" valign="top">5:12 PM&nbsp;&nbsp;</td>
-		<td valign="top"> Ptolomy locks-in after security check and waits for approach vector. </td>
+		<td valign="top"> Ptolomy locks-in after security check and wait for approach vector. </td>
 	</tr>
 	<tr>
 		<td valign="top"></td>
 		<td align="right" valign="top">5:22 PM&nbsp;&nbsp;</td>
-		<td valign="top"> Charlemagne's Warp drive is brought online. Final loading is completed </td>
+		<td valign="top"> Charlemagne's [Delta-Warp](/docs/character-life/star-travel/) drive is brought online. Final loading is completed </td>
 	</tr>
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">5:30:00 PM&nbsp;&nbsp;</td>
-  		<td valign="top"> warp is engaged and the star scape shimmers. </td>
+  		<td valign="top"> [Delta-Warp](/docs/character-life/star-travel/) is engaged and the star scape shimmers. </td>
 	</tr>
 	<tr>
  		<td valign="top"></td>
@@ -197,7 +197,7 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">1:51 PM&nbsp;&nbsp;</td>
- 		<td valign="top">Ptolemy unlocks from Charlemagne after receiving corse and Vector to Quito sky-hook station.</td>
+ 		<td valign="top">Ptolemy unlocks from Charlemagne after receiving corse and vector to Quito sky-hook station.</td>
  	</tr>
 	<tr>
  		<td valign="top"></td>
@@ -217,7 +217,7 @@ House computer: "Okay!, The H.M.S. Ptolomy leaves for Sol destination Earth tomo
 	<tr>
  		<td valign="top"></td>
  		<td align="right" valign="top">6:47 PM&nbsp;&nbsp;</td>
- 		<td valign="top">Ptolemy takes a high equatorial orbit (3,0,000 km) and maneuvers to descend to Quito Station.</td>
+ 		<td valign="top">Ptolemy takes a high equatorial orbit (30,000 km) and maneuvers to descend to Quito Station.</td>
  	</tr>
 	<tr>
  		<td valign="top"></td>
