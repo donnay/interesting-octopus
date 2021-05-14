@@ -37,7 +37,6 @@ seo:
 template: post
 ---
 
-
 <H3> December 7, 2139</h3></td>
 "House computer, we want to observe the Terran holiday called 'Christmas', book a cabin for two aboard the next high-liner to Earth"</p>
 House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on December 23rd at 9:30 AM. It is a first rate light passenger vessel. The high-liner Charlemagne, registered with Jjaro Colonial Tours, will make the jumps along the Centauran Circuit.</p></p>
