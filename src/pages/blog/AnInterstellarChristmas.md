@@ -36,16 +36,15 @@ seo:
       relativeUrl: true
 template: post
 ---
-
 # December 7, 2139
 "House computer, we want to observe the Terran holiday called 'Christmas', book a cabin for two aboard the next high-liner to Earth"</p>
 House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on December 23rd at 9:30 AM. It is a first rate light passenger vessel. The high-liner Charlemagne, registered with Jjaro Colonial Tours, will make the jumps along the Centauran Circuit.</p></p>
 
 ***
 
-## Voyage Observatons:
+## Voyage Observatons
 
-| <left>Date, Time</left>    | Description                                                                                                                                                       |
+|Date, Time</left>    | Description                                                                                                                                                       |
 | ---------------: |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **December 23rd**                                                                                                                                                  |
 |     9:43 AM   | Arrive at the New Avalon starport. Check-in, pass customs and security, and do some last-minute New Year's shopping. Luggage is taken to loading by robot valets. |
@@ -99,15 +98,13 @@ House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on De
 | Total Cost per person  | $1,500 Đ                                              |
 ***
 
-* In deep space the galactic wake affects tremendous areas, but fortunately fruition the cushing effects of a gravity well, it extends only if a few dozen kilometres around a ship. Danger is further lessoned by one of the most staggering lists of operator regulations and licensing ever devised, and by the suicidal tendencies needed to Warp with a gravity well.</p>
-* When making a Warp jump inside of gravity well, the exit hole always forms closer to the centre of the mass than expected due to gravitational attraction. In weaker regions of the field, this calls for some relatively simple course corrections but further in, stable travel demands increasingly complex tricks to overcome, like after the Warps per second, or extending the distance Warped, etc. All of which also increases the chance of a drive crunch (see note below). 
-The Counterpoise is the distance from a mass which is no amount of practical manipulation of a drive will be able to pull it anyway, and the next Warp opens up about a few hundred kilometres below the planet's crust. Counterpoise is technically different for every planet and every drive, but as a margin of safety, values are issued for all inhabited worlds, inside which no unregulated Warp capable crafts are permitted.</p>
-* When too much energy passes through the drive core over a particular time. Unstable gravitational collapse produces subatomic micro black holes with in the core's rods in a process known as fizzing. In less than a trillionth, trilionith of a second, black holes have quantum "evaporated" explosively, in a flood of gamma rays. Technically this occurs every time and jump as a made, but in properly functioning Drive, the black holes are so small that their tiny detonations only do damage to the rods atomic crystalline structure. This is why the slightly radioactive rods must be replaced periodically. However, if you're some mishap too much power is channelled through the core for a particular Warp, micro black holes formed are substantially larger and evaporate with a much bigger bang, fracturing the rods, damaging the  Drive unit. Worse still, at a uncertain and random levels in gravitonic a chain-reaction can begin what is known as "Court Crunch". 
+* In deep space the galactic wake affects tremendous areas, but fortunately fruition the cushing effects of a gravity well, it extends only if a few dozen kilometres around a ship. Danger is further lessoned by one of the most staggering lists of operator regulations and licensing ever devised, and by the suicidal tendencies needed to Warp with a gravity well.
+* When making a Warp jump inside of gravity well, the exit hole always forms closer to the centre of the mass than expected due to gravitational attraction. In weaker regions of the field, this calls for some relatively simple course corrections but further in, stable travel demands increasingly complex tricks to overcome, like after the Warps per second, or extending the distance Warped, etc. All of which also increases the chance of a drive crunch (see note below).
+The Counterpoise is the distance from a mass which is no amount of practical manipulation of a drive will be able to pull it anyway, and the next Warp opens up about a few hundred kilometres below the planet's crust. Counterpoise is technically different for every planet and every drive, but as a margin of safety, values are issued for all inhabited worlds, inside which no unregulated Warp capable crafts are permitted.
+* When too much energy passes through the drive core over a particular time. Unstable gravitational collapse produces subatomic micro black holes with in the core's rods in a process known as fizzing. In less than a trillionth, trilionith of a second, black holes have quantum "evaporated" explosively, in a flood of gamma rays. Technically this occurs every time and jump as a made, but in properly functioning Drive, the black holes are so small that their tiny detonations only do damage to the rods atomic crystalline structure. This is why the slightly radioactive rods must be replaced periodically. However, if you're some mishap too much power is channelled through the core for a particular Warp, micro black holes formed are substantially larger and evaporate with a much bigger bang, fracturing the rods, damaging the  Drive unit. Worse still, at a uncertain and random levels in gravitonic a chain-reaction can begin what is known as "Court Crunch".
 This is where so many micro black holes are formed they have achieved critical density and begin to acrete together, doubling in size and life time, and their ability to glom on to other black holes and get even bigger and so on….
-How long this continues until evaporation and the final explosion depends on how big the drive is. A small cargo tug may have a 30 second wait; while in alliance high-liner may have up to a half an hour, and go out in a 500 megatonne fireball. 
+How long this continues until evaporation and the final explosion depends on how big the drive is. A small cargo tug may have a 30 second wait; while in alliance high-liner may have up to a half an hour, and go out in a 500 megatonne fireball.
 In an typical interstellar voyage, starships typically accelerates up to cruising speed just outside of planetary orbit with sub-lights and then warp in engaged for the bulk of the journey. The sub-lights come on again at the other end to decide to ship into a destination orbit.
 An interesting aspect of Delta world travel is there is no reliable way to interact or communicate or otherwise affect the shipping warp your parents speeds and distances involved are just too great.
-
-
 ![Intersteller](/images/Uni-interstellar.jpeg)
 ***
