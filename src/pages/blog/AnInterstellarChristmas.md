@@ -37,17 +37,17 @@ seo:
 template: post
 ---
 
-<H3> December 7, 2139</h3></td>
+# December 7, 2139
 "House computer, we want to observe the Terran holiday called 'Christmas', book a cabin for two aboard the next high-liner to Earth"</p>
 House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on December 23rd at 9:30 AM. It is a first rate light passenger vessel. The high-liner Charlemagne, registered with Jjaro Colonial Tours, will make the jumps along the Centauran Circuit.</p></p>
 
 ***
 
-<H4>Voyage Observatons:</h4>
+## Voyage Observatons:
 
 | <left>Date, Time</left>    | Description                                                                                                                                                       |
 | ---------------: |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<strong><left>December 23rd                   </left></strong>                                                                                                                                                 |
+| **December 23rd**                                                                                                                                                  |
 |     9:43 AM   | Arrive at the New Avalon starport. Check-in, pass customs and security, and do some last-minute New Year's shopping. Luggage is taken to loading by robot valets. |
 |    10:15 AM   | Boarding commences onto small orbital shuttle. Find self window seat while listening to flight instructions.                                                      |
 |    10:30 AM   | Feel the dampening field come on in before the thrusters begin a series of orbital burns (all less than 1G).￼                                                     |
@@ -68,7 +68,7 @@ House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on De
 |     5:39 PM   | The orbit of Alpha Centauri B is crossed.                                                                                                                         |
 |     7:14 PM   | Próxima Centauri's Orbit is crossed. Ptolemy is refuelled from prepared stores aboard Charlemagne.                                                                |
 |     9:34 PM   | Alpha Centauri's Oort Cloud is entered, and crossed in ~50 minutes                                                                                                |
-| <strong><left>December 24th                    </left></strong>                                                                                                                                                |
+| **December 24th**                                                                                                                                                |
 |     5:11 AM   | Nemesis (Sol B) is passed at a distance of 0.76 light years                                                                                                       |
 |     8:45 AM   | Sol's Oort Cloud is entered, and crossed in ~50 minutes                                                                                                           |
 |     1:26 PM   | Sol's Heliopause is crossed                                                                                                                                       |
@@ -85,17 +85,19 @@ House computer: "Okay! The H.M.S. Ptolomy leaves for Sol destination Earth on De
 |     6:47 PM   | Ptolemy takes a high equatorial orbit (30,000 km) and maneuvers to descend to Quito Station.                                                                      |
 |     7:29 PM   | Ptolemy docks with Quito station. Inertial dampers switch off, as preparing to leave. 1st officer wishes well.                                                    |
 
+***
 
-<h4>Highligner Data</h4>
+## Highligner Data
 
-| Actual Velocity        | ~200 km/s                                             |
+| | |
 |------------------------|-------------------------------------------------------|
-| Apparent Velocity      | ~2 AU/s in system up to  ~5 AUs/s extra-solar         |
+| Actual Velocity        | ~200 km/s                                             || Apparent Velocity      | ~2 AU/s in system up to  ~5 AUs/s extra-solar         |
 | Warps/second           | ~500 (1 per 2 milliseconds)                           |
 | Distance Warped        | ~300,00 km in system up to  ~1,500,000 km extra-solar |
 | Distance between Warps | ~400 meters                                           |
 | Warp Index             | 10 to 13.6                                            |
 | Total Cost per person  | $1,500 Đ                                              |
+***
 
 * In deep space the galactic wake affects tremendous areas, but fortunately fruition the cushing effects of a gravity well, it extends only if a few dozen kilometres around a ship. Danger is further lessoned by one of the most staggering lists of operator regulations and licensing ever devised, and by the suicidal tendencies needed to Warp with a gravity well.</p>
 * When making a Warp jump inside of gravity well, the exit hole always forms closer to the centre of the mass than expected due to gravitational attraction. In weaker regions of the field, this calls for some relatively simple course corrections but further in, stable travel demands increasingly complex tricks to overcome, like after the Warps per second, or extending the distance Warped, etc. All of which also increases the chance of a drive crunch (see note below). 
