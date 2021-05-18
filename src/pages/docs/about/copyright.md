@@ -41,6 +41,8 @@ template: docs
 ---
 
 Genesis is a Copyright© of <strong>Inkeptum Ultra Visio</strong>, 1985 (REG 346387).</p>
+
+![IUV Logo](/static/images/IUVLogo-900.jpeg)
 All rights reserved. Reproduction of the material contained herein, in whole or in part without the express written permission from Inkeptum Ultra Visio is a violation of the Canadian Copyright Act.</p>
 
 ### Published
