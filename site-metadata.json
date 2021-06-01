@@ -24,13 +24,13 @@
                         "style": "link"
                     },
                     {
-                        "label": "Combat",
-                        "url": "/docs/combat/",
+                        "label": "Character Life",
+                        "url": "/docs/character-life/",
                         "style": "link"
                     },
                     {
-                        "label": "Character Life",
-                        "url": "/docs/character-life/",
+                        "label": "Combat",
+                        "url": "/docs/combat/",
                         "style": "link"
                     },
                     {
@@ -47,6 +47,16 @@
                 "has_subnav": true,
                 "subnav_links": [
                     {
+                        "label": "History",
+                        "url": "/docs/history/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "All Races",
+                        "url": "/docs/races/",
+                        "style": "link"
+                    },
+                    {
                         "label": "Player Races",
                         "url": "/races/",
                         "style": "link"
@@ -57,23 +67,18 @@
                         "style": "link"
                     },
                     {
-                        "label": "All Races",
-                        "url": "/docs/races/",
-                        "style": "link"
-                    },
-                    {
-                        "label": "History",
-                        "url": "/docs/history/",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Politics",
+                        "label": "Politics & Military",
                         "url": "/docs/politics/",
                         "style": "link"
                     },
                     {
-                        "label": "Econimics",
+                        "label": "Economics & Commerce",
                         "url": "/docs/economics/",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Star Travel",
+                        "url": "/docs/star-systems/",
                         "style": "link"
                     },
                     {
@@ -87,7 +92,14 @@
                 "label": "Caudex Universium",
                 "url": "/blog",
                 "style": "link",
-                "has_subnav": false
+                "has_subnav": true,
+                "subnav_links": [
+                    {
+                        "label": "Andromedian Rose",
+                        "url": "/docs/AndromedianRose/",
+                        "style": "link"
+                    }
+                ]
             },
             {
                 "label": "Contact Us",
