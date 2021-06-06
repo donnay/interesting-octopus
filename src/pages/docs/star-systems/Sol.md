@@ -25,11 +25,11 @@ template: docs
 
 ## Sol System
 
-![Map of Earth](/static/images/MercatorEarth.png)
+![Map of Earth](/images/MercatorEarth.png)
 Map of Earth
 
 
-![Empty Map](/static/images/MercatorEmpty.png)
+![Empty Map](/images/MercatorEmpty.png)
 Empty Map
 
 ---
