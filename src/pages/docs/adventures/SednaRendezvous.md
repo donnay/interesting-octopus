@@ -344,7 +344,7 @@ Race: Human
 |PS: 70<br>AG: 67<br>CO: 78<br>PR: 62<br>WI: 67<br>IT: 80<br>MC: 80<br>IF: 68<br>AP: 64<br> | Aim: 76<br>Brawl: 71<br>Move: 66 | - Mechanics: 98<br> - Laster Pistol: 75<br> - Laster Rifle: 69<br> - Comp programming: 90<br> - E. Sci, Nuclear: 89<br> - Gravitics: 67<br> - Life Support: 102 |
 
 #### Professor Villmoot, Specialist Bilogical, ecological
-Race: Vjesper&‌eacute;
+Race: Vjesperé
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
