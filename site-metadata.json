@@ -98,6 +98,11 @@
                         "label": "Andromedian Rose",
                         "url": "/docs/adventures/AndromedianRose/",
                         "style": "link"
+                    },
+                    {
+                        "label": "Sedna Rendezvous",
+                        "url": "/docs/adventures/SednaRendezvous/",
+                        "style": "link"
                     }
                 ]
             },
