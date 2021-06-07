@@ -233,7 +233,7 @@ The E.S. (Exploration Ship) Icarus is an Eclipse class exploration scout cruiser
 
 21. **Engineering** - This is the chief Engineer's office. All functions having to do with the in-transit upkeep and maintenance of the ship are pefromed from this room.
 
-* **Note: 2** of the player characters shoudl be encuoraged to have atmospheric piulot skills
+**Note: 2** of the player characters shoudl be encuoraged to have atmospheric piulot skills
 
 #### Ship's Stores
 In the standard equipment included on all P.S.F. Scot cruisers are itesm that the characters may find useful.
@@ -306,14 +306,14 @@ Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 78<br> AG: 40<br>CO: 249<br>PR: 30<br>WI: 80<br>IT: 74<br>MC: 70<br>IF: 85<br>AP: 74<br> | Aim: 61<br>Brawl: 122<br>Move: 46<br> |* Laser Pistol: 90<br>* Laster Rifle: 75<br>* Grenade Rifle: 47<br>*Diplomacy: 64<br>- History: 62<br>- PSF Law: 89<br>- Psychology (Human / Eebek): 75<br>Xeno Diciplines:<br>- Heal: 70<br>- Lift: 57<br>- Shield: 49 |
+| PS: 78<br> AG: 40<br>CO: 249<br>PR: 30<br>WI: 80<br>IT: 74<br>MC: 70<br>IF: 85<br>AP: 74<br> | Aim: 61<br>Brawl: 122<br>Move: 46<br> | - Laser Pistol: 90<br> - Laster Rifle: 75<br> - Grenade Rifle: 47<br> - Diplomacy: 64<br> - History: 62<br> - PSF Law: 89<br> - Psychology (Human / Eebek): 75<br>Xeno Diciplines:<br> - Heal: 70<br> - Lift: 57<br> - Shield: 49 |
 
 #### Shurru Kant, Medical Officer
 Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | * Laser Pistol: 45 <br>* Laster Rifle: 45 <br>* Medical - Burns: 90 <br>* Infection: 90 <br>* Major Injury: 89 <br>* Minor Injury: 99 <br>* Poisions: 78 <br>* Surgery: 89 <br>* Diplomacy: 68 <br>* Life Support: 57 <br>* Parmacies: 89 |
+| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | - Laser Pistol: 45 <br> - Laster Rifle: 45 <br> - Medical - Burns: 90 <br> - Infection: 90 <br> - Major Injury: 89 <br> - Minor Injury: 99 <br> - Poisions: 78 <br> - Surgery: 89 <br> - Diplomacy: 68 <br> - Life Support: 57 <br> - Parmacies: 89 |
 
 #### Ammon-dur, Security Officer
 Race: Eebek
