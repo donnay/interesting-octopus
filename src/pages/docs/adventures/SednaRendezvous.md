@@ -93,16 +93,14 @@ The P.S.F. has offered sanctions to Captain Vandervekken and Dr. Vilmoot, giving
 ![E.S.Icarus](/images/ESIcarus.jpg)
 Floor Plan of the Icarus
 
-Now is a good time to have them review the ships stores and the layout of their rooms. It is important for them to have a feel for the equipment before they start the play so that they do not have halt the adventure to search through stacks of paper to find the item they need, or if the ship is carrying it. This will prevent long hold ups in the game to come, and will help the adventure flow more smoothly. 
-
-As the characters are orienting themselves with the ships stores, the Icarus; will pass through a transmission beam sent back to the P.S.F. base in Milmoth sector. The contents of this beam will provide them with a printout of the specifications and nature of the Sedna System. 
+<div class="note"><strong>Note:</strong> Now is a good time to have them review the ships stores and the layout of their rooms. It is important for them to have a feel for the equipment before they start the play so that they do not have halt the adventure to search through stacks of paper to find the item they need, or if the ship is carrying it. This will prevent long hold ups in the game to come, and will help the adventure flow more smoothly. As the characters are orienting themselves with the ships stores, the Icarus; will pass through a transmission beam sent back to the P.S.F. base in Milmoth sector. The contents of this beam will provide them with a printout of the specifications and nature of the Sedna System. </div>
 
 ![Sedna PSF Information](/images/Sedna-PSF-Info.png)
 P.S.F. Initial Telescopic Survey
 
-Having perused the ships stores manifest and the ship layout, as well as the P.S.F. Initial Telescopic Survey for the Sedna system, the players will have used up the twelve minutes before entering the systems heliopause and being forced into sublight speeds by the gravity of the star. 
-
+<div class="important"> Having perused the ships stores manifest and the ship layout, as well as the P.S.F. Initial Telescopic Survey for the Sedna system, the players will have used up the twelve minutes before entering the systems heliopause and being forced into sublight speeds by the gravity of the star. 
 Upon entering the system, the E.S. Icarus will experience a few moments of extreme turbulence, after which Franco DeGierres, the communication officer, will announce:
+</div>
 
 > The large accretion disk of the star is severely interfering with the detection devices and scanners of the ship. The computer is compensating, but detection clarity is down by 75%.
 
@@ -125,22 +123,21 @@ In battle, the K'k'to'pok will attempt to grip the Icarus with its grapnel arms.
 11 - 45  Hull hit<br>
 46 -100  Miss<br>
 
-* Should the mining ship be destroyed on the first hit, a shard of shrapnel from the explosion will hit the bridge of the Icarus. In this case all bridge officers will be killed instantly, and the players will be left to control the ship from backup controls in engineering. 
+All laser attacks should be rolled on the above table for results.
 
-Several rounds after the K'k'to'pok engages the Icarus in battle, so to will the 
+* Should the mining ship be destroyed on the first hit, a shard of shrapnel from the explosion will hit the bridge of the Icarus. In this case all bridge officers will be killed instantly, and the players will be left to control the ship from backup conrols in engineering. 
 
-Aracnian light cruiser, Chk'o'o'ka. If the mining ship is destroyed, the Icarus will have a much more even chance of surviving, for if both Aracnian ships are still functioning when the Chk'o'o'ka arrives, the mining ship will retreat, and then attempt to reattach to the Icarus while the light cruiser distracts it. 
-The aracnian cruiser, though is suffering from the same difficulty that the Icarus is. Its detection clarity also is hampered by the accretion disc of the star. 
+Several rounds after the K'k'to'pok engages the Icarus in battle, so to will the Aracnian light cruiser, Chk'o'o'ka. If the mining ship is destroyed, the Icarus will have a much more even chance of surviving, for if both Aracnian ships are still functioning when the Chk'o'o'ka arrives, the mining ship will retreat, and then attempt to reattach to the Icarus while the light cruiser distracts it. 
+The aracnian cruiser, though is suffering from the same difficulty that the Icarus is. Its detection clarity also is hampered by the acretion disc of the star. 
 
-All laser attacks should be rolled on the above table for the results.
 
 | Attribute | Details |
 | ---- | ---- |
 | Name | Ch'o'o'ka |
 | Classification | Spiaer Class Scout Cruiser 
-| Propulsion | Fusion Drive, D-warp| 
-| Crew | 20 |
-| Mass | 172 Kilo tonnes |
+| Propuision | Fusion Drive, D-warp| 
+| Crew | 20 | 
+| Mass | 172 Kilotonnes |
 | Dimensions | 325 m x 127 m 76 m | 
 | Speed | Cruise 175 Kps |
 | Armaments | 2 Laser Cannons. 1 Fore, 1 Aft |
@@ -149,13 +146,16 @@ The Chk'o'o'ka also is heavily armoured, and will take twelve hits from the lase
 
 If both aracnian ships are destroyed, the Icarus will have free reign in the Sedna system so long as she does not land on the planet, Sedna Prime. On the south pole of this planet is the Aracnian pirate base. 
 
-1. Scenario One: Report and Run, they have accomplished their goal and can proceed back to the P.S.F. base in Milmoth sector. 
+1. <strong>Scenario One: Report and Run</strong>
+They have accomplished their goal and can proceed back to the P.S.F. base in Milmoth sector. 
 
-2. Scenario Two: Search and Destroy, they have completed the scenario upon destroying the base, and can then proceed to the P.S.F. base in Milmoth sector. 
+2. <strong>Scenario Two: Search and Destroy</strong>
+They have completed the scenario upon destroying the base, and can then proceed to the P.S.F. base in Milmoth sector. 
 To destroy the pirate base, the Icarus could simply hover over it and hit it with repeated laser blasts, however the base is armed with a laser cannon as well, and will fire back, if the crew of the Icarus decide on this option. The same table used in the space battles should be used to resolve this combat, with the base taking twenty hits to be destroyed.
 Another means of destroying the Aracnian base would be to set a large piece of wreckage from the aracnian ships on an intercept trajectory with the base. Dropping one such meteor will destroy the base utterly. 
 
-3. Scenario Three: They must proceed down to the Aracnian base and try to rescue the survivors, if any, of the Racine or the Candor. 
+3. <strong>Scenario Three: Search and Rescue</strong>
+They must proceed down to the Aracnian base and try to rescue the survivors, if any, of the Racine or the Candor. 
 
 There are a total of forty-five (45) crew members in the base
 - 20 Scout ship crew
