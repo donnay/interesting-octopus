@@ -149,15 +149,13 @@ The Chk'o'o'ka also is heavily armoured, and will take twelve hits from the lase
 
 If both aracnian ships are destroyed, the Icarus will have free reign in the Sedna system so long as she does not land on the planet, Sedna Prime. On the south pole of this planet is the Aracnian pirate base. 
 
-### Scenario One: Report and Run, they have accomplished their goal and can proceed back to the P.S.F. base in Milmoth sector. 
+1. Scenario One: Report and Run, they have accomplished their goal and can proceed back to the P.S.F. base in Milmoth sector. 
 
-### Scenario Two: Search and Destroy, they have completed the scenario upon destroying the base, and can then proceed to the P.S.F. base in Milmoth sector. 
-
+2. Scenario Two: Search and Destroy, they have completed the scenario upon destroying the base, and can then proceed to the P.S.F. base in Milmoth sector. 
 To destroy the pirate base, the Icarus could simply hover over it and hit it with repeated laser blasts, however the base is armed with a laser cannon as well, and will fire back, if the crew of the Icarus decide on this option. The same table used in the space battles should be used to resolve this combat, with the base taking twenty hits to be destroyed.
-
 Another means of destroying the Aracnian base would be to set a large piece of wreckage from the aracnian ships on an intercept trajectory with the base. Dropping one such meteor will destroy the base utterly. 
 
-### Scenario Three: They must proceed down to the Aracnian base and try to rescue the survivors, if any, of the Racine or the Candor. 
+3. Scenario Three: They must proceed down to the Aracnian base and try to rescue the survivors, if any, of the Racine or the Candor. 
 
 There are a total of forty-five (45) crew members in the base
 - 20 Scout ship crew
