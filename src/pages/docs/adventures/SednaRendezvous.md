@@ -39,9 +39,11 @@ A Genesis Role Playing Game Adventure
 ## Game Master's Introduction
 
 ### Introduction
-Because of the complexity of the adventure, **Sedna Rendezvous** , it will be presented in three different formats that range in difficulty from easy to hard. The first scenario- **Report and Run**, is the easiest. This scenario should be used by beginning game-masters (GM's) and players. The second scenario, **Search and Destroy**, is more difficult and the third scenario, **Search and Rescue**, is by far the most difficult. The game master can determine which format is best suited to the experience of his players and himself. 
+Because of the complexity of the adventure, **Sedna Rendezvous** , it will be presented in three different formats that range in difficulty from easy to hard. The game master can determine which format is best suited to the experience of his players and himself. The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small sumary at the beginning of each new section. 
 
-The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small sumary at the beginning of each new section. 
+1. **Report and Run**, is the easiest, for beginning game-masters (GM's) and players
+2. **Search and Destroy**, is more difficult 
+3. **Search and Rescue**, is by far the most difficult
 
 Each scenario will have certain benefits and disadvantages. The easiest will probably be boringly simple for the experienced gamer, and the hardest will be impossibly complex for the beginning game master to organize and run. The best thing to remember is that the game should be fun for both the players and the GM. 
 
@@ -63,27 +65,25 @@ The brief introductions below are a guide to get your players started in the adv
 
 ## Player's Introductions
 ### Scenario 1 - Report and Run
-The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared. They had been sent to the Sedna System, a newly descovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested, through Dr. Vilmoot, that you, the players, on a reconnaisance mission in the sector, on board the exploration ship E.S. Icarus, pass through the Sedna system on a reconaissance mission. Simply, the mission will be to cruise through, take detailed recordings and readings on the system, and the status of the S.S. Racine and the L.C.M.S. Candor, whatever they may be, and to report back to the P.S.F. headquarters in Milmoth sector. 
-
-Your Eclipse class scout, equipped with fast drive and super-sensitive detection devices, and its crew, are under instruction by the P.S.F. to return at all cost with this valuable information, as there is suspicion of hostile alien activity in the sector. 
+> The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared. They had been sent to the Sedna System, a newly descovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested, through Dr. Vilmoot, that you, the players, on a reconnaisance mission in the sector, on board the exploration ship E.S. Icarus, pass through the Sedna system on a reconaissance mission. Simply, the mission will be to cruise through, take detailed recordings and readings on the system, and the status of the S.S. Racine and the L.C.M.S. Candor, whatever they may be, and to report back to the P.S.F. headquarters in Milmoth sector. 
+>
+>Your Eclipse class scout, equipped with fast drive and super-sensitive detection devices, and its crew, are under instruction by the P.S.F. to return at all cost with this valuable information, as there is suspicion of hostile alien activity in the sector. 
 
 ### Scenario 2 - Search and Destroy
-The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared in the Sedna system, near Beta Aquila. You, the players, on board the Eclipse class Scout Cruiser, E.S.Icarus, have been requested by the P.S.F. through Captain Vandervekken, to go to the Sedna system. There have been confirmed reports of a hostile alien pirate base operating out of this system. With the armaments and equipment on the Icarus, you have been ordered to search out the pirate base located in this system, and destroy it. 
-
+>The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared in the Sedna system, near Beta Aquila. You, the players, on board the Eclipse class Scout Cruiser, E.S.Icarus, have been requested by the P.S.F. through Captain Vandervekken, to go to the Sedna system. There have been confirmed reports of a hostile alien pirate base operating out of this system. With the armaments and equipment on the Icarus, you have been ordered to search out the pirate base located in this system, and destroy it. 
+>
 The P.S.F. has issued Captain Vandervekken and his crew sanction to act as deputies to the council and enabled them to take whatever actions necessary. The Captain has been advised that should the situation merit it, the crew and the passengers of the E.S. Icarus are expendable, and should it be the only viable option, the Captain is to use the Icarus as a missile to destroy the base. 
 
 Should the mission succeed, there will be generous rewards for the crew of the Icarus, as well as rewards for the capture of any alien technology. 
 
 ### Scenario 3 - Search and Rescue
-The S.S. Racine, a scientific survey ship, and her escort, the L.C.M.S. Condor, have disappeared in the Sedna system, near Delta Aquila. 
-
-The P.S.F has requested through both Captain Vandervekken and Dr. Vilmoot, that the crew of the E.S. Icarus, the only representative within lightyears of the system, go to Sedna and attempt to rescue the crews of the Racine and the Condor. 
-
+>The S.S. Racine, a scientific survey ship, and her escort, the L.C.M.S. Condor, have disappeared in the Sedna system, near Delta Aquila. The P.S.F has requested through both Captain Vandervekken and Dr. Vilmoot, that the crew of the E.S. Icarus, the only representative within lightyears of the system, go to Sedna and attempt to rescue the crews of the Racine and the Condor. 
+>
 The P.S.F. suspects that there is hostile alien pirate activity out of the Sedna system. The crew of the Icarus is warned that the pirates are thought to be rutheless, and to take caution in proceeding on this mission.
-
+>
 A generous reward will be offered to the surviving crew of the Icarus, as well as bonuses for each surviving crew member of the Candor or Racine that they return to the P.S.F. headquarters in Milmoth sector. 
-
-The P.S.F. has offered sanctions to Captain Vandervekken and Dr. Vilmoot, giving them leave to take any action that they feel is necessary, but they and the crew are warned that they are **not** expendable, and that they should take any actions necessar^ to bring this information or surviving crew members back to P.S.F. space. 
+>
+The P.S.F. has offered sanctions to Captain Vandervekken and Dr. Vilmoot, giving them leave to take any action that they feel is necessary, but they and the crew are warned that they are **not** expendable, and that they should take any actions necessary to bring this information or surviving crew members back to P.S.F. space. 
 
 ---
 ## The Adventure Begins
