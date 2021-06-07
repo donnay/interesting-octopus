@@ -320,35 +320,35 @@ Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 80<br>AG: 40<br>CO: 292<br>PR: 40<br>WI: 78<br>IT: 79<br>MC: 67<br>IF: 50<br>AP: 47 | Aim: 62<br>Brawl: 137<br>Move: 53 | * Laser Pistol: 90<br>* Laster Rifle: 90<br>* Grenade Rifle: 78<br>* Knife: 68<br>* H2H combat: 90<br>* PSF Law: 59<br>* Space Tactics: 78<br>* Land war tactics: 90<br>* Diplomacy: 67 |
+| PS: 80<br>AG: 40<br>CO: 292<br>PR: 40<br>WI: 78<br>IT: 79<br>MC: 67<br>IF: 50<br>AP: 47 | Aim: 62<br>Brawl: 137<br>Move: 53 | - Laser Pistol: 90<br> - Laster Rifle: 90<br> - Grenade Rifle: 78<br> - Knife: 68<br> - H2H combat: 90<br> - PSF Law: 59<br> - Space Tactics: 78<br> - Land war tactics: 90<br> - Diplomacy: 67 |
 
 #### Akido Yashiro, Pilot
 Race: Human
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-|PS: 53<br>AG: 70<br>CO: 75<br>PR: 75<br>WI: 76<br>IT: 78<br>MC: 76<br>IF: 56<br>AP: 64<br> | Aim: 75<br>Brawl: 66<br>Move: 66 | * Laser Pistol: 50<br>* Laster Rifle: 45<br>* Astronautics: 98<br>* Navigaton: 97<br>* Gravitics: 68<br>* Pilot - Asmosphere: 90<br>* Pilot - Delta Warp: 97<br>* Pilot - Space: 102 |
+|PS: 53<br>AG: 70<br>CO: 75<br>PR: 75<br>WI: 76<br>IT: 78<br>MC: 76<br>IF: 56<br>AP: 64<br> | Aim: 75<br>Brawl: 66<br>Move: 66 | - Laser Pistol: 50<br> - Laster Rifle: 45<br> - Astronautics: 98<br> - Navigaton: 97<br> - Gravitics: 68<br> - Pilot - Asmosphere: 90<br> - Pilot - Delta Warp: 97<br> - Pilot - Space: 102 |
 
 #### Franco DuGierres, Communicaitons Tech
 Race: Human
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-|PS: 64<br>AG: 67<br>CO: 79<br>PR: 80<br>WI: 69<br>IT: 80<br>MC: 80<br>IF: 79<br>AP: 67<br> | Aim: 79<br>Brawl: 70<br>Move: 70 | * Laser Pistol: 70<br>* Laster Rifle: 63<br>* English: 90<br>* Madarin: 90<br>* Galactic Sign: 79<br>* Data Handeling: 69<br>* Comp. Programming: 80<br>* Cybernetics: 58 |
+|PS: 64<br>AG: 67<br>CO: 79<br>PR: 80<br>WI: 69<br>IT: 80<br>MC: 80<br>IF: 79<br>AP: 67<br> | Aim: 79<br>Brawl: 70<br>Move: 70 | - Laser Pistol: 70<br> - Laster Rifle: 63<br> - English: 90<br> - Madarin: 90<br> - Galactic Sign: 79<br> - Data Handeling: 69<br> - Comp. Programming: 80<br> - Cybernetics: 58 |
 
 #### Karl Smythe, Chief Engineer
 Race: Human
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-|PS: 70<br>AG: 67<br>CO: 78<br>PR: 62<br>WI: 67<br>IT: 80<br>MC: 80<br>IF: 68<br>AP: 64<br> | Aim: 76<br>Brawl: 71<br>Move: 66 | * Mechanics: 98<br>* Laster Pistol: 75<br>* Laster Rifle: 69<br>* Comp programming: 90<br>* E. Sci, Nuclear: 89<br>* Gravitics: 67<br>* Life Support: 102 |
+|PS: 70<br>AG: 67<br>CO: 78<br>PR: 62<br>WI: 67<br>IT: 80<br>MC: 80<br>IF: 68<br>AP: 64<br> | Aim: 76<br>Brawl: 71<br>Move: 66 | - Mechanics: 98<br> - Laster Pistol: 75<br> - Laster Rifle: 69<br> - Comp programming: 90<br> - E. Sci, Nuclear: 89<br> - Gravitics: 67<br> - Life Support: 102 |
 
 #### Professor Villmoot, Specialist Bilogical, ecological
 Race: Vjesper&‌eacute;
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-|PS: 92<br>AG: 107<br>CO: 127<br>PR: 71<br>WI: 87<br>IT: 90<br>MC: 91<br>IF: 90<br>AP: 72<br> | Aim: 96<br>Brawl: 99<br>Move: 90| * Laster Pistol: 10<br>* Laster Rifle: 0<br>* Conk Gun: 75<br>* Galactic Sign: 90<br>* English: 78<br>* Bilogy: 92<br>* Botany: 97<br>* Ecology: 102<br>* Zooology: 82<br>* Life support: 61<br>* Pilot - Marine: 71 |
+|PS: 92<br>AG: 107<br>CO: 127<br>PR: 71<br>WI: 87<br>IT: 90<br>MC: 91<br>IF: 90<br>AP: 72<br> | Aim: 96<br>Brawl: 99<br>Move: 90| - Laster Pistol: 10<br> - Laster Rifle: 0<br> - Conk Gun: 75<br> - Galactic Sign: 90<br> - English: 78<br> - Bilogy: 92<br> - Botany: 97<br> - Ecology: 102<br> - Zooology: 82<br> - Life support: 61<br> - Pilot - Marine: 71 |
 
 ### C - Chk'o'o'ka Floorplan
 ![Sedna PSF Information](/images/Chk'O'O'Ka.jpg)
