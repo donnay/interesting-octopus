@@ -4,31 +4,31 @@ weight: 60
 seo:
   title: Sedna Rendezvous
   description: >-
-    The Sedna Rendezvous
+    The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared a newly descovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested you and the crew of exploration ship E.S. Icarus find out what happend. 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Rules
+      value: Sedna Rendezvous - A Genesis Adventure
       keyName: property
     - name: 'og:description'
       value: >-
-        The Sedna Rendezvous
+        The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared a newly descovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested you and the crew of exploration ship E.S. Icarus find out what happend.
       keyName: property
     - name: 'twitter:card'
       value: Rules
     - name: 'twitter:title'
-      value: Rules
+      value: Sedna Rendezvous - A Genesis Adventure
     - name: 'twitter:description'
       value: >-
-        The Sedna Rendezvous
+        The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared a newly descovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested you and the crew of exploration ship E.S. Icarus find out what happend.
     - name: 'og:image'
-      value: /images/Uni-ARoseFlight-thumb.jpeg
+      value: /images/Uní-SednaRendezvousLead.jpeg
       keyName: property
       relativeUrl: true
     - name: 'twitter:image'
-      value: /images/Uni-ARoseFlight-thumb.jpeg
+      value: /images/Uní-SednaRendezvousLead.jpeg
       keyName: property
       relativeUrl: true
 template: docs
@@ -162,7 +162,7 @@ There are a total of forty-five (45) crew members in the base
 - 10 Mining ship crew
 - 15 Support staff
 
-![Aracnian Base](/images/AracninaPirateBase.jpg)
+![Aracnian Base](/images/AracnianPirateBase.jpg)
 Aracnian base floor plan
 
 ---
@@ -233,7 +233,7 @@ The E.S. (Exploration Ship) Icarus is an Eclipse class exploration scout cruiser
 
 21. **Engineering** - This is the chief Engineer's office. All functions having to do with the in-transit upkeep and maintenance of the ship are pefromed from this room.
 
-* **Note: 2** of the player characters shoudl be encuoraged to have atmospheric piulot skills
+**Note: 2** of the player characters shoudl be encuoraged to have atmospheric piulot skills
 
 #### Ship's Stores
 In the standard equipment included on all P.S.F. Scot cruisers are itesm that the characters may find useful.
@@ -306,18 +306,18 @@ Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 78<br> AG: 40<br>CO: 249<br>PR: 30<br>WI: 80<br>IT: 74<br>MC: 70<br>IF: 85<br>AP: 74<br> | Aim: 61<br>Brawl: 122<br>Move: 46<br> |* Laser Pistol: 90<br>* Laster Rifle: 75<br>* Grenade Rifle: 47<br>*Diplomacy: 64<br>* History: 62<br>* PSF Law: 89<br>* Psychology (Human / Eebek): 75<br>Xeno Diciplines:<br>Heal: 70<br>Lift: 57<br>Shield: 49 |
+| PS: 78<br> AG: 40<br>CO: 249<br>PR: 30<br>WI: 80<br>IT: 74<br>MC: 70<br>IF: 85<br>AP: 74<br> | Aim: 61<br>Brawl: 122<br>Move: 46<br> | - Laser Pistol: 90<br> - Laster Rifle: 75<br> - Grenade Rifle: 47<br> - Diplomacy: 64<br> - History: 62<br> - PSF Law: 89<br> - Psychology (Human / Eebek): 75<br>Xeno Diciplines:<br> - Heal: 70<br> - Lift: 57<br> - Shield: 49 |
 
 #### Shurru Kant, Medical Officer
 Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | * Laser Pistol: 45 <br>* Laster Rifle: 45 <br>* Medical - Burns: 90 <br>* Infection: 90 <br>* Major Injury: 89 <br>* Minor Injury: 99 <br>* Poisions: 78 <br>* Surgery: 89 <br>* Diplomacy: 68 <br>* Life Support: 57 <br>* Parmacies: 89 |
+| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | - Laser Pistol: 45 <br> - Laster Rifle: 45 <br> - Medical - Burns: 90 <br> - Infection: 90 <br> - Major Injury: 89 <br> - Minor Injury: 99 <br> - Poisions: 78 <br> - Surgery: 89 <br> - Diplomacy: 68 <br> - Life Support: 57 <br> - Parmacies: 89 |
 
 #### Ammon-dur, Security Officer
 Race: Eebek
-	
+
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
 | PS: 80<br>AG: 40<br>CO: 292<br>PR: 40<br>WI: 78<br>IT: 79<br>MC: 67<br>IF: 50<br>AP: 47 | Aim: 62<br>Brawl: 137<br>Move: 53 | * Laser Pistol: 90<br>* Laster Rifle: 90<br>* Grenade Rifle: 78<br>* Knife: 68<br>* H2H combat: 90<br>* PSF Law: 59<br>* Space Tactics: 78<br>* Land war tactics: 90<br>* Diplomacy: 67 |
