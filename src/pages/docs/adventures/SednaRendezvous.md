@@ -169,7 +169,7 @@ Aracnian base floor plan
 
 ## Appendices
 
-### A - the Icarus Key
+### A - E.S. Icarus
 The E.S. (Exploration Ship) Icarus is an Eclipse class exploration scout cruiser. It has been privately chartered by a Professor Villmoot to explore a region of 100 LY 3 (cubic light years) in the region od Delta Aquila. The Icarus is the ship on which the playes are employed, either by Captian Vandervekken or by Professot Villmoot.
 
 #### Ship's Specifications
@@ -350,10 +350,9 @@ Race: Vjesper&‌eacute;
 | ---------- | --------- | ------ |
 |PS: 92<br>AG: 107<br>CO: 127<br>PR: 71<br>WI: 87<br>IT: 90<br>MC: 91<br>IF: 90<br>AP: 72<br> | Aim: 96<br>Brawl: 99<br>Move: 90| * Laster Pistol: 10<br>* Laster Rifle: 0<br>* Conk Gun: 75<br>* Galactic Sign: 90<br>* English: 78<br>* Bilogy: 92<br>* Botany: 97<br>* Ecology: 102<br>* Zooology: 82<br>* Life support: 61<br>* Pilot - Marine: 71 |
 
-### C - Floor Plan of the Chk'o'o'ka
+### C - Chk'o'o'ka Floorplan
 ![Sedna PSF Information](/images/Chk'O'O'Ka.jpg)
 
-### D - Key of the Chk'o'o'ka
 This Key is included on the chance that the Game Master allows the players to board the Arachnia Ship. There are 20 crew members on board. SHoudl the players board it shoudl be assumed that only 4 or five remain alive. 
 
 1. Bridge (5 - number of crew)
@@ -367,7 +366,7 @@ This Key is included on the chance that the Game Master allows the players to bo
 9. Engenerring (7)
 10. Storage Bay
 
-#### H - Aracnian base Key
+### D - Aracnian base Key
 
 ((Insert Key Detials here))
 
