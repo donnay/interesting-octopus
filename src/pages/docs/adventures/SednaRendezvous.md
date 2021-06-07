@@ -139,7 +139,7 @@ All laser attacks should be rolled on the above table for the results.
 | Name | Ch'o'o'ka |
 | Classification | Spiaer Class Scout Cruiser 
 | Propuision | Fusion Drive, D-warp| 
-| Crew | 20 } 
+| Crew | 20 |
 | Mass | 172 Kilotonnes |
 | Dimensions | 325 m x 127 m 76 m | 
 | Speed | Cruise 175 Kps |
@@ -350,10 +350,10 @@ Race: Vjesperé
 | ---------- | --------- | ------ |
 |PS: 92<br>AG: 107<br>CO: 127<br>PR: 71<br>WI: 87<br>IT: 90<br>MC: 91<br>IF: 90<br>AP: 72<br> | Aim: 96<br>Brawl: 99<br>Move: 90| - Laster Pistol: 10<br> - Laster Rifle: 0<br> - Conk Gun: 75<br> - Galactic Sign: 90<br> - English: 78<br> - Bilogy: 92<br> - Botany: 97<br> - Ecology: 102<br> - Zooology: 82<br> - Life support: 61<br> - Pilot - Marine: 71 |
 
-### C - Chk'o'o'ka Floorplan
-![Sedna PSF Information](/images/Chk'O'O'Ka.jpg)
+### C - Chk'o'o'ka 
+![floorplan](/images/Chk'O'O'Ka.jpg)
 
-This Key is included on the chance that the Game Master allows the players to board the Arachnia Ship. There are 20 crew members on board. SHoudl the players board it shoudl be assumed that only 4 or five remain alive. 
+This Key is included on the chance that the Game Master allows the players to board the Aracnian Ship. There are 20 crew members on board. Should the players board it can be assumed that only 4 or five remain alive. 
 
 1. Bridge (5 - number of crew)
 2. Storage
@@ -366,7 +366,7 @@ This Key is included on the chance that the Game Master allows the players to bo
 9. Engenerring (7)
 10. Storage Bay
 
-### D - Aracnian base Key
+### D - Aracnian base 
 
 ((Insert Key Detials here))
 
