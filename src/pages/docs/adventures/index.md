@@ -23,7 +23,7 @@ seo:
 template: docs
 ---
 
-# Adventures</p>
+# Introduction</p>
 The preceding chapters dealt with the rules and rule systems that are inherent to Genesis, but there is much more to the game than just rules. In fact the major aspect of role-playing games (RPGs) that sets them apart from other games has nothing to do with rules, it has to do with the adventures. Regular games are fixed -- they have one adventure that you play over and over every time you play the game, just the opposite is true for RPGs. They have adventures, only plot and storyline, that are infinitely variable because they are separate from the rules. So, every time an adventure is purchased or one written the adventure the players experience changes.
 
 ## What is an Adventure?

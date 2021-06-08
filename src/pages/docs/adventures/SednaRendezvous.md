@@ -36,21 +36,20 @@ template: docs
 
 A Genesis Role Playing Game Adventure
 
-## Game Master's Introduction
+## Game Master Introduction
 
-### Introduction
-Because of the complexity of the adventure, **Sedna Rendezvous** , it will be presented in three different formats that range in difficulty from easy to hard. The game master can determine which format is best suited to the experience of his players and himself. The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small summary at the beginning of each new section. 
+Because of the complexity of this adventure, it will be presented in three different narritives that range in difficulty from easy to hard. The game master can determine which format is best suited to the experience of his players and himself. The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small summary at the beginning of each new section. 
 
-1. **Report and Run**, is the easiest, for beginning game-masters (GM's) and players
-2. **Search and Destroy**, is more difficult 
-3. **Search and Rescue**, is by far the most difficult
+### The Scenarios
+1. [**Report & Run**](#1_report_run), is the easiest, for beginning game-masters (GM's) and players
+2. [**Search & Destroy**](#2_search_destroy), is more difficult 
+3. [**Search & Rescue**](#3_Search_rescue), is by far the most difficult
 
 Each scenario will have certain benefits and disadvantages. The easiest will probably be boringly simple for the experienced gamer, and the hardest will be impossibly complex for the beginning game master to organize and run. The best thing to remember is that the game should be fun for both the players and the GM. 
 
-### The Scenarios
-As stated before there will be differing levels of complexity from one scenario to the next. For the ease of the Game Master's understanding, the scenarios will be listed from easiest to hardest. Be advised that there will be data included in this adventure pack that will not be needed for all three scenarios. If the game master is running a scenario that does not incorporate all the data, he or she ignore any extraneous information. 
+Be advised that there data below that will not be needed for all three scenarios. If the game master is running a scenario that does not incorporate all the data, he or she ignore any extraneous information. 
 
-Let the Player's Introduction be guides to your adventures, and how you run them. As stated in the Game Master section of the Caudex Centia, a game is very much like a game of 'Lets-pretend' with a complex set of rules that must be followed. For the experienced gamer, setting up an adventure can be quite easy, but for the beginner it can seem quite complex and difficult. Sedna Rendezvous has been set up to give both experienced and beginning gamers a shot at learning the rules and having fun all at the same time. It will be easier for the the beginning Game Master to follow the scenarios as they are presented, but he or she should not be afraid to Ad-Lib at times. If the adventure seem to be going dry, throw in a new twist of your own devising if you wish.
+As stated in the [adventures](https://genesis.theengine.com/docs/adventures/) section of the Caudex Centia, a game is very much like a game of 'Lets-pretend' with a complex set of rules that must be followed. For the experienced gamer, setting up an adventure can be quite easy, but for the beginner it can seem quite complex and difficult. Sedna Rendezvous has been set up to give both experienced and beginning gamers a shot at learning the rules and having fun all at the same time. It will be easier for the the beginning Game Master to follow the scenarios as they are presented, but he or she should not be afraid to Ad-Lib at times. If the adventure seem to be going dry, throw in a new twist of your own devising if you wish.
 
 In this adventure the beginning gamers will have a chance to 'try-out' their characters and the rules of the game. They will experience first hand how combat works, how to use their skills and how to interact with each other in the setting of the game. You as the Game Master will be a sort of referee to this. You will control all the people in the adventure that are not players - non-player characters, or NP's. You will determine how the action goes , and above all you will learn to mediate fairly between what the characters do, and what your non-player characters (NPC's) do. 
 
@@ -60,23 +59,29 @@ For Example: You, the Game Master, want the players to turn left on a path in th
 
 **Don't say no!** Instead lead the adventure so that they either go back to the left path, or that they end up in the same location as if they had chosen to go left. Nothing is more boring for a player than to be told what they can and cannot do. Show it to them by letting them play it out. They shouldn't go down the right hand path because three miles down it has been completely washed out by a flood, because it is buried by an impassable avalanche of piled rocks and boulders, because they find a village of man-eating Aracnians right in the middle of the path. Whatever the case, it is not because the Game Master does not want them to. 
 
-## Game master Notes
+### Game Master Notes
 The brief introductions below are a guide to get your players started in the adventure. In this way, by stranding them on the ship that is about to enter the Sedna system they have no option but to plunge right into the adventure. 
 
-## Player's Introductions
-### Scenario 1 - Report and Run
+When you see a block of text formated like as below. 
+> This is text which is written to help the GM. This can be read aloud to the players
+
+---
+## Adventure Begins Here
+
+### 1 - Report & Run
 > The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared. They had been sent to the Sedna System, a newly discovered Solar system in the quadrant of Beta Aquila. The Poly Solar Foundation has requested, through Dr. Vilmoot, that you, the players, on a reconnaissance mission in the sector, on board the exploration ship E.S. Icarus, pass through the Sedna system on a reconnaissance mission. Simply, the mission will be to cruise through, take detailed recordings and readings on the system, and the status of the S.S. Racine and the L.C.M.S. Candor, whatever they may be, and to report back to the P.S.F. headquarters in Milmoth sector. 
 >
 >Your Eclipse class scout, equipped with fast drive and super-sensitive detection devices, and its crew, are under instruction by the P.S.F. to return at all cost with this valuable information, as there is suspicion of hostile alien activity in the sector. 
 
-### Scenario 2 - Search and Destroy
+### 2 - Search & Destroy
+
 >The S.S. Racine, a science survey vessel, and her escort, the L.C.M.S. Candor, have disappeared in the Sedna system, near Beta Aquila. You, the players, on board the Eclipse class Scout Cruiser, E.S.Icarus, have been requested by the P.S.F. through Captain Vandervekken, to go to the Sedna system. There have been confirmed reports of a hostile alien pirate base operating out of this system. With the armaments and equipment on the Icarus, you have been ordered to search out the pirate base located in this system, and destroy it. 
 >
 The P.S.F. has issued Captain Vandervekken and his crew sanction to act as deputies to the council and enabled them to take whatever actions necessary. The Captain has been advised that should the situation merit it, the crew and the passengers of the E.S. Icarus are expendable, and should it be the only viable option, the Captain is to use the Icarus as a missile to destroy the base. 
+>
+>Should the mission succeed, there will be generous rewards for the crew of the Icarus, as well as rewards for the capture of any alien technology. 
 
-Should the mission succeed, there will be generous rewards for the crew of the Icarus, as well as rewards for the capture of any alien technology. 
-
-### Scenario 3 - Search and Rescue
+### 3 - Search & Rescue
 >The S.S. Racine, a scientific survey ship, and her escort, the L.C.M.S. Condor, have disappeared in the Sedna system, near Delta Aquila. The P.S.F has requested through both Captain Vandervekken and Dr. Vilmoot, that the crew of the E.S. Icarus, the only representative within lightyears of the system, go to Sedna and attempt to rescue the crews of the Racine and the Condor. 
 >
 The P.S.F. suspects that there is hostile alien pirate activity out of the Sedna system. The crew of the Icarus is warned that the pirates are thought to be ruthless, and to take caution in proceeding on this mission.
@@ -85,9 +90,7 @@ A generous reward will be offered to the surviving crew of the Icarus, as well a
 >
 The P.S.F. has offered sanctions to Captain Vandervekken and Dr. Vilmoot, giving them leave to take any action that they feel is necessary, but they and the crew are warned that they are **not** expendable, and that they should take any actions necessary to bring this information or surviving crew members back to P.S.F. space. 
 
----
-## The Adventure Begins
-
+### - All Scenarios
 > At the ship's present speed, the Icarus will reach the heliopause of the Sedna system in twelve minutes... 
 
 ![E.S.Icarus](/images/ESIcarus.jpg)
@@ -119,9 +122,11 @@ Soon after this the Icarus will be attacked by the Aracnian ship K'k'to'pok, the
 
 In battle, the K'k'to'pok will attempt to grip the Icarus with its grapnel arms. If it gets a grip on the scout cruiser, it will succeed in cutting a hole in the hull of the ship and venting all the atmosphere into space. This process will take 10 minutes. If the ship does not get a grip on the Icarus in the first attempt ( 45% chance to succeed) then the exploration ship will easily be able to out manoeuvre it. However the mining ship is heavily armoured. It will take twelve hits from the laser cannon of the Icarus to breach its hull, unless the laser scores a direct hit to the drive, in which case it will be instantly destroyed. Because the detection clarity is down, all attempts to hit the mining ship with a blast from the laser cannon should be rolled on the chart below: 
 
-01 - 10  Engine hit (Ship destroyed in explosion)<br>
-11 - 45  Hull hit<br>
-46 -100  Miss<br>
+| Roll 1:100sd | Result |
+| -- | -- |
+| 01 - 10 | Engine hit (Ship destroyed*) |
+| 11 - 45 | Hull hit |
+| 46 -100 | Miss |
 
 All laser attacks should be rolled on the above table for results.
 
@@ -129,7 +134,6 @@ All laser attacks should be rolled on the above table for results.
 
 Several rounds after the K'k'to'pok engages the Icarus in battle, so to will the Aracnian light cruiser, Chk'o'o'ka. If the mining ship is destroyed, the Icarus will have a much more even chance of surviving, for if both Aracnian ships are still functioning when the Chk'o'o'ka arrives, the mining ship will retreat, and then attempt to reattach to the Icarus while the light cruiser distracts it. 
 The aracnian cruiser, though is suffering from the same difficulty that the Icarus is. Its detection clarity also is hampered by the acretion disc of the star. 
-
 
 | Attribute | Details |
 | ---- | ---- |
@@ -146,15 +150,16 @@ The Chk'o'o'ka also is heavily armoured, and will take twelve hits from the lase
 
 If both aracnian ships are destroyed, the Icarus will have free reign in the Sedna system so long as she does not land on the planet, Sedna Prime. On the south pole of this planet is the Aracnian pirate base. 
 
-1. <strong>Scenario One: Report and Run</strong><br>
+### Successful Results
+1. <strong>Report & Run</strong><br>
 They have accomplished their goal and can proceed back to the P.S.F. base in Milmoth sector. 
 
-2. <strong>Scenario Two: Search and Destroy</strong><br>
+2. <strong>Search & Destroy</strong><br>
 They have completed the scenario upon destroying the base, and can then proceed to the P.S.F. base in Milmoth sector. 
 To destroy the pirate base, the Icarus could simply hover over it and hit it with repeated laser blasts, however the base is armed with a laser cannon as well, and will fire back, if the crew of the Icarus decide on this option. The same table used in the space battles should be used to resolve this combat, with the base taking twenty hits to be destroyed.
 Another means of destroying the Aracnian base would be to set a large piece of wreckage from the aracnian ships on an intercept trajectory with the base. Dropping one such meteor will destroy the base utterly. 
 
-3. <strong>Scenario Three: Search and Rescue</strong><br>
+3. <strong>Search & Rescue</strong><br>
 They must proceed down to the Aracnian base and try to rescue the survivors, if any, of the Racine or the Candor. 
 
 There are a total of forty-five (45) crew members in the base
@@ -166,10 +171,9 @@ There are a total of forty-five (45) crew members in the base
 Aracnian base floor plan
 
 ---
-
 ## Appendices
 
-### A - E.S. Icarus
+### E.S. Icarus
 The E.S. (Exploration Ship) Icarus is an Eclipse class exploration scout cruiser. It has been privately chartered by a Professor Villmoot to explore a region of 100 LY 3 (cubic light years) in the region of Delta Aquila. The Icarus is the ship on which the players are employed, either by Captain Vandervekken or by Professor Villmoot.
 
 #### Ship's Specifications
@@ -299,7 +303,7 @@ In the standard equipment included on all P.S.F. scout cruisers are items that t
 | | Truth Serum |
 | | 2 portable Autodocs |
 
-### B - Icarus Crew NPCs
+### Icarus Crew - NPCs
 
 #### Captain Vandervekken
 Race: Eebek
@@ -350,7 +354,7 @@ Race: Vjesperé
 | ---------- | --------- | ------ |
 |PS: 92<br>AG: 107<br>CO: 127<br>PR: 71<br>WI: 87<br>IT: 90<br>MC: 91<br>IF: 90<br>AP: 72<br> | Aim: 96<br>Brawl: 99<br>Move: 90| - Laster Pistol: 10<br> - Laster Rifle: 0<br> - Conk Gun: 75<br> - Galactic Sign: 90<br> - English: 78<br> - Biology: 92<br> - Botany: 97<br> - Ecology: 102<br> - Zoology: 82<br> - Life support: 61<br> - Pilot - Marine: 71 |
 
-### C - Chk'o'o'ka 
+### the Chk'o'o'ka 
 ![floorplan](/images/Chk'O'O'Ka.jpg)
 
 This Key is included on the chance that the Game Master allows the players to board the Aracnian Ship. There are 20 crew members on board. Should the players board it can be assumed that only 4 or five remain alive. 
@@ -366,7 +370,7 @@ This Key is included on the chance that the Game Master allows the players to bo
 9. Engineering (7)
 10. Storage Bay
 
-### D - Aracnian base 
+### the Aracnian base 
 
 ((Insert Key Details here))
 
