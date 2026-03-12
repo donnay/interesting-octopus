@@ -8,7 +8,7 @@ admin.initializeApp();
 const mailgun = new Mailgun(formData);
 
 exports.sendContactEmail = functions
-  .runWith({ secrets: ["MAILGUN_API_KEY", "MAILGUN_DOMAIN"] })
+  .runWith({ secrets: ["MAILGUN_API_KEY", "MAILGUN_DOMAIN", "MAILGUN_REGION"] })
   .https.onCall(async (data, context) => {
   const { name, email, message } = data;
 
@@ -20,13 +20,12 @@ exports.sendContactEmail = functions
     );
   }
 
-  // Retrieve Mailgun credentials from secrets
-  // We'll configure these using firebase functions:secrets:set
-  const mgKey = process.env.MAILGUN_API_KEY;
-  const mgDomain = process.env.MAILGUN_DOMAIN;
+  const mgKey = (process.env.MAILGUN_API_KEY || "").trim();
+  const mgDomain = (process.env.MAILGUN_DOMAIN || "").trim();
+  const mgRegion = (process.env.MAILGUN_REGION || "US").trim();
 
   if (!mgKey || !mgDomain) {
-    console.error("Mailgun secrets not configured!");
+    console.error("Missing Mailgun secrets: KEY=" + (mgKey ? "set" : "MISSING") + ", DOMAIN=" + (mgDomain ? "set" : "MISSING"));
     throw new functions.https.HttpsError(
       "failed-precondition",
       "Email service is not properly configured."
@@ -36,24 +35,34 @@ exports.sendContactEmail = functions
   const client = mailgun.client({
     username: "api",
     key: mgKey,
+    url: mgRegion === "EU" ? "https://api.eu.mailgun.net" : "https://api.mailgun.net"
   });
+
+  console.log(`Sending email via ${mgDomain} (Region: ${mgRegion})`);
 
   const messageData = {
     from: `Genesis Contact Form <noreply@${mgDomain}>`,
-    to: ["kevindclarke@gmail.com"], // Hardcoded recipient as requested previously
+    to: ["kevindclarke@gmail.com"],
     subject: "New Message from Genesis Contact Form",
     text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     "h:Reply-To": email
   };
 
   try {
-    await client.messages.create(mgDomain, messageData);
+    const result = await client.messages.create(mgDomain, messageData);
+    console.log("Mailgun Success:", result);
     return { success: true };
   } catch (error) {
-    console.error("Mailgun Error:", error);
+    console.error("Mailgun Detailed Error:", {
+      status: error.status,
+      message: error.message,
+      details: error.details,
+      domain: mgDomain,
+      region: mgRegion
+    });
     throw new functions.https.HttpsError(
       "internal",
-      "Failed to send email."
+      `Mailgun error: ${error.message} (${error.status})`
     );
   }
 });
