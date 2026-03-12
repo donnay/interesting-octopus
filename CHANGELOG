@@ -1,6 +1,9 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+- [x] Optimize CSS by moving inline styles to external file (`public/css/main.css`)
+- [x] Beautify all HTML files with Prettier
+- [x] Fix Mailgun 401 Unauthorized error (Domain and Secret formatting)
 
 ## [2026-03-12] - Mailgun Integration & Performance Optimization
 
