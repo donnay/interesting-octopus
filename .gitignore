@@ -57,6 +57,9 @@ typings/
 # gatsby files
 .cache/
 
+# firebase deployment files
+.firebase
+
 # Mac files
 .DS_Store
 
