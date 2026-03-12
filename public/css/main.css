@@ -98,3 +98,114 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     left: 0;
   }
 }
+
+/* --- Print Styles --- */
+@media print {
+  /* Hide non-essential UI */
+  #masthead, 
+  #colophon, 
+  #docs-nav, 
+  .search-wrapper, 
+  .menu-toggle, 
+  .submenu-toggle, 
+  .docs-nav-toggle,
+  #menu-open,
+  #menu-close,
+  .block-buttons,
+  .post-meta,
+  #gatsby-noscript,
+  #gatsby-announcer {
+    display: none !important;
+  }
+
+  /* Reset layout and colors */
+  body, html {
+    background: #fff !important;
+    color: #000 !important;
+    font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+  }
+
+  #page, .site, .site-content, .inner, .outer, .docs-content, .post, .post-inside {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: block !important;
+  }
+
+  /* Typography for print */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+    margin-top: 1.5em !important;
+  }
+
+  p, li, td, th {
+    color: #000 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Table optimization */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 1.5em 0 !important;
+    page-break-inside: avoid;
+  }
+
+  th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px !important;
+    text-align: left !important;
+  }
+
+  th {
+    background-color: #f2f2f2 !important;
+  }
+
+  /* Links */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+
+  /* Image control */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    filter: grayscale(100%);
+    page-break-inside: avoid;
+    display: block;
+    margin: 1em auto;
+  }
+
+  /* Force dark icons/images to preserve detail */
+  .site-logo img {
+    filter: none !important;
+  }
+
+  /* Page structure */
+  .line-left:before {
+    display: none !important;
+  }
+
+  /* Avoiding orphans and widows */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Character sheet specific optimizations */
+  .character-sheet {
+    page-break-after: always;
+  }
+}
