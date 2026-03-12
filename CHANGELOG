@@ -1,0 +1,21 @@
+Static Hosting Conversion & Final Cleanup
+The repository has been successfully converted into a lightweight, static-hosting-only codebase and synchronized across all platforms.
+
+Final State
+Codebase Cleanup: All Gatsby source code, React components, and build-system files have been removed. The repository now only contains the public/ folder, Firebase configuration, and essential project metadata.
+README Updated: The technical details related to Gatsby and local development have been removed to reflect the site's new static nature.
+Synchronized across Remotes: The latest changes have been pushed to:
+GitHub: https://github.com/donnay/interesting-octopus.git
+GitLab: git@gitlab.com:theEngine/interesting-octopus.git
+Live Site: The most recent version is deployed and live at: https://genesisrpg-site.web.app
+Validation Results
+Git Sync: Verified successful push to both GitHub and GitLab remotes.
+Deployment: Verified successful deployment to Firebase Hosting (307 files uploaded).
+SSH: SSH key correctly configured for GitLab access.
+Contact Form Fix
+Mailgun Integration: Developed a secure Firebase Cloud Function to bridge the contact form to the Mailgun API.
+Security Management: Used Firebase Secrets to securely store the Mailgun API key and domain on the server.
+Frontend Logic: Updated the contact page to use the Firebase JS SDK for authenticated function calls.
+Runtime Upgrade: Upgraded the Cloud Functions environment to Node.js 22 to comply with recent Firebase requirements.
+Verification: Successfully tested the end-to-end flow; emails are now being delivered from the static contact form to your inbox via Mailgun!
+The project is now fully migrated, optimized for permanent static hosting, and has a professional, secure Mailgun-powered contact system!
