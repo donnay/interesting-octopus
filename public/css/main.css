@@ -102,20 +102,52 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 /* --- Print Styles --- */
 @media print {
   /* Hide non-essential UI */
-  #masthead, 
-  #colophon, 
-  #docs-nav, 
-  .search-wrapper, 
-  .menu-toggle, 
-  .submenu-toggle, 
+  .site-navigation,
+  .menu,
+  .menu-toggle,
+  .submenu-toggle,
+  .docs-nav,
   .docs-nav-toggle,
+  .search-wrapper,
   #menu-open,
   #menu-close,
+  #colophon,
   .block-buttons,
   .post-meta,
   #gatsby-noscript,
   #gatsby-announcer {
     display: none !important;
+  }
+
+  /* Simplify Header */
+  #masthead {
+    border-bottom: 1px solid #eee !important;
+    padding: 10px 0 !important;
+    margin-bottom: 20px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .site-header-inside {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .site-branding {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+  }
+
+  .site-logo {
+    margin: 0 !important;
+  }
+
+  .site-logo img {
+    max-height: 50px !important;
+    width: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
 
   /* Reset layout and colors */

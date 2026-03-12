@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - [x] Create custom "Lost in Space" 404 page
 - [x] Optimize all images to WebP format for faster loading
 - [x] Implement lightning-fast Docs Search (client-side)
+- [x] Add professional Print-Friendly Styles for table-top use
 - [x] Fix Mailgun 401 Unauthorized error (Domain and Secret formatting)
 
 ## [2026-03-12] - Mailgun Integration & Performance Optimization
@@ -15,7 +16,8 @@ All notable changes to this project will be documented in this file.
 - **Global Stylesheet**: Created `/css/main.css`.
 - **Custom 404 Page**: Implemented a "Lost in Space" thematic error page.
 - **WebP Optimization**: Converted 153 images to WebP format.
-- **Docs Search**: Implemented a lightning-fast, client-side search functionality for the documentation and blog archives.
+- **Docs Search**: Implemented lightning-fast client-side search.
+- **Print Optimization**: Added professional `@media print` rules to optimize rules and character sheets for tabletop play.
 - **Code Beautification**: Formatted all HTML files with Prettier.s**: securely managed `MAILGUN_KEY`, `MAILGUN_DOMAIN`, and `MAILGUN_REGION` via Firebase CLI.
 
 ### Changed
