@@ -63,5 +63,8 @@
         ]
       }
     ]
+  },
+  "functions": {
+    "source": "functions"
   }
 }

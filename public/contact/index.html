@@ -17,22 +17,21 @@
 <meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a href="../index.html"><img src="../images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item"><a href="../index.html">Home</a></li><li class="menu-item has-children"><a href="../docs/index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../docs/characters/index.html">Charactes</a></li><li class="menu-item"><a href="../docs/character-life/index.html">Character Life</a></li><li class="menu-item"><a href="../docs/combat/index.html">Combat</a></li><li class="menu-item"><a href="../docs/adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="../docs/index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../docs/history/index.html">History</a></li><li class="menu-item"><a href="../docs/races/index.html">All Races</a></li><li class="menu-item"><a href="../races/index.html">Player Races</a></li><li class="menu-item"><a href="../npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="../docs/politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="../docs/economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="../docs/star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="../docs/technology/index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="../blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../docs/adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="../docs/adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item current"><a href="index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><article class="post post-full"><header class="post-header has-gradient outer"><div class="bg-img" style="background-image:url(&#x27;https://genesisrpg.com/images/5.jpg&#x27;)"></div><div class="inner-sm"><h1 class="post-title">Contact Us</h1><div class="post-subtitle">We are happy to hear what you think. Please let us know.</div></div></header><div class="inner-md outer"><div class="post-content"><form id="contact-form" action="../success/index.html" method="GET"><p><label>Your Name: <input type="text" id="name" name="name" required/></label></p><p><label>Your Email: <input type="email" id="email" name="email" required/></label></p><p><label>Message: <textarea id="message" name="message" required></textarea></label></p><p><button type="submit" id="submit-btn">Send</button></p></form>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-functions.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
 
 <script>
-  // Replace with your project's Firebase configuration
-  // You can find this in Projekt Settings -> Your Apps -> Web Apps
   const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyCFtk69FaCrpnLLinOgYzTWXBk0Hwxott8",
     authDomain: "genesisrpg-site.firebaseapp.com",
     projectId: "genesisrpg-site",
-    storageBucket: "genesisrpg-site.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    storageBucket: "genesisrpg-site.firebasestorage.app",
+    messagingSenderId: "1053533444020",
+    appId: "1:1053533444020:web:08980b8f389078816dc4e1",
+    measurementId: "G-BLYB9DPFGE"
   };
 
   firebase.initializeApp(firebaseConfig);
-  const db = firebase.firestore();
 
   document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -44,20 +43,16 @@
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    db.collection('mail').add({
-      to: 'kevindclarke@gmail.com', // Change this to your preferred recipient
-      message: {
-        subject: 'New Contact Form Submission',
-        text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
-      },
-      createdAt: firebase.firestore.FieldValue.serverTimestamp()
-    })
-    .then(() => {
+    const sendContactEmail = firebase.functions().httpsCallable('sendContactEmail');
+    
+    sendContactEmail({ name, email, message })
+    .then((result) => {
+      console.log('Email sent successfully:', result);
       window.location.href = '../success/index.html';
     })
     .catch((error) => {
-      console.error("Error adding document: ", error);
-      alert('Sorry, there was an error sending your message. Please try again later.');
+      console.error("Error calling function: ", error);
+      alert('Sorry, there was an error sending your message: ' + error.message);
       btn.disabled = false;
       btn.innerText = 'Send';
     });
