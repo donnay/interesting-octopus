@@ -5,7 +5,8 @@
 ## This site is devoted to a retro-paper based Role Playing Game. Where the adventures are only limited by your imagination! The games was developed by high school kids in Calgary, Alberta, Canada. It has been remastered and posted publicly for all to enjoy.
 ## The rules of Genesis are divided into books or 'caudex'. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge. Caudex Universum the book of stories.
 
-<img src="https://github.com/donnay/interesting-octopus/blob/master/static/images/GenesisScreenShot.png" width="600">
+<img src="https://gitlab.com/theEngine/interesting-octopus/-/blob/a0c5438643805bcdc79fcd96a7e349f482651bb4/GenesisScreenShot.png" width="600">
+
 
 
 
