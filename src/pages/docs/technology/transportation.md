@@ -84,12 +84,12 @@ TECHCODE: 3<br>
 The DOLPHIN is basically a small 8 person submersible that can dive to a depth of 2 kilometers under water or  any liquid of similar density . Two persons are required to pilot the DOLPHIN and the other six are passengers. It  is equipped with two triple jointed manipulator arms and eight pressurized cameras to track their movement. The  DOLPHIN also comes equipped with four hard shell diving suits which are able to stand the pressures of diving at 2  kilometers . The fins at the back of the sub offer a great amount of maneuverability, the wings along the sides also  lend more stability to the craft. The openings in the front of the wings are to allow water to be pulled into the  DOLPHIN's turbines. The water is then forced trough jets in the rear of the ship. Thus moving the DOLPHIN at great  speeds. The speeds listed below are listed for SURface and SUBmerged respectively.<br>
 TOP SPEED:(Sur, Sub) 90, 35 Knots<br>
 CRUISING SPEED:(Sur, Sub) 70, 15 knots<br>
-DMENSIONS (L*H*W): 20 * 3 * 5m<br>
+DIMENSIONS (L*H*W): 20 * 3 * 5m<br>
 BASE PRICE: 9 000 Dits<br>
 LENGTH OF USE / BATT:(Sur, Sub) 18, 8 hours  <br>
 
 ### Snow Terrain Sled (S.T.S.)
-This vehicle can seat up to six people one for operator and five passengers. The S.T.S. was constructed for the  harsh environment of the arctic on Earth, but can be used on even more severe and frozen wastelands. The SLED's  highly toothed tracks and scooped treds make it possible for the S.T.S. to travel over solid ice and still keep  moving. The S.T.S. can be used in other environments other than arctic, excluding tropical without installing  optional air conditioning. The vehicle has a cargo space, that can be heated if desired in the rear of the vehicle.  The vehicle has an optimal density scanner, able to sense varying thicknesses of ice. The minimum thickness of ice  that this vehicle can travel on is 30 cm.<br>
+This vehicle can seat up to six people one for operator and five passengers. The S.T.S. was constructed for the  harsh environment of the arctic on Earth, but can be used on even more severe and frozen wastelands. The SLED's  highly toothed tracks and scooped treads make it possible for the S.T.S. to travel over solid ice and still keep  moving. The S.T.S. can be used in other environments other than arctic, excluding tropical without installing  optional air conditioning. The vehicle has a cargo space, that can be heated if desired in the rear of the vehicle.  The vehicle has an optimal density scanner, able to sense varying thicknesses of ice. The minimum thickness of ice  that this vehicle can travel on is 30 cm.<br>
 TOP SPEED: 80 Km/h<br>
 CRUISING SPEED: 65 Km/h<br>
 DIMENSIONS (L*H*W): 5 * 2.5 * 2 m<br>
@@ -100,7 +100,7 @@ LENGTH OF USE / BATT: 36 hours<br>
 This is a small extremely light and maneuverable vehicle used in the mines on the planet of MARK ASHURA for  excavation of tunnels and hauling ore . Obviously this vehicle is constructed for the MEHENDOSHI and is  consequently very small. Therefore the MAHENDOSHI LANDER is not for use by races other than the MAHENDOSHI.
 TOP SPEED: 300 Km/h<br>
 CRUISING SPEED: 200 Km/h<br>
-DMENSIONS (L*H*W): 1 * 0.6 * 0.3m<br>
+DIMENSIONS (L*H*W): 1 * 0.6 * 0.3m<br>
 BASE PRICE: 2 000 Dits<br>
 LENGTH OF USE / BATT: 36 hours  <br>
 
@@ -108,15 +108,15 @@ LENGTH OF USE / BATT: 36 hours  <br>
 This vehicle is primarily made for medium to high gravity planets. This vehicle seats four ( one operator and  three passengers ). This vehicle's large high power hydrogen powered engines provide the extreme amount of thrust  required to move on a high gravity planet. The windows can be darkened to provide protection from the sun. This  vehicle is only capable of 'flight' under an atmosphere. This vehicle is capable of processing hydrogen from raw  atmosphere ( provided that the atmosphere is hydrogen rich. ie11 % or more.
 TOP SPEED: 130 Km/h<br>
 CRUISING SPEED: 90 Km/h<br>
-DMENSIONS (L*H*W): 4*2*2  m<br>
+DIMENSIONS (L*H*W): 4*2*2  m<br>
 BASE PRICE: 5 500 Dits<br>
 LENGTH OF USE / BATT: 36 hours<br>
 
 ### Computer Controlled Vehicle (C.C.V.)
-This is the basic family / civilian / law enforcement ground car. The car can seat four comfortably and has an  area that can hold 1 cubic meter of cargo. The windshield and the windows can be darkened to stop the sun from  blinding the driver. Most of these vehicles are equipped with a small key pad near the door handle and when the  right code is inputed the door opens and the car begins to hover above the ground. If the load increases in mass  the car compensates for it. The hover height is 10 cm. The driver can select between automatic or manual mode. In  automatic mode the driver simply types in the location and its corresponding code number and the car will drive at  a safe speed to the location. In the manual mode of operation the driver has complete control over the vehicle.
+This is the basic family / civilian / law enforcement ground car. The car can seat four comfortably and has an  area that can hold 1 cubic meter of cargo. The windshield and the windows can be darkened to stop the sun from  blinding the driver. Most of these vehicles are equipped with a small key pad near the door handle and when the  right code is inputted the door opens and the car begins to hover above the ground. If the load increases in mass  the car compensates for it. The hover height is 10 cm. The driver can select between automatic or manual mode. In  automatic mode the driver simply types in the location and its corresponding code number and the car will drive at  a safe speed to the location. In the manual mode of operation the driver has complete control over the vehicle.
 TOP SPEED: 300 Km/h<br>
 CRUISING SPEED: 260 Km/h<br>
-DMENSIONS (L*H*W):3*1.5*2 m<br>
+DIMENSIONS (L*H*W):3*1.5*2 m<br>
 BASE PRICE: 3 200 Dits<br>
 LENGTH OF USE / BATT: 45 hours  <br>
 
@@ -124,7 +124,7 @@ LENGTH OF USE / BATT: 45 hours  <br>
 This is another form of the C.C.V. but this car has a larger cargo area ( 2 cubic meters) and a standard seating  capacity of 2 or 3. This vehicle can be fitted with a hard top and seats to increase the seating capacity to 10  eliminating cargo area. This vehicle's windows can be darkened. This vehicle also has an automatic and manual mode  ( see C.V.V. for description ).
 TOP SPEED: 250 Km/h<br>
 CRUISING SPEED: 200 Km/h<br>
-DMENSIONS (L*H*W):3*1.5.2 m<br>
+DIMENSIONS (L*H*W):3*1.5.2 m<br>
 BASE PRICE:3 700 Dits<br>
 LENGTH OF USE / BATT: 45 hours<br>
 
@@ -136,7 +136,7 @@ A single pilot fighter craft that can reach three quarters the speed of light co
 
 TOP SPEED: 225 000 Km/h<br>
 CRUISING SPEED: 200 000 Km/h<br>
-DMENSIONS (L*H*W):7*4*3 m<br>
+DIMENSIONS (L*H*W):7*4*3 m<br>
 BASE PRICE: 120 000 Dits<br>
 LENGTH OF USE / BATT: 13.5 hours  <br>
 

@@ -185,8 +185,8 @@ template: docs
       tt = casting time base
       dd = duration of the spell
 
-      P = perment
-      I = Instantenous
+      P = permanent
+      I = Instantaneous
 
 #5 - Life Generation System
 
@@ -196,9 +196,9 @@ template: docs
            energy            > 6
 
         2. Reproduce ?
-           ovovapiviprous
-           ooviparous
-           vaviporous
+           ovoviviparous
+           oviparous
+           viviparous
 
         3. Respond ?
            nervous
@@ -412,7 +412,7 @@ TEMP = Die Roll &deg;C + 1/2% - x&deg;C<br>
                   _________________________________________________________
                  +15     when wearing armour
                  +10       "     "    heavy clothing
-                 + 2.5     "     "    morerate clothing   
+                 + 2.5     "     "    moderate clothing   
                  - 5       "     "    light clothing      
                  -25       "     "    a CHIL suit      
                  -50       "     "    a VAC-suit   
@@ -455,7 +455,7 @@ Burns take an average of 5 days ES to heal (per severity)
 
 #### Example:
 Out character, Bixx ,is crossing a hinded plain on Tahri. The actual air temperature that day is 43℃  and the humidity is 71%. Bixx's perceived temperature base is 43 + «(71) and -20, Because Bixx is human.<br>
-The result is 58.5 &deg;C. Fortunately Bixx is wearing light clothing (-5) and there is a 30 Km/hr wind (-15), Also he is covered with some small shade and is rubbing on alcohol for maxium effect ( -5 and -5 ), These modifiers bring his total down to 28.5&deg;C. Equally as fortunate he is only carrying 10kg of equipment (+5) and is walking (0).</p>
+The result is 58.5 &deg;C. Fortunately Bixx is wearing light clothing (-5) and there is a 30 Km/hr wind (-15), Also he is covered with some small shade and is rubbing on alcohol for maximum effect ( -5 and -5 ), These modifiers bring his total down to 28.5&deg;C. Equally as fortunate he is only carrying 10kg of equipment (+5) and is walking (0).</p>
 Bixx's final perceived total is 33.5&deg;C,
 <br>The effects of which are:
 * Movement  -35%

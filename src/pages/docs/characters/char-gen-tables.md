@@ -229,7 +229,7 @@ template: docs
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">SOCIO-SCI</td>
-    <td class="tg-0pky">Communications 70, Crimonology 60, Etiquette 45, History 50,  Teaching 45, Negotiation 65, PES Science 50, Psychology 55</td>
+    <td class="tg-0pky">Communications 70, Criminology 60, Etiquette 45, History 50,  Teaching 45, Negotiation 65, PES Science 50, Psychology 55</td>
   </tr>
   <tr>
     <td class="tg-btxf"></td>
@@ -449,7 +449,7 @@ template: docs
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">NON-TECH</td>
-    <td class="tg-0pky">Stealth 50, Surviellance 70, Orientation 85, Foraging 70, Swimming 90, Tracking 60</td>
+    <td class="tg-0pky">Stealth 50, Surveillance 70, Orientation 85, Foraging 70, Swimming 90, Tracking 60</td>
   </tr>
   <tr>
     <td class="tg-btxf"></td>
@@ -496,7 +496,7 @@ template: docs
      Egyptian Arabic, Arabic                       45       Human
      Sebutuik, Cityspeak, Algorian                 65       Low Kaa-Human-Eebek
      Wa Wien Leng, Mahendoshi                      30       Mahendoshi
-     Draelsik, Smuggler's Tounge, Gutteral         70       Low Kaa
+     Draelsik, Smuggler's Tongue, Guttural         70       Low Kaa
      Ebb Shuud Leng, Old Mahendoshi                25       Mahendoshi
      Chk'Chieb, Blue Aracnian                       0       Aracnian
      Vjesperan,
@@ -507,13 +507,13 @@ template: docs
      Tronmoan, Northern Krane                      85       Krane
      Monduan, Southern Krane                       85       Krane
      Tesalnne, Vjesperan                           20       Vjesperé
-     Hrenarr, Faborian, Warrior's Tounge           90       Faborian
+     Hrenarr, Faborian, Warrior's Tongue           90       Faborian
      Gliff                                         80       Gliff
      Fenbic                                        75       Fenbin
      Basic Sooaacolian, Dander                     15       Sooaacoli
      Basic Tsoegorthin, Gorthi                     95       Tsoegorthin
 
-     +10 to Simplicity when language is native tounge
+     +10 to Simplicity when language is native tongue
      +20 to Simplicity when language has been developed by own race
 
 ##10 - Xeno-Discipline

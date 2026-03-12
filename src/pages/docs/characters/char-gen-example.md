@@ -112,7 +112,7 @@ Then he adds the attribute average to the result of a 1:100sd roll and divides b
 
 ##### Xeno-Disciplines
 
-Reese would like to see if Nixole has the ability to learn Xeno-discplines. To do this Reese rolls 3:10sd: 4,4, and 4 (Yes, I fudged it for this example). Reese was successful in his roll and Nixole is a very special individual who has had a opportunity to learn Latagrea. Reese then finds the number of power points and the focus that Nixole has. Power points are found simply by adding the number of experience points (1 for all beginning characters) to the aptitude found as above.
+Reese would like to see if Nixole has the ability to learn Xeno-disciplines. To do this Reese rolls 3:10sd: 4,4, and 4 (Yes, I fudged it for this example). Reese was successful in his roll and Nixole is a very special individual who has had a opportunity to learn Latagrea. Reese then finds the number of power points and the focus that Nixole has. Power points are found simply by adding the number of experience points (1 for all beginning characters) to the aptitude found as above.
 
 Power Points = (AG + MS)/3<br>
 Power Points = (63 + 53)/3 = 38.6 = 40

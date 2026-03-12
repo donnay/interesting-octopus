@@ -64,7 +64,7 @@ than his or her own (for example, a Faborian raised by Humans), use the parent c
 Aim (AM) = Average (Agility, Intellect, Mental Control)<br>
 Brawl (BR) = Average (Physical Strength, Agility, Constitution, Perception)<br>
 Move (MV) = Average (Physical Strength, Agility, Constitution)</p>
-2. Simply averasge the Secondary Attributes from table #1-3</p>
+2. Simply average the Secondary Attributes from table #1-3</p>
 
 ## Damage Record
 To calculate your character's damage points per body segment listed on the Damage Record.

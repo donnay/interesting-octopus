@@ -57,7 +57,7 @@ He placed his bag on a side table, retrieved a device from it and approached her
 
 Another contraction began ... a grimace crossed Saraha.
 
-The contractions have intessified and she has progressed into labour. The consensus between the biomed-Algo of the house's core and the diagnostic AI. A message flashed on Jelan's tablet.
+The contractions have intensified and she has progressed into labour. The consensus between the biomed-Algo of the house's core and the diagnostic AI. A message flashed on Jelan's tablet.
 
 The house recommended a mild tranquilizer to ease the pain of it's owner. Jelan reviewed the data, agreed, and flicked away the message in acknowledgement. 
 
@@ -69,7 +69,7 @@ After several hours in labour, Vaughn Marie Pendelton was born. At 0703h UTC Mar
 
 "Just part of the service", Jelan's single eye blinked once, then once again. Eebek's eye blinks are like humans shoulder shrugs.
 
-"Human live birth is such an amazing process, I'm facinated with it since I learned about it at the acedemy. So much more invasive than the eggs the Eebek's lay, and protect."
+"Human live birth is such an amazing process, I'm fascinated with it since I learned about it at the academy. So much more invasive than the eggs the Eebek's lay, and protect."
 
 "Now, take it easy for the next couple days Saraha. I know you eager to return to work, but you must give yourself time to recover."
 

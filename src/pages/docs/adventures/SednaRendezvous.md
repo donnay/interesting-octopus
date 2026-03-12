@@ -38,7 +38,7 @@ A Genesis Role Playing Game Adventure
 
 ## Game Master Introduction
 
-Because of the complexity of this adventure, it will be presented in three different narritives that range in difficulty from easy to hard. The game master can determine which format is best suited to the experience of his players and himself. The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small summary at the beginning of each new section. 
+Because of the complexity of this adventure, it will be presented in three different narratives that range in difficulty from easy to hard. The game master can determine which format is best suited to the experience of his players and himself. The different adventures will be based on the same set of data, provided in this booklet, and any differences will be explained briefly in both the introduction and a small summary at the beginning of each new section. 
 
 ### The Scenarios
 1. [**Report & Run**](#1_report_run), is the easiest, for beginning game-masters (GM's) and players
@@ -62,7 +62,7 @@ For Example: You, the Game Master, want the players to turn left on a path in th
 ### Game Master Notes
 The brief introductions below are a guide to get your players started in the adventure. In this way, by stranding them on the ship that is about to enter the Sedna system they have no option but to plunge right into the adventure. 
 
-When you see a block of text formated like as below. 
+When you see a block of text formatted like as below. 
 > This is text which is written to help the GM. This can be read aloud to the players
 
 ---
@@ -130,7 +130,7 @@ In battle, the K'k'to'pok will attempt to grip the Icarus with its grapnel arms.
 
 All laser attacks should be rolled on the above table for results.
 
-* Should the mining ship be destroyed on the first hit, a shard of shrapnel from the explosion will hit the bridge of the Icarus. In this case all bridge officers will be killed instantly, and the players will be left to control the ship from backup conrols in engineering. 
+* Should the mining ship be destroyed on the first hit, a shard of shrapnel from the explosion will hit the bridge of the Icarus. In this case all bridge officers will be killed instantly, and the players will be left to control the ship from backup controls in engineering. 
 
 Several rounds after the K'k'to'pok engages the Icarus in battle, so to will the Aracnian light cruiser, Chk'o'o'ka. If the mining ship is destroyed, the Icarus will have a much more even chance of surviving, for if both Aracnian ships are still functioning when the Chk'o'o'ka arrives, the mining ship will retreat, and then attempt to reattach to the Icarus while the light cruiser distracts it. 
 The aracnian cruiser, though is suffering from the same difficulty that the Icarus is. Its detection clarity also is hampered by the acretion disc of the star. 
@@ -256,7 +256,7 @@ In the standard equipment included on all P.S.F. scout cruisers are items that t
 | 3 | hand sensors |
 | 1 | computer tool kit |
 | 1 | weapons tool kit |
-| 2 | holomaps baords |
+| 2 | holomaps boards |
 | 10 | IR visors |
 | 5 | life bubbles |
 | 5 | planetary maneuver packs |
@@ -317,7 +317,7 @@ Race: Eebek
 
 | Primary Attributes | Secondary Attributes | Standard Skills |
 | ---------- | --------- | ------ |
-| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | - Laser Pistol: 45 <br> - Laster Rifle: 45 <br> - Medical - Burns: 90 <br> - Infection: 90 <br> - Major Injury: 89 <br> - Minor Injury: 99 <br> - Poisons: 78 <br> - Surgery: 89 <br> - Diplomacy: 68 <br> - Life Support: 57 <br> - Parmacies: 89 |
+| PS: 67 <br> AG: 45 <br> CO: 263 <br>PR: 60 <br>WI: 68 <br>IT: 90 <br>MC: 90 <br>IF: 57 <br>AP: 64 <br> | Aim: 75 <br>Brawl: 125 <br>Move: 57 | - Laser Pistol: 45 <br> - Laster Rifle: 45 <br> - Medical - Burns: 90 <br> - Infection: 90 <br> - Major Injury: 89 <br> - Minor Injury: 99 <br> - Poisons: 78 <br> - Surgery: 89 <br> - Diplomacy: 68 <br> - Life Support: 57 <br> - Pharmacies: 89 |
 
 #### Ammon-dur, Security Officer
 Race: Eebek

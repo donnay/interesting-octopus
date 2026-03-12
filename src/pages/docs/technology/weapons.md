@@ -299,7 +299,7 @@ The electra gun attaches itself to the target by shooting out a metallic net. A 
 The rod expands out of the shank of the weapon and then delivers a shock to the target. Which stuns the targets' nervous  system for 1:10sd minutes. The dimensions (L*H*W) and weight are 15cm when not extended or 150cm with the rod extended  and 90g respectively.
 
 ##### Stun Gun
-This gun exudes a cloud of stunning gas with an effective range of five emter and less if the wind is blowing. The  dimensions (L*H*W) and weight are 37*20*15cm and 50g respectively.
+This gun exudes a cloud of stunning gas with an effective range of five enter and less if the wind is blowing. The  dimensions (L*H*W) and weight are 37*20*15cm and 50g respectively.
 
 ##### Stun Rifle
 This rifle can shoots a large number of pellets, each filled with a highly reactive chemical that which ignites upon  contact to air and produces sonic waves. Used for crowd control because it can effect as many as fifty people at one  time. The dimensions (L*H*W) and weight are 52*25*13cm and 75g respectively.

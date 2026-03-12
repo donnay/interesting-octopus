@@ -39,7 +39,7 @@ The game was produced using both digital and analogue techniques and distributed
 
 ### Version 2
 
-In this version, 2,000 units of the game were produced and sold across North-America. Again it was shipped in a three-ring binder, which had a cardboard insert added to the narrow side & shrieked wrapped, to make it resemble a boxed game. The content was written, and edited and digital desktop published with the latest technology and tequniques at the time.
+In this version, 2,000 units of the game were produced and sold across North-America. Again it was shipped in a three-ring binder, which had a cardboard insert added to the narrow side & shrieked wrapped, to make it resemble a boxed game. The content was written, and edited and digital desktop published with the latest technology and techniques at the time.
 
 #### The Computer
 
