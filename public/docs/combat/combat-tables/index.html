@@ -1,20 +1,626 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"><meta name="generator" content="Gatsby 2.22.17"/><title data-react-helmet="true">Tables</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com"/><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/><link data-react-helmet="true" rel="icon" href="../../../images/favicon/favicon.ico"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initialScale=1.0"/><meta data-react-helmet="true" name="description" content="This is the quick start page"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="Quick Start"/><meta data-react-helmet="true" property="og:description" content="This is the quick start page"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Quick Start"/><meta data-react-helmet="true" name="twitter:description" content="This is the quick start page"/><link as="script" rel="preload" href="../../../webpack-runtime-edc57c7177d180b70324.js"/><link as="script" rel="preload" href="../../../framework-0204bf4e920e001ced67.js"/><link as="script" rel="preload" href="../../../app-e0ec9526f187c1d11289.js"/><link as="script" rel="preload" href="../../../styles-503b3015a8b38c118cb7.js"/><link as="script" rel="preload" href="../../../29107295-36e60bad8a02b5426955.js"/><link as="script" rel="preload" href="../../../commons-3384fc3544f2bc158869.js"/><link as="script" rel="preload" href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"/><link as="fetch" rel="preload" href="../../../page-data/docs/combat/combat-tables/page-data.json"/><link as="fetch" rel="preload" href="../../../page-data/app-data.json"/><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="generator" content="Gatsby 2.22.17" />
+    <title data-react-helmet="true">Tables</title>
+    <link
+      data-react-helmet="true"
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      data-react-helmet="true"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="../../../images/favicon/favicon.ico"
+    />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initialScale=1.0"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" property="og:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" name="twitter:card" content="summary" />
+    <meta data-react-helmet="true" name="twitter:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="This is the quick start page"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../webpack-runtime-edc57c7177d180b70324.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../framework-0204bf4e920e001ced67.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../app-e0ec9526f187c1d11289.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../styles-503b3015a8b38c118cb7.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../29107295-36e60bad8a02b5426955.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../commons-3384fc3544f2bc158869.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+    />
+    <link
+      as="fetch"
+      rel="preload"
+      href="../../../page-data/docs/combat/combat-tables/page-data.json"
+    />
+    <link as="fetch" rel="preload" href="../../../page-data/app-data.json" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-WQ787F9BJ0');
-</script><link rel="apple-touch-icon" sizes="180x180" href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="apple-mobile-web-app-title" content="Genesis">
-<meta name="application-name" content="Genesis">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a href="../../../index.html"><img src="../../../images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item"><a href="../../../index.html">Home</a></li><li class="menu-item has-children"><a href="../../index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../characters/index.html">Charactes</a></li><li class="menu-item"><a href="../../character-life/index.html">Character Life</a></li><li class="menu-item"><a href="../index.html">Combat</a></li><li class="menu-item"><a href="../../adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="../../index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../history/index.html">History</a></li><li class="menu-item"><a href="../../races/index.html">All Races</a></li><li class="menu-item"><a href="../../../races/index.html">Player Races</a></li><li class="menu-item"><a href="../../../npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="../../economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="../../star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="../../technology/index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="../../../blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item"><a href="../../../contact/index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><div class="inner outer"><div class="docs-content"><nav id="docs-nav" class="docs-nav"><div id="docs-nav-inside" class="docs-nav-inside sticky"><button id="docs-nav-toggle" class="docs-nav-toggle">Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span></button><div class="docs-nav-menu"><ul id="docs-menu" class="docs-menu"><li class="docs-menu-item"><a href="../../index.html">Introduction</a></li><li class="docs-menu-item has-children"><a href="../../about/index.html">About</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../about/forward/index.html">Forward</a></li><li class="docs-menu-item"><a href="../../about/copyright/index.html">Copyright</a></li><li class="docs-menu-item"><a href="../../about/methods/index.html">Methods</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../characters/index.html">Character</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../characters/characters/index.html">Description</a></li><li class="docs-menu-item"><a href="../../characters/occupations/index.html">Occupations</a></li><li class="docs-menu-item"><a href="../../characters/character-generation/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-example/index.html">Examples</a></li><li class="docs-menu-item"><a href="../../characters/character-sheet/index.html">Character Sheet</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../character-life/index.html">Character Life</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../character-life/character-life/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../character-life/star-travel/index.html">Star Travel</a></li><li class="docs-menu-item"><a href="../../character-life/char-life-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item has-children active"><a href="../index.html">Combat</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../combat/index.html">Rules</a></li><li class="docs-menu-item current"><a aria-current="page" class="" href="index.html">Tables</a></li><li class="docs-menu-item"><a href="../combat-dam-tables/index.html">Damage Tables</a></li><li class="docs-menu-item"><a href="../combat-example/index.html">Example</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../adventures/index.html">Adventures</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="docs-menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="docs-menu-item"><a href="../../history/index.html">History</a></li><li class="docs-menu-item has-children"><a href="../../races/index.html">Races</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../races/eebek/index.html">Eebeck</a></li><li class="docs-menu-item"><a href="../../races/fenbin/index.html">Fenbin</a></li><li class="docs-menu-item"><a href="../../races/human/index.html">Human</a></li><li class="docs-menu-item"><a href="../../races/krane/index.html">Krane</a></li><li class="docs-menu-item"><a href="../../races/lowkaa/index.html">Low Kaa</a></li><li class="docs-menu-item"><a href="../../races/tanaian/index.html">Tanaian</a></li><li class="docs-menu-item"><a href="../../races/aracnian/index.html">Aracnian</a></li><li class="docs-menu-item"><a href="../../races/faborian/index.html">Faborian</a></li><li class="docs-menu-item"><a href="../../races/mahendoshi/index.html">Mahendoshi</a></li><li class="docs-menu-item"><a href="../../races/vjespere/index.html">Vjesperé</a></li><li class="docs-menu-item"><a href="../../races/sooacoli/index.html">Sooaacoli</a></li></ul></li><li class="docs-menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="docs-menu-item"><a href="../../economics/index.html">Economics &amp; Commence</a></li><li class="docs-menu-item has-children"><a href="../../star-systems/index.html">Star Systems</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../star-systems/firstshpere/index.html">FirstSphere</a></li><li class="docs-menu-item"><a href="../../star-systems/sol/index.html">Sol System Maps</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../technology/index.html">Technology</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../technology/clothing/index.html">Clothing</a></li><li class="docs-menu-item"><a href="../../technology/computer/index.html">Computer</a></li><li class="docs-menu-item"><a href="../../technology/communications/index.html">Communications</a></li><li class="docs-menu-item"><a href="../../technology/sensors/index.html">Sensors</a></li><li class="docs-menu-item"><a href="../../technology/defense/index.html">Defense</a></li><li class="docs-menu-item"><a href="../../technology/medical/index.html">Medical</a></li><li class="docs-menu-item"><a href="../../technology/weapons/index.html">Weapons</a></li><li class="docs-menu-item"><a href="../../technology/equipment/index.html">Tools &amp; Misc.</a></li><li class="docs-menu-item"><a href="../../technology/transportation/index.html">Transportation</a></li><li class="docs-menu-item"><a href="../../technology/starships/index.html">Star Ships</a></li><li class="docs-menu-item"><a href="../../technology/equipment-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item"><a></a></li></ul></div></div></nav><article class="post type-docs"><div class="post-inside"><header class="post-header"><h1 class="post-title line-left">Tables</h1></header><div class="post-content"><h2>1 - Percent To Hit</h2><pre><code>                      Marksmanship (Marks) Or Brawlmanship (Brawl)           
+      gtag("config", "G-WQ787F9BJ0");
+    </script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="https://genesisrpg.com/docs/combat/combat-tables/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Genesis" />
+    <meta name="application-name" content="Genesis" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="palette-gold">
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div id="page" class="site">
+          <header id="masthead" class="site-header outer">
+            <div class="inner">
+              <div class="site-header-inside">
+                <div class="site-branding">
+                  <p class="site-logo">
+                    <a href="../../../index.html"
+                      ><img
+                        src="../../../images/Genesislogo1.jpeg"
+                        alt="Genesis logo"
+                    /></a>
+                  </p>
+                </div>
+                <nav
+                  id="main-navigation"
+                  class="site-navigation"
+                  aria-label="Main Navigation"
+                >
+                  <div class="site-nav-inside">
+                    <button id="menu-close" class="menu-toggle">
+                      <span class="screen-reader-text">Open Menu</span
+                      ><span class="icon-close" aria-hidden="true"></span>
+                    </button>
+                    <ul class="menu">
+                      <li class="menu-item">
+                        <a href="../../../index.html">Home</a>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Regulum</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../characters/index.html">Charactes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../character-life/index.html"
+                              >Character Life</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../index.html">Combat</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../adventures/index.html">Adventures</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Centia</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../history/index.html">History</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../races/index.html">All Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../races/index.html">Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../npraces/index.html"
+                              >Non-Player Races</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../politics/index.html"
+                              >Politics &amp; Military</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../economics/index.html"
+                              >Economics &amp; Commerce</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../star-systems/index.html"
+                              >Star Travel</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../technology/index.html">Technology</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../../blog/index.html">Caudex Universium</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/andromedianrose/index.html"
+                              >Andromedian Rose</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/sednarendezvous/index.html"
+                              >Sedna Rendezvous</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../../contact/index.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <button id="menu-open" class="menu-toggle">
+                  <span class="screen-reader-text">Close Menu</span
+                  ><span class="icon-menu" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main id="content" class="site-content">
+            <div class="inner outer">
+              <div class="docs-content">
+                <nav id="docs-nav" class="docs-nav">
+                  <div id="docs-nav-inside" class="docs-nav-inside sticky">
+                    <button id="docs-nav-toggle" class="docs-nav-toggle">
+                      Navigate Docs<span
+                        class="icon-angle-right"
+                        aria-hidden="true"
+                      ></span>
+                    </button>
+                    <div class="docs-nav-menu">
+                      <ul id="docs-menu" class="docs-menu">
+                        <li class="docs-menu-item">
+                          <a href="../../index.html">Introduction</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../about/index.html">About</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../about/forward/index.html"
+                                >Forward</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/copyright/index.html"
+                                >Copyright</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/methods/index.html"
+                                >Methods</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../characters/index.html">Character</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../characters/characters/index.html"
+                                >Description</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../characters/occupations/index.html"
+                                >Occupations</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-generation/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-example/index.html"
+                                >Examples</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-sheet/index.html"
+                                >Character Sheet</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../character-life/index.html"
+                            >Character Life</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/character-life/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/star-travel/index.html"
+                                >Star Travel</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/char-life-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children active">
+                          <a href="../index.html">Combat</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../combat/index.html">Rules</a>
+                            </li>
+                            <li class="docs-menu-item current">
+                              <a aria-current="page" class="" href="index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../combat-dam-tables/index.html"
+                                >Damage Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../combat-example/index.html">Example</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../adventures/index.html">Adventures</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/andromedianrose/index.html"
+                                >Andromedian Rose</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/sednarendezvous/index.html"
+                                >Sedna Rendezvous</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../history/index.html">History</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../races/index.html">Races</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../races/eebek/index.html">Eebeck</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/fenbin/index.html">Fenbin</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/human/index.html">Human</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/krane/index.html">Krane</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/lowkaa/index.html"
+                                >Low Kaa</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/tanaian/index.html"
+                                >Tanaian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/aracnian/index.html"
+                                >Aracnian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/faborian/index.html"
+                                >Faborian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/mahendoshi/index.html"
+                                >Mahendoshi</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/vjespere/index.html"
+                                >Vjesperé</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/sooacoli/index.html"
+                                >Sooaacoli</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../politics/index.html"
+                            >Politics &amp; Military</a
+                          >
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../economics/index.html"
+                            >Economics &amp; Commence</a
+                          >
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../star-systems/index.html"
+                            >Star Systems</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../star-systems/firstshpere/index.html"
+                                >FirstSphere</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../star-systems/sol/index.html"
+                                >Sol System Maps</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../technology/index.html">Technology</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../technology/clothing/index.html"
+                                >Clothing</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/computer/index.html"
+                                >Computer</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/communications/index.html"
+                                >Communications</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/sensors/index.html"
+                                >Sensors</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/defense/index.html"
+                                >Defense</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/medical/index.html"
+                                >Medical</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/weapons/index.html"
+                                >Weapons</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/equipment/index.html"
+                                >Tools &amp; Misc.</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/transportation/index.html"
+                                >Transportation</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/starships/index.html"
+                                >Star Ships</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/equipment-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item"><a></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <article class="post type-docs">
+                  <div class="post-inside">
+                    <header class="post-header">
+                      <h1 class="post-title line-left">Tables</h1>
+                    </header>
+                    <div class="post-content">
+                      <h2>1 - Percent To Hit</h2>
+                      <pre><code>                      Marksmanship (Marks) Or Brawlmanship (Brawl)           
                 1  2  3  4  5  6  7  8  9  10  20  30  40  50  60  70  80  90
                 ________________________________________________________________
          .25   10 21 31 41 52 62 72 83 93 103 206 310 413 516 619 722 826 929
@@ -65,7 +671,9 @@
       2200.0    0  1  1  1  1  2  2  2  3   3   6   9  12  15  18  21  24  27
       2600.0    0  1  1  1  1  2  2  2  3   3   6   9  12  15  18  20  23  26
       3000.0    0  1  1  1  1  2  2  2  3   3   6   9  12  14  17  20  23  26
-</code></pre><h2>2 - Percent Against</h2><pre><code>                                   Adversity Modifiers
+</code></pre>
+                      <h2>2 - Percent Against</h2>
+                      <pre><code>                                   Adversity Modifiers
                 1 2  3  4  5  6  7  8  9 10 20  30  40  50  60  70  80  90    
                ___________________________________________________________
          .25    0 0  0  0  0  1  1  1  1  1  2   3   4   5   6   7   8   9
@@ -116,11 +724,15 @@
       2200.0    3 7 10 13 17 20 23 27 30 33 67 100 134 167 201 234 267 301
       2600.0    3 7 10 14 17 20 24 27 31 34 68 102 137 171 205 239 273 307
       3000.0    3 7 10 14 17 21 24 28 31 35 70 104 139 174 209 243 278 313
-</code></pre><div class="note">
-  Note: These values based on a target size of 3 by 2 meters (krane sized
-        or the equivalent) see table 7.1 adverse movement modifiers for
-        racial adjustments to percent against.
-</div><h2>3 - Damage Done</h2><pre><code>    Tissues Damage
+</code></pre>
+                      <div class="note">
+                        Note: These values based on a target size of 3 by 2
+                        meters (krane sized or the equivalent) see table 7.1
+                        adverse movement modifiers for racial adjustments to
+                        percent against.
+                      </div>
+                      <h2>3 - Damage Done</h2>
+                      <pre><code>    Tissues Damage
                                   Weapon Modifiers             
                 1 2 3 4 5 10 20 30 40 50 60 70 80 90 100 200 300 400 500
                 ___________________________________________________________
@@ -172,7 +784,9 @@
       2200.0    0 0 0 0 0  0  1  1  1  1  2  2  2  3   3   6   9  12  15
       2600.0    0 0 0 0 0  0  1  1  1  1  2  2  2  3   3   6   9  12  15
       3000.0    0 0 0 0 0  0  1  1  1  1  2  2  2  3   3   6   9  12  14
-</code></pre><h3>3.1 Organ</h3><pre><code>                      Circ  Res  Ner/End  Dig/Exc              
+</code></pre>
+                      <h3>3.1 Organ</h3>
+                      <pre><code>                      Circ  Res  Ner/End  Dig/Exc              
                       ____________________________
        Upper Head     2.25    1.75    2.25     -   
        Lower Head     1       1       2.75     -   
@@ -189,7 +803,9 @@
     s  Upper Leg      1       1       .75      -   
        Lower Leg       .75     .50    .50      -   
        Foot            .25     .10    .25      -   
-</code></pre><h3>3.2 Modifiers</h3><pre><code>                              Damage Modifier                   
+</code></pre>
+                      <h3>3.2 Modifiers</h3>
+                      <pre><code>                              Damage Modifier                   
     Type Of Round       V. Soft Soft Medium Hard V. Hard           
                       __________________________________
       Bullet Material
@@ -215,7 +831,9 @@
           Medium  (HF greater than 3 and less than or equal to 7)
           Hard    (HF greater than 7 and less than or equal to 9)
           V. Hard (HF greater than 9)             
-</code></pre><h3>3.3 Random Hit</h3><pre><code>                   Ar     Ee     Fa     Fe     Gl     Hu     Kr     Lo     Ma     So     Ta     Tg     Vj   
+</code></pre>
+                      <h3>3.3 Random Hit</h3>
+                      <pre><code>                   Ar     Ee     Fa     Fe     Gl     Hu     Kr     Lo     Ma     So     Ta     Tg     Vj   
     _______________________________________________________________________________________________________
     Upper Head    01-08  01-03  01-06  01-04  01-06  01-06  01-06  01-06  01-06  01-04  01-06  01-06  01-05
     Lower Head    09-16  04-07  07-13  05-09  07-12  07-14  07-12  07-14  07-13  05-10  07-14  07-14  06-12
@@ -247,31 +865,43 @@
                               Right Side 06-00.                                
     Third Roll  1:10sd =&gt; The Front 01-05 Or
                               Back  06-00.
-</code></pre><div class="note">
-This table should be used when a player beats his marksmanship or brawlmanship but is 20 or less below it. Since this means he hits but is not allowed to &quot;place&quot; or choose where the shot hits a random roll is done.
-</div><h3>3.4 Exoskeletons</h3><pre><code>                    Damage Table Number
+</code></pre>
+                      <div class="note">
+                        This table should be used when a player beats his
+                        marksmanship or brawlmanship but is 20 or less below it.
+                        Since this means he hits but is not allowed to
+                        &quot;place&quot; or choose where the shot hits a random
+                        roll is done.
+                      </div>
+                      <h3>3.4 Exoskeletons</h3>
+                      <pre><code>                    Damage Table Number
                 9      10      11      12      13      14       15
 
   01-05       86-90   61-65   76-80   46-50   46-50   76-80   46-50
   06-10       91-95   66-70   81-85   51-55   51-55   81-85   51-55
   11-15       96-00   71-75   86-90   56-60   56-60   86-90   56-60
-</code></pre><p>P     16-20       01-05   76-80   91-95   61-65   61-65   91-95   61-65
-e     21-25       06-10   81-85   96-00   66-70   66-70   96-00   66-70
-r     26-30       11-15   86-90   01-05   71-75   71-75   01-05   71-75
-c     31-35       16-20   91-95   06-10   76-80   76-80   06-10   76-80
-e     36-40       21-25   96-00   11-15   81-85   81-85   11-15   81-85
-n     41-45       26-30   01-05   16-20   86-90   86-90   16-20   86-90
-t     46-50       31-35   06-10   21-25   91-95   91-95   21-25   91-95
-51-55       36-40   11-15   26-30   96-00   96-00   26-30   96-00
-D     56-60       41-45   16-20   31-35   01-05   01-05   31-35   01-05
-a     61-65       46-50   21-25   36-40   06-10   06-10   36-40   06-10
-m     66-70       51-55   26-30   41-45   11-15   11-15   41-45   11-15
-a     71-75       56-60   31-35   46-50   16-20   16-20   46-50   16-20
-g     76-80       61-65   36-40   51-55   21-25   21-25   51-55   21-25
-e     81-85       66-70   41-45   56-60   26-30   26-30   56-60   26-30
-86-90       71-75   46-50   61-65   31-35   31-35   61-65   31-35
-91-95       76-80   51-55   66-70   36-40   36-40   66-70   36-40
-96-00       81-85   56-60   71-75   41-45   41-45   71-75   41-45</p><h2>4 - Adverse Conditions Modifiers</h2><h3>4.1 Alertness For</h3><pre><code>    Condition                           Modifier
+</code></pre>
+                      <p>
+                        P 16-20 01-05 76-80 91-95 61-65 61-65 91-95 61-65 e
+                        21-25 06-10 81-85 96-00 66-70 66-70 96-00 66-70 r 26-30
+                        11-15 86-90 01-05 71-75 71-75 01-05 71-75 c 31-35 16-20
+                        91-95 06-10 76-80 76-80 06-10 76-80 e 36-40 21-25 96-00
+                        11-15 81-85 81-85 11-15 81-85 n 41-45 26-30 01-05 16-20
+                        86-90 86-90 16-20 86-90 t 46-50 31-35 06-10 21-25 91-95
+                        91-95 21-25 91-95 51-55 36-40 11-15 26-30 96-00 96-00
+                        26-30 96-00 D 56-60 41-45 16-20 31-35 01-05 01-05 31-35
+                        01-05 a 61-65 46-50 21-25 36-40 06-10 06-10 36-40 06-10
+                        m 66-70 51-55 26-30 41-45 11-15 11-15 41-45 11-15 a
+                        71-75 56-60 31-35 46-50 16-20 16-20 46-50 16-20 g 76-80
+                        61-65 36-40 51-55 21-25 21-25 51-55 21-25 e 81-85 66-70
+                        41-45 56-60 26-30 26-30 56-60 26-30 86-90 71-75 46-50
+                        61-65 31-35 31-35 61-65 31-35 91-95 76-80 51-55 66-70
+                        36-40 36-40 66-70 36-40 96-00 81-85 56-60 71-75 41-45
+                        41-45 71-75 41-45
+                      </p>
+                      <h2>4 - Adverse Conditions Modifiers</h2>
+                      <h3>4.1 Alertness For</h3>
+                      <pre><code>    Condition                           Modifier
     ____________________________________________
     Combat                               0             
     Expecting                            1             
@@ -291,9 +921,15 @@ e     81-85       66-70   41-45   56-60   26-30   26-30   56-60   26-30
            Less Than 4 Affected         10             
            More Than 4 Affected         20             
        Per Organ System Affected        30             
-</code></pre><div class="note">
-Note: Some characters may fulfill several of these conditions (Eg. intoxicated and injured). if that is the case the modifiers should be added and then used To modify percent to hit.
-</div><h3>4.2 Alertness Against</h3><pre><code>    Condition                         Modifier
+</code></pre>
+                      <div class="note">
+                        Note: Some characters may fulfill several of these
+                        conditions (Eg. intoxicated and injured). if that is the
+                        case the modifiers should be added and then used To
+                        modify percent to hit.
+                      </div>
+                      <h3>4.2 Alertness Against</h3>
+                      <pre><code>    Condition                         Modifier
     _____________________________________________
     Combat                               95   
     Expecting                            70   
@@ -310,9 +946,15 @@ Note: Some characters may fulfill several of these conditions (Eg. intoxicated a
     Winded / Infected                   -20   
     Injured Per Part Affected           -25   
            Per Organ System Affected    -30   
-</code></pre><div class="note">
-NOTE: some characters may fulfill several of these conditions (eg. intoxicated and injured). If that is the case the modifiers should be averaged and then used to modify primal attack and surprise.
-</div><h3>4.3 Weather</h3><pre><code>    Condition     Heavy  Intermediate  Light       
+</code></pre>
+                      <div class="note">
+                        NOTE: some characters may fulfill several of these
+                        conditions (eg. intoxicated and injured). If that is the
+                        case the modifiers should be averaged and then used to
+                        modify primal attack and surprise.
+                      </div>
+                      <h3>4.3 Weather</h3>
+                      <pre><code>    Condition     Heavy  Intermediate  Light       
     ___________________________________________
     Hail           10         8          6         
     Snow            9         7          5         
@@ -327,14 +969,19 @@ NOTE: some characters may fulfill several of these conditions (eg. intoxicated a
     Temperature   3 Per 10∞C ± Body Temperature.   
     Endurance     5 Per Hour Exposed To Any Of     
                        The Above Conditions.      
-</code></pre><div class="note">
- Note: Some weather is a combination of several of the conditions listed  Ex. a sandstorm is     
-<pre><code> Light           Hail (Sand) =     6&lt;br&gt;
+</code></pre>
+                      <div class="note">
+                        Note: Some weather is a combination of several of the
+                        conditions listed Ex. a sandstorm is
+                        <pre><code> Light           Hail (Sand) =     6&lt;br&gt;
  Intermediate    Fog         =     5&lt;br&gt;      
  Wind 100 Km/H   (5 X 10)    = +  50&lt;br&gt;
 
  So A Sandstorm Is A 61           61&lt;br&gt;                                                                                     
-</code></pre></div><h3>4.4 Movement</h3><pre><code>    Target           Mod     Marksman        Mod   
+</code></pre>
+                      </div>
+                      <h3>4.4 Movement</h3>
+                      <pre><code>    Target           Mod     Marksman        Mod   
     ____________________     ___________________
     Dodging          17      Dodging         24         
     Sprinting        13      Sprinting       18         
@@ -354,13 +1001,109 @@ NOTE: some characters may fulfill several of these conditions (eg. intoxicated a
     Sooaacoli        11                                  
     Moving Vehicle    2      Moving Vehicle   2´         
     Per 5 Km/H               Per 5 Km/H                  
-</code></pre><p>Note: Simply add the modifiers of any of the above conditions to account for compound situations.</p><h3>4.5 Terrain</h3><table><thead><tr><th>Class</th><th>Description</th><th>Mod</th></tr></thead><tbody><tr><td>0</td><td>Dry lake bed, desert, moon, arctic scrub, very flat. No vegetation</td><td>0</td></tr><tr><td>1</td><td>Low grassland, tundra grasses + shrubs &lt; 30 cm.</td><td>2</td></tr><tr><td>2</td><td>High grassland grasses + shrubs &gt; 30 cm., small scarce rocks</td><td>3</td></tr><tr><td>3</td><td>Savannah, compounds (fenced area) sparse rocks + small trees boxes + crates + vehicles</td><td>7</td></tr><tr><td>4</td><td>High altitude combination forest combination of both deciduous and coniferous trees and shrubs</td><td>9</td></tr><tr><td>5</td><td>High altitude deciduous forest gullies + hills + rocky deciduous trees surface of Magnus</td><td>12</td></tr><tr><td>6</td><td>High altitude coniferous forest large rocks + hills conifer trees</td><td>15</td></tr><tr><td>7</td><td>Low attitude combination forest combination of both deciduous and coniferous trees and shrubs</td><td>18</td></tr><tr><td>8</td><td>Bog, swamp , heavy trees and vines moss and patches of extremely wet ground. Lots of decaying material battle bog of Uirrichh</td><td>21</td></tr><tr><td>9</td><td>Tropical rain forest, deep jungle Argolian forest.</td><td>26</td></tr></tbody></table><div class="note">
-Note: There is a race height modifier as per below that effects the marksman only.
-Mahendoshi  + 3 Classes
-Aracnians   - 1 Class
-Krane       - 2 Classes       
-Others      No modifier         
-</div><h3>4.6 Lighting</h3><pre><code>     Lighting                        Modifier         
+</code></pre>
+                      <p>
+                        Note: Simply add the modifiers of any of the above
+                        conditions to account for compound situations.
+                      </p>
+                      <h3>4.5 Terrain</h3>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Class</th>
+                            <th>Description</th>
+                            <th>Mod</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>0</td>
+                            <td>
+                              Dry lake bed, desert, moon, arctic scrub, very
+                              flat. No vegetation
+                            </td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              Low grassland, tundra grasses + shrubs &lt; 30 cm.
+                            </td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              High grassland grasses + shrubs &gt; 30 cm., small
+                              scarce rocks
+                            </td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              Savannah, compounds (fenced area) sparse rocks +
+                              small trees boxes + crates + vehicles
+                            </td>
+                            <td>7</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              High altitude combination forest combination of
+                              both deciduous and coniferous trees and shrubs
+                            </td>
+                            <td>9</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>
+                              High altitude deciduous forest gullies + hills +
+                              rocky deciduous trees surface of Magnus
+                            </td>
+                            <td>12</td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              High altitude coniferous forest large rocks +
+                              hills conifer trees
+                            </td>
+                            <td>15</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              Low attitude combination forest combination of
+                              both deciduous and coniferous trees and shrubs
+                            </td>
+                            <td>18</td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>
+                              Bog, swamp , heavy trees and vines moss and
+                              patches of extremely wet ground. Lots of decaying
+                              material battle bog of Uirrichh
+                            </td>
+                            <td>21</td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>
+                              Tropical rain forest, deep jungle Argolian forest.
+                            </td>
+                            <td>26</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="note">
+                        Note: There is a race height modifier as per below that
+                        effects the marksman only. Mahendoshi + 3 Classes
+                        Aracnians - 1 Class Krane - 2 Classes Others No modifier
+                      </div>
+                      <h3>4.6 Lighting</h3>
+                      <pre><code>     Lighting                        Modifier         
     _______________________________________________                                                  
      Moon (Per Moon1)           Cloudy       Clear    
         New Moon                  16           12     
@@ -372,11 +1115,18 @@ Others      No modifier
           Noon                     6            8     
      Snow                         10           13    
      Black Void (No Light2)       27                 
-</code></pre><div class="note">
- These Values Are Additive.                              
- 1. For suns and moons of the same brightness as sol and the moon. If intensity of sun or moon light is different, multiply the above modifier by the intensity listed on the planet&#x27;s data    record.                                                     
- 2. Like caves, darkened hallways, interiors of derelict space craft etc.                                   
-</div><h2>5 - Movement Cost</h2><h3>5.1 Attacks and Defences</h3><pre><code>                           Cost         Skill
+</code></pre>
+                      <div class="note">
+                        These Values Are Additive. 1. For suns and moons of the
+                        same brightness as sol and the moon. If intensity of sun
+                        or moon light is different, multiply the above modifier
+                        by the intensity listed on the planet&#x27;s data
+                        record. 2. Like caves, darkened hallways, interiors of
+                        derelict space craft etc.
+                      </div>
+                      <h2>5 - Movement Cost</h2>
+                      <h3>5.1 Attacks and Defences</h3>
+                      <pre><code>                           Cost         Skill
                         Off.  Def.      Mod  
                         ______________________
     Punches                                    
@@ -422,7 +1172,9 @@ Others      No modifier
      Elbowing            9    5-8        1   
     *Ducking / Dodging   9      -        5   
      Biting              1      4        1   
-</code></pre><h3>5.3 Movement</h3><pre><code>                             Cost (M.P.S)                         
+</code></pre>
+                      <h3>5.3 Movement</h3>
+                      <pre><code>                             Cost (M.P.S)                         
                            Regular  Silently                      
     Drawing A Pistol From                                             
     Shoulder Or Low. Back     3        5                          
@@ -444,10 +1196,17 @@ Others      No modifier
     Jog                       2       13  
     Walk                      1       10
     Stalk                     ´        8                  
-</code></pre><div class="note">
-Note: if a player wants to perform several of the above movements their costs are additive. the costs for sprinting, running etc. are to a distance of five (5) meters.
-Costs Do Not Vary Form A Deci-Percentage To A Whole Round. Only The Number Of Movement Points A Character Can Expend Is Changed.               
-</div><h2>6 Hardness Factors</h2><pre><code>    Courant         10      Multi-Loy       8.9                   
+</code></pre>
+                      <div class="note">
+                        Note: if a player wants to perform several of the above
+                        movements their costs are additive. the costs for
+                        sprinting, running etc. are to a distance of five (5)
+                        meters. Costs Do Not Vary Form A Deci-Percentage To A
+                        Whole Round. Only The Number Of Movement Points A
+                        Character Can Expend Is Changed.
+                      </div>
+                      <h2>6 Hardness Factors</h2>
+                      <pre><code>    Courant         10      Multi-Loy       8.9                   
     Aluma-Tung      8.8     T-Steel         8.2                   
     Iron            7.6     Aluminum        7.5                   
     Wrought Iron    7.0     Cast Iron       6.5                   
@@ -456,7 +1215,9 @@ Costs Do Not Vary Form A Deci-Percentage To A Whole Round. Only The Number Of Mo
     Marble          5.0     Slate           4.5                   
     Woods           4.0     Bone            3.3                   
     Exsoskeleton    2.5     Flesh           1.0    
-</code></pre><h2>7 Explosive Wep Mods</h2><pre><code>                 1    2    3    4    5    10    20    30    40    50    60    70    80    90    100
+</code></pre>
+                      <h2>7 Explosive Wep Mods</h2>
+                      <pre><code>                 1    2    3    4    5    10    20    30    40    50    60    70    80    90    100
                  __________________________________________________________________________________
         0.10   100  200  300  400  500  1000  2000  3000  4000  5000  6000  7000  8000  9000  10000            
         0.20    25   50   75  100  125   250   500   750  1000  1250  1500  1750  2000  2250   2500            
@@ -486,13 +1247,19 @@ Costs Do Not Vary Form A Deci-Percentage To A Whole Round. Only The Number Of Mo
         9.00     0    0    0    0    0     0     0     0     0     1     1     1     1     1      1            
        10.00     0    0    0    0    0     0     0     0     0     1     1     1     1     1      1            
        15.00     0    0    0    0    0     0     0     0     0     0     0     0     0     0      0            
-</code></pre><div class="note">
-The type of damage that was taken is easily determined by looking at table showing the radii of the
-effects of various explosives. If a character is within only the concussion radius all the points will have
-the effect of concussion on the character. While being inside the fire ball radius will result in burn
-damage and a concussion the G.M. should decide upon how the damage is alloted between the two types of
-damage.  
-</div><h2>8  Throw Distance</h2><pre><code>                                           Physical Strength
+</code></pre>
+                      <div class="note">
+                        The type of damage that was taken is easily determined
+                        by looking at table showing the radii of the effects of
+                        various explosives. If a character is within only the
+                        concussion radius all the points will have the effect of
+                        concussion on the character. While being inside the fire
+                        ball radius will result in burn damage and a concussion
+                        the G.M. should decide upon how the damage is alloted
+                        between the two types of damage.
+                      </div>
+                      <h2>8 Throw Distance</h2>
+                      <pre><code>                                           Physical Strength
                5 10 15 20 25 30  35  40  45  50  55  60  65  70  75  80  85  90  95  100
                _________________________________________________________________________
         0.25   3 10 23 42 65 94 127 166 211 260 315 374 439 510 585 666 751 842 939 1040
@@ -532,8 +1299,118 @@ damage.
        500.0   0  0  0  0  0  0   0   0   0   0   0   0   0   0   0   0   0   0   0    1
       1000.0   0  0  0  0  0  0   0   0   0   0   0   0   0   0   0   0   0   0   0    1
                                               (In Meters)
-</code></pre><h2>9 Grenade Bounce</h2><pre><code>    Under Brawl     bounces
+</code></pre>
+                      <h2>9 Grenade Bounce</h2>
+                      <pre><code>    Under Brawl     bounces
      0-14                3
     15-19                2
     20                 1
-</code></pre><p><img src="../../../images/GrenadeBounce.jpg" alt="Grenade Bounce"/></p></div></div></article><nav id="page-nav" class="page-nav"><div id="page-nav-inside" class="page-nav-inside sticky"><h2 class="page-nav-title">Jump to Section</h2><div id="page-nav-link-container"></div></div></nav></div></div></main><footer id="colophon" class="site-footer outer"><div class="inner"><div class="site-footer-inside"><p class="site-info"><span class="copyright">© Inkeptum Ultra Visio. All rights reserved. <a href="https://genesis.theengine.com/docs/about/copyright/" rel="noopener">See the About page for more information.</a> This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. </span></p></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script src="../../../js/plugins.js"></script><script src="../../../js/main.js"></script><script src="../../../js/page-load.js"></script><script src="../../../js/page-unload.js"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/combat/combat-tables/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e0ec9526f187c1d11289.js"],"component---src-templates-advanced-js":["/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-305ca813e8a18254b547.js"],"component---src-templates-docs-js":["/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"],"component---src-templates-page-js":["/component---src-templates-page-js-d3fda90f70d3e6039a3c.js"],"component---src-templates-post-js":["/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js"]};/*]]>*/</script><script src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js" async=""></script><script src="../../../commons-3384fc3544f2bc158869.js" async=""></script><script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script><script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script><script src="../../../app-e0ec9526f187c1d11289.js" async=""></script><script src="../../../framework-0204bf4e920e001ced67.js" async=""></script><script src="../../../webpack-runtime-edc57c7177d180b70324.js" async=""></script><script src="https://widget.stackbit.com/init.js" id="stackbit-widget-init" data-stackbit-project-id="60371e339cfb300016205cdd"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script></body></html>
+</code></pre>
+                      <p>
+                        <img
+                          src="../../../images/GrenadeBounce.jpg"
+                          alt="Grenade Bounce"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <nav id="page-nav" class="page-nav">
+                  <div id="page-nav-inside" class="page-nav-inside sticky">
+                    <h2 class="page-nav-title">Jump to Section</h2>
+                    <div id="page-nav-link-container"></div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </main>
+          <footer id="colophon" class="site-footer outer">
+            <div class="inner">
+              <div class="site-footer-inside">
+                <p class="site-info">
+                  <span class="copyright"
+                    >© Inkeptum Ultra Visio. All rights reserved.
+                    <a
+                      href="https://genesis.theengine.com/docs/about/copyright/"
+                      rel="noopener"
+                      >See the About page for more information.</a
+                    >
+                    This Jamstack site was created with
+                    <a
+                      href="https://www.stackbit.com/?utm_source=deployed-footer"
+                      target="_blank"
+                      rel="noopener"
+                      >Stackbit</a
+                    >.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+    <script src="../../../js/plugins.js"></script>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/page-load.js"></script>
+    <script src="../../../js/page-unload.js"></script>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.pagePath = "/docs/combat/combat-tables/"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-e0ec9526f187c1d11289.js"],
+        "component---src-templates-advanced-js": [
+          "/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js",
+        ],
+        "component---src-templates-blog-js": [
+          "/component---src-templates-blog-js-305ca813e8a18254b547.js",
+        ],
+        "component---src-templates-docs-js": [
+          "/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js",
+        ],
+        "component---src-templates-page-js": [
+          "/component---src-templates-page-js-d3fda90f70d3e6039a3c.js",
+        ],
+        "component---src-templates-post-js": [
+          "/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js",
+        ],
+      }; /*]]>*/
+    </script>
+    <script
+      src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+      async=""
+    ></script>
+    <script src="../../../commons-3384fc3544f2bc158869.js" async=""></script>
+    <script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script>
+    <script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script>
+    <script src="../../../app-e0ec9526f187c1d11289.js" async=""></script>
+    <script src="../../../framework-0204bf4e920e001ced67.js" async=""></script>
+    <script
+      src="../../../webpack-runtime-edc57c7177d180b70324.js"
+      async=""
+    ></script>
+    <script
+      src="https://widget.stackbit.com/init.js"
+      id="stackbit-widget-init"
+      data-stackbit-project-id="60371e339cfb300016205cdd"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

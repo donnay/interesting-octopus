@@ -1,27 +1,682 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"><meta name="generator" content="Gatsby 2.22.17"/><title data-react-helmet="true">Example</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com"/><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/><link data-react-helmet="true" rel="icon" href="../../../images/favicon/favicon.ico"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initialScale=1.0"/><meta data-react-helmet="true" name="description" content="This is the quick start page"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="Quick Start"/><meta data-react-helmet="true" property="og:description" content="This is the quick start page"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Quick Start"/><meta data-react-helmet="true" name="twitter:description" content="This is the quick start page"/><link as="script" rel="preload" href="../../../webpack-runtime-edc57c7177d180b70324.js"/><link as="script" rel="preload" href="../../../framework-0204bf4e920e001ced67.js"/><link as="script" rel="preload" href="../../../app-e0ec9526f187c1d11289.js"/><link as="script" rel="preload" href="../../../styles-503b3015a8b38c118cb7.js"/><link as="script" rel="preload" href="../../../29107295-36e60bad8a02b5426955.js"/><link as="script" rel="preload" href="../../../commons-3384fc3544f2bc158869.js"/><link as="script" rel="preload" href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"/><link as="fetch" rel="preload" href="../../../page-data/docs/combat/combat-example/page-data.json"/><link as="fetch" rel="preload" href="../../../page-data/app-data.json"/><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="generator" content="Gatsby 2.22.17" />
+    <title data-react-helmet="true">Example</title>
+    <link
+      data-react-helmet="true"
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      data-react-helmet="true"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="../../../images/favicon/favicon.ico"
+    />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initialScale=1.0"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" property="og:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" name="twitter:card" content="summary" />
+    <meta data-react-helmet="true" name="twitter:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="This is the quick start page"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../webpack-runtime-edc57c7177d180b70324.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../framework-0204bf4e920e001ced67.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../app-e0ec9526f187c1d11289.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../styles-503b3015a8b38c118cb7.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../29107295-36e60bad8a02b5426955.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../commons-3384fc3544f2bc158869.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+    />
+    <link
+      as="fetch"
+      rel="preload"
+      href="../../../page-data/docs/combat/combat-example/page-data.json"
+    />
+    <link as="fetch" rel="preload" href="../../../page-data/app-data.json" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-WQ787F9BJ0');
-</script><link rel="apple-touch-icon" sizes="180x180" href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="apple-mobile-web-app-title" content="Genesis">
-<meta name="application-name" content="Genesis">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a href="../../../index.html"><img src="../../../images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item"><a href="../../../index.html">Home</a></li><li class="menu-item has-children"><a href="../../index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../characters/index.html">Charactes</a></li><li class="menu-item"><a href="../../character-life/index.html">Character Life</a></li><li class="menu-item"><a href="../index.html">Combat</a></li><li class="menu-item"><a href="../../adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="../../index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../history/index.html">History</a></li><li class="menu-item"><a href="../../races/index.html">All Races</a></li><li class="menu-item"><a href="../../../races/index.html">Player Races</a></li><li class="menu-item"><a href="../../../npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="../../economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="../../star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="../../technology/index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="../../../blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item"><a href="../../../contact/index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><div class="inner outer"><div class="docs-content"><nav id="docs-nav" class="docs-nav"><div id="docs-nav-inside" class="docs-nav-inside sticky"><button id="docs-nav-toggle" class="docs-nav-toggle">Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span></button><div class="docs-nav-menu"><ul id="docs-menu" class="docs-menu"><li class="docs-menu-item"><a href="../../index.html">Introduction</a></li><li class="docs-menu-item has-children"><a href="../../about/index.html">About</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../about/forward/index.html">Forward</a></li><li class="docs-menu-item"><a href="../../about/copyright/index.html">Copyright</a></li><li class="docs-menu-item"><a href="../../about/methods/index.html">Methods</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../characters/index.html">Character</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../characters/characters/index.html">Description</a></li><li class="docs-menu-item"><a href="../../characters/occupations/index.html">Occupations</a></li><li class="docs-menu-item"><a href="../../characters/character-generation/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-example/index.html">Examples</a></li><li class="docs-menu-item"><a href="../../characters/character-sheet/index.html">Character Sheet</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../character-life/index.html">Character Life</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../character-life/character-life/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../character-life/star-travel/index.html">Star Travel</a></li><li class="docs-menu-item"><a href="../../character-life/char-life-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item has-children active"><a href="../index.html">Combat</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../combat/index.html">Rules</a></li><li class="docs-menu-item"><a href="../combat-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../combat-dam-tables/index.html">Damage Tables</a></li><li class="docs-menu-item current"><a aria-current="page" class="" href="index.html">Example</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../adventures/index.html">Adventures</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="docs-menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="docs-menu-item"><a href="../../history/index.html">History</a></li><li class="docs-menu-item has-children"><a href="../../races/index.html">Races</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../races/eebek/index.html">Eebeck</a></li><li class="docs-menu-item"><a href="../../races/fenbin/index.html">Fenbin</a></li><li class="docs-menu-item"><a href="../../races/human/index.html">Human</a></li><li class="docs-menu-item"><a href="../../races/krane/index.html">Krane</a></li><li class="docs-menu-item"><a href="../../races/lowkaa/index.html">Low Kaa</a></li><li class="docs-menu-item"><a href="../../races/tanaian/index.html">Tanaian</a></li><li class="docs-menu-item"><a href="../../races/aracnian/index.html">Aracnian</a></li><li class="docs-menu-item"><a href="../../races/faborian/index.html">Faborian</a></li><li class="docs-menu-item"><a href="../../races/mahendoshi/index.html">Mahendoshi</a></li><li class="docs-menu-item"><a href="../../races/vjespere/index.html">Vjesperé</a></li><li class="docs-menu-item"><a href="../../races/sooacoli/index.html">Sooaacoli</a></li></ul></li><li class="docs-menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="docs-menu-item"><a href="../../economics/index.html">Economics &amp; Commence</a></li><li class="docs-menu-item has-children"><a href="../../star-systems/index.html">Star Systems</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../star-systems/firstshpere/index.html">FirstSphere</a></li><li class="docs-menu-item"><a href="../../star-systems/sol/index.html">Sol System Maps</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../technology/index.html">Technology</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../technology/clothing/index.html">Clothing</a></li><li class="docs-menu-item"><a href="../../technology/computer/index.html">Computer</a></li><li class="docs-menu-item"><a href="../../technology/communications/index.html">Communications</a></li><li class="docs-menu-item"><a href="../../technology/sensors/index.html">Sensors</a></li><li class="docs-menu-item"><a href="../../technology/defense/index.html">Defense</a></li><li class="docs-menu-item"><a href="../../technology/medical/index.html">Medical</a></li><li class="docs-menu-item"><a href="../../technology/weapons/index.html">Weapons</a></li><li class="docs-menu-item"><a href="../../technology/equipment/index.html">Tools &amp; Misc.</a></li><li class="docs-menu-item"><a href="../../technology/transportation/index.html">Transportation</a></li><li class="docs-menu-item"><a href="../../technology/starships/index.html">Star Ships</a></li><li class="docs-menu-item"><a href="../../technology/equipment-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item"><a></a></li></ul></div></div></nav><article class="post type-docs"><div class="post-inside"><header class="post-header"><h1 class="post-title line-left">Example</h1></header><div class="post-content"><h2>Introduction</h2><p>Well all these rules are are just fine but how about an example? Yes! An example to give all this theory a practical footing is just the thing that we need here. To give you idea how all the rules work, we pick up on the example begun in Chapter 1 on Characters. In this chapter however, we will deal with the application of combat&#x27;s rules and procedures. In the first chapter we saw how Reese created a character named Nixole, in this chapter Nixole will engage in combat.</p><h3>The Situation</h3><p>Vaughn, a human, has been hired to protect an inter-galactic mob boss&#x27; secret base on the planet Carakuss in the Constella system. While monitoring her commpac she heard a ship land some fifteen kilometers away from the base and has gone out to investigate. After a days&#x27; walk through the thick underbrush on the floor of the tropical forest, Vaughn stops for a short sleep. She knows that the characters, aboard the ship - including Nixole, have set-up camp for the night just across the valley. After her rest she quietly approaches the character&#x27;s camp, being careful not to attract the attention of the character on guard. Standing behind a tree, she can see Nixole just five and a half metres in front of her. She has been standing guard for the past four hours and it is just before dawn, both moons hanging high in the night sky. The anodized triangular patch - indicative of CCOP officers -  on her arm, dimly glows in the light of the moons, standing as a clear indication of the group&#x27;s motives and intentions on this planet. The temperature of the still night is just 8 degrees C, a full 30 degrees below Nixole&#x27;s normal Low Kaan body temperature. Nixole is squatting in a very small clearing five meters away from the main camp. Vaughn has an fusion rifle which is fully loaded. Nixole has an auto pistol that also has a full load. Vaughn fires her weapon at Nixole. Vaughn is aiming for Nixole&#x27;s right shoulder. Nixoles&#x27; character is Reese and Vaughn is being run by Nicole.</p><h3>Surprise</h3><pre><code>      1:  Vaughn&#x27;s PERCEPTION attribute is                   53
+      gtag("config", "G-WQ787F9BJ0");
+    </script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="https://genesisrpg.com/docs/combat/combat-example/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Genesis" />
+    <meta name="application-name" content="Genesis" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="palette-gold">
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div id="page" class="site">
+          <header id="masthead" class="site-header outer">
+            <div class="inner">
+              <div class="site-header-inside">
+                <div class="site-branding">
+                  <p class="site-logo">
+                    <a href="../../../index.html"
+                      ><img
+                        src="../../../images/Genesislogo1.jpeg"
+                        alt="Genesis logo"
+                    /></a>
+                  </p>
+                </div>
+                <nav
+                  id="main-navigation"
+                  class="site-navigation"
+                  aria-label="Main Navigation"
+                >
+                  <div class="site-nav-inside">
+                    <button id="menu-close" class="menu-toggle">
+                      <span class="screen-reader-text">Open Menu</span
+                      ><span class="icon-close" aria-hidden="true"></span>
+                    </button>
+                    <ul class="menu">
+                      <li class="menu-item">
+                        <a href="../../../index.html">Home</a>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Regulum</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../characters/index.html">Charactes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../character-life/index.html"
+                              >Character Life</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../index.html">Combat</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../adventures/index.html">Adventures</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Centia</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../history/index.html">History</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../races/index.html">All Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../races/index.html">Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../npraces/index.html"
+                              >Non-Player Races</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../politics/index.html"
+                              >Politics &amp; Military</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../economics/index.html"
+                              >Economics &amp; Commerce</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../star-systems/index.html"
+                              >Star Travel</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../technology/index.html">Technology</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../../blog/index.html">Caudex Universium</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/andromedianrose/index.html"
+                              >Andromedian Rose</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/sednarendezvous/index.html"
+                              >Sedna Rendezvous</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../../contact/index.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <button id="menu-open" class="menu-toggle">
+                  <span class="screen-reader-text">Close Menu</span
+                  ><span class="icon-menu" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main id="content" class="site-content">
+            <div class="inner outer">
+              <div class="docs-content">
+                <nav id="docs-nav" class="docs-nav">
+                  <div id="docs-nav-inside" class="docs-nav-inside sticky">
+                    <button id="docs-nav-toggle" class="docs-nav-toggle">
+                      Navigate Docs<span
+                        class="icon-angle-right"
+                        aria-hidden="true"
+                      ></span>
+                    </button>
+                    <div class="docs-nav-menu">
+                      <ul id="docs-menu" class="docs-menu">
+                        <li class="docs-menu-item">
+                          <a href="../../index.html">Introduction</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../about/index.html">About</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../about/forward/index.html"
+                                >Forward</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/copyright/index.html"
+                                >Copyright</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/methods/index.html"
+                                >Methods</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../characters/index.html">Character</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../characters/characters/index.html"
+                                >Description</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../characters/occupations/index.html"
+                                >Occupations</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-generation/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-example/index.html"
+                                >Examples</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-sheet/index.html"
+                                >Character Sheet</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../character-life/index.html"
+                            >Character Life</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/character-life/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/star-travel/index.html"
+                                >Star Travel</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/char-life-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children active">
+                          <a href="../index.html">Combat</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../combat/index.html">Rules</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../combat-tables/index.html">Tables</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../combat-dam-tables/index.html"
+                                >Damage Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item current">
+                              <a aria-current="page" class="" href="index.html"
+                                >Example</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../adventures/index.html">Adventures</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/andromedianrose/index.html"
+                                >Andromedian Rose</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/sednarendezvous/index.html"
+                                >Sedna Rendezvous</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../history/index.html">History</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../races/index.html">Races</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../races/eebek/index.html">Eebeck</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/fenbin/index.html">Fenbin</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/human/index.html">Human</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/krane/index.html">Krane</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/lowkaa/index.html"
+                                >Low Kaa</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/tanaian/index.html"
+                                >Tanaian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/aracnian/index.html"
+                                >Aracnian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/faborian/index.html"
+                                >Faborian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/mahendoshi/index.html"
+                                >Mahendoshi</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/vjespere/index.html"
+                                >Vjesperé</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/sooacoli/index.html"
+                                >Sooaacoli</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../politics/index.html"
+                            >Politics &amp; Military</a
+                          >
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../economics/index.html"
+                            >Economics &amp; Commence</a
+                          >
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../star-systems/index.html"
+                            >Star Systems</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../star-systems/firstshpere/index.html"
+                                >FirstSphere</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../star-systems/sol/index.html"
+                                >Sol System Maps</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../technology/index.html">Technology</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../technology/clothing/index.html"
+                                >Clothing</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/computer/index.html"
+                                >Computer</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/communications/index.html"
+                                >Communications</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/sensors/index.html"
+                                >Sensors</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/defense/index.html"
+                                >Defense</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/medical/index.html"
+                                >Medical</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/weapons/index.html"
+                                >Weapons</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/equipment/index.html"
+                                >Tools &amp; Misc.</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/transportation/index.html"
+                                >Transportation</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/starships/index.html"
+                                >Star Ships</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/equipment-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item"><a></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <article class="post type-docs">
+                  <div class="post-inside">
+                    <header class="post-header">
+                      <h1 class="post-title line-left">Example</h1>
+                    </header>
+                    <div class="post-content">
+                      <h2>Introduction</h2>
+                      <p>
+                        Well all these rules are are just fine but how about an
+                        example? Yes! An example to give all this theory a
+                        practical footing is just the thing that we need here.
+                        To give you idea how all the rules work, we pick up on
+                        the example begun in Chapter 1 on Characters. In this
+                        chapter however, we will deal with the application of
+                        combat&#x27;s rules and procedures. In the first chapter
+                        we saw how Reese created a character named Nixole, in
+                        this chapter Nixole will engage in combat.
+                      </p>
+                      <h3>The Situation</h3>
+                      <p>
+                        Vaughn, a human, has been hired to protect an
+                        inter-galactic mob boss&#x27; secret base on the planet
+                        Carakuss in the Constella system. While monitoring her
+                        commpac she heard a ship land some fifteen kilometers
+                        away from the base and has gone out to investigate.
+                        After a days&#x27; walk through the thick underbrush on
+                        the floor of the tropical forest, Vaughn stops for a
+                        short sleep. She knows that the characters, aboard the
+                        ship - including Nixole, have set-up camp for the night
+                        just across the valley. After her rest she quietly
+                        approaches the character&#x27;s camp, being careful not
+                        to attract the attention of the character on guard.
+                        Standing behind a tree, she can see Nixole just five and
+                        a half metres in front of her. She has been standing
+                        guard for the past four hours and it is just before
+                        dawn, both moons hanging high in the night sky. The
+                        anodized triangular patch - indicative of CCOP officers
+                        - on her arm, dimly glows in the light of the moons,
+                        standing as a clear indication of the group&#x27;s
+                        motives and intentions on this planet. The temperature
+                        of the still night is just 8 degrees C, a full 30
+                        degrees below Nixole&#x27;s normal Low Kaan body
+                        temperature. Nixole is squatting in a very small
+                        clearing five meters away from the main camp. Vaughn has
+                        an fusion rifle which is fully loaded. Nixole has an
+                        auto pistol that also has a full load. Vaughn fires her
+                        weapon at Nixole. Vaughn is aiming for Nixole&#x27;s
+                        right shoulder. Nixoles&#x27; character is Reese and
+                        Vaughn is being run by Nicole.
+                      </p>
+                      <h3>Surprise</h3>
+                      <pre><code>      1:  Vaughn&#x27;s PERCEPTION attribute is                   53
              Nicole rolls a 21                            -  21
              she is 32 under Vaughn&#x27;s PERCEPTION             32
 
           Nixole&#x27;s PERCEPTION attribute is                   49
              Reese rolls a 46                             -  46
              he is 3 under Nixole&#x27;s PERCEPTION                3
-</code></pre><div class="note">Vaughn gets SURPRISE because she was more under her PERCEPTION than Nixole.   </div><pre><code>      2:  Vaughn has an Alertness Condition of &quot;Expecting&quot;
+</code></pre>
+                      <div class="note">
+                        Vaughn gets SURPRISE because she was more under her
+                        PERCEPTION than Nixole.
+                      </div>
+                      <pre><code>      2:  Vaughn has an Alertness Condition of &quot;Expecting&quot;
              therefore her A.C. percentile is 80.            80
              her PERCEPTION is 53                         +  53
              the total is 133                               133
@@ -36,7 +691,12 @@
              the average is 62 (124 divided by 2)            62
              Reese rolls a 46                             -  46
              he is therefore 16 under                        16
-</code></pre><div class="note">Vaughn gets SURPRISE because she was more under her PERCEPTION than Nixole.   </div><pre><code>      3:  Under this procedure each player, even the sleeping ones,
+</code></pre>
+                      <div class="note">
+                        Vaughn gets SURPRISE because she was more under her
+                        PERCEPTION than Nixole.
+                      </div>
+                      <pre><code>      3:  Under this procedure each player, even the sleeping ones,
       gets a chance to have the first attack. Primal attack 2 rolls
       for the sleeping members of Nixole&#x27;s party are ridiculous due
       to their low PERCEPTIONS, when averaged with the A.C. percentile
@@ -48,19 +708,41 @@
       up, by how much they roll under their Alertness Condition.
       The Aracnian is almost certain to be wide awake, He may
       however dismiss the disturbance and go back to sleep.
-</code></pre><div class="note">Vaughn gets SURPRISE because she was more under the average than Nixole.  </div><h3>Primary Attack</h3><pre><code>    1:,2:Nicole rolls a 1:100sd
+</code></pre>
+                      <div class="note">
+                        Vaughn gets SURPRISE because she was more under the
+                        average than Nixole.
+                      </div>
+                      <h3>Primary Attack</h3>
+                      <pre><code>    1:,2:Nicole rolls a 1:100sd
              the result is 41                          41
 
           Reese rolls a 1:100sd
              the result is 68                          68
 
           Compare the results              cf.  41 vs. 68
-</code></pre><div class="note">
-RESULT: From the values you should be able to deduce that in the first round Vaughn has the one and only attack (remember the rules of surprise). For primary attack Nixole&#x27;s result was not more than 30 above Vaughn&#x27;s so he does not get the only attack just the first attack in the second round (remember the rules for Primary Attack). How much they can move in their turn is dependent on number of AGILITY POINTs (A.P.s)(see ACTION) they have.
-</div><h3>Action</h3><pre><code>    Procedure Examples:
+</code></pre>
+                      <div class="note">
+                        RESULT: From the values you should be able to deduce
+                        that in the first round Vaughn has the one and only
+                        attack (remember the rules of surprise). For primary
+                        attack Nixole&#x27;s result was not more than 30 above
+                        Vaughn&#x27;s so he does not get the only attack just
+                        the first attack in the second round (remember the rules
+                        for Primary Attack). How much they can move in their
+                        turn is dependent on number of AGILITY POINTs
+                        (A.P.s)(see ACTION) they have.
+                      </div>
+                      <h3>Action</h3>
+                      <pre><code>    Procedure Examples:
         2:Vaughn&#x27;s APs is equal to her AGILITY          50
           Nixole&#x27;s APs is equal to her AGILITY          63
-</code></pre><div class="note">Vaughn fires her weapon and Nixole remains sitting.</div><h3>Percent to Hit</h3><pre><code>        1:Vaughn is using a fusion rifle
+</code></pre>
+                      <div class="note">
+                        Vaughn fires her weapon and Nixole remains sitting.
+                      </div>
+                      <h3>Percent to Hit</h3>
+                      <pre><code>        1:Vaughn is using a fusion rifle
              It&#x27;s WEP DIF is 55                         55
              Her AIM is 67                           +  67
              The total is 122                          122
@@ -104,9 +786,163 @@ Vaughn&#x27;s player rolls a 1:100sd
 
          the result is a 35                     35
          therefore he is 28 below her TO HIT    28
-</code></pre><div class="important"><strong>SHE HAS HIT !!!!</strong> because Nicole rolled more than 20 under her TO HIT.<br/>
-Her hit is a DIRECT HIT - exactly where she was aiming.Vaughn was aiming for Nixole&#x27;s right shoulder. To calculate what damage was done to Nixole&#x27;s right shoulder go to DAMAGE. Vaughn&#x27;s first shot hits because she beat her MARKSmanship. She rolls again and the result of 1:100sd is 97 -- Her second shot misses with all three procedures.  </div><h3>Damage</h3><h4>Tissue</h4><pre><code>         The Wep Mod of a fusion rifle is       215
+</code></pre>
+                      <div class="important">
+                        <strong>SHE HAS HIT !!!!</strong> because Nicole rolled
+                        more than 20 under her TO HIT.<br />
+                        Her hit is a DIRECT HIT - exactly where she was
+                        aiming.Vaughn was aiming for Nixole&#x27;s right
+                        shoulder. To calculate what damage was done to
+                        Nixole&#x27;s right shoulder go to DAMAGE. Vaughn&#x27;s
+                        first shot hits because she beat her MARKSmanship. She
+                        rolls again and the result of 1:100sd is 97 -- Her
+                        second shot misses with all three procedures.
+                      </div>
+                      <h3>Damage</h3>
+                      <h4>Tissue</h4>
+                      <pre><code>         The Wep Mod of a fusion rifle is       215
          cross reference versus the range         5.5
          (from Table #3-3.0)
          the result is 27 (25+1+1)               27
-</code></pre><p>This is the number of points of damage that was done to the body part, in this case Nixoles&#x27; shoulder. Nixoles&#x27; shoulder actually has 22 points in it so the the damage percentage, taken divided by total, is 123 %. this means the body part has lost all functionality and made her entire are virtually useless. The final calculation that can be done is this leg of this combat scenario is for organ system damage.</p><h3>Organ system</h3><p>The damage done to the various system depends on the tissue damage done. Simply multiply the tissue damage by the values listed next to the appropriate body part on the Organ System Table #3-3.1. This give the results of 308% damage to the circulatory system, 246% damage on the respiratory system, 185% nervous / endocrine, and 123 percent to the digestive excretory system. All this damage means that all of Nixoles&#x27; organ systems have lost all functionality. Which means she is clinically dead. All of her systems have lost functionality and so her death will occur in four hours. Fortunately Nixole is a Low Kaa and there is a compatible grim reaper back at the ship. The reaper was attached and assumed all body functions preserving the neural networks of the brain and stabilizing her until complete genetic surgery could be obtained. After which she was sitting up in bed within a day and on her feet in two, with no signs of the injuries or there effects in a week.</p><p><img src="../../../images/Noel.jpg" alt="Combat System Testing In Progress"/></p><p></p></div></div></article><nav id="page-nav" class="page-nav"><div id="page-nav-inside" class="page-nav-inside sticky"><h2 class="page-nav-title">Jump to Section</h2><div id="page-nav-link-container"></div></div></nav></div></div></main><footer id="colophon" class="site-footer outer"><div class="inner"><div class="site-footer-inside"><p class="site-info"><span class="copyright">© Inkeptum Ultra Visio. All rights reserved. <a href="https://genesis.theengine.com/docs/about/copyright/" rel="noopener">See the About page for more information.</a> This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. </span></p></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script src="../../../js/plugins.js"></script><script src="../../../js/main.js"></script><script src="../../../js/page-load.js"></script><script src="../../../js/page-unload.js"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/combat/combat-example/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e0ec9526f187c1d11289.js"],"component---src-templates-advanced-js":["/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-305ca813e8a18254b547.js"],"component---src-templates-docs-js":["/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"],"component---src-templates-page-js":["/component---src-templates-page-js-d3fda90f70d3e6039a3c.js"],"component---src-templates-post-js":["/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js"]};/*]]>*/</script><script src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js" async=""></script><script src="../../../commons-3384fc3544f2bc158869.js" async=""></script><script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script><script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script><script src="../../../app-e0ec9526f187c1d11289.js" async=""></script><script src="../../../framework-0204bf4e920e001ced67.js" async=""></script><script src="../../../webpack-runtime-edc57c7177d180b70324.js" async=""></script><script src="https://widget.stackbit.com/init.js" id="stackbit-widget-init" data-stackbit-project-id="60371e339cfb300016205cdd"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script></body></html>
+</code></pre>
+                      <p>
+                        This is the number of points of damage that was done to
+                        the body part, in this case Nixoles&#x27; shoulder.
+                        Nixoles&#x27; shoulder actually has 22 points in it so
+                        the the damage percentage, taken divided by total, is
+                        123 %. this means the body part has lost all
+                        functionality and made her entire are virtually useless.
+                        The final calculation that can be done is this leg of
+                        this combat scenario is for organ system damage.
+                      </p>
+                      <h3>Organ system</h3>
+                      <p>
+                        The damage done to the various system depends on the
+                        tissue damage done. Simply multiply the tissue damage by
+                        the values listed next to the appropriate body part on
+                        the Organ System Table #3-3.1. This give the results of
+                        308% damage to the circulatory system, 246% damage on
+                        the respiratory system, 185% nervous / endocrine, and
+                        123 percent to the digestive excretory system. All this
+                        damage means that all of Nixoles&#x27; organ systems
+                        have lost all functionality. Which means she is
+                        clinically dead. All of her systems have lost
+                        functionality and so her death will occur in four hours.
+                        Fortunately Nixole is a Low Kaa and there is a
+                        compatible grim reaper back at the ship. The reaper was
+                        attached and assumed all body functions preserving the
+                        neural networks of the brain and stabilizing her until
+                        complete genetic surgery could be obtained. After which
+                        she was sitting up in bed within a day and on her feet
+                        in two, with no signs of the injuries or there effects
+                        in a week.
+                      </p>
+                      <p>
+                        <img
+                          src="../../../images/Noel.jpg"
+                          alt="Combat System Testing In Progress"
+                        />
+                      </p>
+                      <p></p>
+                    </div>
+                  </div>
+                </article>
+                <nav id="page-nav" class="page-nav">
+                  <div id="page-nav-inside" class="page-nav-inside sticky">
+                    <h2 class="page-nav-title">Jump to Section</h2>
+                    <div id="page-nav-link-container"></div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </main>
+          <footer id="colophon" class="site-footer outer">
+            <div class="inner">
+              <div class="site-footer-inside">
+                <p class="site-info">
+                  <span class="copyright"
+                    >© Inkeptum Ultra Visio. All rights reserved.
+                    <a
+                      href="https://genesis.theengine.com/docs/about/copyright/"
+                      rel="noopener"
+                      >See the About page for more information.</a
+                    >
+                    This Jamstack site was created with
+                    <a
+                      href="https://www.stackbit.com/?utm_source=deployed-footer"
+                      target="_blank"
+                      rel="noopener"
+                      >Stackbit</a
+                    >.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+    <script src="../../../js/plugins.js"></script>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/page-load.js"></script>
+    <script src="../../../js/page-unload.js"></script>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.pagePath = "/docs/combat/combat-example/"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-e0ec9526f187c1d11289.js"],
+        "component---src-templates-advanced-js": [
+          "/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js",
+        ],
+        "component---src-templates-blog-js": [
+          "/component---src-templates-blog-js-305ca813e8a18254b547.js",
+        ],
+        "component---src-templates-docs-js": [
+          "/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js",
+        ],
+        "component---src-templates-page-js": [
+          "/component---src-templates-page-js-d3fda90f70d3e6039a3c.js",
+        ],
+        "component---src-templates-post-js": [
+          "/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js",
+        ],
+      }; /*]]>*/
+    </script>
+    <script
+      src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+      async=""
+    ></script>
+    <script src="../../../commons-3384fc3544f2bc158869.js" async=""></script>
+    <script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script>
+    <script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script>
+    <script src="../../../app-e0ec9526f187c1d11289.js" async=""></script>
+    <script src="../../../framework-0204bf4e920e001ced67.js" async=""></script>
+    <script
+      src="../../../webpack-runtime-edc57c7177d180b70324.js"
+      async=""
+    ></script>
+    <script
+      src="https://widget.stackbit.com/init.js"
+      id="stackbit-widget-init"
+      data-stackbit-project-id="60371e339cfb300016205cdd"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,17 +1,578 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"><meta name="generator" content="Gatsby 2.22.17"/><title data-react-helmet="true">Genesis Role Playing Game - version 3 remastered</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com"/><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/><link data-react-helmet="true" rel="icon" href="images/favicon/favicon.ico"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initialScale=1.0"/><meta data-react-helmet="true" name="description" content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="Genesis - The Role Playing Game"/><meta data-react-helmet="true" property="og:description" content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"/><meta data-react-helmet="true" property="og:image" content="https://genesis.theengine.com/images/Genesislogo1.jpeg"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:title" content="Genesis - The Role Playing Game"/><meta data-react-helmet="true" name="twitter:description" content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"/><meta data-react-helmet="true" name="twitter:image" content="https://genesis.theengine.com/images/Genesislogo1.jpeg"/><link as="script" rel="preload" href="webpack-runtime-edc57c7177d180b70324.js"/><link as="script" rel="preload" href="framework-0204bf4e920e001ced67.js"/><link as="script" rel="preload" href="app-e0ec9526f187c1d11289.js"/><link as="script" rel="preload" href="styles-503b3015a8b38c118cb7.js"/><link as="script" rel="preload" href="29107295-36e60bad8a02b5426955.js"/><link as="script" rel="preload" href="commons-3384fc3544f2bc158869.js"/><link as="script" rel="preload" href="component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"/><link as="fetch" rel="preload" href="page-data/index/page-data.json"/><link as="fetch" rel="preload" href="page-data/app-data.json"/><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="generator" content="Gatsby 2.22.17" />
+    <title data-react-helmet="true">
+      Genesis Role Playing Game - version 3 remastered
+    </title>
+    <link
+      data-react-helmet="true"
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      data-react-helmet="true"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="images/favicon/favicon.ico"
+    />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initialScale=1.0"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta
+      data-react-helmet="true"
+      property="og:title"
+      content="Genesis - The Role Playing Game"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:image"
+      content="https://genesis.theengine.com/images/Genesislogo1.jpeg"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:title"
+      content="Genesis - The Role Playing Game"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="A retro-paper based Role-Playing Game written in the hey days of RPGs. A game set hundreds of years in earth&#x27;s future, where humans have been contacted by Alien Races. The exploration has just begun! Join the adventure!"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:image"
+      content="https://genesis.theengine.com/images/Genesislogo1.jpeg"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="webpack-runtime-edc57c7177d180b70324.js"
+    />
+    <link as="script" rel="preload" href="framework-0204bf4e920e001ced67.js" />
+    <link as="script" rel="preload" href="app-e0ec9526f187c1d11289.js" />
+    <link as="script" rel="preload" href="styles-503b3015a8b38c118cb7.js" />
+    <link as="script" rel="preload" href="29107295-36e60bad8a02b5426955.js" />
+    <link as="script" rel="preload" href="commons-3384fc3544f2bc158869.js" />
+    <link
+      as="script"
+      rel="preload"
+      href="component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"
+    />
+    <link as="fetch" rel="preload" href="page-data/index/page-data.json" />
+    <link as="fetch" rel="preload" href="page-data/app-data.json" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-WQ787F9BJ0');
-</script><link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-<link rel="manifest" href="images/favicon/site.webmanifest">
-<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="apple-mobile-web-app-title" content="Genesis">
-<meta name="application-name" content="Genesis">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a aria-current="page" class="" href="index.html"><img src="images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item current"><a aria-current="page" class="" href="index.html">Home</a></li><li class="menu-item has-children"><a href="docs/index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="docs/characters/index.html">Charactes</a></li><li class="menu-item"><a href="docs/character-life/index.html">Character Life</a></li><li class="menu-item"><a href="docs/combat/index.html">Combat</a></li><li class="menu-item"><a href="docs/adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="docs/index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="docs/history/index.html">History</a></li><li class="menu-item"><a href="docs/races/index.html">All Races</a></li><li class="menu-item"><a href="races/index.html">Player Races</a></li><li class="menu-item"><a href="npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="docs/politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="docs/economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="docs/star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="docs/technology/index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="docs/adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="docs/adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item"><a href="contact/index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><section id="hero" class="block block-hero has-gradient outer"><div class="bg-img" style="background-image:url(&#x27;images/JungleCampCropped.jpg&#x27;)"></div><div class="inner-sm"><div class="block-header"><h1 class="block-title">Welcome!</h1></div><div class="block-content"><p>This site is devoted to Genesis a retro-paper based Role Playing Game. Where  the scale of adventures are only limited by your imagination! This game was developed by high school kids in Calgary, Alberta, Canada. It has been remastered and posted publicly for all to enjoy.<br/> The rules of Genesis are divided into books or &#x27;caudex&#x27;. There is the Caudex Regulum, the book of Rules. The Caudex Centia, the book of knowledge. Caudex Universum the book of stories.</p></div><div class="block-buttons"><a class="button" href="docs/index.html">Dive into the Universe!</a></div></div></section><section id="features" class="block block-grid outer"><div class="inner"><div class="block-content"><div class="grid grid-col-3"><div class="grid-item"><div class="grid-item-inside"><h3 class="grid-item-title line-left">Rules</h3><div class="grid-item-content"><p>The Caudex Regulum, the book of Rules. All game masters should read all the rules to be successful at leading teams through adventures. </p></div><div class="grid-item-buttons"><a href="docs/characters/index.html">See how to play the game</a></div></div></div><div class="grid-item"><div class="grid-item-inside"><h3 class="grid-item-title line-left">Knowledge</h3><div class="grid-item-content"><p>The Caudex Centia, the book of knowledge. All role playing gamers should know the history, politics, economics - best of all we have tones of equipment, clothes, vehicles and even star ships. </p></div><div class="grid-item-buttons"><a href="docs/history/index.html">Learn about the universe</a></div></div></div><div class="grid-item"><div class="grid-item-inside"><h3 class="grid-item-title line-left">Character Races</h3><div class="grid-item-content"><p>There are several Player Character races from different and unusual worlds. We also have several Non-Player Character races.  Read them all and choose you favourite.</p></div><div class="grid-item-buttons"><a href="races/index.html">See Player Races</a></div></div></div></div></div></div></section><section id="text-img" class="block block-text outer"><div class="inner"><div class="grid grid-middle grid-center"><div class="grid-item block-image"><img src="images/EebekTrade.jpg"/></div><div class="grid-item block-body"><div class="block-header"><h2 class="block-title">Trading - A respectful Occupation</h2></div><div class="block-content"><p>Literally hundreds of societies live under the Foundation, and each has its own distinct sense of value and worth,  thus making it extremely difficult to reach even a general consensus on a standard system of monetary exchange. The  traditions and customs that have arisen within one people may hold totally different or even opposite meanings for their  neighbours, whether they be a few kilometres or a few parsecs distant.</p></div><div class="block-buttons"><a class="button" href="docs/characters/occupations/index.html#chaendlers">Read More ...</a></div></div></div></div></section><section id="cta" class="block block-cta outer"><div class="inner"><div class="has-gradient"><div class="grid grid-middle grid-center"><div class="grid-item block-header"><h2 class="block-title">Ready for your next adventure?</h2><p class="block-subtitle">Check out Character Generation rules</p></div><div class="grid-item block-buttons"><a class="button" href="docs/characters/character-generation/index.html">Build your character now!</a></div></div></div></div></section><section id="text-img" class="block block-text outer"><div class="inner"><div class="grid grid-middle grid-center grid-swap"><div class="grid-item block-image"><img src="images/BigGun1.jpg"/></div><div class="grid-item block-body"><div class="block-header"><h2 class="block-title">Technology</h2></div><div class="block-content"><p>Review our catalog of technology, equipment, and vehicles.</p></div><div class="block-buttons"><a class="button" href="docs/technology/index.html">Do some retail therapy ...</a></div></div></div></div></section><section id="features-two-col" class="block block-grid outer has-header"><div class="inner"><div class="block-header inner-sm"><h2 class="block-title">Learn about the background of the Universe</h2><p class="block-subtitle">There&#x27;s a wide &amp; diverse history of people and events that shaped the Genesis Universe. Check out these sections to find out more.</p></div><div class="block-content"><div class="grid grid-col-2"><div class="grid-item"><div class="grid-item-inside"><h3 class="grid-item-title line-left">Politics</h3><div class="grid-item-content"><p>Lean about some of the famous people who helped share the Poly Solar Foundation.</p></div><div class="grid-item-buttons"><a href="docs/politics/index.html">Get Political</a></div></div></div><div class="grid-item"><div class="grid-item-inside"><h3 class="grid-item-title line-left">History</h3><div class="grid-item-content"><p>If you fail to learn from history, you are bound to make the same mistakes.</p></div><div class="grid-item-buttons"><a href="docs/history/index.html">History rocks</a></div></div></div></div></div></div></section></main><footer id="colophon" class="site-footer outer"><div class="inner"><div class="site-footer-inside"><p class="site-info"><span class="copyright">© Inkeptum Ultra Visio. All rights reserved. <a href="https://genesis.theengine.com/docs/about/copyright/" rel="noopener">See the About page for more information.</a> This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. </span></p></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script src="js/plugins.js"></script><script src="js/main.js"></script><script src="js/page-load.js"></script><script src="js/page-unload.js"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e0ec9526f187c1d11289.js"],"component---src-templates-advanced-js":["/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-305ca813e8a18254b547.js"],"component---src-templates-docs-js":["/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"],"component---src-templates-page-js":["/component---src-templates-page-js-d3fda90f70d3e6039a3c.js"],"component---src-templates-post-js":["/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js"]};/*]]>*/</script><script src="component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js" async=""></script><script src="commons-3384fc3544f2bc158869.js" async=""></script><script src="29107295-36e60bad8a02b5426955.js" async=""></script><script src="styles-503b3015a8b38c118cb7.js" async=""></script><script src="app-e0ec9526f187c1d11289.js" async=""></script><script src="framework-0204bf4e920e001ced67.js" async=""></script><script src="webpack-runtime-edc57c7177d180b70324.js" async=""></script><script src="https://widget.stackbit.com/init.js" id="stackbit-widget-init" data-stackbit-project-id="60371e339cfb300016205cdd"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script></body></html>
+      gtag("config", "G-WQ787F9BJ0");
+    </script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Genesis" />
+    <meta name="application-name" content="Genesis" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="palette-gold">
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div id="page" class="site">
+          <header id="masthead" class="site-header outer">
+            <div class="inner">
+              <div class="site-header-inside">
+                <div class="site-branding">
+                  <p class="site-logo">
+                    <a aria-current="page" class="" href="index.html"
+                      ><img src="images/Genesislogo1.jpeg" alt="Genesis logo"
+                    /></a>
+                  </p>
+                </div>
+                <nav
+                  id="main-navigation"
+                  class="site-navigation"
+                  aria-label="Main Navigation"
+                >
+                  <div class="site-nav-inside">
+                    <button id="menu-close" class="menu-toggle">
+                      <span class="screen-reader-text">Open Menu</span
+                      ><span class="icon-close" aria-hidden="true"></span>
+                    </button>
+                    <ul class="menu">
+                      <li class="menu-item current">
+                        <a aria-current="page" class="" href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="docs/index.html">Caudex Regulum</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="docs/characters/index.html">Charactes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/character-life/index.html"
+                              >Character Life</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/combat/index.html">Combat</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/adventures/index.html">Adventures</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="docs/index.html">Caudex Centia</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="docs/history/index.html">History</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/races/index.html">All Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="races/index.html">Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="npraces/index.html">Non-Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/politics/index.html"
+                              >Politics &amp; Military</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/economics/index.html"
+                              >Economics &amp; Commerce</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/star-systems/index.html"
+                              >Star Travel</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/technology/index.html">Technology</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="blog/index.html">Caudex Universium</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="docs/adventures/andromedianrose/index.html"
+                              >Andromedian Rose</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="docs/adventures/sednarendezvous/index.html"
+                              >Sedna Rendezvous</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="contact/index.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <button id="menu-open" class="menu-toggle">
+                  <span class="screen-reader-text">Close Menu</span
+                  ><span class="icon-menu" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main id="content" class="site-content">
+            <section id="hero" class="block block-hero has-gradient outer">
+              <div
+                class="bg-img"
+                style="
+                  background-image: url(&#x27;images/JungleCampCropped.jpg&#x27;);
+                "
+              ></div>
+              <div class="inner-sm">
+                <div class="block-header">
+                  <h1 class="block-title">Welcome!</h1>
+                </div>
+                <div class="block-content">
+                  <p>
+                    This site is devoted to Genesis a retro-paper based Role
+                    Playing Game. Where the scale of adventures are only limited
+                    by your imagination! This game was developed by high school
+                    kids in Calgary, Alberta, Canada. It has been remastered and
+                    posted publicly for all to enjoy.<br />
+                    The rules of Genesis are divided into books or
+                    &#x27;caudex&#x27;. There is the Caudex Regulum, the book of
+                    Rules. The Caudex Centia, the book of knowledge. Caudex
+                    Universum the book of stories.
+                  </p>
+                </div>
+                <div class="block-buttons">
+                  <a class="button" href="docs/index.html"
+                    >Dive into the Universe!</a
+                  >
+                </div>
+              </div>
+            </section>
+            <section id="features" class="block block-grid outer">
+              <div class="inner">
+                <div class="block-content">
+                  <div class="grid grid-col-3">
+                    <div class="grid-item">
+                      <div class="grid-item-inside">
+                        <h3 class="grid-item-title line-left">Rules</h3>
+                        <div class="grid-item-content">
+                          <p>
+                            The Caudex Regulum, the book of Rules. All game
+                            masters should read all the rules to be successful
+                            at leading teams through adventures.
+                          </p>
+                        </div>
+                        <div class="grid-item-buttons">
+                          <a href="docs/characters/index.html"
+                            >See how to play the game</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="grid-item-inside">
+                        <h3 class="grid-item-title line-left">Knowledge</h3>
+                        <div class="grid-item-content">
+                          <p>
+                            The Caudex Centia, the book of knowledge. All role
+                            playing gamers should know the history, politics,
+                            economics - best of all we have tones of equipment,
+                            clothes, vehicles and even star ships.
+                          </p>
+                        </div>
+                        <div class="grid-item-buttons">
+                          <a href="docs/history/index.html"
+                            >Learn about the universe</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="grid-item-inside">
+                        <h3 class="grid-item-title line-left">
+                          Character Races
+                        </h3>
+                        <div class="grid-item-content">
+                          <p>
+                            There are several Player Character races from
+                            different and unusual worlds. We also have several
+                            Non-Player Character races. Read them all and choose
+                            you favourite.
+                          </p>
+                        </div>
+                        <div class="grid-item-buttons">
+                          <a href="races/index.html">See Player Races</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="text-img" class="block block-text outer">
+              <div class="inner">
+                <div class="grid grid-middle grid-center">
+                  <div class="grid-item block-image">
+                    <img src="images/EebekTrade.jpg" />
+                  </div>
+                  <div class="grid-item block-body">
+                    <div class="block-header">
+                      <h2 class="block-title">
+                        Trading - A respectful Occupation
+                      </h2>
+                    </div>
+                    <div class="block-content">
+                      <p>
+                        Literally hundreds of societies live under the
+                        Foundation, and each has its own distinct sense of value
+                        and worth, thus making it extremely difficult to reach
+                        even a general consensus on a standard system of
+                        monetary exchange. The traditions and customs that have
+                        arisen within one people may hold totally different or
+                        even opposite meanings for their neighbours, whether
+                        they be a few kilometres or a few parsecs distant.
+                      </p>
+                    </div>
+                    <div class="block-buttons">
+                      <a
+                        class="button"
+                        href="docs/characters/occupations/index.html#chaendlers"
+                        >Read More ...</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="cta" class="block block-cta outer">
+              <div class="inner">
+                <div class="has-gradient">
+                  <div class="grid grid-middle grid-center">
+                    <div class="grid-item block-header">
+                      <h2 class="block-title">
+                        Ready for your next adventure?
+                      </h2>
+                      <p class="block-subtitle">
+                        Check out Character Generation rules
+                      </p>
+                    </div>
+                    <div class="grid-item block-buttons">
+                      <a
+                        class="button"
+                        href="docs/characters/character-generation/index.html"
+                        >Build your character now!</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="text-img" class="block block-text outer">
+              <div class="inner">
+                <div class="grid grid-middle grid-center grid-swap">
+                  <div class="grid-item block-image">
+                    <img src="images/BigGun1.jpg" />
+                  </div>
+                  <div class="grid-item block-body">
+                    <div class="block-header">
+                      <h2 class="block-title">Technology</h2>
+                    </div>
+                    <div class="block-content">
+                      <p>
+                        Review our catalog of technology, equipment, and
+                        vehicles.
+                      </p>
+                    </div>
+                    <div class="block-buttons">
+                      <a class="button" href="docs/technology/index.html"
+                        >Do some retail therapy ...</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              id="features-two-col"
+              class="block block-grid outer has-header"
+            >
+              <div class="inner">
+                <div class="block-header inner-sm">
+                  <h2 class="block-title">
+                    Learn about the background of the Universe
+                  </h2>
+                  <p class="block-subtitle">
+                    There&#x27;s a wide &amp; diverse history of people and
+                    events that shaped the Genesis Universe. Check out these
+                    sections to find out more.
+                  </p>
+                </div>
+                <div class="block-content">
+                  <div class="grid grid-col-2">
+                    <div class="grid-item">
+                      <div class="grid-item-inside">
+                        <h3 class="grid-item-title line-left">Politics</h3>
+                        <div class="grid-item-content">
+                          <p>
+                            Lean about some of the famous people who helped
+                            share the Poly Solar Foundation.
+                          </p>
+                        </div>
+                        <div class="grid-item-buttons">
+                          <a href="docs/politics/index.html">Get Political</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="grid-item-inside">
+                        <h3 class="grid-item-title line-left">History</h3>
+                        <div class="grid-item-content">
+                          <p>
+                            If you fail to learn from history, you are bound to
+                            make the same mistakes.
+                          </p>
+                        </div>
+                        <div class="grid-item-buttons">
+                          <a href="docs/history/index.html">History rocks</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+          <footer id="colophon" class="site-footer outer">
+            <div class="inner">
+              <div class="site-footer-inside">
+                <p class="site-info">
+                  <span class="copyright"
+                    >© Inkeptum Ultra Visio. All rights reserved.
+                    <a
+                      href="https://genesis.theengine.com/docs/about/copyright/"
+                      rel="noopener"
+                      >See the About page for more information.</a
+                    >
+                    This Jamstack site was created with
+                    <a
+                      href="https://www.stackbit.com/?utm_source=deployed-footer"
+                      target="_blank"
+                      rel="noopener"
+                      >Stackbit</a
+                    >.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/page-load.js"></script>
+    <script src="js/page-unload.js"></script>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.pagePath = "/"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-e0ec9526f187c1d11289.js"],
+        "component---src-templates-advanced-js": [
+          "/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js",
+        ],
+        "component---src-templates-blog-js": [
+          "/component---src-templates-blog-js-305ca813e8a18254b547.js",
+        ],
+        "component---src-templates-docs-js": [
+          "/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js",
+        ],
+        "component---src-templates-page-js": [
+          "/component---src-templates-page-js-d3fda90f70d3e6039a3c.js",
+        ],
+        "component---src-templates-post-js": [
+          "/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js",
+        ],
+      }; /*]]>*/
+    </script>
+    <script
+      src="component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"
+      async=""
+    ></script>
+    <script src="commons-3384fc3544f2bc158869.js" async=""></script>
+    <script src="29107295-36e60bad8a02b5426955.js" async=""></script>
+    <script src="styles-503b3015a8b38c118cb7.js" async=""></script>
+    <script src="app-e0ec9526f187c1d11289.js" async=""></script>
+    <script src="framework-0204bf4e920e001ced67.js" async=""></script>
+    <script src="webpack-runtime-edc57c7177d180b70324.js" async=""></script>
+    <script
+      src="https://widget.stackbit.com/init.js"
+      id="stackbit-widget-init"
+      data-stackbit-project-id="60371e339cfb300016205cdd"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

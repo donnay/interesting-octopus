@@ -1,34 +1,1418 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"><meta name="generator" content="Gatsby 2.22.17"/><title data-react-helmet="true">Character Generation Rules</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com"/><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/><link data-react-helmet="true" rel="icon" href="../../../images/favicon/favicon.ico"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initialScale=1.0"/><meta data-react-helmet="true" name="description" content="This section contains all the rules game masters and players need to create characters in  Genesis"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="Character Generation Rules"/><meta data-react-helmet="true" property="og:description" content="This section contains all the rules game masters and players need to create characters in  Genesis"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Character Generation Rules"/><meta data-react-helmet="true" name="twitter:description" content="This section contains all the rules game masters and players need to create characters in  Genesis"/><link as="script" rel="preload" href="../../../webpack-runtime-edc57c7177d180b70324.js"/><link as="script" rel="preload" href="../../../framework-0204bf4e920e001ced67.js"/><link as="script" rel="preload" href="../../../app-e0ec9526f187c1d11289.js"/><link as="script" rel="preload" href="../../../styles-503b3015a8b38c118cb7.js"/><link as="script" rel="preload" href="../../../29107295-36e60bad8a02b5426955.js"/><link as="script" rel="preload" href="../../../commons-3384fc3544f2bc158869.js"/><link as="script" rel="preload" href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"/><link as="fetch" rel="preload" href="../../../page-data/docs/characters/character-generation/page-data.json"/><link as="fetch" rel="preload" href="../../../page-data/app-data.json"/><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="generator" content="Gatsby 2.22.17" />
+    <title data-react-helmet="true">Character Generation Rules</title>
+    <link
+      data-react-helmet="true"
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      data-react-helmet="true"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="../../../images/favicon/favicon.ico"
+    />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initialScale=1.0"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="This section contains all the rules game masters and players need to create characters in  Genesis"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta
+      data-react-helmet="true"
+      property="og:title"
+      content="Character Generation Rules"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="This section contains all the rules game masters and players need to create characters in  Genesis"
+    />
+    <meta data-react-helmet="true" name="twitter:card" content="summary" />
+    <meta
+      data-react-helmet="true"
+      name="twitter:title"
+      content="Character Generation Rules"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="This section contains all the rules game masters and players need to create characters in  Genesis"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../webpack-runtime-edc57c7177d180b70324.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../framework-0204bf4e920e001ced67.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../app-e0ec9526f187c1d11289.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../styles-503b3015a8b38c118cb7.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../29107295-36e60bad8a02b5426955.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../commons-3384fc3544f2bc158869.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+    />
+    <link
+      as="fetch"
+      rel="preload"
+      href="../../../page-data/docs/characters/character-generation/page-data.json"
+    />
+    <link as="fetch" rel="preload" href="../../../page-data/app-data.json" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-WQ787F9BJ0');
-</script><link rel="apple-touch-icon" sizes="180x180" href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="apple-mobile-web-app-title" content="Genesis">
-<meta name="application-name" content="Genesis">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a href="../../../index.html"><img src="../../../images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item"><a href="../../../index.html">Home</a></li><li class="menu-item has-children"><a href="../../index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../index.html">Charactes</a></li><li class="menu-item"><a href="../../character-life/index.html">Character Life</a></li><li class="menu-item"><a href="../../combat/index.html">Combat</a></li><li class="menu-item"><a href="../../adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="../../index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../history/index.html">History</a></li><li class="menu-item"><a href="../../races/index.html">All Races</a></li><li class="menu-item"><a href="../../../races/index.html">Player Races</a></li><li class="menu-item"><a href="../../../npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="../../economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="../../star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="../../technology/index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="../../../blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item"><a href="../../../contact/index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><div class="inner outer"><div class="docs-content"><nav id="docs-nav" class="docs-nav"><div id="docs-nav-inside" class="docs-nav-inside sticky"><button id="docs-nav-toggle" class="docs-nav-toggle">Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span></button><div class="docs-nav-menu"><ul id="docs-menu" class="docs-menu"><li class="docs-menu-item"><a href="../../index.html">Introduction</a></li><li class="docs-menu-item has-children"><a href="../../about/index.html">About</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../about/forward/index.html">Forward</a></li><li class="docs-menu-item"><a href="../../about/copyright/index.html">Copyright</a></li><li class="docs-menu-item"><a href="../../about/methods/index.html">Methods</a></li></ul></li><li class="docs-menu-item has-children active"><a href="../index.html">Character</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../characters/index.html">Description</a></li><li class="docs-menu-item"><a href="../occupations/index.html">Occupations</a></li><li class="docs-menu-item current"><a aria-current="page" class="" href="index.html">Rules</a></li><li class="docs-menu-item"><a href="../char-gen-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../char-gen-example/index.html">Examples</a></li><li class="docs-menu-item"><a href="../character-sheet/index.html">Character Sheet</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../character-life/index.html">Character Life</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../character-life/character-life/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../character-life/star-travel/index.html">Star Travel</a></li><li class="docs-menu-item"><a href="../../character-life/char-life-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../combat/index.html">Combat</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../combat/combat/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../combat/combat-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../../combat/combat-dam-tables/index.html">Damage Tables</a></li><li class="docs-menu-item"><a href="../../combat/combat-example/index.html">Example</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../adventures/index.html">Adventures</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="docs-menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="docs-menu-item"><a href="../../history/index.html">History</a></li><li class="docs-menu-item has-children"><a href="../../races/index.html">Races</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../races/eebek/index.html">Eebeck</a></li><li class="docs-menu-item"><a href="../../races/fenbin/index.html">Fenbin</a></li><li class="docs-menu-item"><a href="../../races/human/index.html">Human</a></li><li class="docs-menu-item"><a href="../../races/krane/index.html">Krane</a></li><li class="docs-menu-item"><a href="../../races/lowkaa/index.html">Low Kaa</a></li><li class="docs-menu-item"><a href="../../races/tanaian/index.html">Tanaian</a></li><li class="docs-menu-item"><a href="../../races/aracnian/index.html">Aracnian</a></li><li class="docs-menu-item"><a href="../../races/faborian/index.html">Faborian</a></li><li class="docs-menu-item"><a href="../../races/mahendoshi/index.html">Mahendoshi</a></li><li class="docs-menu-item"><a href="../../races/vjespere/index.html">Vjesperé</a></li><li class="docs-menu-item"><a href="../../races/sooacoli/index.html">Sooaacoli</a></li></ul></li><li class="docs-menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="docs-menu-item"><a href="../../economics/index.html">Economics &amp; Commence</a></li><li class="docs-menu-item has-children"><a href="../../star-systems/index.html">Star Systems</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../star-systems/firstshpere/index.html">FirstSphere</a></li><li class="docs-menu-item"><a href="../../star-systems/sol/index.html">Sol System Maps</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../technology/index.html">Technology</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../technology/clothing/index.html">Clothing</a></li><li class="docs-menu-item"><a href="../../technology/computer/index.html">Computer</a></li><li class="docs-menu-item"><a href="../../technology/communications/index.html">Communications</a></li><li class="docs-menu-item"><a href="../../technology/sensors/index.html">Sensors</a></li><li class="docs-menu-item"><a href="../../technology/defense/index.html">Defense</a></li><li class="docs-menu-item"><a href="../../technology/medical/index.html">Medical</a></li><li class="docs-menu-item"><a href="../../technology/weapons/index.html">Weapons</a></li><li class="docs-menu-item"><a href="../../technology/equipment/index.html">Tools &amp; Misc.</a></li><li class="docs-menu-item"><a href="../../technology/transportation/index.html">Transportation</a></li><li class="docs-menu-item"><a href="../../technology/starships/index.html">Star Ships</a></li><li class="docs-menu-item"><a href="../../technology/equipment-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item"><a></a></li></ul></div></div></nav><article class="post type-docs"><div class="post-inside"><header class="post-header"><h1 class="post-title line-left">Rules</h1></header><div class="post-content"><p>To portray a role in a play or a movie you must have a character to portray, the same is true in Genesis. In the game there are many ways to describe a character including race, physical and mental attributes, damage, occupation, education and skills, sex, age, handedness, etc. All of this information is essential to describe a character in enough detail for you to portray that character.</p>
-There are two types of characters in Genesis, and the steps in this chapter are designed to produce both types of characters:<p></p><p></p><p><strong>Player characters - PC&#x27;s</strong>
-To give players the detailed information they need, they would use the second set of rules to create their characters.
-The rules for PC&#x27;s and detailed NPC&#x27;s are labeled (II).</p><p><strong>Non-Player Characters - NPC&#x27;s</strong>
-The first set of rules produces a &#x27;static&#x27; character with only basic information will be generated.
-The rules for NPC&#x27;s and quick PC&#x27;s are labeled (I)</p><p>Now we can begin the process to produce a character. At first it may seem a little difficult, but, by reading both the description of how to perform each step and the example section the procedures should become clearer. To help we have also provided an <a href="../char-gen-example/index.html">Example</a> in the next section.</p><p></p><h2>Choosing a Race</h2><p>Of all of the different ways that you can describe your character the most important is his or her race. There are several of sentient races known in the year 2239. Depending on which race you choose to portray, your character&#x27;s attributes and skills will be affected accordingly, so it is advised that you read each race description carefully before making deciding. Your choice should be based upon your ability to assume the role of the race both physically and mentally. For instance, as a desert-dwelling Eebek you would not even think to turn around if you heard a noise behind you - you would simply flip your stalk. Or else the peaceful Vjesperé, whose great respect for life prevents you from consciously killing an opponent without great mental turmoil. Would you as a Human be able to fill the role of the race that you choose?</p><p></p><h3>Procedure - Choosing a Race</h3><ol><li>Roll 1:100sd and consult Table #1-1 to choose a race. The table reflects the general distribution of the races across the First and Second spheres.<br/>
-or<br/></li><li><p>Simply pick the race for your character</p><p></p></li></ol><h2>Generating Attributes</h2><p>Each role playing-game uses it own set of attributes and in every game they are defined differently. In Genesis attributes describe how well a character can perform basic mental or physical tasks, and are based on the physiology and structure of the race. In Genesis there are two kinds of attributes, primary and secondary. Primary attributes are quite specific while secondary attributes are more generalized and each tells you something about your character.</p><h3>Primary Attributes</h3><p>There are nine Primary Attributes and each represents a single physical or mental ability which cannot be broken down into smaller parts.</p><h4>Procedure - Primary Attributes</h4><ol><li>Roll the number of ten sided dice listed on table #1-2 for each, and add the sum of the rolls to the racial base for that attribute. For the mental attributes, WS; IT; MC; IN simply roll 5:10sd, and add it 30 - the base for all sentient races.<br/></li><li>Simply use the RACIAL AVERAGE table #1-3 for these attributes</li></ol><h2>Primary Attributes</h2><h3>Appearance</h3><p>To determine your character&#x27;s overall physical attractiveness (or repulsiveness) from another member of their race&#x27;s perspective, roll 1:100SD and record it under Appearance. The result should be accepted as it stands (face it bud, you&#x27;re ugly). Personality is affected to an extent by how one believes they are being perceived by their society, and a character&#x27;s ability to interact with others (their Influence) is therefore modified by their Appearance score. Use table #1-4 to determine the adjustments for all beings other than Tanaians (who don&#x27;t notice such trivialities).</p><h3>Secondary Attributes</h3><p>Secondary attributes are calculated by averaging two or more of the base attributes. They are used more often than base Attributes and are slightly more specialized for combat. To find Secondary Attributes
-than his or her own (for example, a Faborian raised by Humans), use the parent culture&#x27;s values.</p><ol><li>Use the following Calculations:<p></p>
-Aim (AM) = Average (Agility, Intellect, Mental Control)<br/>
-Brawl (BR) = Average (Physical Strength, Agility, Constitution, Perception)<br/>
-Move (MV) = Average (Physical Strength, Agility, Constitution)<p></p></li><li>Simply averasge the Secondary Attributes from table #1-3<p></p></li></ol><h2>Damage Record</h2><p>To calculate your character&#x27;s damage points per body segment listed on the Damage Record.</p><ol><li>Divide his or her Constitution by their racial Constitution average table #1-3, and multiply this by the number listed beside each body segment on table #1-5 (rounding off). Record the results in the Body column next to the appropriate segments for both left and right sides. The values should range between about one and fifty.</li><li>Simply use the racial average for Damage Points in each boy part listed on table #1-5.</li></ol><h2>Skills</h2><h3>Background Skill Development</h3><p>Because of the culture in which he or she developed early on, character&#x27;s will possess a certain level of experience in all of the skill areas. Your character race&#x27;s specific cultural abilities are listed on table #1-6. Record the rankings in the darkened line beside the appropriate skill category headings. If your character was raised in some other racial culture</p><h3>Encultured Skills</h3><p>Every society demands certain abilities of their members through basic education and upbringing so they can operate smoothly and effectively. Table #1-7 lists which skills are taught to each race and how well each is known. Make note of them on the data record by recording the appropriate aptitudes in the space provided beside the skill. (These values are not static and may be upgraded when the character goes to IGAL). If your character was raised in another racial-culture then their own, use the parent cultures listings (with the exclusion of Tanaians).</p><h3>Occupation</h3><p>For this section you must choose the occupation of you character. There are full descriptions of each occupation in the Character Description section of this chapter (See Occupations). Each character must have at least one occupation that he or she was trained for. You, the player, should pick an occupation for your character. There are six different occupations. While characters learn their occupation they learn specific skills. These are prerequisite skills, listed on Table #1-16. For the time being just record which skills your character has learned in the next section you will find out how to determine the character&#x27;s aptitude for each skill.
-<img src="../../../images/ThereGoes.jpg" alt="Cartoon with a incompletely formed character and some critics"/></p><p></p><h3>IGAL Skills</h3><p>The Inter-Galactic Academy of Learning (IGAL), in an effort to enlighten the beings of the Foundation, offers everyone who will take them up the equivalent of three, virtually expense free years of schooling in a vast number of accredited skill areas. Anybody can apply, anytime, for training in any course - and much to the delight of educators, many do. Your character is no exception. Go through now and select any skills that you want your character to learn or upgrade. You should keep in mind the guidelines expressed in the Occupations above but, the only real limiting factor is time. Every skill for a particular area will take a certain allotment of time to learn, the length being set by the pace of one&#x27;s Intellect. When selecting a course, simply subtract the appropriate time value on table #1-8) from your three year total, and once zero is reached your character&#x27;s starting skills have been determined. Thus smarter people will logically learn more in their three years than others would. Please note, however, that you do not have to spend the entire three years at school. you may choose to leave school after only two years and return later. At that time you will not have to pay normal course fees except on those courses that are taken after the three years are finished.</p><h3>Skill Aptitudes</h3><p>To determine your character&#x27;s aptitude in any of their background, encultured, prerequisite, or chosen skills (except linguistics - SEE Linguistic Skills below) simply add a random 1:100SD roll to the character&#x27;s attribute average (the mean of all the base attributes - found by averaging all eight of the attributes (four physical and four mental attributes), and divide by three. The results obtained of about 40 or 50 are good and can be considered the modern equivalent of an old Earth &quot;high school&quot; equivalence level. If you have taken a course previously and wish to upgrade your aptitude simply add a roll of 1:10SD to the existing aptitude value.</p><h3>Linguistic Skills</h3><p>Every character begins the game knowing one of his or her races own native tongues and the Galactic pidgin sign language. Any other speeches, tongue, lingos, languages or dialects that you wish your character to know must be learned (by way of IGAL or otherwise). Choose language from the brief listing in table #7, and then average Intellect with a random roll of 1:100SD and the languages difficulty rank. The result is the aptitude for speaking that language and is recorded in the space provided. At no time can a character&#x27;s aptitude in a foreign language exceed that of their native tongue, it simply doesn&#x27;t make sense. Ability to read and write in a particular language can be found by repeating the calculation. Like any other skill category there is no limit to the number of areas that can be mastered besides the time involved in learning. Xeno-Disciplines On the whole xeno-disciplines are fairly rare in the known space and for a beginning character, even more so. To determine whether a discipline is known to a character, you must roll 3:10sd. For any Xeno-disciplines only two numbers have to be generated. These are the character&#x27;s power points and focus. Power points are simply the sum of the aptitude of the xeno-discipline, calculated as skill aptitudes above, plus the Xeno category experience, typically one for beginning characters. To determine the character&#x27;s focus consult table #1-10.</p><h3>Xeno-Disciplines</h3><h4>Latagrea</h4><p>With the discovery of the Faborians, the skill of Latagrea was introduced to the Alliance. One highly trained group of Faborians use their minds as a lens for mental energy that every sentient being produces. The Faborians undergo a strict training program under the direct guidance of a master Toovenar. Once the students have refined their skills at concentration and have memorized the chants and sayings they are sent into largest desert of Fabi, their home world. The students spend two months in the desert, this training is said to be the time of trials. The desert contains tests for the young Toovenars allowing them to have their first experience using their powers. Young Toovenars have a reputation for causing havoc, this is the reason they are sent into the desert, for the protection of others. An inexperienced Toovenar cannot focus all the power that he or she has, and cannot control where it is directed. Anyone can learn Latagrea, but only people with high mental controls have any hope of becoming a highly skilled Toovenar. The art of Latagrea dates back beyond the recorded history. It&#x27;s origins have been so clouded by storytellers that the legend now reads like a passage from the Bible. Although any race can learn Latagrea, the possibility of finding a Latagrea Master is very remote. Most would be Toovenars, from the Alliance, travel to their home planet of Fabi to be trained in the Art. For many years the Toovenars have been used by the ruling members of the many Anclacha as truth-sayers, enforcers, and personal bodyguards. The Toovenars have always accepted this role because of its other benefits. Often, a ruling family&#x27;s dealings with other Anclacha are done though Toovenars as mediators. An Anclacha cannot &#x27;fire&#x27; a Toovenar, they must be defeated in combat by another Toovenar. The victor replaces the loser as the Toovenar of the family. When Families fall from power it is common that the Toovenar remains, this can cause problems if the Toovenar is loyal to the old family and does not cooperate with it successors. A brief list of Latagrea &#x27;spells&#x27; is listed here their function should be obvious from their name but brief description are also below. For the procedures to resolve Xeno-disciplines See Skill Resolution, Character Life.<pr></pr></p><p><img src="../../../images/Full_Latagre.jpg" alt="Faborian casting a spell"/></p><p></p><h4>List of Spells</h4><table><thead><tr><th>Spell Name</th><th>Details</th></tr></thead><tbody><tr><td>Accelerate</td><td>With this spell the user can impart a push or pull on any object. The object should be within sight of the user but if this spell is used together with Extra Eye then the range is only limited by the experience of the Toovenar.</td></tr><tr><td>Cool</td><td>This spell allows the user to lower the temperature of the desired area affected. The temperature decrease is dependent on the experience of the Toovenar and of course absolute zero, No Toovenar can break laws of physics.</td></tr><tr><td>Extra Ear</td><td>This gives the Toovenar an ability to extend his hearing. When incited this spell produces an invisible ear which can eavesdrop. The ear can be projected through doors, around corners etc.</td></tr><tr><td>Extra Eye</td><td>This gives the Toovenar an ability to extend his sight. This spell produces an invisible eye that can be placed anywhere and moved to a desired location. As with Extra Ear, the eye can be projected through move objects.</td></tr><tr><td>Fireball</td><td>A gaseous sphere of plasma is the product of this spell. The size of the ball varies with the skill of the Toovenar. When used to inflict damage the number of power points expended is equal to the number of damage points inflicted. The duration of the fire ball is instantaneous and is dissipated on impact with an object.</td></tr><tr><td>Heal</td><td>This spell will regenerate damaged organic tissues. When used the number of power points expended is equal the number of damage points regained. The effects are permanent.</td></tr><tr><td>Heat</td><td>Opposite to Cool, this spell increases the temperature of the area affected. Although there is no practical limit to the extent of heating the Toovenar is limited by the number of power points that he or she has.</td></tr><tr><td>Lift</td><td>When used on an object this spell lifts the object. Once raised the object can be pushed or pulled in any direction for the duration of the spell.</td></tr><tr><td>Light</td><td>This spell produces a point source of light. The light will follow the user where ever he or she travels.</td></tr><tr><td>Long Arm</td><td>This spell like the eye or the ear acts as an extension to the users own body. If it used in conjunction with Extra Eye the user could open doors pick locks and even begin combat all while bound and blindfolded.</td></tr><tr><td>Shield</td><td>This spell, when incited, produces a partially transparent wall of force around the Toovenar or any object around which it is cast. The Shield is usually spherical but can be formed into any shape imaginable. The shield can resist penetration of all types of energy and objects including PPA, Exp, Bla, Son, Inc, and Proj.</td></tr></tbody></table><h4>Spell Casting</h4><table><thead><tr><th>Skill Name</th><th>Power Points</th><th>Area</th><th>Casting time</th><th>Duration</th></tr></thead><tbody><tr><td>Accelerate</td><td>10</td><td>1kg</td><td>2</td><td>Instantaneous</td></tr><tr><td>Cool</td><td>15</td><td>1m<sup>3</sup></td><td>2</td><td>1</td></tr><tr><td>Extra Ear</td><td>10</td><td>-</td><td>5</td><td>2</td></tr><tr><td>Extra Eye</td><td>10</td><td>-</td><td>5</td><td>2</td></tr><tr><td>Fireball</td><td>50</td><td>0.1 m<sup>3</sup></td><td>5</td><td>Instantaneous</td></tr><tr><td>Heal</td><td>10</td><td>1m<sup>3</sup></td><td>7</td><td>Permanent</td></tr><tr><td>Heat</td><td>15</td><td>1m<sup>3</sup></td><td>2</td><td>1</td></tr><tr><td>Lift</td><td>10</td><td>1kg</td><td>5</td><td>3</td></tr><tr><td>Light</td><td>10</td><td>1m<sup>3</sup></td><td>1</td><td>5</td></tr><tr><td>Long Arm</td><td>20</td><td>-</td><td>5</td><td>2</td></tr><tr><td>Shield</td><td>50</td><td>1m<sup>2</sup></td><td>2</td><td>1</td></tr></tbody></table><h2>Rounding your Character</h2><p>To finish off your character, you must now record those traits which flesh out the character best. These include the gender, handedness, height, weight, age, and financial holdings and weapons and equipment owned.</p><h2>Gender</h2><p>You probably already have a good idea by now as to which sex your characters is, but if not decide now, based on the information in the racial descriptions (in some cases there is only one choice) and record your choice in the space provided.</p><h2>Handedness or Sidedness</h2><p>This is simply which side of the body your character feels most comfortable with for moving, writing, eating, shooting, etc. It really doesn&#x27;t make a difference which you choose (right or left). Ambidexterity is rare enough not to be encountered.</p><h2>Size and Mass</h2><p>Next, decide upon your character&#x27;s height (or length, as the case may be) using the average provided and assuming a standard variation of about 10 percent. Then simply consider; do you want your character to tower over others authoritatively or would small and un-threatening be more appropriate for what you have in mind? Finally take into account the character&#x27;s birth- world. Light worlders tend to be tall and thin, adding up to 20% to the average height. While for stout heavy worlders the reverse is true. Once this is known mass can be determined using the following modifiers for physical strength and physique.
-Tables #1-11,12,13 gives guidelines about heights, masses and weights of characters. Age To determine your
-character&#x27;s age at the start of campaigning, simply roll on table #1-14
-and add the result to the time spent at IGAL (most likely all three years).</p><h2>Dits and Out-fitting</h2><p>Everybody begins the game with little other than their personal effects, ID, passport and a set of casual clothes, because most items, including clothing, have up to now been provided for by the University. Characters begin the game with some amount of credit depending on the occupation that was chosen. The amount of credit ( Đ ) that each character starts with is listed on table #1-15. </p>
-Schooling complete, however, characters must now go through and purchase any gear or supplies they need or desire from the equipment
-listings. Beware not to be to spend too much though, you still must survive until the next dit deposit. To determine your character&#x27;s amount of starting credit make the appropriate roll below based on the occupation that you choose. Remember to buy weapon permits!<p></p><h2>Personality</h2><p>Finally, you as a Player should attempt to develop your character&#x27;s persona. What are his or her motivation? Their hopes, their aspirations and dreams, their goals and fears? Does she act erratically under pressure? Does he hate all forms of inorganic life? Are they neurotic, honest, sly, plotting, arrogant, extroverted, colourful, dark, moody, alcoholic, flamboyant, extravagant, sensuous - whatever! This kind of character development will really bring a third dimension to the gaming scenario, and will allow you to step in to the role of your characters in the play that is Genesis. Now that you have generated characters try to imagine their pictures. Imagine the average member of the respective races, then add the attributes - what do they look like physically? Is your character broad muscled and slow to react, or thin and intellectual, or bits of both? What is their occupation and what does this tell you, and the world about their style of dress? </p><p>
-Is it the long robe over a tight vest of a Chaendler, or a jumpsuit covered with pockets to carry the tools of a Specialist. Consider the weapons and equipment carried - and the message this sends to the world - is it the look of an unarmed businessman or a survivalist. From this physical appearance you can grasp the essential part of your character that is needed to play the game - basics, like these, should be included in any character description. Physical appearances, and quirks are the minimum amount of information needed to keep everyone&#x27;s mind on their character and focused on (and in) the imaginary universe. However, to really get your mind into the world you&#x27;ll need more theatrical information like the way they speak, look, and walks. The wound - that almost cost him his life - in that last adventure, those rips in her clothes, and the look in their eyes. These things give you and the other players an idea of what your character &quot;feels&quot; like in this imaginary universe. Your character may not have them but you&#x27;re in luck - many of these traits develop over time. So, if your character isn&#x27;t fully rounded out just wait, get some experience, and the right personality will slowly build up. If you&#x27;ve done a very good job then you also included a personality with all his physical characteristics - you are ready to move to the more complex traits. Deeper factors that drive the character, found in extra information on parents, childhood, the events since then. Goals and aspirations, likes and dislikes, motivations and anything else you know about your character. Facts like these build a solid and detailed base from which you can role-play. They establish who your character was, is, and wants to be. Again these are all traits that a character acquires with time - so don&#x27;t worry if you don&#x27;t have these at the start. When you get them they&#x27;ll mix into the inventory of distinctive quirks you gave them at the start - producing a detailed character. If your character has all of this information then your imagination is good enough to design you own game! You should have no problem playing the character you have created. For the other people whose imaginations aren&#x27;t quite as good, they can be satisfied with the character you have created and let time etch the lines of personality into your creation.</p><p><img src="../../../images/Genesis-v2-Scan-178.jpg" alt="Man with EyePatch"/></p><p></p><hr/></div></div></article><nav id="page-nav" class="page-nav"><div id="page-nav-inside" class="page-nav-inside sticky"><h2 class="page-nav-title">Jump to Section</h2><div id="page-nav-link-container"></div></div></nav></div></div></main><footer id="colophon" class="site-footer outer"><div class="inner"><div class="site-footer-inside"><p class="site-info"><span class="copyright">© Inkeptum Ultra Visio. All rights reserved. <a href="https://genesis.theengine.com/docs/about/copyright/" rel="noopener">See the About page for more information.</a> This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. </span></p></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script src="../../../js/plugins.js"></script><script src="../../../js/main.js"></script><script src="../../../js/page-load.js"></script><script src="../../../js/page-unload.js"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/characters/character-generation/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e0ec9526f187c1d11289.js"],"component---src-templates-advanced-js":["/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-305ca813e8a18254b547.js"],"component---src-templates-docs-js":["/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"],"component---src-templates-page-js":["/component---src-templates-page-js-d3fda90f70d3e6039a3c.js"],"component---src-templates-post-js":["/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js"]};/*]]>*/</script><script src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js" async=""></script><script src="../../../commons-3384fc3544f2bc158869.js" async=""></script><script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script><script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script><script src="../../../app-e0ec9526f187c1d11289.js" async=""></script><script src="../../../framework-0204bf4e920e001ced67.js" async=""></script><script src="../../../webpack-runtime-edc57c7177d180b70324.js" async=""></script><script src="https://widget.stackbit.com/init.js" id="stackbit-widget-init" data-stackbit-project-id="60371e339cfb300016205cdd"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script></body></html>
+      gtag("config", "G-WQ787F9BJ0");
+    </script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="https://genesisrpg.com/docs/characters/character-generation/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Genesis" />
+    <meta name="application-name" content="Genesis" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="palette-gold">
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div id="page" class="site">
+          <header id="masthead" class="site-header outer">
+            <div class="inner">
+              <div class="site-header-inside">
+                <div class="site-branding">
+                  <p class="site-logo">
+                    <a href="../../../index.html"
+                      ><img
+                        src="../../../images/Genesislogo1.jpeg"
+                        alt="Genesis logo"
+                    /></a>
+                  </p>
+                </div>
+                <nav
+                  id="main-navigation"
+                  class="site-navigation"
+                  aria-label="Main Navigation"
+                >
+                  <div class="site-nav-inside">
+                    <button id="menu-close" class="menu-toggle">
+                      <span class="screen-reader-text">Open Menu</span
+                      ><span class="icon-close" aria-hidden="true"></span>
+                    </button>
+                    <ul class="menu">
+                      <li class="menu-item">
+                        <a href="../../../index.html">Home</a>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Regulum</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../index.html">Charactes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../character-life/index.html"
+                              >Character Life</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../combat/index.html">Combat</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../adventures/index.html">Adventures</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Centia</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../history/index.html">History</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../races/index.html">All Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../races/index.html">Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../npraces/index.html"
+                              >Non-Player Races</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../politics/index.html"
+                              >Politics &amp; Military</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../economics/index.html"
+                              >Economics &amp; Commerce</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../star-systems/index.html"
+                              >Star Travel</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../technology/index.html">Technology</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../../blog/index.html">Caudex Universium</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/andromedianrose/index.html"
+                              >Andromedian Rose</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/sednarendezvous/index.html"
+                              >Sedna Rendezvous</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../../contact/index.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <button id="menu-open" class="menu-toggle">
+                  <span class="screen-reader-text">Close Menu</span
+                  ><span class="icon-menu" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main id="content" class="site-content">
+            <div class="inner outer">
+              <div class="docs-content">
+                <nav id="docs-nav" class="docs-nav">
+                  <div id="docs-nav-inside" class="docs-nav-inside sticky">
+                    <button id="docs-nav-toggle" class="docs-nav-toggle">
+                      Navigate Docs<span
+                        class="icon-angle-right"
+                        aria-hidden="true"
+                      ></span>
+                    </button>
+                    <div class="docs-nav-menu">
+                      <ul id="docs-menu" class="docs-menu">
+                        <li class="docs-menu-item">
+                          <a href="../../index.html">Introduction</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../about/index.html">About</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../about/forward/index.html"
+                                >Forward</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/copyright/index.html"
+                                >Copyright</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/methods/index.html"
+                                >Methods</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children active">
+                          <a href="../index.html">Character</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../characters/index.html">Description</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../occupations/index.html"
+                                >Occupations</a
+                              >
+                            </li>
+                            <li class="docs-menu-item current">
+                              <a aria-current="page" class="" href="index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../char-gen-tables/index.html">Tables</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../char-gen-example/index.html"
+                                >Examples</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../character-sheet/index.html"
+                                >Character Sheet</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../character-life/index.html"
+                            >Character Life</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/character-life/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/star-travel/index.html"
+                                >Star Travel</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/char-life-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../combat/index.html">Combat</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat/index.html">Rules</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../combat/combat-dam-tables/index.html"
+                                >Damage Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat-example/index.html"
+                                >Example</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../adventures/index.html">Adventures</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/andromedianrose/index.html"
+                                >Andromedian Rose</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/sednarendezvous/index.html"
+                                >Sedna Rendezvous</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../history/index.html">History</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../races/index.html">Races</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../races/eebek/index.html">Eebeck</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/fenbin/index.html">Fenbin</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/human/index.html">Human</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/krane/index.html">Krane</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/lowkaa/index.html"
+                                >Low Kaa</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/tanaian/index.html"
+                                >Tanaian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/aracnian/index.html"
+                                >Aracnian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/faborian/index.html"
+                                >Faborian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/mahendoshi/index.html"
+                                >Mahendoshi</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/vjespere/index.html"
+                                >Vjesperé</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/sooacoli/index.html"
+                                >Sooaacoli</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../politics/index.html"
+                            >Politics &amp; Military</a
+                          >
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../economics/index.html"
+                            >Economics &amp; Commence</a
+                          >
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../star-systems/index.html"
+                            >Star Systems</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../star-systems/firstshpere/index.html"
+                                >FirstSphere</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../star-systems/sol/index.html"
+                                >Sol System Maps</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../technology/index.html">Technology</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../technology/clothing/index.html"
+                                >Clothing</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/computer/index.html"
+                                >Computer</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/communications/index.html"
+                                >Communications</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/sensors/index.html"
+                                >Sensors</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/defense/index.html"
+                                >Defense</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/medical/index.html"
+                                >Medical</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/weapons/index.html"
+                                >Weapons</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/equipment/index.html"
+                                >Tools &amp; Misc.</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/transportation/index.html"
+                                >Transportation</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../technology/starships/index.html"
+                                >Star Ships</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../technology/equipment-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item"><a></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <article class="post type-docs">
+                  <div class="post-inside">
+                    <header class="post-header">
+                      <h1 class="post-title line-left">Rules</h1>
+                    </header>
+                    <div class="post-content">
+                      <p>
+                        To portray a role in a play or a movie you must have a
+                        character to portray, the same is true in Genesis. In
+                        the game there are many ways to describe a character
+                        including race, physical and mental attributes, damage,
+                        occupation, education and skills, sex, age, handedness,
+                        etc. All of this information is essential to describe a
+                        character in enough detail for you to portray that
+                        character.
+                      </p>
+                      There are two types of characters in Genesis, and the
+                      steps in this chapter are designed to produce both types
+                      of characters:
+                      <p></p>
+                      <p></p>
+                      <p>
+                        <strong>Player characters - PC&#x27;s</strong> To give
+                        players the detailed information they need, they would
+                        use the second set of rules to create their characters.
+                        The rules for PC&#x27;s and detailed NPC&#x27;s are
+                        labeled (II).
+                      </p>
+                      <p>
+                        <strong>Non-Player Characters - NPC&#x27;s</strong> The
+                        first set of rules produces a &#x27;static&#x27;
+                        character with only basic information will be generated.
+                        The rules for NPC&#x27;s and quick PC&#x27;s are labeled
+                        (I)
+                      </p>
+                      <p>
+                        Now we can begin the process to produce a character. At
+                        first it may seem a little difficult, but, by reading
+                        both the description of how to perform each step and the
+                        example section the procedures should become clearer. To
+                        help we have also provided an
+                        <a href="../char-gen-example/index.html">Example</a> in
+                        the next section.
+                      </p>
+                      <p></p>
+                      <h2>Choosing a Race</h2>
+                      <p>
+                        Of all of the different ways that you can describe your
+                        character the most important is his or her race. There
+                        are several of sentient races known in the year 2239.
+                        Depending on which race you choose to portray, your
+                        character&#x27;s attributes and skills will be affected
+                        accordingly, so it is advised that you read each race
+                        description carefully before making deciding. Your
+                        choice should be based upon your ability to assume the
+                        role of the race both physically and mentally. For
+                        instance, as a desert-dwelling Eebek you would not even
+                        think to turn around if you heard a noise behind you -
+                        you would simply flip your stalk. Or else the peaceful
+                        Vjesperé, whose great respect for life prevents you from
+                        consciously killing an opponent without great mental
+                        turmoil. Would you as a Human be able to fill the role
+                        of the race that you choose?
+                      </p>
+                      <p></p>
+                      <h3>Procedure - Choosing a Race</h3>
+                      <ol>
+                        <li>
+                          Roll 1:100sd and consult Table #1-1 to choose a race.
+                          The table reflects the general distribution of the
+                          races across the First and Second spheres.<br />
+                          or<br />
+                        </li>
+                        <li>
+                          <p>Simply pick the race for your character</p>
+                          <p></p>
+                        </li>
+                      </ol>
+                      <h2>Generating Attributes</h2>
+                      <p>
+                        Each role playing-game uses it own set of attributes and
+                        in every game they are defined differently. In Genesis
+                        attributes describe how well a character can perform
+                        basic mental or physical tasks, and are based on the
+                        physiology and structure of the race. In Genesis there
+                        are two kinds of attributes, primary and secondary.
+                        Primary attributes are quite specific while secondary
+                        attributes are more generalized and each tells you
+                        something about your character.
+                      </p>
+                      <h3>Primary Attributes</h3>
+                      <p>
+                        There are nine Primary Attributes and each represents a
+                        single physical or mental ability which cannot be broken
+                        down into smaller parts.
+                      </p>
+                      <h4>Procedure - Primary Attributes</h4>
+                      <ol>
+                        <li>
+                          Roll the number of ten sided dice listed on table #1-2
+                          for each, and add the sum of the rolls to the racial
+                          base for that attribute. For the mental attributes,
+                          WS; IT; MC; IN simply roll 5:10sd, and add it 30 - the
+                          base for all sentient races.<br />
+                        </li>
+                        <li>
+                          Simply use the RACIAL AVERAGE table #1-3 for these
+                          attributes
+                        </li>
+                      </ol>
+                      <h2>Primary Attributes</h2>
+                      <h3>Appearance</h3>
+                      <p>
+                        To determine your character&#x27;s overall physical
+                        attractiveness (or repulsiveness) from another member of
+                        their race&#x27;s perspective, roll 1:100SD and record
+                        it under Appearance. The result should be accepted as it
+                        stands (face it bud, you&#x27;re ugly). Personality is
+                        affected to an extent by how one believes they are being
+                        perceived by their society, and a character&#x27;s
+                        ability to interact with others (their Influence) is
+                        therefore modified by their Appearance score. Use table
+                        #1-4 to determine the adjustments for all beings other
+                        than Tanaians (who don&#x27;t notice such trivialities).
+                      </p>
+                      <h3>Secondary Attributes</h3>
+                      <p>
+                        Secondary attributes are calculated by averaging two or
+                        more of the base attributes. They are used more often
+                        than base Attributes and are slightly more specialized
+                        for combat. To find Secondary Attributes than his or her
+                        own (for example, a Faborian raised by Humans), use the
+                        parent culture&#x27;s values.
+                      </p>
+                      <ol>
+                        <li>
+                          Use the following Calculations:
+                          <p></p>
+                          Aim (AM) = Average (Agility, Intellect, Mental
+                          Control)<br />
+                          Brawl (BR) = Average (Physical Strength, Agility,
+                          Constitution, Perception)<br />
+                          Move (MV) = Average (Physical Strength, Agility,
+                          Constitution)
+                          <p></p>
+                        </li>
+                        <li>
+                          Simply averasge the Secondary Attributes from table
+                          #1-3
+                          <p></p>
+                        </li>
+                      </ol>
+                      <h2>Damage Record</h2>
+                      <p>
+                        To calculate your character&#x27;s damage points per
+                        body segment listed on the Damage Record.
+                      </p>
+                      <ol>
+                        <li>
+                          Divide his or her Constitution by their racial
+                          Constitution average table #1-3, and multiply this by
+                          the number listed beside each body segment on table
+                          #1-5 (rounding off). Record the results in the Body
+                          column next to the appropriate segments for both left
+                          and right sides. The values should range between about
+                          one and fifty.
+                        </li>
+                        <li>
+                          Simply use the racial average for Damage Points in
+                          each boy part listed on table #1-5.
+                        </li>
+                      </ol>
+                      <h2>Skills</h2>
+                      <h3>Background Skill Development</h3>
+                      <p>
+                        Because of the culture in which he or she developed
+                        early on, character&#x27;s will possess a certain level
+                        of experience in all of the skill areas. Your character
+                        race&#x27;s specific cultural abilities are listed on
+                        table #1-6. Record the rankings in the darkened line
+                        beside the appropriate skill category headings. If your
+                        character was raised in some other racial culture
+                      </p>
+                      <h3>Encultured Skills</h3>
+                      <p>
+                        Every society demands certain abilities of their members
+                        through basic education and upbringing so they can
+                        operate smoothly and effectively. Table #1-7 lists which
+                        skills are taught to each race and how well each is
+                        known. Make note of them on the data record by recording
+                        the appropriate aptitudes in the space provided beside
+                        the skill. (These values are not static and may be
+                        upgraded when the character goes to IGAL). If your
+                        character was raised in another racial-culture then
+                        their own, use the parent cultures listings (with the
+                        exclusion of Tanaians).
+                      </p>
+                      <h3>Occupation</h3>
+                      <p>
+                        For this section you must choose the occupation of you
+                        character. There are full descriptions of each
+                        occupation in the Character Description section of this
+                        chapter (See Occupations). Each character must have at
+                        least one occupation that he or she was trained for.
+                        You, the player, should pick an occupation for your
+                        character. There are six different occupations. While
+                        characters learn their occupation they learn specific
+                        skills. These are prerequisite skills, listed on Table
+                        #1-16. For the time being just record which skills your
+                        character has learned in the next section you will find
+                        out how to determine the character&#x27;s aptitude for
+                        each skill.
+                        <img
+                          src="../../../images/ThereGoes.jpg"
+                          alt="Cartoon with a incompletely formed character and some critics"
+                        />
+                      </p>
+                      <p></p>
+                      <h3>IGAL Skills</h3>
+                      <p>
+                        The Inter-Galactic Academy of Learning (IGAL), in an
+                        effort to enlighten the beings of the Foundation, offers
+                        everyone who will take them up the equivalent of three,
+                        virtually expense free years of schooling in a vast
+                        number of accredited skill areas. Anybody can apply,
+                        anytime, for training in any course - and much to the
+                        delight of educators, many do. Your character is no
+                        exception. Go through now and select any skills that you
+                        want your character to learn or upgrade. You should keep
+                        in mind the guidelines expressed in the Occupations
+                        above but, the only real limiting factor is time. Every
+                        skill for a particular area will take a certain
+                        allotment of time to learn, the length being set by the
+                        pace of one&#x27;s Intellect. When selecting a course,
+                        simply subtract the appropriate time value on table
+                        #1-8) from your three year total, and once zero is
+                        reached your character&#x27;s starting skills have been
+                        determined. Thus smarter people will logically learn
+                        more in their three years than others would. Please
+                        note, however, that you do not have to spend the entire
+                        three years at school. you may choose to leave school
+                        after only two years and return later. At that time you
+                        will not have to pay normal course fees except on those
+                        courses that are taken after the three years are
+                        finished.
+                      </p>
+                      <h3>Skill Aptitudes</h3>
+                      <p>
+                        To determine your character&#x27;s aptitude in any of
+                        their background, encultured, prerequisite, or chosen
+                        skills (except linguistics - SEE Linguistic Skills
+                        below) simply add a random 1:100SD roll to the
+                        character&#x27;s attribute average (the mean of all the
+                        base attributes - found by averaging all eight of the
+                        attributes (four physical and four mental attributes),
+                        and divide by three. The results obtained of about 40 or
+                        50 are good and can be considered the modern equivalent
+                        of an old Earth &quot;high school&quot; equivalence
+                        level. If you have taken a course previously and wish to
+                        upgrade your aptitude simply add a roll of 1:10SD to the
+                        existing aptitude value.
+                      </p>
+                      <h3>Linguistic Skills</h3>
+                      <p>
+                        Every character begins the game knowing one of his or
+                        her races own native tongues and the Galactic pidgin
+                        sign language. Any other speeches, tongue, lingos,
+                        languages or dialects that you wish your character to
+                        know must be learned (by way of IGAL or otherwise).
+                        Choose language from the brief listing in table #7, and
+                        then average Intellect with a random roll of 1:100SD and
+                        the languages difficulty rank. The result is the
+                        aptitude for speaking that language and is recorded in
+                        the space provided. At no time can a character&#x27;s
+                        aptitude in a foreign language exceed that of their
+                        native tongue, it simply doesn&#x27;t make sense.
+                        Ability to read and write in a particular language can
+                        be found by repeating the calculation. Like any other
+                        skill category there is no limit to the number of areas
+                        that can be mastered besides the time involved in
+                        learning. Xeno-Disciplines On the whole xeno-disciplines
+                        are fairly rare in the known space and for a beginning
+                        character, even more so. To determine whether a
+                        discipline is known to a character, you must roll
+                        3:10sd. For any Xeno-disciplines only two numbers have
+                        to be generated. These are the character&#x27;s power
+                        points and focus. Power points are simply the sum of the
+                        aptitude of the xeno-discipline, calculated as skill
+                        aptitudes above, plus the Xeno category experience,
+                        typically one for beginning characters. To determine the
+                        character&#x27;s focus consult table #1-10.
+                      </p>
+                      <h3>Xeno-Disciplines</h3>
+                      <h4>Latagrea</h4>
+                      <p>
+                        With the discovery of the Faborians, the skill of
+                        Latagrea was introduced to the Alliance. One highly
+                        trained group of Faborians use their minds as a lens for
+                        mental energy that every sentient being produces. The
+                        Faborians undergo a strict training program under the
+                        direct guidance of a master Toovenar. Once the students
+                        have refined their skills at concentration and have
+                        memorized the chants and sayings they are sent into
+                        largest desert of Fabi, their home world. The students
+                        spend two months in the desert, this training is said to
+                        be the time of trials. The desert contains tests for the
+                        young Toovenars allowing them to have their first
+                        experience using their powers. Young Toovenars have a
+                        reputation for causing havoc, this is the reason they
+                        are sent into the desert, for the protection of others.
+                        An inexperienced Toovenar cannot focus all the power
+                        that he or she has, and cannot control where it is
+                        directed. Anyone can learn Latagrea, but only people
+                        with high mental controls have any hope of becoming a
+                        highly skilled Toovenar. The art of Latagrea dates back
+                        beyond the recorded history. It&#x27;s origins have been
+                        so clouded by storytellers that the legend now reads
+                        like a passage from the Bible. Although any race can
+                        learn Latagrea, the possibility of finding a Latagrea
+                        Master is very remote. Most would be Toovenars, from the
+                        Alliance, travel to their home planet of Fabi to be
+                        trained in the Art. For many years the Toovenars have
+                        been used by the ruling members of the many Anclacha as
+                        truth-sayers, enforcers, and personal bodyguards. The
+                        Toovenars have always accepted this role because of its
+                        other benefits. Often, a ruling family&#x27;s dealings
+                        with other Anclacha are done though Toovenars as
+                        mediators. An Anclacha cannot &#x27;fire&#x27; a
+                        Toovenar, they must be defeated in combat by another
+                        Toovenar. The victor replaces the loser as the Toovenar
+                        of the family. When Families fall from power it is
+                        common that the Toovenar remains, this can cause
+                        problems if the Toovenar is loyal to the old family and
+                        does not cooperate with it successors. A brief list of
+                        Latagrea &#x27;spells&#x27; is listed here their
+                        function should be obvious from their name but brief
+                        description are also below. For the procedures to
+                        resolve Xeno-disciplines See Skill Resolution, Character
+                        Life.<pr></pr>
+                      </p>
+                      <p>
+                        <img
+                          src="../../../images/Full_Latagre.jpg"
+                          alt="Faborian casting a spell"
+                        />
+                      </p>
+                      <p></p>
+                      <h4>List of Spells</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Spell Name</th>
+                            <th>Details</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Accelerate</td>
+                            <td>
+                              With this spell the user can impart a push or pull
+                              on any object. The object should be within sight
+                              of the user but if this spell is used together
+                              with Extra Eye then the range is only limited by
+                              the experience of the Toovenar.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Cool</td>
+                            <td>
+                              This spell allows the user to lower the
+                              temperature of the desired area affected. The
+                              temperature decrease is dependent on the
+                              experience of the Toovenar and of course absolute
+                              zero, No Toovenar can break laws of physics.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Extra Ear</td>
+                            <td>
+                              This gives the Toovenar an ability to extend his
+                              hearing. When incited this spell produces an
+                              invisible ear which can eavesdrop. The ear can be
+                              projected through doors, around corners etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Extra Eye</td>
+                            <td>
+                              This gives the Toovenar an ability to extend his
+                              sight. This spell produces an invisible eye that
+                              can be placed anywhere and moved to a desired
+                              location. As with Extra Ear, the eye can be
+                              projected through move objects.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Fireball</td>
+                            <td>
+                              A gaseous sphere of plasma is the product of this
+                              spell. The size of the ball varies with the skill
+                              of the Toovenar. When used to inflict damage the
+                              number of power points expended is equal to the
+                              number of damage points inflicted. The duration of
+                              the fire ball is instantaneous and is dissipated
+                              on impact with an object.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Heal</td>
+                            <td>
+                              This spell will regenerate damaged organic
+                              tissues. When used the number of power points
+                              expended is equal the number of damage points
+                              regained. The effects are permanent.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Heat</td>
+                            <td>
+                              Opposite to Cool, this spell increases the
+                              temperature of the area affected. Although there
+                              is no practical limit to the extent of heating the
+                              Toovenar is limited by the number of power points
+                              that he or she has.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lift</td>
+                            <td>
+                              When used on an object this spell lifts the
+                              object. Once raised the object can be pushed or
+                              pulled in any direction for the duration of the
+                              spell.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Light</td>
+                            <td>
+                              This spell produces a point source of light. The
+                              light will follow the user where ever he or she
+                              travels.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Long Arm</td>
+                            <td>
+                              This spell like the eye or the ear acts as an
+                              extension to the users own body. If it used in
+                              conjunction with Extra Eye the user could open
+                              doors pick locks and even begin combat all while
+                              bound and blindfolded.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Shield</td>
+                            <td>
+                              This spell, when incited, produces a partially
+                              transparent wall of force around the Toovenar or
+                              any object around which it is cast. The Shield is
+                              usually spherical but can be formed into any shape
+                              imaginable. The shield can resist penetration of
+                              all types of energy and objects including PPA,
+                              Exp, Bla, Son, Inc, and Proj.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h4>Spell Casting</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Skill Name</th>
+                            <th>Power Points</th>
+                            <th>Area</th>
+                            <th>Casting time</th>
+                            <th>Duration</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Accelerate</td>
+                            <td>10</td>
+                            <td>1kg</td>
+                            <td>2</td>
+                            <td>Instantaneous</td>
+                          </tr>
+                          <tr>
+                            <td>Cool</td>
+                            <td>15</td>
+                            <td>1m<sup>3</sup></td>
+                            <td>2</td>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <td>Extra Ear</td>
+                            <td>10</td>
+                            <td>-</td>
+                            <td>5</td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>Extra Eye</td>
+                            <td>10</td>
+                            <td>-</td>
+                            <td>5</td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>Fireball</td>
+                            <td>50</td>
+                            <td>0.1 m<sup>3</sup></td>
+                            <td>5</td>
+                            <td>Instantaneous</td>
+                          </tr>
+                          <tr>
+                            <td>Heal</td>
+                            <td>10</td>
+                            <td>1m<sup>3</sup></td>
+                            <td>7</td>
+                            <td>Permanent</td>
+                          </tr>
+                          <tr>
+                            <td>Heat</td>
+                            <td>15</td>
+                            <td>1m<sup>3</sup></td>
+                            <td>2</td>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <td>Lift</td>
+                            <td>10</td>
+                            <td>1kg</td>
+                            <td>5</td>
+                            <td>3</td>
+                          </tr>
+                          <tr>
+                            <td>Light</td>
+                            <td>10</td>
+                            <td>1m<sup>3</sup></td>
+                            <td>1</td>
+                            <td>5</td>
+                          </tr>
+                          <tr>
+                            <td>Long Arm</td>
+                            <td>20</td>
+                            <td>-</td>
+                            <td>5</td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>Shield</td>
+                            <td>50</td>
+                            <td>1m<sup>2</sup></td>
+                            <td>2</td>
+                            <td>1</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h2>Rounding your Character</h2>
+                      <p>
+                        To finish off your character, you must now record those
+                        traits which flesh out the character best. These include
+                        the gender, handedness, height, weight, age, and
+                        financial holdings and weapons and equipment owned.
+                      </p>
+                      <h2>Gender</h2>
+                      <p>
+                        You probably already have a good idea by now as to which
+                        sex your characters is, but if not decide now, based on
+                        the information in the racial descriptions (in some
+                        cases there is only one choice) and record your choice
+                        in the space provided.
+                      </p>
+                      <h2>Handedness or Sidedness</h2>
+                      <p>
+                        This is simply which side of the body your character
+                        feels most comfortable with for moving, writing, eating,
+                        shooting, etc. It really doesn&#x27;t make a difference
+                        which you choose (right or left). Ambidexterity is rare
+                        enough not to be encountered.
+                      </p>
+                      <h2>Size and Mass</h2>
+                      <p>
+                        Next, decide upon your character&#x27;s height (or
+                        length, as the case may be) using the average provided
+                        and assuming a standard variation of about 10 percent.
+                        Then simply consider; do you want your character to
+                        tower over others authoritatively or would small and
+                        un-threatening be more appropriate for what you have in
+                        mind? Finally take into account the character&#x27;s
+                        birth- world. Light worlders tend to be tall and thin,
+                        adding up to 20% to the average height. While for stout
+                        heavy worlders the reverse is true. Once this is known
+                        mass can be determined using the following modifiers for
+                        physical strength and physique. Tables #1-11,12,13 gives
+                        guidelines about heights, masses and weights of
+                        characters. Age To determine your character&#x27;s age
+                        at the start of campaigning, simply roll on table #1-14
+                        and add the result to the time spent at IGAL (most
+                        likely all three years).
+                      </p>
+                      <h2>Dits and Out-fitting</h2>
+                      <p>
+                        Everybody begins the game with little other than their
+                        personal effects, ID, passport and a set of casual
+                        clothes, because most items, including clothing, have up
+                        to now been provided for by the University. Characters
+                        begin the game with some amount of credit depending on
+                        the occupation that was chosen. The amount of credit ( Đ
+                        ) that each character starts with is listed on table
+                        #1-15.
+                      </p>
+                      Schooling complete, however, characters must now go
+                      through and purchase any gear or supplies they need or
+                      desire from the equipment listings. Beware not to be to
+                      spend too much though, you still must survive until the
+                      next dit deposit. To determine your character&#x27;s
+                      amount of starting credit make the appropriate roll below
+                      based on the occupation that you choose. Remember to buy
+                      weapon permits!
+                      <p></p>
+                      <h2>Personality</h2>
+                      <p>
+                        Finally, you as a Player should attempt to develop your
+                        character&#x27;s persona. What are his or her
+                        motivation? Their hopes, their aspirations and dreams,
+                        their goals and fears? Does she act erratically under
+                        pressure? Does he hate all forms of inorganic life? Are
+                        they neurotic, honest, sly, plotting, arrogant,
+                        extroverted, colourful, dark, moody, alcoholic,
+                        flamboyant, extravagant, sensuous - whatever! This kind
+                        of character development will really bring a third
+                        dimension to the gaming scenario, and will allow you to
+                        step in to the role of your characters in the play that
+                        is Genesis. Now that you have generated characters try
+                        to imagine their pictures. Imagine the average member of
+                        the respective races, then add the attributes - what do
+                        they look like physically? Is your character broad
+                        muscled and slow to react, or thin and intellectual, or
+                        bits of both? What is their occupation and what does
+                        this tell you, and the world about their style of dress?
+                      </p>
+                      <p>
+                        Is it the long robe over a tight vest of a Chaendler, or
+                        a jumpsuit covered with pockets to carry the tools of a
+                        Specialist. Consider the weapons and equipment carried -
+                        and the message this sends to the world - is it the look
+                        of an unarmed businessman or a survivalist. From this
+                        physical appearance you can grasp the essential part of
+                        your character that is needed to play the game - basics,
+                        like these, should be included in any character
+                        description. Physical appearances, and quirks are the
+                        minimum amount of information needed to keep
+                        everyone&#x27;s mind on their character and focused on
+                        (and in) the imaginary universe. However, to really get
+                        your mind into the world you&#x27;ll need more
+                        theatrical information like the way they speak, look,
+                        and walks. The wound - that almost cost him his life -
+                        in that last adventure, those rips in her clothes, and
+                        the look in their eyes. These things give you and the
+                        other players an idea of what your character
+                        &quot;feels&quot; like in this imaginary universe. Your
+                        character may not have them but you&#x27;re in luck -
+                        many of these traits develop over time. So, if your
+                        character isn&#x27;t fully rounded out just wait, get
+                        some experience, and the right personality will slowly
+                        build up. If you&#x27;ve done a very good job then you
+                        also included a personality with all his physical
+                        characteristics - you are ready to move to the more
+                        complex traits. Deeper factors that drive the character,
+                        found in extra information on parents, childhood, the
+                        events since then. Goals and aspirations, likes and
+                        dislikes, motivations and anything else you know about
+                        your character. Facts like these build a solid and
+                        detailed base from which you can role-play. They
+                        establish who your character was, is, and wants to be.
+                        Again these are all traits that a character acquires
+                        with time - so don&#x27;t worry if you don&#x27;t have
+                        these at the start. When you get them they&#x27;ll mix
+                        into the inventory of distinctive quirks you gave them
+                        at the start - producing a detailed character. If your
+                        character has all of this information then your
+                        imagination is good enough to design you own game! You
+                        should have no problem playing the character you have
+                        created. For the other people whose imaginations
+                        aren&#x27;t quite as good, they can be satisfied with
+                        the character you have created and let time etch the
+                        lines of personality into your creation.
+                      </p>
+                      <p>
+                        <img
+                          src="../../../images/Genesis-v2-Scan-178.jpg"
+                          alt="Man with EyePatch"
+                        />
+                      </p>
+                      <p></p>
+                      <hr />
+                    </div>
+                  </div>
+                </article>
+                <nav id="page-nav" class="page-nav">
+                  <div id="page-nav-inside" class="page-nav-inside sticky">
+                    <h2 class="page-nav-title">Jump to Section</h2>
+                    <div id="page-nav-link-container"></div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </main>
+          <footer id="colophon" class="site-footer outer">
+            <div class="inner">
+              <div class="site-footer-inside">
+                <p class="site-info">
+                  <span class="copyright"
+                    >© Inkeptum Ultra Visio. All rights reserved.
+                    <a
+                      href="https://genesis.theengine.com/docs/about/copyright/"
+                      rel="noopener"
+                      >See the About page for more information.</a
+                    >
+                    This Jamstack site was created with
+                    <a
+                      href="https://www.stackbit.com/?utm_source=deployed-footer"
+                      target="_blank"
+                      rel="noopener"
+                      >Stackbit</a
+                    >.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+    <script src="../../../js/plugins.js"></script>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/page-load.js"></script>
+    <script src="../../../js/page-unload.js"></script>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.pagePath =
+        "/docs/characters/character-generation/"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-e0ec9526f187c1d11289.js"],
+        "component---src-templates-advanced-js": [
+          "/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js",
+        ],
+        "component---src-templates-blog-js": [
+          "/component---src-templates-blog-js-305ca813e8a18254b547.js",
+        ],
+        "component---src-templates-docs-js": [
+          "/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js",
+        ],
+        "component---src-templates-page-js": [
+          "/component---src-templates-page-js-d3fda90f70d3e6039a3c.js",
+        ],
+        "component---src-templates-post-js": [
+          "/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js",
+        ],
+      }; /*]]>*/
+    </script>
+    <script
+      src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+      async=""
+    ></script>
+    <script src="../../../commons-3384fc3544f2bc158869.js" async=""></script>
+    <script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script>
+    <script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script>
+    <script src="../../../app-e0ec9526f187c1d11289.js" async=""></script>
+    <script src="../../../framework-0204bf4e920e001ced67.js" async=""></script>
+    <script
+      src="../../../webpack-runtime-edc57c7177d180b70324.js"
+      async=""
+    ></script>
+    <script
+      src="https://widget.stackbit.com/init.js"
+      id="stackbit-widget-init"
+      data-stackbit-project-id="60371e339cfb300016205cdd"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

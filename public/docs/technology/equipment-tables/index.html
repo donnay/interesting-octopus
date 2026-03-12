@@ -1,20 +1,612 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"><meta name="generator" content="Gatsby 2.22.17"/><title data-react-helmet="true">Tables</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com"/><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/><link data-react-helmet="true" rel="icon" href="../../../images/favicon/favicon.ico"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initialScale=1.0"/><meta data-react-helmet="true" name="description" content="This is the quick start page"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="Quick Start"/><meta data-react-helmet="true" property="og:description" content="This is the quick start page"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Quick Start"/><meta data-react-helmet="true" name="twitter:description" content="This is the quick start page"/><link as="script" rel="preload" href="../../../webpack-runtime-edc57c7177d180b70324.js"/><link as="script" rel="preload" href="../../../framework-0204bf4e920e001ced67.js"/><link as="script" rel="preload" href="../../../app-e0ec9526f187c1d11289.js"/><link as="script" rel="preload" href="../../../styles-503b3015a8b38c118cb7.js"/><link as="script" rel="preload" href="../../../29107295-36e60bad8a02b5426955.js"/><link as="script" rel="preload" href="../../../commons-3384fc3544f2bc158869.js"/><link as="script" rel="preload" href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"/><link as="fetch" rel="preload" href="../../../page-data/docs/technology/equipment-tables/page-data.json"/><link as="fetch" rel="preload" href="../../../page-data/app-data.json"/><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="generator" content="Gatsby 2.22.17" />
+    <title data-react-helmet="true">Tables</title>
+    <link
+      data-react-helmet="true"
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      data-react-helmet="true"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="../../../images/favicon/favicon.ico"
+    />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initialScale=1.0"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" property="og:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="This is the quick start page"
+    />
+    <meta data-react-helmet="true" name="twitter:card" content="summary" />
+    <meta data-react-helmet="true" name="twitter:title" content="Quick Start" />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="This is the quick start page"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../webpack-runtime-edc57c7177d180b70324.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../framework-0204bf4e920e001ced67.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../app-e0ec9526f187c1d11289.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../styles-503b3015a8b38c118cb7.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../29107295-36e60bad8a02b5426955.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../commons-3384fc3544f2bc158869.js"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+    />
+    <link
+      as="fetch"
+      rel="preload"
+      href="../../../page-data/docs/technology/equipment-tables/page-data.json"
+    />
+    <link as="fetch" rel="preload" href="../../../page-data/app-data.json" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-WQ787F9BJ0');
-</script><link rel="apple-touch-icon" sizes="180x180" href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="apple-mobile-web-app-title" content="Genesis">
-<meta name="application-name" content="Genesis">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"></head><body class="palette-gold"><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="page" class="site"><header id="masthead" class="site-header outer"><div class="inner"><div class="site-header-inside"><div class="site-branding"><p class="site-logo"><a href="../../../index.html"><img src="../../../images/Genesislogo1.jpeg" alt="Genesis logo"/></a></p></div><nav id="main-navigation" class="site-navigation" aria-label="Main Navigation"><div class="site-nav-inside"><button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button><ul class="menu"><li class="menu-item"><a href="../../../index.html">Home</a></li><li class="menu-item has-children"><a href="../../index.html">Caudex Regulum</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../characters/index.html">Charactes</a></li><li class="menu-item"><a href="../../character-life/index.html">Character Life</a></li><li class="menu-item"><a href="../../combat/index.html">Combat</a></li><li class="menu-item"><a href="../../adventures/index.html">Adventures</a></li></ul></li><li class="menu-item has-children"><a href="../../index.html">Caudex Centia</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../history/index.html">History</a></li><li class="menu-item"><a href="../../races/index.html">All Races</a></li><li class="menu-item"><a href="../../../races/index.html">Player Races</a></li><li class="menu-item"><a href="../../../npraces/index.html">Non-Player Races</a></li><li class="menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="menu-item"><a href="../../economics/index.html">Economics &amp; Commerce</a></li><li class="menu-item"><a href="../../star-systems/index.html">Star Travel</a></li><li class="menu-item"><a href="../index.html">Technology</a></li></ul></li><li class="menu-item has-children"><a href="../../../blog/index.html">Caudex Universium</a><button class="submenu-toggle"><span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></button><ul class="submenu"><li class="menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="menu-item"><a href="../../../contact/index.html">Contact Us</a></li></ul></div></nav><button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button></div></div></header><main id="content" class="site-content"><div class="inner outer"><div class="docs-content"><nav id="docs-nav" class="docs-nav"><div id="docs-nav-inside" class="docs-nav-inside sticky"><button id="docs-nav-toggle" class="docs-nav-toggle">Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span></button><div class="docs-nav-menu"><ul id="docs-menu" class="docs-menu"><li class="docs-menu-item"><a href="../../index.html">Introduction</a></li><li class="docs-menu-item has-children"><a href="../../about/index.html">About</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../about/forward/index.html">Forward</a></li><li class="docs-menu-item"><a href="../../about/copyright/index.html">Copyright</a></li><li class="docs-menu-item"><a href="../../about/methods/index.html">Methods</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../characters/index.html">Character</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../characters/characters/index.html">Description</a></li><li class="docs-menu-item"><a href="../../characters/occupations/index.html">Occupations</a></li><li class="docs-menu-item"><a href="../../characters/character-generation/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../../characters/char-gen-example/index.html">Examples</a></li><li class="docs-menu-item"><a href="../../characters/character-sheet/index.html">Character Sheet</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../character-life/index.html">Character Life</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../character-life/character-life/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../character-life/star-travel/index.html">Star Travel</a></li><li class="docs-menu-item"><a href="../../character-life/char-life-tables/index.html">Tables</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../combat/index.html">Combat</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../combat/combat/index.html">Rules</a></li><li class="docs-menu-item"><a href="../../combat/combat-tables/index.html">Tables</a></li><li class="docs-menu-item"><a href="../../combat/combat-dam-tables/index.html">Damage Tables</a></li><li class="docs-menu-item"><a href="../../combat/combat-example/index.html">Example</a></li></ul></li><li class="docs-menu-item has-children"><a href="../../adventures/index.html">Adventures</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../adventures/andromedianrose/index.html">Andromedian Rose</a></li><li class="docs-menu-item"><a href="../../adventures/sednarendezvous/index.html">Sedna Rendezvous</a></li></ul></li><li class="docs-menu-item"><a href="../../history/index.html">History</a></li><li class="docs-menu-item has-children"><a href="../../races/index.html">Races</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../races/eebek/index.html">Eebeck</a></li><li class="docs-menu-item"><a href="../../races/fenbin/index.html">Fenbin</a></li><li class="docs-menu-item"><a href="../../races/human/index.html">Human</a></li><li class="docs-menu-item"><a href="../../races/krane/index.html">Krane</a></li><li class="docs-menu-item"><a href="../../races/lowkaa/index.html">Low Kaa</a></li><li class="docs-menu-item"><a href="../../races/tanaian/index.html">Tanaian</a></li><li class="docs-menu-item"><a href="../../races/aracnian/index.html">Aracnian</a></li><li class="docs-menu-item"><a href="../../races/faborian/index.html">Faborian</a></li><li class="docs-menu-item"><a href="../../races/mahendoshi/index.html">Mahendoshi</a></li><li class="docs-menu-item"><a href="../../races/vjespere/index.html">Vjesperé</a></li><li class="docs-menu-item"><a href="../../races/sooacoli/index.html">Sooaacoli</a></li></ul></li><li class="docs-menu-item"><a href="../../politics/index.html">Politics &amp; Military</a></li><li class="docs-menu-item"><a href="../../economics/index.html">Economics &amp; Commence</a></li><li class="docs-menu-item has-children"><a href="../../star-systems/index.html">Star Systems</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../../star-systems/firstshpere/index.html">FirstSphere</a></li><li class="docs-menu-item"><a href="../../star-systems/sol/index.html">Sol System Maps</a></li></ul></li><li class="docs-menu-item has-children active"><a href="../index.html">Technology</a><button class="docs-submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button><ul class="docs-submenu"><li class="docs-menu-item"><a href="../clothing/index.html">Clothing</a></li><li class="docs-menu-item"><a href="../computer/index.html">Computer</a></li><li class="docs-menu-item"><a href="../communications/index.html">Communications</a></li><li class="docs-menu-item"><a href="../sensors/index.html">Sensors</a></li><li class="docs-menu-item"><a href="../defense/index.html">Defense</a></li><li class="docs-menu-item"><a href="../medical/index.html">Medical</a></li><li class="docs-menu-item"><a href="../weapons/index.html">Weapons</a></li><li class="docs-menu-item"><a href="../equipment/index.html">Tools &amp; Misc.</a></li><li class="docs-menu-item"><a href="../transportation/index.html">Transportation</a></li><li class="docs-menu-item"><a href="../starships/index.html">Star Ships</a></li><li class="docs-menu-item current"><a aria-current="page" class="" href="index.html">Tables</a></li></ul></li><li class="docs-menu-item"><a></a></li></ul></div></div></nav><article class="post type-docs"><div class="post-inside"><header class="post-header"><h1 class="post-title line-left">Tables</h1></header><div class="post-content"><h2>1 - Clothing</h2><pre><code>    ITEM                          VALUE   MASS (kg)        COST
+      gtag("config", "G-WQ787F9BJ0");
+    </script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="https://genesisrpg.com/docs/technology/equipment-tables/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Genesis" />
+    <meta name="application-name" content="Genesis" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="palette-gold">
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div id="page" class="site">
+          <header id="masthead" class="site-header outer">
+            <div class="inner">
+              <div class="site-header-inside">
+                <div class="site-branding">
+                  <p class="site-logo">
+                    <a href="../../../index.html"
+                      ><img
+                        src="../../../images/Genesislogo1.jpeg"
+                        alt="Genesis logo"
+                    /></a>
+                  </p>
+                </div>
+                <nav
+                  id="main-navigation"
+                  class="site-navigation"
+                  aria-label="Main Navigation"
+                >
+                  <div class="site-nav-inside">
+                    <button id="menu-close" class="menu-toggle">
+                      <span class="screen-reader-text">Open Menu</span
+                      ><span class="icon-close" aria-hidden="true"></span>
+                    </button>
+                    <ul class="menu">
+                      <li class="menu-item">
+                        <a href="../../../index.html">Home</a>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Regulum</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../characters/index.html">Charactes</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../character-life/index.html"
+                              >Character Life</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../combat/index.html">Combat</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../adventures/index.html">Adventures</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../index.html">Caudex Centia</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a href="../../history/index.html">History</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../races/index.html">All Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../races/index.html">Player Races</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../../npraces/index.html"
+                              >Non-Player Races</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../politics/index.html"
+                              >Politics &amp; Military</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../economics/index.html"
+                              >Economics &amp; Commerce</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../star-systems/index.html"
+                              >Star Travel</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a href="../index.html">Technology</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item has-children">
+                        <a href="../../../blog/index.html">Caudex Universium</a
+                        ><button class="submenu-toggle">
+                          <span
+                            class="icon-angle-right"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="screen-reader-text">Sub-menu</span>
+                        </button>
+                        <ul class="submenu">
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/andromedianrose/index.html"
+                              >Andromedian Rose</a
+                            >
+                          </li>
+                          <li class="menu-item">
+                            <a
+                              href="../../adventures/sednarendezvous/index.html"
+                              >Sedna Rendezvous</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../../contact/index.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <button id="menu-open" class="menu-toggle">
+                  <span class="screen-reader-text">Close Menu</span
+                  ><span class="icon-menu" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main id="content" class="site-content">
+            <div class="inner outer">
+              <div class="docs-content">
+                <nav id="docs-nav" class="docs-nav">
+                  <div id="docs-nav-inside" class="docs-nav-inside sticky">
+                    <button id="docs-nav-toggle" class="docs-nav-toggle">
+                      Navigate Docs<span
+                        class="icon-angle-right"
+                        aria-hidden="true"
+                      ></span>
+                    </button>
+                    <div class="docs-nav-menu">
+                      <ul id="docs-menu" class="docs-menu">
+                        <li class="docs-menu-item">
+                          <a href="../../index.html">Introduction</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../about/index.html">About</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../about/forward/index.html"
+                                >Forward</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/copyright/index.html"
+                                >Copyright</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../about/methods/index.html"
+                                >Methods</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../characters/index.html">Character</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../characters/characters/index.html"
+                                >Description</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../characters/occupations/index.html"
+                                >Occupations</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-generation/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/char-gen-example/index.html"
+                                >Examples</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../characters/character-sheet/index.html"
+                                >Character Sheet</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../character-life/index.html"
+                            >Character Life</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/character-life/index.html"
+                                >Rules</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/star-travel/index.html"
+                                >Star Travel</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../character-life/char-life-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../combat/index.html">Combat</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat/index.html">Rules</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat-tables/index.html"
+                                >Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../combat/combat-dam-tables/index.html"
+                                >Damage Tables</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../combat/combat-example/index.html"
+                                >Example</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../adventures/index.html">Adventures</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/andromedianrose/index.html"
+                                >Andromedian Rose</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../adventures/sednarendezvous/index.html"
+                                >Sedna Rendezvous</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../history/index.html">History</a>
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../races/index.html">Races</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../../races/eebek/index.html">Eebeck</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/fenbin/index.html">Fenbin</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/human/index.html">Human</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/krane/index.html">Krane</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/lowkaa/index.html"
+                                >Low Kaa</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/tanaian/index.html"
+                                >Tanaian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/aracnian/index.html"
+                                >Aracnian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/faborian/index.html"
+                                >Faborian</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/mahendoshi/index.html"
+                                >Mahendoshi</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/vjespere/index.html"
+                                >Vjesperé</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../races/sooacoli/index.html"
+                                >Sooaacoli</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../politics/index.html"
+                            >Politics &amp; Military</a
+                          >
+                        </li>
+                        <li class="docs-menu-item">
+                          <a href="../../economics/index.html"
+                            >Economics &amp; Commence</a
+                          >
+                        </li>
+                        <li class="docs-menu-item has-children">
+                          <a href="../../star-systems/index.html"
+                            >Star Systems</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a
+                                href="../../star-systems/firstshpere/index.html"
+                                >FirstSphere</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../../star-systems/sol/index.html"
+                                >Sol System Maps</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item has-children active">
+                          <a href="../index.html">Technology</a
+                          ><button class="docs-submenu-toggle">
+                            <span class="screen-reader-text">Submenu</span
+                            ><span
+                              class="icon-angle-right"
+                              aria-hidden="true"
+                            ></span>
+                          </button>
+                          <ul class="docs-submenu">
+                            <li class="docs-menu-item">
+                              <a href="../clothing/index.html">Clothing</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../computer/index.html">Computer</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../communications/index.html"
+                                >Communications</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../sensors/index.html">Sensors</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../defense/index.html">Defense</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../medical/index.html">Medical</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../weapons/index.html">Weapons</a>
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../equipment/index.html"
+                                >Tools &amp; Misc.</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../transportation/index.html"
+                                >Transportation</a
+                              >
+                            </li>
+                            <li class="docs-menu-item">
+                              <a href="../starships/index.html">Star Ships</a>
+                            </li>
+                            <li class="docs-menu-item current">
+                              <a aria-current="page" class="" href="index.html"
+                                >Tables</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="docs-menu-item"><a></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <article class="post type-docs">
+                  <div class="post-inside">
+                    <header class="post-header">
+                      <h1 class="post-title line-left">Tables</h1>
+                    </header>
+                    <div class="post-content">
+                      <h2>1 - Clothing</h2>
+                      <pre><code>    ITEM                          VALUE   MASS (kg)        COST
     Athletic shoes                 1.5         .75           8
     Belt                           2           .1            2
     Boots                          2          1.            11
@@ -63,10 +655,21 @@
          , type 3 (RCG)              2.5       10        1,100    
     Vest                            .3         .5          7      
     Zee-4 Body Glove                .6         NA         48     
-</code></pre><ul><li>Self Contained Underwater Breathing Suit
-** Very Adverse Condition Suit; Gas, Chemical and/or Radiation
-NA None Appreciable         </li></ul><p>NOTE : Mahandoshi versions are 1.5, Vjesperé‚ and Krane versions are 2 times
-normal cost, and fenbin versions are 3 times normal cost.                    </p><h2>2 - Personal Armour</h2><pre><code>                                                             ARMOUR
+</code></pre>
+                      <ul>
+                        <li>
+                          Self Contained Underwater Breathing Suit ** Very
+                          Adverse Condition Suit; Gas, Chemical and/or Radiation
+                          NA None Appreciable
+                        </li>
+                      </ul>
+                      <p>
+                        NOTE : Mahandoshi versions are 1.5, Vjesperé‚ and Krane
+                        versions are 2 times normal cost, and fenbin versions
+                        are 3 times normal cost.
+                      </p>
+                      <h2>2 - Personal Armour</h2>
+                      <pre><code>                                                             ARMOUR
     ITEM                            DAMAGE TYPE                 VALUE      MASS     FOUND     COST           
     Ablative Vest                   All                           1.5      3 kg         C      250
     Armoured Vest                   ALL                           2.7      3 kg         B      130           
@@ -85,7 +688,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
 
     NOTE : Mahandoshi versions are 1«, Vesperé‚ and Krane versions are 2 times
     normal cost, and fenbin versions are 3 times normal cost.
-</code></pre><h2>3 - Foodstuffs</h2><pre><code>    ITEM                     NOTES                                 AMOUNT          MASS    FOUND   COST
+</code></pre>
+                      <h2>3 - Foodstuffs</h2>
+                      <pre><code>    ITEM                     NOTES                                 AMOUNT          MASS    FOUND   COST
     Alcohol                  Local prices will vary.               1 l             .9 kg      A      2  
     Beverage                 Juice, pop, milk, coffee, tea, etc.   1 l            1   kg      A      .5  
     Meal, carnivore          Prices will vary as to size           1 serving          NA      A      3  
@@ -102,7 +707,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
                               Water
                               On worlds where water is rare,       1 l             1 kg       A    free  
                               it is occasionally charged.
-</code></pre><h2>4 - Containers</h2><pre><code>    ITEM                        HOLDS                   VOLUME / AMOUNT            MASS  FOUND   COST   
+</code></pre>
+                      <h2>4 - Containers</h2>
+                      <pre><code>    ITEM                        HOLDS                   VOLUME / AMOUNT            MASS  FOUND   COST   
     AMC, small                  material goods          250  l /  50 kg            3 kg      A      6  
        , medium                 material goods          3.5 kl /  75 kg            5 kg      A      7  
        , large                  material goods           10 kl / 100 kg            7 kg      A      8  
@@ -140,7 +747,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
 
     AMC  Assorted Materials Container                  
     NA  Not Applicable                                 
-</code></pre><h2>5 - Miscellaneous</h2><pre><code>    ITEM                            NOTES                                               MASS    FOUND     COST    
+</code></pre>
+                      <h2>5 - Miscellaneous</h2>
+                      <pre><code>    ITEM                            NOTES                                               MASS    FOUND     COST    
     Acid Neutralizer                1 vial of various super-bases.                      .1 kg       B       12   
     Altitude Rocket                 Used to lift up to 100 kg of cargo to orbit.       155 kg       C    1,200   
     Audio Ampufactors               Sound wave amplification and filtering set.         .1 kg       C      237   
@@ -254,7 +863,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
 
     NA None Appreciable      
     NOTE : Most items may be fitted to a robot at twice normal cost.                             
-</code></pre><h2>6 - Computer Devices</h2><pre><code>                                                                                            MEMORY   PROCESSOR  
+</code></pre>
+                      <h2>6 - Computer Devices</h2>
+                      <pre><code>                                                                                            MEMORY   PROCESSOR  
     ITEM                              NOTES                                                   SIZE  COMPLEXITY    MASS   FOUND     COST      
     Crystal, Pin                      1 blank crystal. 2 qualities.                         4/ 32 Gb       0        NA    A      .3/ 2
            , Needle                   16 blank crystals.                                  64/ 512 Gb       0        NA    A      4/ 32     
@@ -319,12 +930,16 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
 
     NA None Appreciable / Applicable                   
     Gb Gigabytes
-</code></pre><h2>7 - Robotics</h2><pre><code>    Droid, Alpha                      Menial labor devices with little intellect.              2 Gb       2     150 kg    A    1,500       
+</code></pre>
+                      <h2>7 - Robotics</h2>
+                      <pre><code>    Droid, Alpha                      Menial labor devices with little intellect.              2 Gb       2     150 kg    A    1,500       
          , Beta                       Servant robots for complex tasks.                       12 Gb       3      50 kg    B    2,500       
          , Epsilon                    Android companions.                                 12,800 Gb       7      75 kg    C    9,000       
          , Gamma                      Lethal combat droids (warbots, combots).               320 Gb       4     155 kg    R   23,000       
          , Kappa                      Fully intelligent thinking robot.                  768,000 Gb      10     125 kg    R  161,000
-</code></pre><h2>8 - Medical Equipment</h2><pre><code>    ITEM                              NOTES                                                      MASS   FOUND     COST    
+</code></pre>
+                      <h2>8 - Medical Equipment</h2>
+                      <pre><code>    ITEM                              NOTES                                                      MASS   FOUND     COST    
     Automed  
     Cloning, limb            
            , tissue          
@@ -348,7 +963,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
               , sensory organ
               , vital organ  
               , brain
-</code></pre><h2>9 - Pharmaceuticals</h2><pre><code>    COMMON                  
+</code></pre>
+                      <h2>9 - Pharmaceuticals</h2>
+                      <pre><code>    COMMON                  
     ITEM                                                            NOTES    FORM  DOSES  FOUND   COST             
     Anasleep            Sleep drug.                                         pill     35      A     11             
     AntiRad Treatments  Various drugs to lessen radiation damage.         inject      1      C     32             
@@ -382,7 +999,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
     Thermasol +/-       Changes ones perception of temperature.           inject     12      B     12             
     Truth               Truth serum.                                        pill      1      C      7             
     Xarotin Broth       Ehances hearing, kills sight.                      drink      2      C      8             
-</code></pre><h2>10 - Weaponry</h2><pre><code>                                     SHOTS             
+</code></pre>
+                      <h2>10 - Weaponry</h2>
+                      <pre><code>                                     SHOTS             
      ITEM                     LENGTH  PER CLIP   MASS  POWER  FOUND   COST                        
      Force Blades                                        
       Battle Axe                1 m     NA    5.5 kg      5      D     45                        
@@ -535,7 +1154,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
       Paralysis Rod            .4 m     64    1.9 kg      1      A     22                        
       Stun Pac                 .2 m     NA      5 kg      3      D     30                        
       Volt Fingers             hand     17    1.8 kg      2      D     84                   
-</code></pre><h2>11 - Weapon Add-ons</h2><pre><code>    ITEM                        NOTES MASS  FOUND  COST
+</code></pre>
+                      <h2>11 - Weapon Add-ons</h2>
+                      <pre><code>    ITEM                        NOTES MASS  FOUND  COST
     Flash Suppressor            Cuts the light of energy weapons up to 90%     .1 kg      B    13
     Inertial Gunmount           Eases the effort needed to handle large guns    4 kg      D    44                                    
     Permits, WEAPMODs 0-25      Anyone without a weapon permit will be            NA      A    13
@@ -554,7 +1175,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
          Shotgun Gooseneck           Sprays shot in a wide arc.                .1 kg      B     6
 
     NOTE : All weapon additions include modification cost            
-</code></pre><h2>12 - Ammunition</h2><pre><code>    ITEM                        NOTES MASS  FOUND  COST
+</code></pre>
+                      <h2>12 - Ammunition</h2>
+                      <pre><code>    ITEM                        NOTES MASS  FOUND  COST
     Arrows                      1 score.               
     Bolts                       1 score.               
     Pistol                      20 round box.                                  .1 kg            1
@@ -563,7 +1186,9 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
     Machine gun                 50 round box.                                  .4 kg            2
     STORM                       1000 round box.                                .5 kg            4
     Plasma                      40 hydrogen pellets.                           .2 kg            8
-</code></pre><h2>13 - Personal Armour</h2><pre><code>             ARMOUR                                  
+</code></pre>
+                      <h2>13 - Personal Armour</h2>
+                      <pre><code>             ARMOUR                                  
     ITEM                       DAMAGE TYPE                VALUE     MASS  FOUND   COST            
     Ablative Greaves           PPA                          1.7     3 kg      D     35           
     Ablative Vest              PPA                          1.7     3 kg      D     50           
@@ -580,7 +1205,14 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
     Reflective Suit            Normal Lasers                  6     3 kg      D    300           
     Shield                     « All                      50 DP     2 kg      B     26           
     VAC Suit, armouring        All                           +1   +10 kg      E   +153           
-</code></pre><p> NOTE : Mahandoshi versions are ½, Aracnian and Vjesperé versions are 2x, Krane are 3x,and Tsoegorthin versions are 5x normal cost.       </p><h2>14 - Shelter</h2><pre><code>    TYPE                          SPACES   FOUND    RENT  /  BUY                                  
+</code></pre>
+                      <p>
+                        NOTE : Mahandoshi versions are ½, Aracnian and Vjesperé
+                        versions are 2x, Krane are 3x,and Tsoegorthin versions
+                        are 5x normal cost.
+                      </p>
+                      <h2>14 - Shelter</h2>
+                      <pre><code>    TYPE                          SPACES   FOUND    RENT  /  BUY                                  
     Apartment, small                   4       A    .6        NA                                 
              , large                   8       A     2        NA                                 
     Colony Housing                     2       R    .4        NA                                 
@@ -596,9 +1228,14 @@ normal cost, and fenbin versions are 3 times normal cost.                    </p
                    , large            28       R   1.5    11,500                                 
     Tunnel Complex Chamber, small      8       A   2.8    13,000                                 
                           , large     12       A   3.5    28,000                                 
-</code></pre><p>NA Not Applicable<br/>
-1 space = 5m<em>5m</em>5m = 125 cubic metres<br/>
-NOTE : Rental fees are per 10 hour period.       </p><h2>15 - Animals</h2><pre><code>             COST
+</code></pre>
+                      <p>
+                        NA Not Applicable<br />
+                        1 space = 5m<em>5m</em>5m = 125 cubic metres<br />
+                        NOTE : Rental fees are per 10 hour period.
+                      </p>
+                      <h2>15 - Animals</h2>
+                      <pre><code>             COST
     NAME                NOTES                                        MEALS  CAPACITY   FOUND  RENT    BUY
     _____________________________________________________________________________________________________
     Camel / Llama       Work animal for rugged and arid regions.      H6     200 kg       R    12   3,500
@@ -615,7 +1252,9 @@ NOTE : Rental fees are per 10 hour period.       </p><h2>15 - Animals</h2><pre><
     Shirkel             An extremely fast, monkey-like pet lizard     O3         NA       C     1      75    
 
     NOTE : Rental fees are per 10 hour period.
-</code></pre><h2>16 - Land Vehicles</h2><pre><code>                              HUMANOID                             COST                        
+</code></pre>
+                      <h2>16 - Land Vehicles</h2>
+                      <pre><code>                              HUMANOID                             COST                        
      ITEM                    PASSENGERS   CARGO LIMIT  FOUND  RENT   /   BUY
     ________________________________________________________________________
     All-Terrain Sled                 8      1,150 kg      B     3     3,250                    
@@ -642,7 +1281,9 @@ NOTE : Rental fees are per 10 hour period.       </p><h2>15 - Animals</h2><pre><
 
     HTAV  Heavy Terrain Anthropomorphic Vehicle      
     APC  Armoured Personnel Carrier                   
-</code></pre><h2>17 - Air Vehicles</h2><pre><code>                                HUMANOID                             COST                        
+</code></pre>
+                      <h2>17 - Air Vehicles</h2>
+                      <pre><code>                                HUMANOID                             COST                        
        ITEM                    PASSENGERS   CARGO LIMIT  FOUND  RENT   /   BUY
       ________________________________________________________________________
       Aeroplane                                        
@@ -662,7 +1303,9 @@ NOTE : Rental fees are per 10 hour period.       </p><h2>15 - Animals</h2><pre><
       Skiff / Aircar                   6        550 kg      C    75    50,000                    
       Ultralight                       2        200 kg      A     1     1,250                    
       Wind Current                     2        250 kg      R    38    25,000                    
-</code></pre><h2>18 - Sea Vehicles</h2><pre><code>                            HUMANOID                             COST                        
+</code></pre>
+                      <h2>18 - Sea Vehicles</h2>
+                      <pre><code>                            HUMANOID                             COST                        
    ITEM                    PASSENGERS   CARGO LIMIT  FOUND  RENT   /   BUY                     
   Diving Tow                       2        200 kg      B    .4       200                    
   Dolphin                          8        900 kg      D    70   140,000                    
@@ -673,28 +1316,34 @@ NOTE : Rental fees are per 10 hour period.       </p><h2>15 - Animals</h2><pre><
   Speedboat                        6        550 kg      C    10    20,500                    
   Watersled                        2        175 kg      B    .5       350                    
   Yacht                           20      4,500 kg      D    50   100,500                    
-</code></pre><h2>19 - Aero-spacecraft</h2><p>  HUMANOID<br/>
-ITEM                            PASSENGERS            CARGO LIMIT  FOUND       COST<br/>
-Aerospace Plane<br/>
-Small, passenger                     26<br/>
-, cargo                          4<br/>
-Conok, LM204-F6 Lt. Transport            9                             D  3,900,000<br/>
-Cricket, LM96                           11                             R<br/>
-Excalibur Starfighter                    3                             R    700,000<br/>
-Falcon, H-64                            10                             R<br/>
-Hammerhead                               7                             R<br/>
-Orbital Shuttle<br/>
-Small, passenger
-, cargo
-Osprey Starfighter                       4                             R    623,000
-Starlet                                 22                             E  3,400,000</p><h2>20 - Spacecraft</h2><pre><code>                                        HUMANOID      MAX        
+</code></pre>
+                      <h2>19 - Aero-spacecraft</h2>
+                      <p>
+                        HUMANOID<br />
+                        ITEM PASSENGERS CARGO LIMIT FOUND COST<br />
+                        Aerospace Plane<br />
+                        Small, passenger 26<br />
+                        , cargo 4<br />
+                        Conok, LM204-F6 Lt. Transport 9 D 3,900,000<br />
+                        Cricket, LM96 11 R<br />
+                        Excalibur Starfighter 3 R 700,000<br />
+                        Falcon, H-64 10 R<br />
+                        Hammerhead 7 R<br />
+                        Orbital Shuttle<br />
+                        Small, passenger , cargo Osprey Starfighter 4 R 623,000
+                        Starlet 22 E 3,400,000
+                      </p>
+                      <h2>20 - Spacecraft</h2>
+                      <pre><code>                                        HUMANOID      MAX        
       ITEM                            PASSENGERS   VELOCITY  CARGO LIMIT    FOUND      COST
       Cargo Ring                              16    .0410c                     E  5,250,000
       Hoff, TB-16 Transport                   10    .0247c                     D  2,300,000  
       Interplanetary Shuttle
          Small, passenger                     14    .0003c                     C    270,000
               , cargo                                  
-</code></pre><h2>21 - Deltawarp Units</h2><pre><code>    ITEM                          DESIGNER/YEAR   BULK    FOUND       COST
+</code></pre>
+                      <h2>21 - Deltawarp Units</h2>
+                      <pre><code>    ITEM                          DESIGNER/YEAR   BULK    FOUND       COST
     _______________________________________________________________________
     Hyperion 5, series 3780.2      Transac/2212      4      R    5,276,430
     Mark III                       Shu-Keb/2222      4      R    8,173,450
@@ -706,13 +1355,17 @@ Starlet                                 22                             E  3,400,
     Personal Deltawarp Unit       Pandarin/2238     NA      R    5,100,000*
 
     * Rental is 2,500 per 10 hour period.                                   
-</code></pre><h2>21 - Deltawarp Sensors</h2><pre><code>                                                       COST         
+</code></pre>
+                      <h2>21 - Deltawarp Sensors</h2>
+                      <pre><code>                                                       COST         
     ITEM                          DESIGNER/YEAR  FOUND  RENT   /    BUY    
       Monitor Plus                   Transac/2233      R   145    294,800   
       Mark IV                        Shu-Keb/2217      R   190    373,600   
       Panthrani                     Pandarin/2234      R   495    685,250   
       Hyperion Monitor               Transac/2229      R   109    178,000   
-</code></pre><h1>22 - Typical Duties, Fees, Taxes and Tariffs</h1><pre><code>    TYPE                                      NOTES                             COST            
+</code></pre>
+                      <h1>22 - Typical Duties, Fees, Taxes and Tariffs</h1>
+                      <pre><code>    TYPE                                      NOTES                             COST            
     Batt Recharge Services, A                 Available on most worlds.            2           
                           , B                 Available on most worlds.            6           
                           , C                 Available on most worlds.           20           
@@ -757,4 +1410,192 @@ Starlet                                 22                             E  3,400,
                          , III                Per size class, per 10 hr period.   50           
                          , IV                 Per size class, per 10 hr period.  100           
                          , V                  Per size class, per 10 hr period.  250           
-</code></pre><p><strong>Availability Codes</strong></p><table><thead><tr><th>Code</th><th>Description</th></tr></thead><tbody><tr><td>A</td><td>This item can be found virtually everywhere in the Foundation,including agricultural worlds and far-flung colonies. Populations will generally be of a few thousand members. Eg; Hamiota, Wu&#x27;s World, Ferrara, Colony DM +66 1281, etc.</td></tr><tr><td>B</td><td>The item will be found in basically &quot;local&quot; population centres of hundreds of thousands of members, and quite often industrial and resource worlds. Most daughter world&#x27;s fall under this heading. Eg. Njord Kullen, Dubhe, Shakak, De Gal, etc.</td></tr><tr><td>C</td><td>This item can be found in &quot;regional&quot; centres with a few tens of millions of members, and may be educational or cultural in nature. Most starports and large cities fall here. Eg. Mars, New Perth, New York City on Earth, Thoth, Cordoba, etc.</td></tr><tr><td>D</td><td>The item will be found in &quot;national&quot; centres, such as huge eco-political complexes, cities, or worlds, with hundreds of millions of members. Eg. Luna, Algor, Oberhausen, Commons, etc.</td></tr><tr><td>E</td><td>The item can only be normally found on a massive founding Homeworld. Eg. Awmonee, Earth, Mardashuru, Tabell.</td></tr><tr><td>R</td><td>This item is exceptionally rare and will only be found at a few sources. Certain world, people, organization, whatever. Only available through special order to the producers.</td></tr><tr><td>X</td><td>This item is normally illegal by galactic law and may only be available through the Black Market. Possibly reserved for the military. Star Ports will usually have items one class rarer than the surrounding area.</td></tr></tbody></table><p><img src="../../../images/RING.jpg" alt="Grenade"/></p><p></p><hr/></div></div></article><nav id="page-nav" class="page-nav"><div id="page-nav-inside" class="page-nav-inside sticky"><h2 class="page-nav-title">Jump to Section</h2><div id="page-nav-link-container"></div></div></nav></div></div></main><footer id="colophon" class="site-footer outer"><div class="inner"><div class="site-footer-inside"><p class="site-info"><span class="copyright">© Inkeptum Ultra Visio. All rights reserved. <a href="https://genesis.theengine.com/docs/about/copyright/" rel="noopener">See the About page for more information.</a> This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. </span></p></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script src="../../../js/plugins.js"></script><script src="../../../js/main.js"></script><script src="../../../js/page-load.js"></script><script src="../../../js/page-unload.js"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/docs/technology/equipment-tables/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e0ec9526f187c1d11289.js"],"component---src-templates-advanced-js":["/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-305ca813e8a18254b547.js"],"component---src-templates-docs-js":["/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"],"component---src-templates-page-js":["/component---src-templates-page-js-d3fda90f70d3e6039a3c.js"],"component---src-templates-post-js":["/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js"]};/*]]>*/</script><script src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js" async=""></script><script src="../../../commons-3384fc3544f2bc158869.js" async=""></script><script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script><script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script><script src="../../../app-e0ec9526f187c1d11289.js" async=""></script><script src="../../../framework-0204bf4e920e001ced67.js" async=""></script><script src="../../../webpack-runtime-edc57c7177d180b70324.js" async=""></script><script src="https://widget.stackbit.com/init.js" id="stackbit-widget-init" data-stackbit-project-id="60371e339cfb300016205cdd"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script></body></html>
+</code></pre>
+                      <p><strong>Availability Codes</strong></p>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>A</td>
+                            <td>
+                              This item can be found virtually everywhere in the
+                              Foundation,including agricultural worlds and
+                              far-flung colonies. Populations will generally be
+                              of a few thousand members. Eg; Hamiota, Wu&#x27;s
+                              World, Ferrara, Colony DM +66 1281, etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>B</td>
+                            <td>
+                              The item will be found in basically
+                              &quot;local&quot; population centres of hundreds
+                              of thousands of members, and quite often
+                              industrial and resource worlds. Most daughter
+                              world&#x27;s fall under this heading. Eg. Njord
+                              Kullen, Dubhe, Shakak, De Gal, etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>C</td>
+                            <td>
+                              This item can be found in &quot;regional&quot;
+                              centres with a few tens of millions of members,
+                              and may be educational or cultural in nature. Most
+                              starports and large cities fall here. Eg. Mars,
+                              New Perth, New York City on Earth, Thoth, Cordoba,
+                              etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>D</td>
+                            <td>
+                              The item will be found in &quot;national&quot;
+                              centres, such as huge eco-political complexes,
+                              cities, or worlds, with hundreds of millions of
+                              members. Eg. Luna, Algor, Oberhausen, Commons,
+                              etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>E</td>
+                            <td>
+                              The item can only be normally found on a massive
+                              founding Homeworld. Eg. Awmonee, Earth,
+                              Mardashuru, Tabell.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>R</td>
+                            <td>
+                              This item is exceptionally rare and will only be
+                              found at a few sources. Certain world, people,
+                              organization, whatever. Only available through
+                              special order to the producers.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>X</td>
+                            <td>
+                              This item is normally illegal by galactic law and
+                              may only be available through the Black Market.
+                              Possibly reserved for the military. Star Ports
+                              will usually have items one class rarer than the
+                              surrounding area.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p>
+                        <img src="../../../images/RING.jpg" alt="Grenade" />
+                      </p>
+                      <p></p>
+                      <hr />
+                    </div>
+                  </div>
+                </article>
+                <nav id="page-nav" class="page-nav">
+                  <div id="page-nav-inside" class="page-nav-inside sticky">
+                    <h2 class="page-nav-title">Jump to Section</h2>
+                    <div id="page-nav-link-container"></div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </main>
+          <footer id="colophon" class="site-footer outer">
+            <div class="inner">
+              <div class="site-footer-inside">
+                <p class="site-info">
+                  <span class="copyright"
+                    >© Inkeptum Ultra Visio. All rights reserved.
+                    <a
+                      href="https://genesis.theengine.com/docs/about/copyright/"
+                      rel="noopener"
+                      >See the About page for more information.</a
+                    >
+                    This Jamstack site was created with
+                    <a
+                      href="https://www.stackbit.com/?utm_source=deployed-footer"
+                      target="_blank"
+                      rel="noopener"
+                      >Stackbit</a
+                    >.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+    <script src="../../../js/plugins.js"></script>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/page-load.js"></script>
+    <script src="../../../js/page-unload.js"></script>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.pagePath =
+        "/docs/technology/equipment-tables/"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-e0ec9526f187c1d11289.js"],
+        "component---src-templates-advanced-js": [
+          "/component---src-templates-advanced-js-1ded4e99e5a183cd6bff.js",
+        ],
+        "component---src-templates-blog-js": [
+          "/component---src-templates-blog-js-305ca813e8a18254b547.js",
+        ],
+        "component---src-templates-docs-js": [
+          "/component---src-templates-docs-js-72afff50f75cb7b4e9e7.js",
+        ],
+        "component---src-templates-page-js": [
+          "/component---src-templates-page-js-d3fda90f70d3e6039a3c.js",
+        ],
+        "component---src-templates-post-js": [
+          "/component---src-templates-post-js-a8d66e3f2c4c2169bffa.js",
+        ],
+      }; /*]]>*/
+    </script>
+    <script
+      src="../../../component---src-templates-docs-js-72afff50f75cb7b4e9e7.js"
+      async=""
+    ></script>
+    <script src="../../../commons-3384fc3544f2bc158869.js" async=""></script>
+    <script src="../../../29107295-36e60bad8a02b5426955.js" async=""></script>
+    <script src="../../../styles-503b3015a8b38c118cb7.js" async=""></script>
+    <script src="../../../app-e0ec9526f187c1d11289.js" async=""></script>
+    <script src="../../../framework-0204bf4e920e001ced67.js" async=""></script>
+    <script
+      src="../../../webpack-runtime-edc57c7177d180b70324.js"
+      async=""
+    ></script>
+    <script
+      src="https://widget.stackbit.com/init.js"
+      id="stackbit-widget-init"
+      data-stackbit-project-id="60371e339cfb300016205cdd"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
