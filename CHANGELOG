@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 - [x] Optimize CSS by moving inline styles to external file (`public/css/main.css`)
 - [x] Beautify all HTML files with Prettier
 - [x] Create custom "Lost in Space" 404 page
+- [x] Optimize all images to WebP format for faster loading
 - [x] Fix Mailgun 401 Unauthorized error (Domain and Secret formatting)
 
 ## [2026-03-12] - Mailgun Integration & Performance Optimization
@@ -11,8 +12,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - **Mailgun Cloud Function**: Deployed a secure Node.js 22 backend function to handle contact form submissions via Mailgun API.
 - **Global Stylesheet**: Created `/css/main.css`.
-- **Custom 404 Page**: Implemented a "Lost in Space" thematic error page with cinematic AI-generated background to improve user experience on broken links.
-- **Code Beautification**: Formatted all 68 HTML files with Prettier for better readability.s**: securely managed `MAILGUN_KEY`, `MAILGUN_DOMAIN`, and `MAILGUN_REGION` via Firebase CLI.
+- **Custom 404 Page**: Implemented a "Lost in Space" thematic error page.
+- **WebP Optimization**: Converted 153 images to WebP format and updated references across 68 HTML files, significantly reducing site weight.
+- **Code Beautification**: Formatted all HTML files with Prettier.s**: securely managed `MAILGUN_KEY`, `MAILGUN_DOMAIN`, and `MAILGUN_REGION` via Firebase CLI.
 
 ### Changed
 - **CSS Performance**: Extracted redundant inline CSS from 68 HTML files into the global stylesheet, reducing page sizes by ~30KB each.
