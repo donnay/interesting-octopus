@@ -11,13 +11,9 @@ All notable changes to this project will be documented in this file.
 - [x] Remove Stackbit branding and scripts from footer
 - [x] Finalize conversion to 100% static site (removed Gatsby source/branches)
 - [x] Convert all internal links to relative paths for portability
-- [x] Add "Made with Google Antigravity and Gemini" branding with custom icons
-
-## [2026-03-15] - Static Site Conversion & Google Branding
-
-### Added
-- **Google Branding**: Added "Made with Google Antigravity and Google Gemini" to the footer with custom branded icons and links.
-- **Icon Assets**: Created custom `antigravity_icon.png` and `gemini_icon.png` for footer branding.
+- [x] Add "Made with Google Antigravity and Gemini" branding with text links
+- [x] Update Google Antigravity URL to `https://antigravity.google/`
+- [x] Remove all images and icons from footer links
 
 ### Changed
 - **Static Integrity**: Cleaned up the repository to be purely static by deleting Gatsby source code and development branches (`Genesis-dev`, `IPad2`, etc.).
