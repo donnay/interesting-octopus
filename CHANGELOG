@@ -8,6 +8,24 @@ All notable changes to this project will be documented in this file.
 - [x] Implement lightning-fast Docs Search (client-side)
 - [x] Add professional Print-Friendly Styles (Refined Header for clean printouts)
 - [x] Fix Mailgun 401 Unauthorized error (Domain and Secret formatting)
+- [x] Remove Stackbit branding and scripts from footer
+- [x] Finalize conversion to 100% static site (removed Gatsby source/branches)
+- [x] Convert all internal links to relative paths for portability
+- [x] Add "Made with Google Antigravity and Gemini" branding with custom icons
+
+## [2026-03-15] - Static Site Conversion & Google Branding
+
+### Added
+- **Google Branding**: Added "Made with Google Antigravity and Google Gemini" to the footer with custom branded icons and links.
+- **Icon Assets**: Created custom `antigravity_icon.png` and `gemini_icon.png` for footer branding.
+
+### Changed
+- **Static Integrity**: Cleaned up the repository to be purely static by deleting Gatsby source code and development branches (`Genesis-dev`, `IPad2`, etc.).
+- **Relative Linking**: Converted 69 absolute internal links (pointing to `theengine.com`) to relative paths, ensuring complete site portability across any hosting environment.
+- **File Cleanup**: Removed redundant `static/` directory and synchronized the `master` branch as the primary production source.
+
+### Removed
+- **Stackbit Branding**: Completely removed "This Jamstack site was created with Stackbit" text and the Stackbit widget script from all production files.
 
 ## [2026-03-12] - Mailgun Integration & Performance Optimization
 
