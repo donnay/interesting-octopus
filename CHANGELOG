@@ -1,6 +1,17 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [2026-03-19] - Mobile Navigation & Analytics Fixes
+
+### Added
+- **Google Analytics**: Verified that the GA tracking code (`G-WQ787F9BJ0`) is present on all 71 HTML pages, including injecting it into the missing `404.html` and `_downloads.html`.
+
+### Fixed
+- **Mobile Hamburger Menu (JavaScript)**: Stripped the Gatsby-specific `window.onGatsbyInitialClientRender` wrapper from the menu toggling functions in `public/js/main.js` and reattached the click listeners using a standard `DOMContentLoaded` event, ensuring the mobile toggle works natively on the static site.
+- **Mobile Hamburger Menu (CSS Layout)**: Added `flex-wrap: wrap` to the header and `order: 3` to the search bar so it elegantly drops to a new line on mobile devices. This prevents the search input from squishing the menu toggle button.
+- **Viewport Scaling**: Fixed an invalid HTML meta tag where `initialScale=1.0` was causing mobile browsers to ignore scaling. Replaced it with `initial-scale=1.0` across 71 files.
+
 - [x] Optimize CSS by moving inline styles to external file (`public/css/main.css`)
 - [x] Beautify all HTML files with Prettier
 - [x] Create custom "Lost in Space" 404 page

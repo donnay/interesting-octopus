@@ -108,9 +108,13 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 }
 
 @media (max-width: 800px) {
+  .site-header-inside {
+    flex-wrap: wrap;
+  }
   .search-wrapper {
-    margin: 1em 0;
+    margin: 1em 0 0 0;
     width: 100%;
+    order: 3;
   }
   #search-input {
     width: 100%;
