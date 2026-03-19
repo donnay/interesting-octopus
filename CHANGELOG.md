@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
 ## [2026-03-19] - Mobile Navigation & Analytics Fixes
 
 ### Added
@@ -12,26 +14,31 @@ All notable changes to this project will be documented in this file.
 - **Mobile Hamburger Menu (CSS Layout)**: Added `flex-wrap: wrap` to the header and `order: 3` to the search bar so it elegantly drops to a new line on mobile devices. This prevents the search input from squishing the menu toggle button.
 - **Viewport Scaling**: Fixed an invalid HTML meta tag where `initialScale=1.0` was causing mobile browsers to ignore scaling. Replaced it with `initial-scale=1.0` across 71 files.
 
-- [x] Optimize CSS by moving inline styles to external file (`public/css/main.css`)
-- [x] Beautify all HTML files with Prettier
-- [x] Create custom "Lost in Space" 404 page
-- [x] Optimize all images to WebP format for faster loading
-- [x] Implement lightning-fast Docs Search (client-side)
-- [x] Add professional Print-Friendly Styles (Refined Header for clean printouts)
-- [x] Fix Mailgun 401 Unauthorized error (Domain and Secret formatting)
-- [x] Remove Stackbit branding and scripts from footer
-- [x] Finalize conversion to 100% static site (removed Gatsby source/branches)
-- [x] Convert all internal links to relative paths for portability
-- [x] Add "Made with Google Antigravity, Gemini, and Firebase" branding with text links
-- [x] Update Google Antigravity URL to `https://antigravity.google/`
-- [x] Remove all images and icons from footer links
+## [2026-03-18] - Site Optimization & Maintenance
+
+### Added
+- Custom "Lost in Space" 404 page.
+- Lightning-fast Docs Search (client-side).
+- Professional Print-Friendly Styles (Refined Header for clean printouts).
+- "Made with Google Antigravity, Gemini, and Firebase" branding with text links.
 
 ### Changed
+- Optimized CSS by moving inline styles to external file (`public/css/main.css`).
+- Beautified all HTML files with Prettier.
+- Optimized all images to WebP format for faster loading.
+- Finalized conversion to 100% static site (removed Gatsby source/branches).
+- Converted all internal links to relative paths for portability.
+- Updated Google Antigravity URL to `https://antigravity.google/`.
 - **Static Integrity**: Cleaned up the repository to be purely static by deleting Gatsby source code and development branches (`Genesis-dev`, `IPad2`, etc.).
 - **Relative Linking**: Converted 69 absolute internal links (pointing to `theengine.com`) to relative paths, ensuring complete site portability across any hosting environment.
 - **File Cleanup**: Removed redundant `static/` directory and synchronized the `master` branch as the primary production source.
 
+### Fixed
+- Mailgun 401 Unauthorized error (Domain and Secret formatting).
+
 ### Removed
+- Stackbit branding and scripts from footer.
+- All images and icons from footer links.
 - **Stackbit Branding**: Completely removed "This Jamstack site was created with Stackbit" text and the Stackbit widget script from all production files.
 
 ## [2026-03-12] - Mailgun Integration & Performance Optimization
@@ -43,7 +50,7 @@ All notable changes to this project will be documented in this file.
 - **WebP Optimization**: Converted 153 images to WebP format.
 - **Docs Search**: Implemented lightning-fast client-side search.
 - **Print Optimization**: Added professional `@media print` rules; refined the printed header to be ultra-simple and space-efficient for tabletop play.
-- **Code Beautification**: Formatted all HTML files with Prettier.s**: securely managed `MAILGUN_KEY`, `MAILGUN_DOMAIN`, and `MAILGUN_REGION` via Firebase CLI.
+- **Code Beautification**: Formatted all HTML files with Prettier. Securely managed `MAILGUN_KEY`, `MAILGUN_DOMAIN`, and `MAILGUN_REGION` via Firebase CLI.
 
 ### Changed
 - **CSS Performance**: Extracted redundant inline CSS from 68 HTML files into the global stylesheet, reducing page sizes by ~30KB each.
@@ -56,6 +63,8 @@ All notable changes to this project will be documented in this file.
 - **Broken Image Links**: Fixed relative paths for the README screenshot on the live site.
 
 ## [Previous] - Static Hosting Migration
+
+### Changed
 - **Codebase Cleanup**: Removed Gatsby source files and build tools to leave a 100% static project structure.
 - **Firebase Deployment**: Initial setup and deployment to Firebase Hosting.
 - **Multi-Remote Support**: Configured concurrent synchronization with GitHub and GitLab.
