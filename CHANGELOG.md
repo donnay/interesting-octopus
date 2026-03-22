@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-03-22] - Caudex Universum Menu Update
+
+### Changed
+- **Navigation Update**: Updated the "Caudex Universum" menu item across all HTML files to link correctly to the blog posts.
+- **Typo Fix**: Corrected the spelling in the menu from "Caudex Universium" to "Caudex Universum".
+
+
 ## [2026-03-19] - Mobile Navigation & Analytics Fixes
 
 ### Added
