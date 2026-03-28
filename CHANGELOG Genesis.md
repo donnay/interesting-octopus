@@ -4,18 +4,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [2026-03-28] - SEO & Social Media Metadata Enhancements
-
-### Added
-- **Node Scripts**: Created `scripts/update-seo.js` using `cheerio` to reliably parse and update static HTML files globally.
-- **HTML Language**: Appended `<html lang="en-CA">` uniformly across all 69 static files.
-- **Canonical URLs**: Added `<link rel="canonical" href="...">` tags to all documents to establish exact search indexing targeting `https://genesisrpg.com/`.
-- **OpenGraph Identity Tags**: Inserted `<meta property="og:url" content="...">` and `<meta property="og:site_name" content="Genesis - The Role Playing Game">` to improve contextual social snippets.
-
-### Changed
-- **Absolute Social Media Assets**: Upgraded `og:image` and `twitter:image` tags from relative paths to structurally compliant absolute URLs (`https://genesisrpg.com/images/...`).
-- **Formatting**: Auto-formatted all modified HTML files using Prettier for clean syntax maintenance.
-
 ## [2026-03-22] - Navigation & 404 Page Fixes
 
 ### Changed
