@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **Navigation Update**: Updated the "Caudex Universum" menu item across all HTML files to link correctly to the blog posts.
 - **Typo Fix**: Corrected the spelling in the menu from "Caudex Universium" to "Caudex Universum".
 - **404 Menu Consistency**: Replaced the truncated navigation menu on the 404 error page with the complete, responsive site header, ensuring all links use absolute paths to prevent resolution errors on nested paths.
-
+- **Copyright Page**: Update the Published section to include the link to this site.
 
 ## [2026-03-19] - Mobile Navigation & Analytics Fixes
 
