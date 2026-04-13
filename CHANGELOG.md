@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-04-13] - WCAG 2.2 Accessibility Enhancements
+
+### Added
+- **Global Contrast Focus Rings**: Inserted high-contrast, 3px solid focus indicators globally via `main.css`, overriding low-contrast `.palette-gold` links with a distinct dark background.
+- **Form Identifiers**: Added `type="search"`, `autocomplete="off"`, and `aria-label="Search site"` to `#search-input` across all `.html` pages.
+- **Menu Target Sizes**: Expanded `.menu-toggle` and `.submenu-toggle` to maintain a rigid minimum `44px x 44px` target size for reliable touch interactions.
+- **ARIA States**: Enforced `aria-expanded="false"` specifically on all `.submenu-toggle` instances structure.
+- **Scroll Padding**: Prevented the fixed glass-nav header from obscuring keyboard-focused anchors via `scroll-padding-top: 100px;` applied to the HTML root.
+
+### Changed
+- **Image Accessibility**: Crawled all `public/` files and systematically parsed `<img>` paths missing an `alt=` attribute to inject meaningful semantic labels extracted from the base filename.
+
 ## [2026-03-28] - SEO & Social Media Metadata Enhancements
 
 ### Added

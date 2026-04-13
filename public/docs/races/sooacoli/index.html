@@ -172,7 +172,7 @@
                       </li>
                       <li class="menu-item has-children">
                         <a href="../../index.html">Caudex Regulum</a
-                        ><button class="submenu-toggle">
+                        ><button class="submenu-toggle" aria-expanded="false">
                           <span
                             class="icon-angle-right"
                             aria-hidden="true"
@@ -204,7 +204,7 @@
                       </li>
                       <li class="menu-item has-children">
                         <a href="../../index.html">Caudex Centia</a
-                        ><button class="submenu-toggle">
+                        ><button class="submenu-toggle" aria-expanded="false">
                           <span
                             class="icon-angle-right"
                             aria-hidden="true"
@@ -248,7 +248,7 @@
                       </li>
                       <li class="menu-item has-children">
                         <a href="../../../blog/index.html">Caudex Universum</a
-                        ><button class="submenu-toggle">
+                        ><button class="submenu-toggle" aria-expanded="false">
                           <span
                             class="icon-angle-right"
                             aria-hidden="true"
@@ -304,11 +304,11 @@
                 </nav>
                 <div class="search-wrapper">
                   <input
-                    type="text"
+                    
                     id="search-input"
                     placeholder="Search archives..."
                     aria-label="Search"
-                  />
+                  / type="search" name="q" autocomplete="off" aria-label="Search site">
                   <div id="search-results"></div>
                 </div>
 
@@ -789,8 +789,7 @@
                       <h3>Life Span</h3>
                       <p>Planet: Anacro Novello Gravity: .8</p>
                       <h2>Second Sphere - Racial Size Comparison Chart</h2>
-                      <img
-                        src="../../../images/RacesSizeChart-02small.webp"
+                      <img src="../../../images/RacesSizeChart-02small.webp" alt="Races Size Chart-02small"
                         usemap="#image-map"
                       /><map name="image-map"
                         ><area

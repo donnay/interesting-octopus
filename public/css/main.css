@@ -270,3 +270,31 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     page-break-after: always;
   }
 }
+
+/* WCAG 2.2 Accessibility Fixes */
+html {
+  /* Prevent sticky masthead from obscuring focused items */
+  scroll-padding-top: 100px;
+}
+
+/* Ensure minimum target size (2.5.8) */
+.menu-toggle, .submenu-toggle {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure focus appearance contrast and visibility (2.4.13) */
+*:focus-visible {
+  outline: 3px solid #fdc71c !important;
+  outline-offset: 4px;
+}
+
+/* High contrast overrides for specific low-contrast palette-gold items if they exist */
+.palette-gold a:focus-visible {
+  background-color: #2a2a2a;
+  color: #fdc71c;
+}
