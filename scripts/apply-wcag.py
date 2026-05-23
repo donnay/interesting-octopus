@@ -61,7 +61,8 @@ for root, dirs, files in os.walk(public_dir):
                 # Basic substitution
                 def repl_search(m):
                     p1, p2 = m.group(1), m.group(2)
-                    return f'<input{p1}id="search-input"{p2} type="search" name="q" autocomplete="off" aria-label="Search site">'.replace('type="text"', '')
+                    clean_p2 = p2.strip().rstrip('/').strip()
+                    return f'<input{p1}id="search-input" {clean_p2} type="search" name="q" autocomplete="off" aria-label="Search site" />'.replace('type="text"', '')
                 content = re.sub(r'<input([^>]+?)id="search-input"([^>]*?)>', repl_search, content)
                 changed = True
                 

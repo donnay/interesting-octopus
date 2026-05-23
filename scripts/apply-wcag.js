@@ -68,7 +68,8 @@ htmlFiles.forEach(file => {
     content = content.replace(
       /<input([^>]+?)id="search-input"([^>]*?)>/g, 
       (match, p1, p2) => {
-        return `<input${p1}id="search-input"${p2} type="search" name="q" autocomplete="off" aria-label="Search site">`.replace(/type="text"/, '');
+        const cleanP2 = p2.trim().replace(/\/$/, '').trim();
+        return `<input${p1}id="search-input" ${cleanP2} type="search" name="q" autocomplete="off" aria-label="Search site" />`.replace(/type="text"/, '');
       }
     );
     changed = true;
