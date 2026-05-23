@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [2026-05-23] - Usability, Performance, and Premium RPG Theme Remaster
+## [2026-05-23] - Usability and Performance Remaster
 
 ### Fixed
 - **Malformed Search Input Tag**: Resolved a major HTML syntax error globally across all static pages where a trailing slash was trapped inside the search `<input>` tag, breaking modern browser compliance.
@@ -16,12 +16,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **Bootstrap JS Pruning**: Stripped the unused 130KB Bootstrap JS bundle loaded via CDN.
 - **Directory Sanitization**: Safely deleted all dead Gatsby JS chunk assets and the obsolete `public/page-data` directory from the repository, reducing deployment sizes.
 - **LCP Image Preload Priority**: Injected critical above-the-fold image preloads on the homepage (with `fetchpriority="high"`) and template-level logo priorities to optimize Core Web Vitals (LCP/FCP).
-
-### Styling & Visual Enhancements
-- **Glassmorphic Site Navigation**: Redesigned the sticky header and main menu to support sleek glassmorphism with dynamic opacity transitions and blur backdrops.
-- **Premium Tabletop RPG Scrollbars**: Injected stylized, webkit-custom scrollbars matching the gold and dark tabletop gaming aesthetic.
-- **Interactive Card Micro-Animations**: Enhanced grid items and document template panels with scale-up transitions, hover borders, and elegant gold glows.
-- **Translucent Search Panel UI**: Re-styled search result suggestions using translucent dark glass backdrops with high-contrast readable elements.
 
 ## [2026-04-13] - WCAG 2.2 Accessibility Enhancements
 
