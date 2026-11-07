@@ -79,3 +79,4 @@ if (brokenLinks === 0 && brokenAssets === 0) {
   console.error(`❌ Found ${brokenLinks} broken links and ${brokenAssets} broken assets.`);
   process.exit(1);
 }
+

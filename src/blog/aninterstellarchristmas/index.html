@@ -1,9 +1,23 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/base.njk
 title: "An Interstellar Christmas"
 description: "A brief timeline of an interstellar voyage in the year 2139"
 ---
-<h1>December 7, 2139</h1>
+<article class="post post-full">
+              <header class="post-header has-gradient outer">
+                <div class="bg-img" style="
+                    background-image: url(&quot;/images/Uni-interstellar.webp&quot;);
+                  "></div>
+                <div class="inner-sm">
+                  <div class="post-meta">
+                    <time class="published" datetime="2021-05-10 00:00">May 10, 2021</time>
+                  </div>
+                  <h1 class="post-title">An Interstellar Christmas</h1>
+                </div>
+              </header>
+              <div class="inner-md outer">
+                <div class="post-content">
+                  <h1>December 7, 2139</h1>
                   <p>
                     "House computer, we want to observe the Terran holiday
                     called 'Christmas', book a cabin for two aboard the next
@@ -381,8 +395,11 @@ description: "A brief timeline of an interstellar voyage in the year 2139"
                         communicate or otherwise affect the shipping warp your
                         parents speeds and distances involved are just too
                         great.
-                        <img src="../../images/Uni-interstellar.webp" alt="Intersteller">
+                        <img src="/images/Uni-interstellar.webp" alt="Intersteller">
                       </p>
                       <hr>
                     </li>
                   </ul>
+                </div>
+              </div>
+            </article>
