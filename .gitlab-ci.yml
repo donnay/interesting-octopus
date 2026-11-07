@@ -26,13 +26,14 @@ deploy:
     - npm ci --cache .npm --prefer-offline || npm install --cache .npm --prefer-offline
     - npm run build
     - npm test
-    # If FIREBASE_SERVICE_ACCOUNT is provided as a file or json string
+    # Support either FIREBASE_SERVICE_ACCT, FIREBASE_SERVICE_ACCOUNT, or FIREBASE_TOKEN
     - |
-      if [ -n "$FIREBASE_SERVICE_ACCOUNT" ]; then
-        if [ -f "$FIREBASE_SERVICE_ACCOUNT" ]; then
-          export GOOGLE_APPLICATION_CREDENTIALS="$FIREBASE_SERVICE_ACCOUNT"
+      KEY_DATA="${FIREBASE_SERVICE_ACCT:-$FIREBASE_SERVICE_ACCOUNT}"
+      if [ -n "$KEY_DATA" ]; then
+        if [ -f "$KEY_DATA" ]; then
+          export GOOGLE_APPLICATION_CREDENTIALS="$KEY_DATA"
         else
-          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/gcp-key.json
+          echo "$KEY_DATA" > /tmp/gcp-key.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/gcp-key.json
         fi
       fi
