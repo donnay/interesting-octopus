@@ -4,7 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [2026-11-07] - Site-wide 404 and Asset Resolution Fixes
+## [1.1.0] - 2026-11-07
+
+### Added
+- **Eleventy (11ty) Static Site Generator Architecture**: Converted the static site into a DRY Eleventy architecture with Nunjucks layouts (`base.njk`, `doc.njk`, `blog.njk`) and reusable partials (`header.njk`, `docs-sidebar.njk`, `footer.njk`), dramatically improving maintainability and eliminating repetitive markup.
+- **Active Navigation Auto-Expansion**: Implemented automatic detection and expansion of active parent menus and sub-menus in the documentation sidebar based on current URL path.
+- **Accordion State Persistence**: Added `sessionStorage` persistence so manually expanded/collapsed documentation navigation sections remain intact as users navigate across documentation pages.
+- **Automated Link & Asset Verification**: Added `scripts/verify-links.js` run via `npm test` to validate all internal links and asset references across all compiled HTML pages.
+
+### Fixed
+- **Blog Feed Index (`/blog/`)**: Restored the full article grid of stories, excerpts, and thumbnail images on the main blog index page.
+- **Blog Hero Images (`/blog/*`)**: Restored hero headers and background images for all blog story posts with standardized root-relative image links.
+- **Missing Navigation Highlights**: Ensured current page and active menu items receive `aria-current="page"` and appropriate active theme styling across documentation and main navigation.
+
+## [1.0.0] - 2026-11-07 - Site-wide 404 and Asset Resolution Fixes
 
 ### Fixed
 - **Site-Wide Root-Relative Links & Image Maps**: Converted all remaining relative links, page body links, section indexes, and `<area>` image maps (296 links across 68 HTML files) to root-relative paths (`/docs/races/fenbin/index.html`, etc.), resolving 404s on section landing pages like `/docs/races` and `/docs/technology`.
