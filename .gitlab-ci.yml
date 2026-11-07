@@ -12,7 +12,7 @@ default:
 test:
   stage: test
   script:
-    - npm ci --cache .npm --prefer-offline
+    - npm ci --cache .npm --prefer-offline || npm install --cache .npm --prefer-offline
     - npm run build
     - npm test
   rules:
@@ -23,7 +23,7 @@ test:
 deploy:
   stage: deploy
   script:
-    - npm ci --cache .npm --prefer-offline
+    - npm ci --cache .npm --prefer-offline || npm install --cache .npm --prefer-offline
     - npm run build
     - npm test
     # If FIREBASE_SERVICE_ACCOUNT is provided as a file or json string
