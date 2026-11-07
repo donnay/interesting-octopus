@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-11-07] - Site-wide 404 and Asset Resolution Fixes
+
+### Fixed
+- **Favicon Resource Paths**: Corrected malformed absolute and relative favicon URLs across 67 HTML pages to root-relative `/images/favicon/...` paths, fixing 404 asset errors across race and documentation subpages.
+- **Sedna Rendezvous Floorplan Image**: Updated image source link in `public/docs/adventures/sednarendezvous/index.html` to reference `Chk_O_O_Ka.jpg` matching the normalized file name.
+- **Obsolete Gatsby JS Bundle Preloads**: Purged leftover references and preload tags for `0f7106e4636c39179bdca46b0242ae73d2d832f3-*.js` from all blog pages.
+
 ## [2026-05-23] - Usability and Performance Remaster
 
 ### Fixed
