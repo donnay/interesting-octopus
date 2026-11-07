@@ -1,0 +1,26 @@
+{
+  "name": "interesting-octopus",
+  "version": "1.0.0",
+  "description": "<img src=\"public/GenesisScreenShot.png\" width=\"600\">",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "node scripts/verify-links.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/theEngine/interesting-octopus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://gitlab.com/theEngine/interesting-octopus/issues"
+  },
+  "homepage": "https://gitlab.com/theEngine/interesting-octopus#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.8"
+  }
+}

@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+<div class="inner outer">
+  <div class="docs-content">
+    {% include "partials/docs-sidebar.njk" %}
+    <article class="post type-docs">
+      <div class="post-inside">
+        <header class="post-header">
+          <h1 class="post-title line-left">{{ title }}</h1>
+        </header>
+        <div class="post-content">
+          {{ content | safe }}
+        </div>
+      </div>
+    </article>
+    <nav id="page-nav" class="page-nav">
+      <div id="page-nav-inside" class="page-nav-inside sticky">
+        <h2 class="page-nav-title">Jump to Section</h2>
+        <div id="page-nav-link-container"></div>
+      </div>
+    </nav>
+  </div>
+</div>

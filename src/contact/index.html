@@ -1,0 +1,89 @@
+---
+layout: layouts/base.njk
+title: "Contact Us"
+description: "We are happy to hear what you think. Please let us know."
+---
+<article class="post post-full">
+              <header class="post-header has-gradient outer">
+                <div class="bg-img" style="
+                    background-image: url(&quot;https://genesisrpg.com/images/5.jpg&quot;);
+                  "></div>
+                <div class="inner-sm">
+                  <h1 class="post-title">Contact Us</h1>
+                  <div class="post-subtitle">
+                    We are happy to hear what you think. Please let us know.
+                  </div>
+                </div>
+              </header>
+              <div class="inner-md outer">
+                <div class="post-content">
+                  <form id="contact-form" action="../success/index.html" method="GET">
+                    <p>
+                      <label>Your Name:
+                        <input type="text" id="name" name="name" required=""></label>
+                    </p>
+                    <p>
+                      <label>Your Email:
+                        <input type="email" id="email" name="email" required=""></label>
+                    </p>
+                    <p>
+                      <label>Message:
+                        <textarea id="message" name="message" required=""></textarea>
+                      </label>
+                    </p>
+                    <p><button type="submit" id="submit-btn">Send</button></p>
+                  </form>
+
+                  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+                  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-functions.js"></script>
+                  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+                  <script>
+                    const firebaseConfig = {
+                      apiKey: "AIzaSyCFtk69FaCrpnLLinOgYzTWXBk0Hwxott8",
+                      authDomain: "genesisrpg-site.firebaseapp.com",
+                      projectId: "genesisrpg-site",
+                      storageBucket: "genesisrpg-site.firebasestorage.app",
+                      messagingSenderId: "1053533444020",
+                      appId: "1:1053533444020:web:08980b8f389078816dc4e1",
+                      measurementId: "G-BLYB9DPFGE",
+                    };
+
+                    firebase.initializeApp(firebaseConfig);
+
+                    document
+                      .getElementById("contact-form")
+                      .addEventListener("submit", function (e) {
+                        e.preventDefault();
+                        const btn = document.getElementById("submit-btn");
+                        btn.disabled = true;
+                        btn.innerText = "Sending...";
+
+                        const name = document.getElementById("name").value;
+                        const email = document.getElementById("email").value;
+                        const message =
+                          document.getElementById("message").value;
+
+                        const sendContactEmail = firebase
+                          .functions()
+                          .httpsCallable("sendContactEmail");
+
+                        sendContactEmail({ name, email, message })
+                          .then((result) => {
+                            console.log("Email sent successfully:", result);
+                            window.location.href = "../success/index.html";
+                          })
+                          .catch((error) => {
+                            console.error("Error calling function: ", error);
+                            alert(
+                              "Sorry, there was an error sending your message: " +
+                                error.message,
+                            );
+                            btn.disabled = false;
+                            btn.innerText = "Send";
+                          });
+                      });
+                  </script>
+                </div>
+              </div>
+            </article>

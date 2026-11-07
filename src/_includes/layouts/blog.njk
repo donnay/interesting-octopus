@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<div class="inner outer">
+  <article class="post type-post">
+    <div class="post-inside">
+      <header class="post-header">
+        <h1 class="post-title">{{ title }}</h1>
+        {% if author or date %}
+        <div class="post-meta">
+          {% if author %}By <span class="post-author">{{ author }}</span>{% endif %}
+          {% if date %}<time class="published">{{ date }}</time>{% endif %}
+        </div>
+        {% endif %}
+      </header>
+      <div class="post-content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </article>
+</div>
