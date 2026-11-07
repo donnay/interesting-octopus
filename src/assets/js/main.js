@@ -26,7 +26,21 @@ document.addEventListener('DOMContentLoaded', function() {
   // Handle submenu toggling
   function submenuToggleHandler(e) {
     e.preventDefault();
-    this.parentNode.classList.toggle('active');
+    const parent = this.parentNode;
+    parent.classList.toggle('active');
+    
+    // Save expanded states for docs navigation in sessionStorage
+    try {
+      const activeItems = [];
+      document.querySelectorAll('#docs-menu .docs-menu-item.has-children').forEach(function(item, idx) {
+        if (item.classList.contains('active')) {
+          const link = item.querySelector(':scope > a');
+          const href = link ? link.getAttribute('href') : String(idx);
+          activeItems.push(href);
+        }
+      });
+      sessionStorage.setItem('expandedDocsMenus', JSON.stringify(activeItems));
+    } catch (err) {}
   }
 
   window.addMainNavigationHandlers = function() {
@@ -265,8 +279,76 @@ document.addEventListener('DOMContentLoaded', function() {
     return anchor;
   }
 
+  function initActiveNavState() {
+    const currentPath = window.location.pathname.replace(/\/index\.html$/, '/').replace(/\/+$/, '') || '/';
+
+    // 1. Restore any previously user-expanded menus from sessionStorage
+    try {
+      const saved = sessionStorage.getItem('expandedDocsMenus');
+      if (saved) {
+        const expandedHrefs = JSON.parse(saved);
+        if (Array.isArray(expandedHrefs)) {
+          document.querySelectorAll('#docs-menu .docs-menu-item.has-children').forEach(function(item, idx) {
+            const link = item.querySelector(':scope > a');
+            const href = link ? link.getAttribute('href') : String(idx);
+            if (expandedHrefs.includes(href)) {
+              item.classList.add('active');
+            }
+          });
+        }
+      }
+    } catch (err) {}
+
+    // 2. Highlight current link in docs sidebar and keep parent expanded
+    const docsLinks = document.querySelectorAll('#docs-menu a');
+    docsLinks.forEach(function(a) {
+      const href = a.getAttribute('href');
+      if (!href) return;
+      const normalizedHref = href.replace(/\/index\.html$/, '/').replace(/\/+$/, '') || '/';
+      
+      if (normalizedHref === currentPath) {
+        const li = a.closest('.docs-menu-item');
+        if (li) {
+          li.classList.add('current');
+          a.setAttribute('aria-current', 'page');
+
+          // Walk up and ensure all parent submenus are marked active (expanded)
+          let parentEl = li.parentElement;
+          while (parentEl && parentEl.id !== 'docs-menu') {
+            if (parentEl.classList.contains('docs-menu-item') && parentEl.classList.contains('has-children')) {
+              parentEl.classList.add('active');
+            }
+            if (parentEl.classList.contains('docs-submenu')) {
+              const parentLi = parentEl.closest('.docs-menu-item.has-children');
+              if (parentLi) {
+                parentLi.classList.add('active');
+              }
+            }
+            parentEl = parentEl.parentElement;
+          }
+        }
+      }
+    });
+
+    // 3. Highlight current link in header menu if present
+    const headerLinks = document.querySelectorAll('#navigation .menu-item a');
+    headerLinks.forEach(function(a) {
+      const href = a.getAttribute('href');
+      if (!href) return;
+      const normalizedHref = href.replace(/\/index\.html$/, '/').replace(/\/+$/, '') || '/';
+      if (normalizedHref === currentPath) {
+        const li = a.closest('.menu-item');
+        if (li) {
+          li.classList.add('current');
+          a.setAttribute('aria-current', 'page');
+        }
+      }
+    });
+  }
+
   // Also actually call them on load!
   window.addMainNavigationHandlers();
   window.addDocsNavigationHandlers();
   window.addPageNavLinks();
+  initActiveNavState();
 });
