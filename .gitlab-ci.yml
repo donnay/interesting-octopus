@@ -1,0 +1,41 @@
+stages:
+  - test
+  - deploy
+
+default:
+  image: node:20
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .npm/
+
+test:
+  stage: test
+  script:
+    - npm ci --cache .npm --prefer-offline
+    - npm run build
+    - npm test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "development"
+    - if: $CI_COMMIT_BRANCH == "master"
+
+deploy:
+  stage: deploy
+  script:
+    - npm ci --cache .npm --prefer-offline
+    - npm run build
+    - npm test
+    # If FIREBASE_SERVICE_ACCOUNT is provided as a file or json string
+    - |
+      if [ -n "$FIREBASE_SERVICE_ACCOUNT" ]; then
+        if [ -f "$FIREBASE_SERVICE_ACCOUNT" ]; then
+          export GOOGLE_APPLICATION_CREDENTIALS="$FIREBASE_SERVICE_ACCOUNT"
+        else
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/gcp-key.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/gcp-key.json
+        fi
+      fi
+    - npx firebase-tools deploy --only hosting --project genesisrpg-site
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"

@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.0] - 2026-11-07
+
+### Added
+- **GitLab CI/CD Automated Deployment**: Configured `.gitlab-ci.yml` pipeline with automated `test` and `deploy` stages using Google Cloud Service Account credentials (`FIREBASE_SERVICE_ACCOUNT`) to deploy to Firebase Hosting on commits to `master`.
+
+### Performance
+- **Mobile PageSpeed Optimizations**:
+  - **Hero Image Preload & Fetch Priority**: Added `<link rel="preload" as="image" fetchpriority="high">` for the hero banner (`JungleCampCropped.webp`), slashing Largest Contentful Paint (LCP) time.
+  - **Explicit Image Dimensions & Lazy Loading**: Specified explicit `width` and `height` attributes on header logo and homepage images to eliminate layout shifts (CLS), and applied `loading="lazy"` on below-the-fold artwork.
+  - **Non-Render-Blocking Google Fonts**: Loaded Google Fonts asynchronously using the `media="print" onload="this.media='all'"` pattern with `fonts.gstatic.com` preconnect to eliminate First Contentful Paint render-blocking delay.
+  - **Script Deferral**: Added `defer` attribute to non-critical layout JavaScript bundles.
+  - **Immutable Asset Caching**: Added 1-year immutable cache headers (`public, max-age=31536000, immutable`) in `firebase.json` for static images.
+
+### Fixed
+- **Favicon Manifest Syntax**: Corrected smart quote encoding error in `site.webmanifest` that triggered JSON parsing failures on mobile browsers.
+
 ## [1.1.0] - 2026-11-07
 
 ### Added
