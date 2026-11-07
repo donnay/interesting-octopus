@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Direct links to sitemap and LLM context index
+Sitemap: https://genesisrpg.com/sitemap.xml

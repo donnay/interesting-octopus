@@ -33,6 +33,72 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Schema.org JSON-LD Structured Data for Crawlers & Generative AI -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://genesisrpg.com/#website",
+        "url": "https://genesisrpg.com/",
+        "name": "Genesis - The Role Playing Game",
+        "description": "Genesis is a tabletop role-playing game set across civilized and frontier star systems with hard science-fiction mechanics.",
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": "Game",
+        "@id": "https://genesisrpg.com/#game",
+        "name": "Genesis: The Role-Playing Game",
+        "url": "https://genesisrpg.com/",
+        "description": "A hard sci-fi tabletop role-playing game featuring percentile mechanics, hit-location trauma combat, eleven sentient alien races, and realistic star travel.",
+        "genre": ["Tabletop role-playing game", "Science Fiction", "Hard Sci-Fi"],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Inkeptum Ultra Visio",
+          "url": "https://genesisrpg.com/"
+        }
+      }
+      
+      , {
+        "@type": "TechArticle",
+        "@id": "https://genesisrpg.com/docs/combat/combat-dam-tables/#article",
+        "isPartOf": { "@id": "https://genesisrpg.com/#website" },
+        "headline": "Damage Tables | Stackbit Libris Theme",
+        "description": "Damage Tables | Stackbit Libris Theme",
+        "url": "https://genesisrpg.com/docs/combat/combat-dam-tables/",
+        "inLanguage": "en-CA",
+        "about": { "@id": "https://genesisrpg.com/#game" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://genesisrpg.com/docs/combat/combat-dam-tables/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://genesisrpg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Rules Documentation",
+            "item": "https://genesisrpg.com/docs/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Damage Tables | Stackbit Libris Theme",
+            "item": "https://genesisrpg.com/docs/combat/combat-dam-tables/"
+          }
+        ]
+      }
+      
+    ]
+  }
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ787F9BJ0"></script>
   <script>

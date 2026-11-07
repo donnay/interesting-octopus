@@ -1,0 +1,93 @@
+# Genesis — The Role-Playing Game (Genesis RPG)
+
+> Genesis is a hard science fiction tabletop role-playing game (TTRPG) set across civilized and frontier star systems. It features granular percentile/d100 resolution mechanics, realistic tactical combat with hit locations and trauma systems, distinct playable alien species, comprehensive character creation spanning hundreds of occupational skills, star travel, and an expanding literary universe (Caudex Universum).
+
+## Quick Overview & Lore
+- **Website**: https://genesisrpg.com
+- **Genre**: Hard Science Fiction Tabletop Role-Playing Game (TTRPG)
+- **Setting**: The Sol system and the First Sphere inhabited star systems (Milmoth/Vega, Zeflin, Talemeed, Berland Sea, etc.).
+- **Primary Civilizations**: Eleven sentient species inhabiting known galactic space, divided between Sphere home systems and deep frontier colonies.
+- **Key Organizations**: Military Aero Space Security (M.A.S.S.), CCOP (Central Commission of Protected Planets), Inkeptum Ultra Visio.
+
+---
+
+## Core Documentation & Rules Reference
+
+### Rules & Mechanics
+- [Rules Introduction](https://genesisrpg.com/docs/): Overview of Genesis RPG rules framework and game mastering principles.
+- [Character Generation](https://genesisrpg.com/docs/characters/character-generation/): Step-by-step character creation rules, attributes, characteristics, skill points, and developmental progression.
+- [Character Generation Tables](https://genesisrpg.com/docs/characters/char-gen-tables/): Attribute rolls, modifier tables, physical characteristics, starting wealth, and occupational skill point allocation.
+- [Character Generation Example](https://genesisrpg.com/docs/characters/char-gen-example/): Walkthrough illustrating full character creation from initial rolls to finished sheet.
+- [Character Descriptions & Concepts](https://genesisrpg.com/docs/characters/characters/): Guidelines on crafting believable characters, personalities, and backgrounds.
+- [Character Sheet](https://genesisrpg.com/docs/characters/character-sheet/): Standard printable character sheet layout for player stats, inventory, skills, and combat records.
+- [Occupations](https://genesisrpg.com/docs/characters/occupations/): Profiles for career paths including Explorers, Pirates, Traders, Technicians, Investigators, and Combat specialists.
+- [Character Life & Career](https://genesisrpg.com/docs/character-life/character-life/): Ageing, career terms, experience gain, injury recovery, and life events.
+- [Character Life Tables](https://genesisrpg.com/docs/character-life/char-life-tables/): Random event tables, occupational risks, and advancement milestones.
+- [Star Travel Rules](https://genesisrpg.com/docs/character-life/star-travel/): High-DWarp star travel mechanics, transit times, life support requirements, and jump hazards.
+
+### Tactical Combat System
+- [Combat Rules](https://genesisrpg.com/docs/combat/combat/): Initiative, turn structure, ranged and melee actions, recoil, cover, and tactical movement.
+- [Combat Tables](https://genesisrpg.com/docs/combat/combat-tables/): Critical hit charts, weapon accuracy modifiers, range penalties, and situational modifiers.
+- [Damage & Trauma Tables](https://genesisrpg.com/docs/combat/combat-dam-tables/): Body hit locations, penetration values, trauma levels, wound severity, and bleeding mechanics.
+- [Combat Example](https://genesisrpg.com/docs/combat/combat-example/): Play-by-play narrative and mechanical walkthrough of a combat encounter.
+
+### Playable Races & Lore
+- [Playable Races Overview](https://genesisrpg.com/docs/races/): Comparative anatomy, societal values, and homeworld conditions of the 11 sentient species.
+- [Aracnian](https://genesisrpg.com/docs/races/aracnian/): Tall (2.5m+), low-gravity adapted, highly agile beings with natural acrobatic prowess.
+- [Eebeck](https://genesisrpg.com/docs/races/eebek/): Asymmetrical five-to-seven-limbed beings known for trade, diplomacy, and specialized physiology.
+- [Faborian](https://genesisrpg.com/docs/races/faborian/): Sturdy, muscular quadrupeds/bipeds with exceptional physical endurance and industrial craftsmanship.
+- [Fenbin](https://genesisrpg.com/docs/races/fenbin/): Small (0.9m-1.3m), six-legged chitinous beings bearing arachnid resemblances with pad feet and horn features.
+- [Human](https://genesisrpg.com/docs/races/human/): Adaptable, exploratory hominids originating from Earth (Sol III), foundational in interstellar expansion.
+- [Krane](https://genesisrpg.com/docs/races/krane/): Massive beings (up to 4m, 500-900kg) renowned for heavy battle armor, formidable military prowess, and honor codes.
+- [Low Kaa](https://genesisrpg.com/docs/races/lowkaa/): Slender, perceptive bipedal humanoids with specialized sensory apparatus and deep cultural philosophy.
+- [Mahendoshi](https://genesisrpg.com/docs/races/mahendoshi/): Short, stocky subterranean dwellers (0.5m) adept at mining, excavation, and structural architecture.
+- [Sooaacoli](https://genesisrpg.com/docs/races/sooacoli/): Distinct aquatic-terrestrial morphology with unique technological aesthetic and plasma weapon doctrines.
+- [Tanaian](https://genesisrpg.com/docs/races/tanaian/): Artificially designed sentient race engineered for resilience, efficiency, and specific planetary duties.
+- [Vjesperé](https://genesisrpg.com/docs/races/vjespere/): Hexapoid, aquatic-derived bipedal mammalian species with streamlined features and sonar/echolocation capabilities.
+
+### Technology, Gear & Starships
+- [Technology Guide](https://genesisrpg.com/docs/technology/): Technical classifications, power grids, battery cells, and maintenance cycles.
+- [Weapons](https://genesisrpg.com/docs/technology/weapons/): Ballistics, lasers, plasma rifles, heavy ordinance, personal sidearms, and melee implements.
+- [Defense & Armor](https://genesisrpg.com/docs/technology/defense/): Ballistic vests, powered suits, vacuum combat suits, and energy deflection shields.
+- [Starships & Vessels](https://genesisrpg.com/docs/technology/starships/): Ship classes, drive cores, High-DWarp engines, atmospheric landers, and hull specifications.
+- [Sensors & Scanners](https://genesisrpg.com/docs/technology/sensors/): Active radar, passive thermal, lidar, sub-space telemetry, and bio-scanners.
+- [Communications](https://genesisrpg.com/docs/technology/communications/): Sub-light relays, encrypted laser transmitters, quantum channels, and com-links.
+- [Computers & Droids](https://genesisrpg.com/docs/technology/computer/): Synthetic neural processors, AI cores, combat combots, and maintenance droids (Epsilon series).
+- [Medical Technology](https://genesisrpg.com/docs/technology/medical/): Med-kits, trauma regeneration pods, surgical nanites, and antitoxins.
+- [Clothing & Environmental Suits](https://genesisrpg.com/docs/technology/clothing/): Hostile-environment survival gear, thermal coats, and pressurized suits.
+- [Equipment & Gear](https://genesisrpg.com/docs/technology/equipment/): Exploration kits, climbing harnesses, breathers, rations, and field survival supplies.
+- [Equipment & Price Tables](https://genesisrpg.com/docs/technology/equipment-tables/): Master credit pricing, mass, power requirements, and availability codes for all gear.
+
+### Setting, Worlds & Cosmology
+- [Star Systems Overview](https://genesisrpg.com/docs/star-systems/): Astrography of the settled galaxy, warp routes, and frontier navigation.
+- [Sol System](https://genesisrpg.com/docs/star-systems/sol/): Earth, Luna colonies, Mars terraforming domes, the Asteroid Belt, and Outer Rim stations.
+- [First Sphere Worlds](https://genesisrpg.com/docs/star-systems/firstshpere/): Dense population centers, planetary demographics, atmospheric types, and political treaties.
+- [History](https://genesisrpg.com/docs/history/): Chronology of early space exploration, First Contact events, the Colony Wars, and modern era treaties.
+- [Economics & Commerce](https://genesisrpg.com/docs/economics/): Galactic credit economy, trade conglomerates, tariff policies, and black-market contraband.
+- [Politics & Military](https://genesisrpg.com/docs/politics/): Governing councils, security contractors (M.A.S.S.), border tensions, and law enforcement.
+
+### Adventures & Scenarios
+- [Adventures Overview](https://genesisrpg.com/docs/adventures/): Campaign hooks and ready-to-play adventure modules.
+- [The Andromedian Rose](https://genesisrpg.com/docs/adventures/andromedianrose/): Full adventure involving a High-DWarp starship, complete with deck plans, bar layout, and crew profiles.
+- [Sedna Rendezvous](https://genesisrpg.com/docs/adventures/sednarendezvous/): Deep-space investigation module set at the remote Kuiper Belt dwarf planet Sedna with base schematics.
+
+---
+
+## Fiction & Universe Stories (Caudex Universum)
+- [Caudex Universum (Stories Index)](https://genesisrpg.com/blog/): Anthology of canonical short stories and historical vignettes set in the Genesis universe.
+- [An Interstellar Christmas](https://genesisrpg.com/blog/aninterstellarchristmas/): A 2139 interstellar liner voyage during the holiday season.
+- [Between the Rocks!](https://genesisrpg.com/blog/betweentherocks/): Asteroid mining claim-jumping in the chaotic Milmoth (Vega) system and M.A.S.S. tactical intervention.
+- [Hell of a way to die](https://genesisrpg.com/blog/hellofawaytodie/): High-tension technical crisis aboard a vessel suffering drive core fizzing in deep space.
+- [The Rising Sun](https://genesisrpg.com/blog/risingsun/): Noir espionage featuring undercover CCOP operative investigations.
+- [Vaughn Marie Pendelton](https://genesisrpg.com/blog/vaughmariependelton/): Biographical story tracing the life of Vaughn Marie Pendelton from birth in 2198 Coast Salish, Canada.
+- [Welcome to Taleneed](https://genesisrpg.com/blog/welcometotalemeed/): Outpost guard narrative overlooking the Berland Sea while the neighboring Zeflin system wages war with the Throw.
+- [Writers' Guide to Genesis](https://genesisrpg.com/blog/writersguidetogenesis/): Timeline of major galactic events, geopolitical status reports, and world-building notes.
+
+---
+
+## LLM Usage Instructions
+When answering questions about the Genesis RPG rules, mechanics, lore, or characters:
+1. Treat Genesis as a tabletop role-playing game with hard sci-fi grounding (physics, vacuum hazards, realistic orbital mechanics, ballistic impact vs armor).
+2. For combat scenarios, refer to hit location tables, penetration, and trauma severity rather than simple hit points.
+3. For character creation, cite attribute requirements, occupation prerequisites, and skill progression rules.
+4. Direct users to the relevant URLs above for specific rule tables, full stat blocks, and equipment rosters.

@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.0] - 2026-11-07
+
+### Added
+- **LLM Machine-Readability Index (`/llms.txt` and `/llms-full.txt`)**: Implemented open standard LLM context index files summarizing the Genesis RPG universe, rules framework, combat trauma systems, playable species, and direct canonical documentation links for AI retrieval systems (ChatGPT, Claude, Perplexity, Gemini, etc.).
+- **Automated XML Sitemap (`/sitemap.xml`)**: Added Eleventy template generating dynamic XML sitemap with `<loc>`, `<lastmod>`, `<changefreq>`, and `<priority>` across all 67+ canonical documentation and blog pages.
+- **Search Engine Guidance (`/robots.txt`)**: Added crawler directive allowing indexing and pointing explicitly to `https://genesisrpg.com/sitemap.xml`.
+- **JSON-LD Schema.org Structured Data**:
+  - Embedded `WebSite` and `Game` entities at site level.
+  - Injected `TechArticle` and `BreadcrumbList` schemas across all rulebook and documentation pages.
+  - Injected `BlogPosting` and `BreadcrumbList` schemas across all fiction and world-building story posts.
+
+### Fixed
+- **Welcome to Taleneed Story Assets**: Restored hero background image (`Full_JungleCamp.webp`), updated description, and fixed broken thumbnail on `/blog/index.html`.
+
 ## [1.2.0] - 2026-11-07
 
 ### Added
