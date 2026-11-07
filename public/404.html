@@ -194,7 +194,112 @@
             </div>
           </header>
     <main id="content" class="site-content">
-      
+      <style>
+  .hero-404 {
+    position: relative;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    overflow: hidden;
+    padding: 3rem 1.5rem;
+  }
+  .hero-404-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/images/404-bg.webp") no-repeat center center;
+    background-size: cover;
+    opacity: 0.55;
+    z-index: 1;
+  }
+  .hero-404-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 2.5rem;
+    background: rgba(10, 10, 15, 0.75);
+    border: 1px solid rgba(253, 199, 28, 0.25);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    max-width: 640px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  }
+  .hero-404 h1 {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 0 0.5rem 0;
+    color: #fdc71c;
+    text-shadow: 0 0 25px rgba(253, 199, 28, 0.5);
+  }
+  .hero-404 .subtitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .hero-404 p.desc {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin: 0 0 2rem 0;
+  }
+  .hero-404 .actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-404 .btn-404 {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero-404 .btn-primary {
+    background: #fdc71c;
+    color: #111;
+  }
+  .hero-404 .btn-primary:hover {
+    background: #ffda55;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(253, 199, 28, 0.4);
+  }
+  .hero-404 .btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .hero-404 .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+</style>
+
+<section class="hero-404">
+  <div class="hero-404-bg"></div>
+  <div class="hero-404-content">
+    <h1>404</h1>
+    <div class="subtitle">Signal Lost in Deep Space</div>
+    <p class="desc">
+      The coordinates you're navigating to do not exist in charted First Sphere space.
+      Your vessel may have jumped through an unstable wormhole or encountered an Eebek trade blockade.
+    </p>
+    <div class="actions">
+      <a href="/index.html" class="btn-404 btn-primary">Return to Base</a>
+      <a href="/docs/index.html" class="btn-404 btn-secondary">Open Rules Manifest</a>
+    </div>
+  </div>
+</section>
 
     </main>
     <footer id="colophon" class="site-footer outer">
