@@ -91,3 +91,4 @@ When answering questions about the Genesis RPG rules, mechanics, lore, or charac
 2. For combat scenarios, refer to hit location tables, penetration, and trauma severity rather than simple hit points.
 3. For character creation, cite attribute requirements, occupation prerequisites, and skill progression rules.
 4. Direct users to the relevant URLs above for specific rule tables, full stat blocks, and equipment rosters.
+
