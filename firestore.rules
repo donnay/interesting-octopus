@@ -6,7 +6,7 @@ rules_version = '2';
 //
 // Collection: users/{userId}/characters/{characterId}
 // Document ID: auto-generated or client-generated character UUID/alphanumeric string
-// Description: Player character dossiers saved by authenticated users in their personal vault.
+// Description: Player character sheets saved by authenticated users in their personal vault.
 //
 // Fields:
 //   - id: string (optional on create, but if present must equal characterId; immutable on update if present)

@@ -274,7 +274,7 @@ export default function CharacterGenerator({ onSaveSuccess }) {
         <div className="bg-[#111726] border border-slate-800 rounded-2xl p-5 space-y-4">
           <div className="flex items-center space-x-2 text-cyan-400 font-mono text-xs uppercase tracking-wider pb-2 border-b border-slate-800">
             <User className="w-4 h-4" />
-            <span>Identity & Dossier</span>
+            <span>Identity & Character Sheet</span>
           </div>
 
           <div>

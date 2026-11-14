@@ -33,7 +33,7 @@ export default function CharacterVault({ onSelectCharacter }) {
 
   const handleDelete = async (charId, e) => {
     e.stopPropagation();
-    if (!confirm('Are you sure you want to retire this character dossier?')) return;
+    if (!confirm('Are you sure you want to retire this character sheet?')) return;
     try {
       await deleteCharacter(user.uid, charId);
       setCharacters(prev => prev.filter(c => c.id !== charId));
@@ -68,7 +68,7 @@ export default function CharacterVault({ onSelectCharacter }) {
         <div>
           <h2 className="text-2xl font-bold font-['Orbitron'] text-white">CHARACTER VAULT</h2>
           <p className="text-xs text-slate-400 font-mono">
-            {characters.length} DOSSIER{characters.length === 1 ? '' : 'S'} STORED IN FIRESTORE
+            {characters.length} CHARACTER SHEET{characters.length === 1 ? '' : 'S'} STORED IN FIRESTORE
           </p>
         </div>
         <button
@@ -133,7 +133,7 @@ export default function CharacterVault({ onSelectCharacter }) {
 
               <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Wealth: {char.vitals?.wealth?.toLocaleString() ?? 0} Đ</span>
-                <span className="text-cyan-400 group-hover:underline">View Dossier →</span>
+                <span className="text-cyan-400 group-hover:underline">View Character Sheet →</span>
               </div>
             </div>
           ))}
