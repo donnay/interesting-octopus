@@ -138,7 +138,18 @@ export default function CharacterVault({ onSelectCharacter }) {
 
               <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Wealth: {char.vitals?.wealth?.toLocaleString() ?? 0} Đ</span>
-                <span className="text-cyan-400 group-hover:underline">View Character Sheet →</span>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setInspectCharacter(char);
+                    if (onSelectCharacter) onSelectCharacter(char);
+                  }}
+                  className="text-cyan-400 hover:text-cyan-300 hover:underline font-semibold flex items-center space-x-1 cursor-pointer"
+                >
+                  <span>View Character Sheet</span>
+                  <span>→</span>
+                </button>
               </div>
             </div>
           ))}
