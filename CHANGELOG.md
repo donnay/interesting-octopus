@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.11.0] - 2026-11-14
+
+### Changed
+- **Mobile Responsive Navigation & Header Optimization**:
+  - Implemented a dedicated mobile navigation drawer in [App.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/App.jsx) with a touch-friendly hamburger toggle (`Menu` / `X`).
+  - Streamlined the mobile top header bar to prevent horizontal overflow and button squishing on small phone viewports:
+    - Retained compact logo and title branding.
+    - Added user identity/guest sign-in pill with text truncation.
+    - Moved navigation tabs (`CHAR-GEN`, `VAULT`, `DICE TRAY`) into a full-width sliding drawer on viewports under `md` (768px).
+    - Added quick links to the main Genesis RPG portal (`genesisrpg.com`) inside the mobile drawer.
+
 ## [1.10.0] - 2026-11-14
 
 ### Added
@@ -15,6 +26,40 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Added full-body vertical aspect ratio (`width=512&height=1024`) for standing full-length character visualization.
 - **Visual Grounding Preview in Character Generator**:
   - Added real-time synthesis parameters card and canonical reference thumbnails grid in [CharacterGenerator.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/components/CharacterGenerator.jsx) showing all reference artwork found for the selected race and occupation.
+
+## [1.9.0] - 2026-11-14
+
+### Added
+- **Comprehensive Full-Page Character Sheet View**:
+  - Enhanced standalone character sheet view in [CharacterSheetView.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/components/CharacterSheetView.jsx) displaying every official character sheet attribute and section:
+    - Identity, physical description, species, and vital characteristics.
+    - All 8 Primary Attributes (PS, AG, CO, PR, WS, IT, MC, IN) with base and adjusted scores.
+    - Combat specs: Aim, Brawl, and Movement ratings.
+    - Table #1-5 Damage Points segment records and health breakdown.
+    - Table #1-6 Background Skill Points allocation and category breakdown.
+    - Table #1-7 Encultured cultural skills breakdown and aptitude percentages.
+    - Complete 69-skill Page 2 canonical grid organized across Combat, Language, Science, Non-Technical, Social Science, and Technical disciplines.
+- **Editable Player Notes & Campaign Logs**:
+  - Added dedicated editable note sections in [CharacterSheetView.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/components/CharacterSheetView.jsx) for:
+    - **Equipment & Inventory** (`equipmentNotes`)
+    - **Weapons & Armaments** (`weaponsNotes`)
+    - **Vehicles & Starships** (`vehiclesNotes`)
+    - **Comments & Campaign Notes** (`commentsNotes`)
+  - Real-time tabbed editing interface with instant character count tracking (up to 5,000 characters per section).
+  - Integrated "Save Notes" action with automatic sync to Cloud Firestore via `updateCharacterNotes()` in [characterService.js](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/services/characterService.js) and local cache persistence.
+- **Enlarged Character Portrait & Full-Resolution Modal**:
+  - Upgraded character portrait presentation on the sheet with a prominent 320px high-resolution preview and hover-to-enlarge indicator.
+  - Interactive click-to-enlarge full-screen modal showing the high-resolution character concept art, species details, and close controls.
+
+### Changed
+- **Removed Vault Inspection Modal in Favor of Full-Page View**:
+  - Removed in-app modal pop-up from [CharacterVault.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/components/CharacterVault.jsx).
+  - Clicking any character card or the "View Character Sheet" button now routes directly to the full-page view in a separate tab or window.
+
+### Security
+- **Cloud Firestore Security Rules**:
+  - Updated [firestore.rules](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/firestore.rules) via specialist rules author to permit `equipmentNotes`, `weaponsNotes`, `vehiclesNotes`, `commentsNotes`, `generalNotes`, and `notes`.
+  - Added type and length bounds enforcing up to 5,000 characters per note field, and deployed rules to Firebase project `genesisrpg-site`.
 
 ## [1.9.0] - 2026-11-14
 
