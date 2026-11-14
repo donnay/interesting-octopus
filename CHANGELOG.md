@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.4.0] - 2026-11-14
+
+### Added
+- **Genesis Game-Play Engine Sub-Domain Application (`engine.genesisrpg.com`)**:
+  - Scaffolded modern React + Vite + Tailwind CSS single page web application under `engine/` targeting the dedicated Firebase Hosting sub-domain `genesisrpg-engine`.
+  - **Comprehensive Character Generation Module**:
+    - **Table #1-1 (Race Selection)**: Supports random percentile roll (1:100sd) with Aracnian sub-variant rolls, or manual selection across all 13 Genesis sentient species.
+    - **Table #1-2 (Primary Attributes)**: Implemented exact racial base ratings and dice variance (Physical: PS, AG, CO, PR; Mental: WS, IT, MC, IN base 30 + 5:10sd).
+    - **Table #1-4 (Appearance & Influence)**: Percentile roll calculating physical appearance tier and influence modifications (-25 to +25) with Tanaian immunity.
+    - **Secondary Attributes (Combat Specs)**: Computes Aim (AM), Brawl (BR), and Move (MV).
+    - **Table #1-5 (Damage Record)**: Generates complete anatomical body segment hit points scaled proportionally by Constitution racial quotient $(CO / \text{RacialAverage})$.
+    - **Table #1-6 (Background Skills)**: Auto-populates starting points across Combat, Languages, Non-Tech, Science, Socio-Sci, and Technology.
+    - **Tables #1-10 to #1-14 (Vitals & Starting Wealth)**: Implements starting age, height (m), mass (kg), and occupation starting wealth in Dits (Đ).
+  - **Interactive Game Master Dice Tray**:
+    - Quick-roll presets for `1:100sd` (percentile), `1:10sd`, `3:10sd` (variance), `5:10sd` (mental), `1:1000sd` (wealth), and custom multi-die roll distributions with live telemetry logs.
+  - **Firebase Authentication & Cloud Character Vault**:
+    - Integrated Firebase Auth supporting Google Sign-In, Email/Password, and Anonymous Guest access.
+    - Cloud Firestore persistence under `/users/{userId}/characters/{characterId}` enabling Game Masters and players to store, browse, inspect, and delete characters across sessions.
+  - **Firestore Security Rules**: Authored strict production security rules (`firestore.rules`) enforcing user-scoped read/write ownership and character document schema validation.
+  - **Multi-Site Firebase Hosting**: Configured `firebase.json` and `.firebaserc` with dual hosting targets: `site` (`genesisrpg.com`) and `engine` (`engine.genesisrpg.com`).
+  - **CI/CD Integration**: Updated `.gitlab-ci.yml` pipeline to build, test, and package both the main documentation site and the engine web app.
+
 ## [1.3.1] - 2026-11-07
 
 ### Fixed

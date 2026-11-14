@@ -1,10 +1,12 @@
 {
   "name": "interesting-octopus",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "<img src=\"public/GenesisScreenShot.png\" width=\"600\">",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
+    "build:engine": "cd engine && npm ci && npm run build",
+    "build:all": "eleventy && cd engine && npm run build",
     "serve": "eleventy --serve",
     "test": "node scripts/verify-links.js"
   },

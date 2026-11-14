@@ -1,0 +1,131 @@
+rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: users/{userId}/characters/{characterId}
+// Document ID: auto-generated or client-generated character UUID/alphanumeric string
+// Description: Player character dossiers saved by authenticated users in their personal vault.
+//
+// Fields:
+//   - id: string (optional on create, but if present must equal characterId; immutable on update)
+//   - name: string (required, 1 to 100 characters) - Character name
+//   - sex: string (required, 1 to 20 characters, e.g. "Male", "Female", "Other")
+//   - raceKey: string (required, 1 to 50 characters, e.g. "human", "krrk")
+//   - attributes: map (required, primary attributes object ps, ag, co, pr, ws, it, mc, inf, inModified)
+//   - appearance: map/number (optional, table #1-4 appearance roll result)
+//   - appearanceInfo: map (optional, appearance metadata / modifiers)
+//   - secondaryStats: map (optional, derived secondary stats)
+//   - damagePoints: map (optional, hit location / damage boxes table)
+//   - bgSkills: map (optional, background skill allocations)
+//   - vitals: map (optional, height, mass, age, wealth, occupation)
+//   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update)
+//   - updatedAt: timestamp (optional/serverTimestamp on create or update)
+//   - createdAtClient: string (optional, ISO 8601 string recorded by client, max 50 chars)
+//
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function areImmutableFieldsUnchanged(fields) {
+      return !request.resource.data.diff(resource.data).affectedKeys().hasAny(fields);
+    }
+
+    // ===============================================================
+    // Character Domain Validators
+    // ===============================================================
+
+    function allowedCharacterFields() {
+      return [
+        'id',
+        'name',
+        'sex',
+        'raceKey',
+        'attributes',
+        'appearance',
+        'appearanceInfo',
+        'secondaryStats',
+        'damagePoints',
+        'bgSkills',
+        'vitals',
+        'createdAt',
+        'updatedAt',
+        'createdAtClient'
+      ];
+    }
+
+    function requiredCharacterFields() {
+      return ['name', 'sex', 'raceKey', 'attributes'];
+    }
+
+    function isValidCharacter(data, characterId) {
+      return hasOnlyAllowedFields(allowedCharacterFields()) &&
+        hasRequiredFields(requiredCharacterFields()) &&
+        // id field validation (if provided)
+        (!('id' in data) || (data.id is string && data.id == characterId)) &&
+        // Core identification strings
+        data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+        data.sex is string && data.sex.size() > 0 && data.sex.size() <= 20 &&
+        data.raceKey is string && data.raceKey.size() > 0 && data.raceKey.size() <= 50 &&
+        // Primary attributes map
+        data.attributes is map &&
+        // Optional client creation string
+        (!('createdAtClient' in data) || (data.createdAtClient is string && data.createdAtClient.size() <= 50)) &&
+        // Optional timestamps
+        (!('createdAt' in data) || data.createdAt is timestamp) &&
+        (!('updatedAt' in data) || data.updatedAt is timestamp) &&
+        // Optional structured maps
+        (!('appearanceInfo' in data) || data.appearanceInfo is map) &&
+        (!('secondaryStats' in data) || data.secondaryStats is map) &&
+        (!('damagePoints' in data) || data.damagePoints is map) &&
+        (!('bgSkills' in data) || data.bgSkills is map) &&
+        (!('vitals' in data) || data.vitals is map);
+    }
+
+    // ===============================================================
+    // Default Deny Rule
+    // ===============================================================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // ===============================================================
+    // User Characters Collection
+    // ===============================================================
+    match /users/{userId}/characters/{characterId} {
+      allow read: if isOwner(userId);
+
+      allow create: if isOwner(userId) &&
+        isValidCharacter(request.resource.data, characterId);
+
+      allow update: if isOwner(userId) &&
+        isValidCharacter(request.resource.data, characterId) &&
+        // Immutable field protection
+        areImmutableFieldsUnchanged(['id', 'createdAt']);
+
+      allow delete: if isOwner(userId);
+    }
+  }
+}
