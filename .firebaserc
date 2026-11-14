@@ -1,1 +1,17 @@
-{"projects":{"default":"genesisrpg-site"}}
+{
+  "projects": {
+    "default": "genesisrpg-site"
+  },
+  "targets": {
+    "genesisrpg-site": {
+      "hosting": {
+        "site": [
+          "genesisrpg-site"
+        ],
+        "engine": [
+          "genesisrpg-engine"
+        ]
+      }
+    }
+  }
+}

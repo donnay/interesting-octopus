@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "site",
+      "site": "genesisrpg-site",
       "public": "public",
       "ignore": [
         "firebase.json",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "target": "engine",
+      "site": "genesisrpg-engine",
       "public": "engine/dist",
       "ignore": [
         "firebase.json",
