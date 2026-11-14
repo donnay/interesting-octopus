@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.8.0] - 2026-11-14
+
+### Changed
+- **Nano Banana Character Visualization**:
+  - Configured AI Portrait generation in `engine/src/data/raceVisuals.js` to utilize the **Nano Banana** model architecture (`nano-banana`) for high-fidelity character concept rendering.
+  - Updated Character Generator UI in `CharacterGenerator.jsx` with dedicated Nano Banana branding badge, synthesis state indicators, and model attribution.
+  - Blends canonical Genesis species anatomical reference art and player narrative backstory notes into the Nano Banana rendering pipeline.
+
 ## [1.7.0] - 2026-11-14
 
 ### Added

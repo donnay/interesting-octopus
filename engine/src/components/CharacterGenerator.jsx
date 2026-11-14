@@ -843,15 +843,20 @@ export default function CharacterGenerator({ onSaveSuccess }) {
             <div>
               <div className="flex items-center space-x-2 text-cyan-400 font-mono text-xs uppercase tracking-wider mb-1">
                 <Wand2 className="w-4 h-4" />
-                <span>AI Portrait Synthesis & Narrative Archive</span>
+                <span>AI Portrait Synthesis (Nano Banana) & Narrative Archive</span>
               </div>
               <h3 className="text-xl font-bold font-['Orbitron'] text-white">
                 CHARACTER NARRATIVE & AI PORTRAIT
               </h3>
             </div>
-            <span className="text-xs font-mono text-slate-400">
-              Blends Canonical Race Visuals + Player Narrative
-            </span>
+            <div className="flex items-center space-x-2 text-xs font-mono">
+              <span className="px-2.5 py-1 bg-amber-950/60 border border-amber-500/40 text-amber-300 rounded-lg flex items-center space-x-1">
+                <span>🍌 Nano Banana AI</span>
+              </span>
+              <span className="text-slate-400 hidden sm:inline">
+                Blends Canonical Race Visuals + Player Narrative
+              </span>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
@@ -896,10 +901,10 @@ export default function CharacterGenerator({ onSaveSuccess }) {
                   type="button"
                   onClick={handleGenerateAiPortrait}
                   disabled={generatingImage}
-                  className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-black font-black font-mono text-xs uppercase rounded-xl transition flex items-center space-x-2 shadow-lg shadow-cyan-500/20 disabled:opacity-50 cursor-pointer"
+                  className="px-5 py-2.5 bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-500 hover:from-amber-300 hover:to-yellow-400 text-black font-black font-mono text-xs uppercase rounded-xl transition flex items-center space-x-2 shadow-lg shadow-amber-500/20 disabled:opacity-50 cursor-pointer"
                 >
                   <Wand2 className="w-4 h-4" />
-                  <span>{generatingImage ? 'Synthesizing Portrait...' : 'Generate AI Character Portrait'}</span>
+                  <span>{generatingImage ? 'Synthesizing (Nano Banana)...' : 'Generate Portrait with Nano Banana 🍌'}</span>
                 </button>
 
                 {imageUrl && (
@@ -930,7 +935,7 @@ export default function CharacterGenerator({ onSaveSuccess }) {
                         {name}
                       </span>
                       <span className="text-[9px] font-mono text-slate-400 block truncate">
-                        {ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey} • AI Generated
+                        {ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey} • Nano Banana AI
                       </span>
                     </div>
                   </div>

@@ -139,11 +139,13 @@ export function buildCharacterPortraitPrompt({
 }
 
 /**
- * Generates an AI portrait URL for the given prompt using Pollinations AI (Flux model).
+ * Generates an AI portrait URL for the given prompt using the Nano Banana image model.
+ * Nano Banana (gemini-nano-banana / Google image architecture) provides high-efficiency,
+ * fine-grained character consistency and prompt adherence.
  * Includes seed randomization to ensure unique portraits each run.
  */
 export function generateAiPortraitUrl(prompt, seed = null) {
   const cleanPrompt = encodeURIComponent(prompt.slice(0, 1500));
   const portraitSeed = seed !== null ? seed : Math.floor(Math.random() * 1000000);
-  return `https://image.pollinations.ai/prompt/${cleanPrompt}?width=512&height=512&model=flux&seed=${portraitSeed}&nologo=true`;
+  return `https://image.pollinations.ai/prompt/${cleanPrompt}?width=512&height=512&model=nano-banana&seed=${portraitSeed}&nologo=true`;
 }
