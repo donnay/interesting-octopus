@@ -26,6 +26,12 @@ rules_version = '2';
 //   - imageUrl: string (optional, max 500000 characters) - portrait image URL or data URI
 //   - aiPortrait: string (optional, max 500000 characters) - alias for portrait image
 //   - portraitPrompt: string (optional, max 2000 characters) - AI prompt used for portrait generation
+//   - equipmentNotes: string (optional, max 5000 characters or null) - Player notes for equipment
+//   - weaponsNotes: string (optional, max 5000 characters or null) - Player notes for weapons
+//   - vehiclesNotes: string (optional, max 5000 characters or null) - Player notes for vehicles
+//   - commentsNotes: string (optional, max 5000 characters or null) - Player comments/general notes
+//   - generalNotes: string (optional, max 5000 characters or null) - Alias for comments/general notes
+//   - notes: map (optional or null, subfields: equipment, weapons, vehicles, comments each max 5000 chars or null)
 //   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update if present)
 //   - updatedAt: timestamp (optional/serverTimestamp on create or update)
 //   - createdAtClient: string (optional, ISO 8601 string recorded by client, max 50 chars)
@@ -55,6 +61,21 @@ service cloud.firestore {
       return request.resource.data.keys().hasAll(fields);
     }
 
+    function isValidOptionalNoteString(val) {
+      return val == null || (val is string && val.size() <= 5000);
+    }
+
+    function isValidNotesMap(data) {
+      return !('notes' in data) || data.notes == null || (
+        data.notes is map &&
+        data.notes.keys().hasOnly(['equipment', 'weapons', 'vehicles', 'comments']) &&
+        (!('equipment' in data.notes) || isValidOptionalNoteString(data.notes.equipment)) &&
+        (!('weapons' in data.notes) || isValidOptionalNoteString(data.notes.weapons)) &&
+        (!('vehicles' in data.notes) || isValidOptionalNoteString(data.notes.vehicles)) &&
+        (!('comments' in data.notes) || isValidOptionalNoteString(data.notes.comments))
+      );
+    }
+
     // ===============================================================
     // Character Domain Validators
     // ===============================================================
@@ -78,6 +99,12 @@ service cloud.firestore {
         'imageUrl',
         'aiPortrait',
         'portraitPrompt',
+        'equipmentNotes',
+        'weaponsNotes',
+        'vehiclesNotes',
+        'commentsNotes',
+        'generalNotes',
+        'notes',
         'createdAt',
         'updatedAt',
         'createdAtClient'
@@ -104,6 +131,14 @@ service cloud.firestore {
         (!('imageUrl' in data) || data.imageUrl == null || (data.imageUrl is string && data.imageUrl.size() <= 500000)) &&
         (!('aiPortrait' in data) || data.aiPortrait == null || (data.aiPortrait is string && data.aiPortrait.size() <= 500000)) &&
         (!('portraitPrompt' in data) || data.portraitPrompt == null || (data.portraitPrompt is string && data.portraitPrompt.size() <= 2000)) &&
+        // Optional top-level note fields (max 5000 chars or null)
+        (!('equipmentNotes' in data) || isValidOptionalNoteString(data.equipmentNotes)) &&
+        (!('weaponsNotes' in data) || isValidOptionalNoteString(data.weaponsNotes)) &&
+        (!('vehiclesNotes' in data) || isValidOptionalNoteString(data.vehiclesNotes)) &&
+        (!('commentsNotes' in data) || isValidOptionalNoteString(data.commentsNotes)) &&
+        (!('generalNotes' in data) || isValidOptionalNoteString(data.generalNotes)) &&
+        // Optional notes map (subfields up to 5000 chars or null)
+        isValidNotesMap(data) &&
         // Optional appearance (can be numeric roll 1-100 or map or null)
         (!('appearance' in data) || data.appearance == null || data.appearance is number || data.appearance is map) &&
         // Optional client creation string

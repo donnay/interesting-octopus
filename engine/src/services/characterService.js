@@ -49,6 +49,17 @@ export async function getCharacters(userId) {
   }));
 }
 
+export async function updateCharacterNotes(userId, characterId, notesData) {
+  if (!userId || !characterId) throw new Error("Authentication and character ID required to update notes.");
+  const docRef = doc(db, 'users', userId, 'characters', characterId);
+  const payload = {
+    ...notesData,
+    updatedAt: serverTimestamp()
+  };
+  await setDoc(docRef, payload, { merge: true });
+  return true;
+}
+
 export async function deleteCharacter(userId, characterId) {
   if (!userId || !characterId) return;
   const docRef = doc(db, 'users', userId, 'characters', characterId);

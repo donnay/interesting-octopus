@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { getCharacters, deleteCharacter } from '../services/characterService';
 import { RACE_VISUAL_PROFILES } from '../data/raceVisuals';
-import CharacterSheetView from './CharacterSheetView';
 import { Trash2, User, Eye, Shield, Calendar, Award, BookOpen, X, Sparkles, Wand2, FileText, ExternalLink } from 'lucide-react';
 
 export default function CharacterVault({ onSelectCharacter }) {
@@ -10,7 +9,6 @@ export default function CharacterVault({ onSelectCharacter }) {
   const [characters, setCharacters] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [inspectCharacter, setInspectCharacter] = useState(null);
 
   const openSheetInNewTab = (char, e) => {
     if (e) e.stopPropagation();
@@ -21,8 +19,6 @@ export default function CharacterVault({ onSelectCharacter }) {
       window.open(url, '_blank', 'noopener,noreferrer');
     } catch (err) {
       console.error('Failed to open character sheet in new tab:', err);
-      // Fallback to in-app inspection modal
-      setInspectCharacter(char);
     }
   };
 
@@ -107,10 +103,7 @@ export default function CharacterVault({ onSelectCharacter }) {
           {characters.map(char => (
             <div
               key={char.id}
-              onClick={() => {
-                setInspectCharacter(char);
-                if (onSelectCharacter) onSelectCharacter(char);
-              }}
+              onClick={(e) => openSheetInNewTab(char, e)}
               className="bg-[#111726] border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-5 cursor-pointer transition transform hover:-translate-y-1 shadow-lg shadow-black/40 group relative"
             >
               <div className="flex items-start justify-between gap-3">
@@ -164,43 +157,19 @@ export default function CharacterVault({ onSelectCharacter }) {
 
               <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Wealth: {char.vitals?.wealth?.toLocaleString() ?? 0} Đ</span>
-                <div className="flex items-center space-x-2">
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setInspectCharacter(char);
-                      if (onSelectCharacter) onSelectCharacter(char);
-                    }}
-                    className="text-slate-400 hover:text-white hover:underline transition cursor-pointer"
-                    title="Quick inspect"
-                  >
-                    Modal
-                  </button>
-                  <span className="text-slate-700">•</span>
-                  <button
-                    type="button"
-                    onClick={(e) => openSheetInNewTab(char, e)}
-                    className="text-cyan-400 hover:text-cyan-300 hover:underline font-semibold flex items-center space-x-1 cursor-pointer"
-                    title="Open full Character Sheet in a new browser tab"
-                  >
-                    <span>View Character Sheet</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  onClick={(e) => openSheetInNewTab(char, e)}
+                  className="text-cyan-400 hover:text-cyan-300 hover:underline font-semibold flex items-center space-x-1 cursor-pointer"
+                  title="Open full Character Sheet in a new browser window"
+                >
+                  <span>View Character Sheet</span>
+                  <ExternalLink className="w-3 h-3" />
+                </button>
               </div>
             </div>
           ))}
         </div>
-      )}
-
-      {/* Character Sheet Inspector Modal */}
-      {inspectCharacter && (
-        <CharacterSheetView
-          character={inspectCharacter}
-          onClose={() => setInspectCharacter(null)}
-          isStandalone={false}
-        />
       )}
     </div>
   );
