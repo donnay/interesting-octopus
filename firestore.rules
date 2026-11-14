@@ -9,18 +9,18 @@ rules_version = '2';
 // Description: Player character dossiers saved by authenticated users in their personal vault.
 //
 // Fields:
-//   - id: string (optional on create, but if present must equal characterId; immutable on update)
+//   - id: string (optional on create, but if present must equal characterId; immutable on update if present)
 //   - name: string (required, 1 to 100 characters) - Character name
 //   - sex: string (required, 1 to 20 characters, e.g. "Male", "Female", "Other")
 //   - raceKey: string (required, 1 to 50 characters, e.g. "human", "krrk")
-//   - attributes: map (required, primary attributes object ps, ag, co, pr, ws, it, mc, inf, inModified)
-//   - appearance: map/number (optional, table #1-4 appearance roll result)
+//   - attributes: map (required, primary attributes object ps, ag, co, pr, ws, it, mc, in, baseIn, appearance)
+//   - appearance: number or map (optional, table #1-4 appearance roll result or description)
 //   - appearanceInfo: map (optional, appearance metadata / modifiers)
 //   - secondaryStats: map (optional, derived secondary stats)
 //   - damagePoints: map (optional, hit location / damage boxes table)
 //   - bgSkills: map (optional, background skill allocations)
 //   - vitals: map (optional, height, mass, age, wealth, occupation)
-//   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update)
+//   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update if present)
 //   - updatedAt: timestamp (optional/serverTimestamp on create or update)
 //   - createdAtClient: string (optional, ISO 8601 string recorded by client, max 50 chars)
 //
@@ -47,10 +47,6 @@ service cloud.firestore {
 
     function hasRequiredFields(fields) {
       return request.resource.data.keys().hasAll(fields);
-    }
-
-    function areImmutableFieldsUnchanged(fields) {
-      return !request.resource.data.diff(resource.data).affectedKeys().hasAny(fields);
     }
 
     // ===============================================================
@@ -91,6 +87,8 @@ service cloud.firestore {
         data.raceKey is string && data.raceKey.size() > 0 && data.raceKey.size() <= 50 &&
         // Primary attributes map
         data.attributes is map &&
+        // Optional appearance (can be numeric roll 1-100 or map)
+        (!('appearance' in data) || data.appearance is number || data.appearance is map) &&
         // Optional client creation string
         (!('createdAtClient' in data) || (data.createdAtClient is string && data.createdAtClient.size() <= 50)) &&
         // Optional timestamps
@@ -122,8 +120,9 @@ service cloud.firestore {
 
       allow update: if isOwner(userId) &&
         isValidCharacter(request.resource.data, characterId) &&
-        // Immutable field protection
-        areImmutableFieldsUnchanged(['id', 'createdAt']);
+        // Immutable field protection: if field existed previously, it cannot change
+        (!('id' in resource.data) || request.resource.data.id == resource.data.id) &&
+        (!('createdAt' in resource.data) || request.resource.data.createdAt == resource.data.createdAt);
 
       allow delete: if isOwner(userId);
     }

@@ -27,7 +27,13 @@ export async function saveCharacter(userId, characterData, characterId = null) {
     payload.createdAt = serverTimestamp();
   }
 
-  await setDoc(docRef, payload, { merge: true });
+  // Add timeout protection so calls don't hang indefinitely if Firestore is not created or network is blocked
+  const savePromise = setDoc(docRef, payload, { merge: true });
+  const timeoutPromise = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error("Database operation timed out. Please ensure Cloud Firestore is enabled in your Firebase Console.")), 10000)
+  );
+
+  await Promise.race([savePromise, timeoutPromise]);
   return docRef.id;
 }
 

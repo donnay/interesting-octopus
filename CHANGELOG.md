@@ -26,6 +26,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - **Multi-Site Firebase Hosting**: Configured `firebase.json` and `.firebaserc` with dual hosting targets: `site` (`genesisrpg.com`) and `engine` (`engine.genesisrpg.com`).
   - **CI/CD Integration**: Updated `.gitlab-ci.yml` pipeline to build, test, and package both the main documentation site and the engine web app.
 
+### Fixed
+- **Cloud Firestore Persistence & Rules Compatibility**:
+  - Hardened `firestore.rules` validation to permit both numeric and map representations for appearance rolls.
+  - Added non-blocking merge tolerance for immutable character identifiers and creation timestamps during Firestore document updates.
+  - Added a 10-second timeout safeguard to character cloud persistence preventing indefinite pending UI states.
+
 ## [1.3.1] - 2026-11-07
 
 ### Fixed
