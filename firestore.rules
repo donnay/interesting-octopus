@@ -22,6 +22,10 @@ rules_version = '2';
 //   - enculturedSkills: list or map (optional, encultured skill definitions / selections)
 //   - sheetSkills: list or map (optional, character sheet skill allocations)
 //   - vitals: map (optional, height, mass, age, wealth, occupation)
+//   - narrative: string (optional, max 5000 characters) - backstory or narrative description
+//   - imageUrl: string (optional, max 500000 characters) - portrait image URL or data URI
+//   - aiPortrait: string (optional, max 500000 characters) - alias for portrait image
+//   - portraitPrompt: string (optional, max 2000 characters) - AI prompt used for portrait generation
 //   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update if present)
 //   - updatedAt: timestamp (optional/serverTimestamp on create or update)
 //   - createdAtClient: string (optional, ISO 8601 string recorded by client, max 50 chars)
@@ -70,6 +74,10 @@ service cloud.firestore {
         'enculturedSkills',
         'sheetSkills',
         'vitals',
+        'narrative',
+        'imageUrl',
+        'aiPortrait',
+        'portraitPrompt',
         'createdAt',
         'updatedAt',
         'createdAtClient'
@@ -91,21 +99,26 @@ service cloud.firestore {
         data.raceKey is string && data.raceKey.size() > 0 && data.raceKey.size() <= 50 &&
         // Primary attributes map
         data.attributes is map &&
-        // Optional appearance (can be numeric roll 1-100 or map)
-        (!('appearance' in data) || data.appearance is number || data.appearance is map) &&
+        // Optional narrative & portrait generation fields
+        (!('narrative' in data) || data.narrative == null || (data.narrative is string && data.narrative.size() <= 5000)) &&
+        (!('imageUrl' in data) || data.imageUrl == null || (data.imageUrl is string && data.imageUrl.size() <= 500000)) &&
+        (!('aiPortrait' in data) || data.aiPortrait == null || (data.aiPortrait is string && data.aiPortrait.size() <= 500000)) &&
+        (!('portraitPrompt' in data) || data.portraitPrompt == null || (data.portraitPrompt is string && data.portraitPrompt.size() <= 2000)) &&
+        // Optional appearance (can be numeric roll 1-100 or map or null)
+        (!('appearance' in data) || data.appearance == null || data.appearance is number || data.appearance is map) &&
         // Optional client creation string
-        (!('createdAtClient' in data) || (data.createdAtClient is string && data.createdAtClient.size() <= 50)) &&
+        (!('createdAtClient' in data) || data.createdAtClient == null || (data.createdAtClient is string && data.createdAtClient.size() <= 50)) &&
         // Optional timestamps
         (!('createdAt' in data) || data.createdAt is timestamp) &&
         (!('updatedAt' in data) || data.updatedAt is timestamp) &&
-        // Optional structured maps and skills
-        (!('appearanceInfo' in data) || data.appearanceInfo is map) &&
-        (!('secondaryStats' in data) || data.secondaryStats is map) &&
-        (!('damagePoints' in data) || data.damagePoints is map) &&
-        (!('bgSkills' in data) || data.bgSkills is map) &&
-        (!('enculturedSkills' in data) || data.enculturedSkills is list || data.enculturedSkills is map) &&
-        (!('sheetSkills' in data) || data.sheetSkills is list || data.sheetSkills is map) &&
-        (!('vitals' in data) || data.vitals is map);
+        // Optional structured maps and skills (allows null if client unrolled/unselected)
+        (!('appearanceInfo' in data) || data.appearanceInfo == null || data.appearanceInfo is map) &&
+        (!('secondaryStats' in data) || data.secondaryStats == null || data.secondaryStats is map) &&
+        (!('damagePoints' in data) || data.damagePoints == null || data.damagePoints is map) &&
+        (!('bgSkills' in data) || data.bgSkills == null || data.bgSkills is map) &&
+        (!('enculturedSkills' in data) || data.enculturedSkills == null || data.enculturedSkills is list || data.enculturedSkills is map) &&
+        (!('sheetSkills' in data) || data.sheetSkills == null || data.sheetSkills is list || data.sheetSkills is map) &&
+        (!('vitals' in data) || data.vitals == null || data.vitals is map);
     }
 
     // ===============================================================

@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.6.0] - 2026-11-14
+
+### Added
+- **Character Narrative & AI Portrait Synthesis**:
+  - Implemented character backstory and physical appearance narrative collection in `CharacterGenerator.jsx` (up to 5,000 characters).
+  - Grounded AI portrait prompt generation in `raceVisuals.js` with canonical species reference art and anatomical descriptions from official Genesis sourcebooks (Aracnian, Eebek, Faborian, Fenbin, Human, Krane, Low Kaa, Mahendoshi, Sooaacoli, Tanaian, Vjesperé).
+  - Added one-click AI Portrait generation combining canonical racial traits, anatomical descriptions, gender, physical stats, occupation, and user narrative notes.
+  - Linked canonical race visual thumbnails and generated character portraits directly into the Cloud Character Vault cards and Character Sheet modal inspector (`CharacterVault.jsx`).
+  - Added race reference imagery to `engine/public/images/`.
+
+### Fixed
+- **Cloud Firestore Security Rules & Permissions**:
+  - Updated `allowedCharacterFields()` in `firestore.rules` to include `narrative`, `imageUrl`, `aiPortrait`, and `portraitPrompt`.
+  - Added length and type validators in `isValidCharacter()` allowing optional narrative strings (up to 5,000 chars), image URLs or data URIs (up to 500,000 chars), and portrait prompts (up to 2,000 chars).
+  - Added graceful `null` handling across optional generator tables and skills, resolving `"Error saving character: Missing or insufficient permissions"`.
+  - Released and deployed updated rules to Firebase project `genesisrpg-site`.
+
 ## [1.5.0] - 2026-11-14
 
 ### Added

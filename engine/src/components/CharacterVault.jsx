@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { getCharacters, deleteCharacter } from '../services/characterService';
-import { Trash2, User, Eye, Shield, Calendar, Award, BookOpen, X, Sparkles } from 'lucide-react';
+import { RACE_VISUAL_PROFILES } from '../data/raceVisuals';
+import { Trash2, User, Eye, Shield, Calendar, Award, BookOpen, X, Sparkles, Wand2, FileText } from 'lucide-react';
 
 export default function CharacterVault({ onSelectCharacter }) {
   const { user } = useAuth();
@@ -98,18 +99,29 @@ export default function CharacterVault({ onSelectCharacter }) {
               }}
               className="bg-[#111726] border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-5 cursor-pointer transition transform hover:-translate-y-1 shadow-lg shadow-black/40 group relative"
             >
-              <div className="flex items-start justify-between">
-                <div>
-                  <h3 className="font-['Orbitron'] font-bold text-lg text-white group-hover:text-cyan-400 transition">
-                    {char.name}
-                  </h3>
-                  <p className="text-xs font-mono text-slate-400">
-                    {char.raceKey?.toUpperCase()} • {char.sex} • {char.vitals?.occupationName || 'Spacer'}
-                  </p>
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex items-start space-x-3 min-w-0">
+                  {/* Portrait or Race Thumbnail */}
+                  <div className="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 overflow-hidden shrink-0">
+                    <img
+                      src={char.imageUrl || RACE_VISUAL_PROFILES[char.raceKey?.toLowerCase()?.replace(/_.*$/, '')]?.image || '/images/Genesislogo1.webp'}
+                      alt={char.name}
+                      className="w-full h-full object-cover"
+                      onError={(e) => { e.currentTarget.src = '/images/Genesislogo1.webp'; }}
+                    />
+                  </div>
+                  <div className="min-w-0">
+                    <h3 className="font-['Orbitron'] font-bold text-lg text-white group-hover:text-cyan-400 transition truncate">
+                      {char.name}
+                    </h3>
+                    <p className="text-xs font-mono text-slate-400 truncate">
+                      {char.raceKey?.toUpperCase()} • {char.sex} • {char.vitals?.occupationName || 'Spacer'}
+                    </p>
+                  </div>
                 </div>
                 <button
                   onClick={(e) => handleDelete(char.id, e)}
-                  className="p-1.5 text-slate-500 hover:text-rose-400 hover:bg-rose-950/40 rounded-lg transition"
+                  className="p-1.5 text-slate-500 hover:text-rose-400 hover:bg-rose-950/40 rounded-lg transition shrink-0"
                   title="Delete Character"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -168,17 +180,55 @@ export default function CharacterVault({ onSelectCharacter }) {
             </button>
 
             {/* Character Header */}
-            <div className="border-b border-slate-800 pb-4 pr-12">
-              <span className="text-[10px] font-mono uppercase tracking-widest text-cyan-400 block">
-                CHARACTER SHEET ARCHIVE
-              </span>
-              <h3 className="text-2xl font-black font-['Orbitron'] text-white">
-                {inspectCharacter.name}
-              </h3>
-              <p className="text-xs font-mono text-slate-400 mt-1">
-                {inspectCharacter.raceKey?.toUpperCase()} • {inspectCharacter.sex} • {inspectCharacter.vitals?.occupationName || 'Spacer'} • Age {inspectCharacter.vitals?.age} • Wealth {inspectCharacter.vitals?.wealth?.toLocaleString() ?? 0} Đ
-              </p>
+            <div className="border-b border-slate-800 pb-4 pr-12 flex flex-col md:flex-row md:items-start justify-between gap-4">
+              <div className="space-y-1">
+                <span className="text-[10px] font-mono uppercase tracking-widest text-cyan-400 block">
+                  CHARACTER SHEET ARCHIVE
+                </span>
+                <h3 className="text-2xl font-black font-['Orbitron'] text-white">
+                  {inspectCharacter.name}
+                </h3>
+                <p className="text-xs font-mono text-slate-400 mt-1">
+                  {inspectCharacter.raceKey?.toUpperCase()} • {inspectCharacter.sex} • {inspectCharacter.vitals?.occupationName || 'Spacer'} • Age {inspectCharacter.vitals?.age} • Wealth {inspectCharacter.vitals?.wealth?.toLocaleString() ?? 0} Đ
+                </p>
+              </div>
+
+              {/* Character Portrait or Race Reference in Header */}
+              <div className="flex items-center space-x-3 bg-[#111726] border border-cyan-500/30 p-2.5 rounded-2xl shrink-0">
+                <div className="w-16 h-16 rounded-xl overflow-hidden bg-black border border-cyan-400/40 shrink-0">
+                  <img
+                    src={inspectCharacter.imageUrl || RACE_VISUAL_PROFILES[inspectCharacter.raceKey?.toLowerCase()?.replace(/_.*$/, '')]?.image || '/images/Genesislogo1.webp'}
+                    alt={inspectCharacter.name}
+                    className="w-full h-full object-cover"
+                    onError={(e) => { e.currentTarget.src = '/images/Genesislogo1.webp'; }}
+                  />
+                </div>
+                <div className="text-left font-mono text-xs">
+                  <span className="text-[10px] text-cyan-400 font-bold block uppercase">
+                    {inspectCharacter.imageUrl ? 'AI Generated Portrait' : 'Race Archetype'}
+                  </span>
+                  <span className="text-slate-300 font-semibold block">
+                    {RACE_VISUAL_PROFILES[inspectCharacter.raceKey?.toLowerCase()?.replace(/_.*$/, '')]?.name || inspectCharacter.raceKey}
+                  </span>
+                  <span className="text-[10px] text-slate-500 block">
+                    {inspectCharacter.vitals?.occupationName || 'Spacer'}
+                  </span>
+                </div>
+              </div>
             </div>
+
+            {/* Narrative Backstory Section if available */}
+            {inspectCharacter.narrative && (
+              <div className="p-4 bg-[#111726] border border-slate-800 rounded-xl space-y-1.5">
+                <div className="flex items-center space-x-1.5 text-xs font-mono text-cyan-400 font-bold uppercase">
+                  <FileText className="w-3.5 h-3.5" />
+                  <span>Character Narrative & Dossier Notes</span>
+                </div>
+                <p className="text-xs text-slate-300 font-sans leading-relaxed whitespace-pre-wrap">
+                  {inspectCharacter.narrative}
+                </p>
+              </div>
+            )}
 
             {/* Primary & Secondary Attributes */}
             <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2 text-center font-mono">

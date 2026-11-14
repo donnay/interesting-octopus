@@ -18,7 +18,12 @@ import {
   getEnculturedSkills,
   calculateSheetSkills
 } from '../data/chargenRules';
-import { Dices, Save, RefreshCw, CheckCircle, Sparkles, User, Award, ShieldAlert, HeartPulse, BookOpen, Layers } from 'lucide-react';
+import { 
+  RACE_VISUAL_PROFILES, 
+  buildCharacterPortraitPrompt, 
+  generateAiPortraitUrl 
+} from '../data/raceVisuals';
+import { Dices, Save, RefreshCw, CheckCircle, Sparkles, User, Award, ShieldAlert, HeartPulse, BookOpen, Layers, Wand2, Image as ImageIcon, FileText } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { saveCharacter } from '../services/characterService';
 
@@ -56,6 +61,12 @@ export default function CharacterGenerator({ onSaveSuccess }) {
   // Step 7: Vitals & Wealth
   const [selectedOccupation, setSelectedOccupation] = useState(OCCUPATIONS_TABLE_14[0].id);
   const [vitals, setVitals] = useState(null);
+
+  // Step 8: Narrative & AI Generated Character Portrait
+  const [narrative, setNarrative] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
+  const [portraitPrompt, setPortraitPrompt] = useState('');
+  const [generatingImage, setGeneratingImage] = useState(false);
 
   const [saving, setSaving] = useState(false);
   const [saveStatus, setSaveStatus] = useState('');
@@ -197,6 +208,30 @@ export default function CharacterGenerator({ onSaveSuccess }) {
     rollAllAttributes(selectedRaceKey);
   };
 
+  // AI Character Portrait Generator
+  const handleGenerateAiPortrait = () => {
+    setGeneratingImage(true);
+    try {
+      const raceName = ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey;
+      const prompt = buildCharacterPortraitPrompt({
+        name,
+        sex,
+        raceKey: selectedRaceKey,
+        raceName,
+        vitals,
+        attributes,
+        narrative
+      });
+      setPortraitPrompt(prompt);
+      const url = generateAiPortraitUrl(prompt);
+      setImageUrl(url);
+    } catch (err) {
+      console.error('Failed to generate portrait:', err);
+    } finally {
+      setGeneratingImage(false);
+    }
+  };
+
   const handleSaveToCloud = async () => {
     if (!user) {
       setSaveStatus('Please log in via the top-right button to save characters to your HoloNet account.');
@@ -223,6 +258,10 @@ export default function CharacterGenerator({ onSaveSuccess }) {
         enculturedSkills,
         sheetSkills,
         vitals,
+        narrative: narrative || '',
+        imageUrl: imageUrl || '',
+        aiPortrait: imageUrl || '',
+        portraitPrompt: portraitPrompt || '',
         createdAtClient: new Date().toISOString()
       };
 
@@ -333,6 +372,33 @@ export default function CharacterGenerator({ onSaveSuccess }) {
               </select>
             </div>
           </div>
+
+          {/* Canonical Race Visual Reference Thumbnail */}
+          {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')] && (
+            <div className="pt-2 border-t border-slate-800">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block mb-2">
+                Canonical Race Reference Art
+              </span>
+              <div className="flex items-center space-x-3 bg-[#0a0d14] border border-slate-800 rounded-xl p-2.5">
+                <img
+                  src={RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].image}
+                  alt={selectedRaceKey}
+                  className="w-14 h-14 object-cover rounded-lg border border-cyan-500/30 shrink-0 bg-slate-900"
+                  onError={(e) => {
+                    e.currentTarget.src = '/images/Genesislogo1.webp';
+                  }}
+                />
+                <div className="min-w-0 text-xs">
+                  <div className="font-bold text-white truncate">
+                    {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].name}
+                  </div>
+                  <p className="text-[11px] text-slate-400 line-clamp-2">
+                    {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].visualDescription}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Race Selector & Roll */}
@@ -770,6 +836,149 @@ export default function CharacterGenerator({ onSaveSuccess }) {
             </div>
           </div>
         )}
+
+        {/* Narrative & AI Character Portrait Generator Panel */}
+        <div className="bg-[#111726] border border-cyan-500/30 rounded-2xl p-6 space-y-6 shadow-xl">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-slate-800">
+            <div>
+              <div className="flex items-center space-x-2 text-cyan-400 font-mono text-xs uppercase tracking-wider mb-1">
+                <Wand2 className="w-4 h-4" />
+                <span>AI Portrait Synthesis & Narrative Archive</span>
+              </div>
+              <h3 className="text-xl font-bold font-['Orbitron'] text-white">
+                CHARACTER NARRATIVE & AI PORTRAIT
+              </h3>
+            </div>
+            <span className="text-xs font-mono text-slate-400">
+              Blends Canonical Race Visuals + Player Narrative
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            {/* Left Column: Narrative Input & Race Canonical Reference */}
+            <div className="lg:col-span-7 space-y-4">
+              <div>
+                <label className="flex items-center justify-between text-xs font-mono uppercase text-slate-300 mb-1.5">
+                  <span className="flex items-center space-x-1.5">
+                    <FileText className="w-3.5 h-3.5 text-cyan-400" />
+                    <span>Character Narrative / Backstory Notes</span>
+                  </span>
+                  <span className="text-[10px] text-slate-500">{narrative.length}/5000</span>
+                </label>
+                <textarea
+                  value={narrative}
+                  onChange={(e) => setNarrative(e.target.value)}
+                  placeholder="Describe your character's distinctive features, background, scars, cybernetics, armor markings, personality, or origins (e.g. 'A veteran frontier scout surviving the outer rim asteroid belts with custom HUD goggles and a weathered jacket...')."
+                  rows={5}
+                  maxLength={5000}
+                  className="w-full p-3 bg-[#0a0d14] border border-slate-700 focus:border-cyan-400 rounded-xl text-sm text-slate-200 placeholder-slate-600 focus:outline-none font-sans leading-relaxed resize-y"
+                />
+              </div>
+
+              {/* Race Visuals Grounding Details */}
+              {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')] && (
+                <div className="p-3.5 bg-[#0a0d14] border border-slate-800/90 rounded-xl space-y-2">
+                  <div className="flex items-center justify-between text-xs font-mono">
+                    <span className="text-cyan-400 font-bold uppercase">
+                      Canonical Reference: {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].name}
+                    </span>
+                    <span className="text-slate-500 text-[10px]">Official Genesis Artwork</span>
+                  </div>
+                  <p className="text-xs text-slate-400 leading-normal">
+                    {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].visualDescription}
+                  </p>
+                </div>
+              )}
+
+              {/* Generate AI Portrait Action Button */}
+              <div className="flex flex-wrap items-center gap-3 pt-2">
+                <button
+                  type="button"
+                  onClick={handleGenerateAiPortrait}
+                  disabled={generatingImage}
+                  className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-black font-black font-mono text-xs uppercase rounded-xl transition flex items-center space-x-2 shadow-lg shadow-cyan-500/20 disabled:opacity-50 cursor-pointer"
+                >
+                  <Wand2 className="w-4 h-4" />
+                  <span>{generatingImage ? 'Synthesizing Portrait...' : 'Generate AI Character Portrait'}</span>
+                </button>
+
+                {imageUrl && (
+                  <button
+                    type="button"
+                    onClick={handleGenerateAiPortrait}
+                    className="px-4 py-2.5 bg-[#0a0d14] hover:bg-slate-800 border border-slate-700 text-slate-300 font-mono text-xs rounded-xl transition flex items-center space-x-1.5 cursor-pointer"
+                  >
+                    <RefreshCw className="w-3.5 h-3.5" />
+                    <span>Regenerate Variant</span>
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Right Column: Visual Portrait Preview & Canonical Comparison */}
+            <div className="lg:col-span-5 bg-[#0a0d14] border border-slate-800 rounded-2xl p-4 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[300px]">
+              {imageUrl ? (
+                <div className="w-full space-y-3">
+                  <div className="relative rounded-xl overflow-hidden border-2 border-cyan-500/50 shadow-xl shadow-cyan-950/40 aspect-square max-w-[280px] mx-auto bg-slate-950">
+                    <img
+                      src={imageUrl}
+                      alt={`${name} Portrait`}
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                    <div className="absolute bottom-0 inset-x-0 p-2 bg-gradient-to-t from-black/90 to-transparent">
+                      <span className="text-[11px] font-mono text-cyan-300 font-bold block truncate">
+                        {name}
+                      </span>
+                      <span className="text-[9px] font-mono text-slate-400 block truncate">
+                        {ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey} • AI Generated
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Canonical Reference comparison badge */}
+                  {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')] && (
+                    <div className="flex items-center justify-center space-x-2 text-[11px] font-mono text-slate-400">
+                      <span>Racial Archetype:</span>
+                      <img
+                        src={RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].image}
+                        alt="Racial Reference"
+                        className="w-5 h-5 rounded-full object-cover border border-cyan-400/50"
+                        onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                      />
+                      <span className="text-white font-semibold">
+                        {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].name}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div className="py-10 px-4 space-y-3">
+                  <div className="relative mx-auto w-24 h-24 rounded-2xl border border-dashed border-slate-700 flex items-center justify-center bg-slate-900/50">
+                    {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')]?.image ? (
+                      <img
+                        src={RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].image}
+                        alt="Race Archetype"
+                        className="w-full h-full object-cover rounded-2xl opacity-40"
+                        onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                      />
+                    ) : (
+                      <ImageIcon className="w-8 h-8 text-slate-600" />
+                    )}
+                    <Wand2 className="w-6 h-6 text-cyan-400 absolute inset-0 m-auto" />
+                  </div>
+                  <div>
+                    <h5 className="font-mono text-xs font-bold text-slate-300 uppercase">
+                      No AI Portrait Generated Yet
+                    </h5>
+                    <p className="text-[11px] text-slate-500 max-w-xs mt-1">
+                      Type a brief narrative and click &quot;Generate AI Character Portrait&quot; to synthesize an image based on official Genesis species traits and your character notes.
+                    </p>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
       ) : (
         <div className="p-12 text-center bg-[#111726]/50 border border-dashed border-slate-800 rounded-2xl">
