@@ -55,3 +55,15 @@ export async function deleteCharacter(userId, characterId) {
   await deleteDoc(docRef);
 }
 
+export async function getCharacterById(userId, characterId) {
+  if (!userId || !characterId) return null;
+  const docRef = doc(db, 'users', userId, 'characters', characterId);
+  const snap = await getDoc(docRef);
+  if (!snap.exists()) return null;
+  return {
+    id: snap.id,
+    ...snap.data()
+  };
+}
+
+

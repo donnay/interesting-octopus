@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.7.0] - 2026-11-14
+
+### Added
+- **Standalone Character Sheet New-Tab Viewer**:
+  - Clicking "View Character Sheet" in the Character Vault (`CharacterVault.jsx`) now opens the complete character sheet in a dedicated browser tab via `window.open(..., '_blank')`.
+  - Added standalone routing support in `App.jsx` responding to `#sheet`, `sheetId`, and `storageKey` query parameters.
+  - Automatically loads the character snapshot from local storage for instant opening without auth roundtrip delays, falling back to Firestore query by ID when opened from saved links.
+  - Extracted modular `CharacterSheetView.jsx` component supporting both standalone full-page view and in-app modal inspection, complete with print and export controls.
+
 ## [1.6.0] - 2026-11-14
 
 ### Added

@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import CharacterGenerator from './components/CharacterGenerator';
 import CharacterVault from './components/CharacterVault';
 import DiceRoller from './components/DiceRoller';
 import AuthModal from './components/AuthModal';
+import CharacterSheetView from './components/CharacterSheetView';
+import { getCharacterById } from './services/characterService';
 import { Shield, User, Dices, BookOpen, Layers, ExternalLink } from 'lucide-react';
 
 function AppContent() {
@@ -11,6 +13,74 @@ function AppContent() {
   const [activeTab, setActiveTab] = useState('generator');
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [selectedCharacter, setSelectedCharacter] = useState(null);
+  const [standaloneSheet, setStandaloneSheet] = useState(null);
+  const [isStandaloneLoading, setIsStandaloneLoading] = useState(false);
+
+  // Check for standalone sheet view parameters in URL (e.g. ?sheetId=...&storageKey=...#sheet)
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const hash = window.location.hash;
+    const storageKey = urlParams.get('storageKey');
+    const sheetId = urlParams.get('sheetId');
+
+    if (hash === '#sheet' || storageKey || sheetId) {
+      if (storageKey) {
+        try {
+          const stored = localStorage.getItem(storageKey);
+          if (stored) {
+            setStandaloneSheet(JSON.parse(stored));
+            return;
+          }
+        } catch (err) {
+          console.error('Error reading standalone sheet from localStorage:', err);
+        }
+      }
+
+      // If not in localStorage but sheetId exists and user is available, attempt Firestore fetch
+      if (sheetId && user) {
+        setIsStandaloneLoading(true);
+        getCharacterById(user.uid, sheetId)
+          .then((char) => {
+            if (char) setStandaloneSheet(char);
+          })
+          .catch((err) => console.error('Error fetching character by ID for standalone sheet:', err))
+          .finally(() => setIsStandaloneLoading(false));
+      }
+    }
+  }, [user]);
+
+  // If viewing in standalone sheet mode, render full page character sheet
+  if (standaloneSheet) {
+    return (
+      <div className="min-h-screen bg-[#070a12] text-slate-100 flex flex-col font-['Rajdhani'] selection:bg-cyan-500 selection:text-black p-4 sm:p-6 md:p-8">
+        <div className="max-w-5xl mx-auto w-full mb-4 flex items-center justify-between">
+          <a
+            href="/"
+            className="flex items-center space-x-2 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition"
+          >
+            <span>← Return to Genesis Engine</span>
+          </a>
+          <span className="text-xs font-mono text-slate-500">Standalone Character Record</span>
+        </div>
+        <CharacterSheetView
+          character={standaloneSheet}
+          onClose={() => setStandaloneSheet(null)}
+          isStandalone={true}
+        />
+      </div>
+    );
+  }
+
+  if (isStandaloneLoading) {
+    return (
+      <div className="min-h-screen bg-[#070a12] text-slate-100 flex items-center justify-center font-['Rajdhani']">
+        <div className="text-center space-y-3">
+          <div className="w-10 h-10 border-2 border-cyan-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+          <p className="font-mono text-sm text-cyan-300">Retrieving Genesis Character Sheet...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#070a12] text-slate-100 flex flex-col font-['Rajdhani'] selection:bg-cyan-500 selection:text-black">

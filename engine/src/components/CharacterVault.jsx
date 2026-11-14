@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { getCharacters, deleteCharacter } from '../services/characterService';
 import { RACE_VISUAL_PROFILES } from '../data/raceVisuals';
-import { Trash2, User, Eye, Shield, Calendar, Award, BookOpen, X, Sparkles, Wand2, FileText } from 'lucide-react';
+import CharacterSheetView from './CharacterSheetView';
+import { Trash2, User, Eye, Shield, Calendar, Award, BookOpen, X, Sparkles, Wand2, FileText, ExternalLink } from 'lucide-react';
 
 export default function CharacterVault({ onSelectCharacter }) {
   const { user } = useAuth();
@@ -10,7 +11,20 @@ export default function CharacterVault({ onSelectCharacter }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [inspectCharacter, setInspectCharacter] = useState(null);
-  const [activeSkillCategory, setActiveSkillCategory] = useState('ALL');
+
+  const openSheetInNewTab = (char, e) => {
+    if (e) e.stopPropagation();
+    try {
+      const charKey = `genesis_sheet_${char.id || Date.now()}`;
+      localStorage.setItem(charKey, JSON.stringify(char));
+      const url = `${window.location.origin}${window.location.pathname}?sheetId=${char.id}&storageKey=${charKey}#sheet`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+    } catch (err) {
+      console.error('Failed to open character sheet in new tab:', err);
+      // Fallback to in-app inspection modal
+      setInspectCharacter(char);
+    }
+  };
 
   const fetchVault = async () => {
     if (!user) {
@@ -150,18 +164,30 @@ export default function CharacterVault({ onSelectCharacter }) {
 
               <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-slate-500">
                 <span>Wealth: {char.vitals?.wealth?.toLocaleString() ?? 0} Đ</span>
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setInspectCharacter(char);
-                    if (onSelectCharacter) onSelectCharacter(char);
-                  }}
-                  className="text-cyan-400 hover:text-cyan-300 hover:underline font-semibold flex items-center space-x-1 cursor-pointer"
-                >
-                  <span>View Character Sheet</span>
-                  <span>→</span>
-                </button>
+                <div className="flex items-center space-x-2">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setInspectCharacter(char);
+                      if (onSelectCharacter) onSelectCharacter(char);
+                    }}
+                    className="text-slate-400 hover:text-white hover:underline transition cursor-pointer"
+                    title="Quick inspect"
+                  >
+                    Modal
+                  </button>
+                  <span className="text-slate-700">•</span>
+                  <button
+                    type="button"
+                    onClick={(e) => openSheetInNewTab(char, e)}
+                    className="text-cyan-400 hover:text-cyan-300 hover:underline font-semibold flex items-center space-x-1 cursor-pointer"
+                    title="Open full Character Sheet in a new browser tab"
+                  >
+                    <span>View Character Sheet</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </button>
+                </div>
               </div>
             </div>
           ))}
@@ -170,216 +196,11 @@ export default function CharacterVault({ onSelectCharacter }) {
 
       {/* Character Sheet Inspector Modal */}
       {inspectCharacter && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fadeIn">
-          <div className="bg-[#0b0f19] border border-cyan-500/40 rounded-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto p-6 space-y-6 shadow-2xl relative">
-            <button
-              onClick={() => setInspectCharacter(null)}
-              className="absolute top-5 right-5 p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            {/* Character Header */}
-            <div className="border-b border-slate-800 pb-4 pr-12 flex flex-col md:flex-row md:items-start justify-between gap-4">
-              <div className="space-y-1">
-                <span className="text-[10px] font-mono uppercase tracking-widest text-cyan-400 block">
-                  CHARACTER SHEET ARCHIVE
-                </span>
-                <h3 className="text-2xl font-black font-['Orbitron'] text-white">
-                  {inspectCharacter.name}
-                </h3>
-                <p className="text-xs font-mono text-slate-400 mt-1">
-                  {inspectCharacter.raceKey?.toUpperCase()} • {inspectCharacter.sex} • {inspectCharacter.vitals?.occupationName || 'Spacer'} • Age {inspectCharacter.vitals?.age} • Wealth {inspectCharacter.vitals?.wealth?.toLocaleString() ?? 0} Đ
-                </p>
-              </div>
-
-              {/* Character Portrait or Race Reference in Header */}
-              <div className="flex items-center space-x-3 bg-[#111726] border border-cyan-500/30 p-2.5 rounded-2xl shrink-0">
-                <div className="w-16 h-16 rounded-xl overflow-hidden bg-black border border-cyan-400/40 shrink-0">
-                  <img
-                    src={inspectCharacter.imageUrl || RACE_VISUAL_PROFILES[inspectCharacter.raceKey?.toLowerCase()?.replace(/_.*$/, '')]?.image || '/images/Genesislogo1.webp'}
-                    alt={inspectCharacter.name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => { e.currentTarget.src = '/images/Genesislogo1.webp'; }}
-                  />
-                </div>
-                <div className="text-left font-mono text-xs">
-                  <span className="text-[10px] text-cyan-400 font-bold block uppercase">
-                    {inspectCharacter.imageUrl ? 'AI Generated Portrait' : 'Race Archetype'}
-                  </span>
-                  <span className="text-slate-300 font-semibold block">
-                    {RACE_VISUAL_PROFILES[inspectCharacter.raceKey?.toLowerCase()?.replace(/_.*$/, '')]?.name || inspectCharacter.raceKey}
-                  </span>
-                  <span className="text-[10px] text-slate-500 block">
-                    {inspectCharacter.vitals?.occupationName || 'Spacer'}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Narrative Backstory Section if available */}
-            {inspectCharacter.narrative && (
-              <div className="p-4 bg-[#111726] border border-slate-800 rounded-xl space-y-1.5">
-                <div className="flex items-center space-x-1.5 text-xs font-mono text-cyan-400 font-bold uppercase">
-                  <FileText className="w-3.5 h-3.5" />
-                  <span>Character Narrative & Dossier Notes</span>
-                </div>
-                <p className="text-xs text-slate-300 font-sans leading-relaxed whitespace-pre-wrap">
-                  {inspectCharacter.narrative}
-                </p>
-              </div>
-            )}
-
-            {/* Primary & Secondary Attributes */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2 text-center font-mono">
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">PS</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.ps}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">AG</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.ag}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">CO</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.co}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">PR</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.pr}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">WS</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.ws}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">IT</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.it}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">MC</span>
-                <span className="text-lg font-bold text-white">{inspectCharacter.attributes?.mc}</span>
-              </div>
-              <div className="p-2.5 bg-[#111726] border border-slate-800 rounded-xl">
-                <span className="text-[10px] text-slate-500 block">IN</span>
-                <span className="text-lg font-bold text-cyan-400">{inspectCharacter.attributes?.in}</span>
-              </div>
-            </div>
-
-            {/* Combat Specs */}
-            <div className="grid grid-cols-3 gap-3 text-center font-mono">
-              <div className="p-3 bg-[#111726] border border-cyan-500/20 rounded-xl">
-                <span className="text-[10px] text-slate-400 block uppercase">AIM (AM)</span>
-                <span className="text-xl font-black text-cyan-400">{inspectCharacter.secondaryStats?.aim}</span>
-              </div>
-              <div className="p-3 bg-[#111726] border border-cyan-500/20 rounded-xl">
-                <span className="text-[10px] text-slate-400 block uppercase">BRAWL (BR)</span>
-                <span className="text-xl font-black text-amber-400">{inspectCharacter.secondaryStats?.brawl}</span>
-              </div>
-              <div className="p-3 bg-[#111726] border border-cyan-500/20 rounded-xl">
-                <span className="text-[10px] text-slate-400 block uppercase">MOVE (MV)</span>
-                <span className="text-xl font-black text-emerald-400">{inspectCharacter.secondaryStats?.move}</span>
-              </div>
-            </div>
-
-            {/* Encultured Skills (Table #1-7) */}
-            {inspectCharacter.enculturedSkills && inspectCharacter.enculturedSkills.length > 0 && (
-              <div className="space-y-3 pt-2 border-t border-slate-800">
-                <div className="flex items-center justify-between">
-                  <h4 className="text-xs font-mono font-bold tracking-wider uppercase text-cyan-400 flex items-center space-x-1.5">
-                    <Sparkles className="w-3.5 h-3.5" />
-                    <span>Encultured Skills (Table #1-7 Baseline Aptitude)</span>
-                  </h4>
-                  <span className="text-[10px] font-mono text-slate-500">
-                    {inspectCharacter.enculturedSkills.length} Skills
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                  {inspectCharacter.enculturedSkills.map((sk, idx) => (
-                    <div
-                      key={`${sk.name}-${idx}`}
-                      className="p-2.5 bg-[#111726] border border-cyan-500/30 rounded-xl flex items-center justify-between text-xs font-mono"
-                    >
-                      <div className="min-w-0 pr-2">
-                        <div className="font-bold text-white truncate">{sk.name}</div>
-                        <div className="text-[10px] text-slate-500">{sk.category} {sk.subSpecialtyOf ? `• ${sk.subSpecialtyOf}` : ''}</div>
-                      </div>
-                      <span className="text-base font-black text-cyan-400 shrink-0">
-                        {sk.aptitude}%
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Full 69 Sheet Skills */}
-            {inspectCharacter.sheetSkills && inspectCharacter.sheetSkills.length > 0 && (
-              <div className="space-y-3 pt-2 border-t border-slate-800">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                  <h4 className="text-xs font-mono font-bold tracking-wider uppercase text-white flex items-center space-x-1.5">
-                    <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
-                    <span>Character Sheet (Page 2) • Full 69 Skills</span>
-                  </h4>
-
-                  <div className="flex flex-wrap gap-1.5 text-xs font-mono">
-                    {['ALL', 'COMBAT', 'LANGUAGE', 'NON-TECH', 'SCIENCE', 'SOCIO-SCI', 'TECH', 'ADDITIONAL'].map(cat => (
-                      <button
-                        key={cat}
-                        type="button"
-                        onClick={() => setActiveSkillCategory(cat)}
-                        className={`px-2 py-0.5 rounded text-[10px] ${
-                          activeSkillCategory === cat
-                            ? 'bg-cyan-500 text-black font-bold'
-                            : 'bg-[#111726] text-slate-400 border border-slate-800 hover:text-white'
-                        }`}
-                      >
-                        {cat}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 max-h-[360px] overflow-y-auto pr-1">
-                  {inspectCharacter.sheetSkills
-                    .filter(sk => activeSkillCategory === 'ALL' || sk.area === activeSkillCategory || sk.category === activeSkillCategory)
-                    .map(sk => (
-                      <div
-                        key={sk.id}
-                        className={`p-2 rounded-lg border text-xs font-mono flex items-center justify-between ${
-                          sk.isEncultured
-                            ? 'bg-cyan-950/30 border-cyan-500/40 text-cyan-200'
-                            : 'bg-[#111726] border-slate-800 text-slate-300'
-                        }`}
-                      >
-                        <div className="min-w-0 pr-2 truncate">
-                          <span className="text-[10px] text-slate-500 mr-1.5">#{sk.id}</span>
-                          <span className={sk.isEncultured ? 'text-cyan-300 font-bold' : 'text-slate-300'}>
-                            {sk.name}
-                          </span>
-                        </div>
-                        <div className="text-right shrink-0">
-                          <span className={`font-black ${sk.isEncultured ? 'text-cyan-400' : 'text-slate-400'}`}>
-                            {sk.aptitude}%
-                          </span>
-                        </div>
-                      </div>
-                    ))}
-                </div>
-              </div>
-            )}
-
-            <div className="pt-2 border-t border-slate-800 flex justify-end">
-              <button
-                onClick={() => setInspectCharacter(null)}
-                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-mono transition"
-              >
-                Close Character Sheet
-              </button>
-            </div>
-          </div>
-        </div>
+        <CharacterSheetView
+          character={inspectCharacter}
+          onClose={() => setInspectCharacter(null)}
+          isStandalone={false}
+        />
       )}
     </div>
   );
