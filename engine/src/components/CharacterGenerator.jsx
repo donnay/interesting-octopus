@@ -20,6 +20,7 @@ import {
 } from '../data/chargenRules';
 import { 
   RACE_VISUAL_PROFILES, 
+  OCCUPATION_VISUAL_PROFILES,
   buildCharacterPortraitPrompt, 
   generateAiPortraitUrl 
 } from '../data/raceVisuals';
@@ -199,6 +200,7 @@ export default function CharacterGenerator({ onSaveSuccess }) {
       height: heightBase.toFixed(2),
       mass: Math.round(massBase),
       wealth: startingDits,
+      occupationId: occ.id,
       occupationName: occ.name
     });
   };
@@ -880,20 +882,69 @@ export default function CharacterGenerator({ onSaveSuccess }) {
                 />
               </div>
 
-              {/* Race Visuals Grounding Details */}
-              {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')] && (
-                <div className="p-3.5 bg-[#0a0d14] border border-slate-800/90 rounded-xl space-y-2">
-                  <div className="flex items-center justify-between text-xs font-mono">
-                    <span className="text-cyan-400 font-bold uppercase">
-                      Canonical Reference: {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].name}
-                    </span>
-                    <span className="text-slate-500 text-[10px]">Official Genesis Artwork</span>
+              {/* Race Visuals & Occupation Grounding Details */}
+              {(() => {
+                const normRace = selectedRaceKey.toLowerCase().replace(/_.*$/, '');
+                const raceProf = RACE_VISUAL_PROFILES[normRace];
+                const occProf = OCCUPATION_VISUAL_PROFILES[selectedOccupation];
+                const allRacePics = raceProf?.gallery || (raceProf ? [{ url: raceProf.image, label: raceProf.name }] : []);
+                const allOccPics = occProf?.gallery || [];
+
+                return (
+                  <div className="space-y-3">
+                    {/* Character Parameters sent to AI */}
+                    <div className="p-3 bg-[#0a0d14] border border-cyan-500/20 rounded-xl space-y-1.5 text-xs font-mono">
+                      <div className="flex items-center justify-between text-cyan-400 font-bold uppercase pb-1 border-b border-slate-800">
+                        <span>Synthesis Parameters (Sent to Nano Banana)</span>
+                        <span className="text-[10px] text-amber-400">Full-Color Spaceport World</span>
+                      </div>
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 text-[11px]">
+                        <div><span className="text-slate-500">Height:</span> <span className="text-white font-bold">{vitals?.height || '1.75'}m</span></div>
+                        <div><span className="text-slate-500">Weight:</span> <span className="text-white font-bold">{vitals?.mass || '75'}kg</span></div>
+                        <div><span className="text-slate-500">Age:</span> <span className="text-white font-bold">{vitals?.age || '25'} yrs</span></div>
+                        <div><span className="text-slate-500">Role:</span> <span className="text-cyan-300 font-bold truncate block">{vitals?.occupationName || 'Spacer'}</span></div>
+                      </div>
+                      <p className="text-[10px] text-slate-400 pt-1">
+                        Scene: Standing full-body character in a full-colour alien spaceport world with bustling background races, modular buildings, and starship landing pads.
+                      </p>
+                    </div>
+
+                    {/* Canonical Reference Galleries */}
+                    <div className="p-3.5 bg-[#0a0d14] border border-slate-800/90 rounded-xl space-y-3">
+                      <div className="flex items-center justify-between text-xs font-mono">
+                        <span className="text-cyan-400 font-bold uppercase">
+                          Official Reference Images: {raceProf?.name} & {occProf?.name || 'Occupation'}
+                        </span>
+                        <span className="text-slate-500 text-[10px]">{allRacePics.length + allOccPics.length} Canonical Sources</span>
+                      </div>
+
+                      {/* Reference Thumbnails Grid */}
+                      <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                        {allRacePics.map((p, idx) => (
+                          <div key={`race-${idx}`} className="group relative rounded-lg overflow-hidden border border-slate-700 bg-slate-950 aspect-square">
+                            <img src={p.url} alt={p.label} className="w-full h-full object-cover group-hover:scale-110 transition" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                            <div className="absolute inset-x-0 bottom-0 bg-black/80 p-1 text-[8px] font-mono text-slate-300 truncate" title={p.label}>
+                              {p.label}
+                            </div>
+                          </div>
+                        ))}
+                        {allOccPics.map((p, idx) => (
+                          <div key={`occ-${idx}`} className="group relative rounded-lg overflow-hidden border border-amber-500/40 bg-slate-950 aspect-square">
+                            <img src={p.url} alt={p.label} className="w-full h-full object-cover group-hover:scale-110 transition" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                            <div className="absolute inset-x-0 bottom-0 bg-black/80 p-1 text-[8px] font-mono text-amber-300 truncate" title={p.label}>
+                              {p.label}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+
+                      <p className="text-xs text-slate-400 leading-normal">
+                        {raceProf?.visualDescription} {occProf?.visualDescription ? `Standard gear: ${occProf.visualDescription}` : ''}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-xs text-slate-400 leading-normal">
-                    {RACE_VISUAL_PROFILES[selectedRaceKey.toLowerCase().replace(/_.*$/, '')].visualDescription}
-                  </p>
-                </div>
-              )}
+                );
+              })()}
 
               {/* Generate AI Portrait Action Button */}
               <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -921,21 +972,24 @@ export default function CharacterGenerator({ onSaveSuccess }) {
             </div>
 
             {/* Right Column: Visual Portrait Preview & Canonical Comparison */}
-            <div className="lg:col-span-5 bg-[#0a0d14] border border-slate-800 rounded-2xl p-4 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[300px]">
+            <div className="lg:col-span-5 bg-[#0a0d14] border border-slate-800 rounded-2xl p-4 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[420px]">
               {imageUrl ? (
                 <div className="w-full space-y-3">
-                  <div className="relative rounded-xl overflow-hidden border-2 border-cyan-500/50 shadow-xl shadow-cyan-950/40 aspect-square max-w-[280px] mx-auto bg-slate-950">
+                  <div className="relative rounded-xl overflow-hidden border-2 border-cyan-500/50 shadow-xl shadow-cyan-950/40 aspect-[9/16] max-w-[280px] mx-auto bg-slate-950">
                     <img
                       src={imageUrl}
                       alt={`${name} Portrait`}
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
-                    <div className="absolute bottom-0 inset-x-0 p-2 bg-gradient-to-t from-black/90 to-transparent">
-                      <span className="text-[11px] font-mono text-cyan-300 font-bold block truncate">
+                    <div className="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/95 via-black/70 to-transparent text-left">
+                      <span className="text-xs font-mono text-cyan-300 font-bold block truncate">
                         {name}
                       </span>
-                      <span className="text-[9px] font-mono text-slate-400 block truncate">
-                        {ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey} • Nano Banana AI
+                      <span className="text-[10px] font-mono text-slate-300 block truncate">
+                        {ATTRIBUTE_BASES[selectedRaceKey]?.name || selectedRaceKey} • {vitals?.occupationName || 'Spacer'}
+                      </span>
+                      <span className="text-[9px] font-mono text-amber-400 block mt-0.5">
+                        Alien World & Spaceport Scene • Nano Banana AI
                       </span>
                     </div>
                   </div>

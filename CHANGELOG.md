@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.10.0] - 2026-11-14
+
+### Added
+- **Alien World Spaceport Environment & Canonical Art Synthesis**:
+  - Enhanced Nano Banana character visualization pipeline in [raceVisuals.js](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/data/raceVisuals.js) to always place the character in a vibrant, full-colour alien world landscape with strange skies and atmospheric moons.
+  - Generates a bustling intergalactic spaceport background with modular futuristic buildings, starship landing pads, docked space vessels, and diverse background alien species/traders.
+  - Bundles character height, weight, age, occupation, and gear profile directly into the synthesis prompt alongside the user narrative.
+  - Added comprehensive canonical reference art galleries for all 13 playable species and all 20 occupations from Table #1-14, incorporating official Genesis field sketches, anatomical plates, and occupation equipment illustrations.
+  - Added full-body vertical aspect ratio (`width=512&height=1024`) for standing full-length character visualization.
+- **Visual Grounding Preview in Character Generator**:
+  - Added real-time synthesis parameters card and canonical reference thumbnails grid in [CharacterGenerator.jsx](file:///Users/kevinclarke/code/GenesisRPG/interesting-octopus/engine/src/components/CharacterGenerator.jsx) showing all reference artwork found for the selected race and occupation.
+
 ## [1.9.0] - 2026-11-14
 
 ### Added
