@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.5.0] - 2026-11-14
+
+### Added
+- **Character Sheet Page 2 Skills Manifest & Encultured Aptitudes (Table #1-7)**:
+  - Extracted and codified the full canonical 69-skill taxonomy from Page 2 of the Genesis Character Sheet across 7 major areas: Combat (1–7), Language (8–13), Non-Technical (14–19), Science (20–35), Social Science (36–50), Technical (51–60), and Additional General Slots (61–69).
+  - Implemented Table #1-7 Encultured Skills for all 13 Genesis playable species and variants (including Aracnian color variations and Krane gender-distinct cultural skills), automatically calculating starting aptitude scores (40% to 100%).
+  - Added baseline aptitude calculation defaulting un-encultured skills to the character's general Attribute Average ($\text{Round}(\frac{\sum \text{Attributes}}{8})$).
+  - Integrated interactive Skills roster into Character Generator (`CharacterGenerator.jsx`) with area filters, encultured indicators, and sub-specialty tags.
+  - Added complete Character Sheet modal inspector in Character Vault (`CharacterVault.jsx`) displaying all primary/secondary attributes, encultured skills, and 69-skill ratings for saved characters.
+  - Updated Cloud Firestore security rules (`firestore.rules`) with schema support for `enculturedSkills` and `sheetSkills`.
+
 ## [1.4.0] - 2026-11-14
 
 ### Added

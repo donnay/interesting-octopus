@@ -13,9 +13,12 @@ import {
   MASS_TABLE_10,
   HEIGHT_TABLE_12,
   STARTING_AGE_TABLE_13,
-  OCCUPATIONS_TABLE_14
+  OCCUPATIONS_TABLE_14,
+  SHEET_SKILLS_MANIFEST,
+  getEnculturedSkills,
+  calculateSheetSkills
 } from '../data/chargenRules';
-import { Dices, Save, RefreshCw, CheckCircle, Sparkles, User, Award, ShieldAlert, HeartPulse } from 'lucide-react';
+import { Dices, Save, RefreshCw, CheckCircle, Sparkles, User, Award, ShieldAlert, HeartPulse, BookOpen, Layers } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { saveCharacter } from '../services/characterService';
 
@@ -44,6 +47,11 @@ export default function CharacterGenerator({ onSaveSuccess }) {
 
   // Step 6: Background Skills
   const [bgSkills, setBgSkills] = useState(null);
+
+  // Character Sheet Page 2: Encultured & 69 Sheet Skills
+  const [enculturedSkills, setEnculturedSkills] = useState([]);
+  const [sheetSkills, setSheetSkills] = useState([]);
+  const [activeSkillCategory, setActiveSkillCategory] = useState('ALL');
 
   // Step 7: Vitals & Wealth
   const [selectedOccupation, setSelectedOccupation] = useState(OCCUPATIONS_TABLE_14[0].id);
@@ -152,6 +160,12 @@ export default function CharacterGenerator({ onSaveSuccess }) {
     const bg = BACKGROUND_SKILLS_TABLE_6[raceKeyToUse] || BACKGROUND_SKILLS_TABLE_6.human;
     setBgSkills(bg);
 
+    // Calculate Encultured Skills & Full Sheet Skills (Page 2)
+    const enc = getEnculturedSkills(raceKeyToUse, sex);
+    setEnculturedSkills(enc);
+    const fullSkills = calculateSheetSkills(newAttrs, raceKeyToUse, sex);
+    setSheetSkills(fullSkills);
+
     // Calculate Vitals & Wealth
     rollVitalsAndWealth(raceKeyToUse, selectedOccupation);
   };
@@ -206,6 +220,8 @@ export default function CharacterGenerator({ onSaveSuccess }) {
         secondaryStats,
         damagePoints,
         bgSkills,
+        enculturedSkills,
+        sheetSkills,
         vitals,
         createdAtClient: new Date().toISOString()
       };
@@ -402,8 +418,9 @@ export default function CharacterGenerator({ onSaveSuccess }) {
 
       {/* Main Stats Display */}
       {attributes ? (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Primary Attributes Panel */}
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {/* Primary Attributes Panel */}
           <div className="bg-[#111726] border border-slate-800 rounded-2xl p-5 space-y-4">
             <div className="flex items-center justify-between pb-2 border-b border-slate-800">
               <span className="font-['Orbitron'] text-sm tracking-wide text-white font-bold">
@@ -609,6 +626,151 @@ export default function CharacterGenerator({ onSaveSuccess }) {
             </div>
           </div>
         </div>
+
+        {/* Character Sheet Page 2: Encultured & General Skills Roster */}
+        {sheetSkills.length > 0 && (
+          <div className="bg-[#111726] border border-cyan-500/30 rounded-2xl p-6 space-y-6 shadow-xl">
+            <div className="flex flex-col md:flex-row md:items-center justify-between pb-4 border-b border-slate-800 gap-4">
+              <div>
+                <div className="flex items-center space-x-2">
+                  <BookOpen className="w-5 h-5 text-cyan-400" />
+                  <h3 className="text-xl font-bold font-['Orbitron'] text-white">
+                    CHARACTER SHEET (PAGE 2) • SKILLS ROSTER
+                  </h3>
+                </div>
+                <p className="text-xs font-mono text-slate-400 mt-1">
+                  Table #1-7 Encultured Aptitudes overlaid onto the 69 canonical Character Sheet skill slots. Baseline aptitude defaults to Attribute Average ({sheetSkills[0]?.attributeAverage}).
+                </p>
+              </div>
+
+              {/* Encultured summary counter */}
+              <div className="flex items-center space-x-3 text-xs font-mono">
+                <span className="px-3 py-1.5 bg-cyan-950/60 border border-cyan-500/40 text-cyan-300 rounded-lg">
+                  {enculturedSkills.length} Encultured Skills Active
+                </span>
+                <span className="px-3 py-1.5 bg-[#0a0d14] border border-slate-800 text-slate-400 rounded-lg">
+                  {sheetSkills.length} Total Sheet Slots
+                </span>
+              </div>
+            </div>
+
+            {/* Encultured Skills Showcase (Table #1-7) */}
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <h4 className="text-xs font-mono font-bold tracking-wider uppercase text-cyan-400 flex items-center space-x-1.5">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Encultured Skills (Table #1-7 — Immediate Post-Generation Baseline)</span>
+                </h4>
+                <span className="text-[10px] font-mono text-slate-500">Learned during cultural upbringing</span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                {enculturedSkills.map((sk, idx) => (
+                  <div
+                    key={`${sk.name}-${idx}`}
+                    className="p-3 bg-[#0a0d14] border border-cyan-500/20 hover:border-cyan-500/50 rounded-xl transition flex flex-col justify-between"
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <span className="text-xs font-bold text-white leading-tight">
+                        {sk.name}
+                      </span>
+                      <span className="px-1.5 py-0.5 text-[9px] font-mono uppercase bg-cyan-950 text-cyan-300 border border-cyan-800/60 rounded">
+                        {sk.category}
+                      </span>
+                    </div>
+
+                    {sk.subSpecialtyOf && (
+                      <span className="text-[10px] font-mono text-slate-500 mt-1">
+                        Sub-spec: {sk.subSpecialtyOf}
+                      </span>
+                    )}
+
+                    <div className="mt-2.5 pt-2 border-t border-slate-800/80 flex items-center justify-between">
+                      <span className="text-[10px] font-mono text-slate-400">Aptitude:</span>
+                      <span className="text-base font-black font-mono text-cyan-400">
+                        {sk.aptitude}%
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Complete 69 Sheet Skills Filter & Grid */}
+            <div className="space-y-4 pt-4 border-t border-slate-800">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <h4 className="text-xs font-mono font-bold tracking-wider uppercase text-slate-300">
+                  Full 69-Skill Character Sheet Grid
+                </h4>
+
+                {/* Category Filter Pills */}
+                <div className="flex flex-wrap gap-1.5 text-xs font-mono">
+                  {['ALL', 'COMBAT', 'LANGUAGE', 'NON-TECH', 'SCIENCE', 'SOCIO-SCI', 'TECH', 'ADDITIONAL'].map(cat => (
+                    <button
+                      key={cat}
+                      type="button"
+                      onClick={() => setActiveSkillCategory(cat)}
+                      className={`px-2.5 py-1 rounded-lg transition text-[11px] ${
+                        activeSkillCategory === cat
+                          ? 'bg-cyan-500 text-black font-bold shadow-md shadow-cyan-500/20'
+                          : 'bg-[#0a0d14] text-slate-400 hover:text-white border border-slate-800 hover:border-slate-700'
+                      }`}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Skills Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 max-h-[500px] overflow-y-auto pr-1">
+                {sheetSkills
+                  .filter(sk => activeSkillCategory === 'ALL' || sk.area === activeSkillCategory || sk.category === activeSkillCategory)
+                  .map(sk => (
+                    <div
+                      key={sk.id}
+                      className={`p-2.5 rounded-xl border transition flex items-center justify-between font-mono text-xs ${
+                        sk.isEncultured
+                          ? 'bg-cyan-950/20 border-cyan-500/40 text-cyan-200 shadow-sm shadow-cyan-950/50'
+                          : 'bg-[#0a0d14] border-slate-800/80 text-slate-300'
+                      }`}
+                    >
+                      <div className="flex items-center space-x-2.5 min-w-0 pr-2">
+                        <span className="text-[10px] text-slate-500 w-5 text-right shrink-0">
+                          #{sk.id}
+                        </span>
+                        <div className="truncate">
+                          <div className="font-semibold truncate flex items-center space-x-1.5">
+                            <span className={sk.isEncultured ? 'text-cyan-300' : 'text-slate-200'}>
+                              {sk.name}
+                            </span>
+                            {sk.isEncultured && (
+                              <span className="text-[8px] px-1 py-0.2 bg-cyan-900/60 text-cyan-300 border border-cyan-700/60 rounded uppercase">
+                                Encultured
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-[10px] text-slate-500 truncate">
+                            {sk.area} {sk.hasSubSpecialties ? '• Specialized' : ''}
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="text-right shrink-0 pl-2">
+                        <span className={`text-sm font-black ${sk.isEncultured ? 'text-cyan-400' : 'text-slate-400'}`}>
+                          {sk.aptitude}%
+                        </span>
+                        <span className="block text-[8px] text-slate-500">
+                          {sk.isEncultured ? 'Table #7' : 'Attr Avg'}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
       ) : (
         <div className="p-12 text-center bg-[#111726]/50 border border-dashed border-slate-800 rounded-2xl">
           <Dices className="w-12 h-12 text-cyan-500/50 mx-auto mb-3 animate-pulse" />

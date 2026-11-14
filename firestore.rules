@@ -19,6 +19,8 @@ rules_version = '2';
 //   - secondaryStats: map (optional, derived secondary stats)
 //   - damagePoints: map (optional, hit location / damage boxes table)
 //   - bgSkills: map (optional, background skill allocations)
+//   - enculturedSkills: list or map (optional, encultured skill definitions / selections)
+//   - sheetSkills: list or map (optional, character sheet skill allocations)
 //   - vitals: map (optional, height, mass, age, wealth, occupation)
 //   - createdAt: timestamp (optional/serverTimestamp on create; immutable on update if present)
 //   - updatedAt: timestamp (optional/serverTimestamp on create or update)
@@ -65,6 +67,8 @@ service cloud.firestore {
         'secondaryStats',
         'damagePoints',
         'bgSkills',
+        'enculturedSkills',
+        'sheetSkills',
         'vitals',
         'createdAt',
         'updatedAt',
@@ -94,11 +98,13 @@ service cloud.firestore {
         // Optional timestamps
         (!('createdAt' in data) || data.createdAt is timestamp) &&
         (!('updatedAt' in data) || data.updatedAt is timestamp) &&
-        // Optional structured maps
+        // Optional structured maps and skills
         (!('appearanceInfo' in data) || data.appearanceInfo is map) &&
         (!('secondaryStats' in data) || data.secondaryStats is map) &&
         (!('damagePoints' in data) || data.damagePoints is map) &&
         (!('bgSkills' in data) || data.bgSkills is map) &&
+        (!('enculturedSkills' in data) || data.enculturedSkills is list || data.enculturedSkills is map) &&
+        (!('sheetSkills' in data) || data.sheetSkills is list || data.sheetSkills is map) &&
         (!('vitals' in data) || data.vitals is map);
     }
 
